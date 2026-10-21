@@ -169,3 +169,31 @@ export interface BriefIndexEntry {
   letter?: string; // performance grade, A+ to F-
   accuracyPct?: number;
 }
+
+// ---- Sun Belt power rankings (public/data/rankings.json) ----
+
+export interface RankingRow {
+  rank: number;
+  formulaRank: number;
+  teamId: string;
+  team: string;
+  logo?: string;
+  record: string;
+  conf: string;
+  last?: { result: 'W' | 'L' | 'T'; score: string; opp: string; at: 'vs' | 'at'; date: string };
+  score: number;
+  /** Written by the Sunday Claude routine. */
+  blurb?: string;
+  /** Why Claude moved this team from its formula spot (at most 2 spots). */
+  adjust?: string;
+}
+
+export interface RankingWeek {
+  id: string; // posting date, Central (YYYY-MM-DD)
+  postedAt: string;
+  updatedAt?: string;
+  source: 'formula' | 'claude';
+  rows: RankingRow[];
+}
+
+export type Rankings = { updatedAt?: string } & Partial<Record<SportKey, { weeks: RankingWeek[] }>>;

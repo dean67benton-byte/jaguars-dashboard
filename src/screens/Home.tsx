@@ -1,4 +1,4 @@
-import type { BriefIndexEntry, GameEvent, SportKey, TeamData } from '../lib/types';
+import type { BriefIndexEntry, GameEvent, RankingRow, Rankings, SportKey, TeamData } from '../lib/types';
 import { briefFor, lastResult, LISTEN_URL, nextGame, SPORT_LABEL } from '../lib/data';
 import { day, ago } from '../lib/time';
 import { hasEspnId, isLiveWindow, useSummary } from '../lib/live';
@@ -6,6 +6,7 @@ import { useSettings } from '../lib/settings';
 import { IconGameDay, IconRadio } from '../icons';
 import { GameCard, GameRow, Loading, NewsList, StandingsTable, TeamState, Updated, useNow } from './parts';
 import { useLiveStandings } from '../lib/standings';
+import { latestWeek } from './Rankings';
 
 function NextGame({ sport, e, record, usLogo }: { sport: SportKey; e: GameEvent; record?: string; usLogo?: string }) {
   const settings = useSettings();
@@ -64,7 +65,7 @@ function LatestBrief({ index, sport }: { index: BriefIndexEntry[] | null; sport:
   );
 }
 
-function Snapshot({ data }: { data: TeamData }) {
+function Snapshot({ data, rank }: { data: TeamData; rank?: RankingRow }) {
   const done = data.events.filter((e) => e.status === 'post');
   const conf = done.filter((e) => e.conference);
   const rec = (list: GameEvent[]) => `${list.filter((e) => e.result === 'W').length}-${list.filter((e) => e.result === 'L').length}`;
@@ -78,6 +79,7 @@ function Snapshot({ data }: { data: TeamData }) {
     { k: 'Overall', v: data.team.record ?? rec(done) },
     { k: 'Sun Belt', v: data.team.confRecord ?? rec(conf) },
     { k: 'Streak', v: streak || '-' },
+    ...(rank ? [{ k: 'Power', v: `#${rank.rank}` }] : []),
   ];
   return (
     <section class="section">
@@ -93,7 +95,10 @@ function Snapshot({ data }: { data: TeamData }) {
           </div>
         ))}
       </div>
-      {data.team.standingSummary && <p class="small muted">{data.team.standingSummary}</p>}
+      <p class="small muted">
+        {[data.team.standingSummary, rank && `#${rank.rank} in our Sun Belt power rankings`].filter(Boolean).join('. ')}
+        {rank && <> <a href="#rankings" style="color:var(--fg)">See rankings</a></>}
+      </p>
     </section>
   );
 }
@@ -115,7 +120,7 @@ function SunBelt({ sport, data }: { sport: SportKey; data: TeamData }) {
   );
 }
 
-export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState; briefs: BriefIndexEntry[] | null }) {
+export function Home({ sport, team, briefs, rankings }: { sport: SportKey; team: TeamState; briefs: BriefIndexEntry[] | null; rankings: Rankings | null }) {
   const data = team.data?.sport === sport ? team.data : null;
   if (!data) return <Loading team={team} />;
   const next = nextGame(data.events);
@@ -156,7 +161,7 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
           </section>
         </div>
         <div class="stack">
-          <Snapshot data={data} />
+          <Snapshot data={data} rank={latestWeek(rankings, sport)[0]?.rows.find((r) => r.teamId === data.team.id)} />
           <SunBelt sport={sport} data={data} />
         </div>
       </div>

@@ -36,8 +36,12 @@ jobs:
         id: fetch
         run: node scripts/fetch-data.mjs ${{ github.event_name != 'schedule' && '--force' || '' }}
 
+      - name: Sun Belt power rankings (formula; posts Sundays)
+        id: rank
+        run: node scripts/rankings.mjs ${{ github.event_name != 'schedule' && '--force' || '' }}
+
       - name: Save data snapshot
-        if: steps.fetch.outputs.changed == 'true'
+        if: steps.fetch.outputs.changed == 'true' || steps.rank.outputs.rankings == 'true'
         run: |
           git config user.name "jaguars-data-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -45,13 +49,13 @@ jobs:
           git diff --cached --quiet || (git commit -m "Update data $(date -u +%Y-%m-%dT%H:%MZ)" && git push)
 
       - name: Build
-        if: steps.fetch.outputs.changed == 'true' || github.event_name != 'schedule'
+        if: steps.fetch.outputs.changed == 'true' || steps.rank.outputs.rankings == 'true' || github.event_name != 'schedule'
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
-        if: steps.fetch.outputs.changed == 'true' || github.event_name != 'schedule'
+        if: steps.fetch.outputs.changed == 'true' || steps.rank.outputs.rankings == 'true' || github.event_name != 'schedule'
         with:
           path: dist
 
       - uses: actions/deploy-pages@v4
-        if: steps.fetch.outputs.changed == 'true' || github.event_name != 'schedule'
+        if: steps.fetch.outputs.changed == 'true' || steps.rank.outputs.rankings == 'true' || github.event_name != 'schedule'

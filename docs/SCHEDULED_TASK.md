@@ -17,3 +17,18 @@ Prompt:
 > update public/briefs/index.json, validate the JSON, run npm ci and npm run
 > build, then commit to main and push. No betting lines. Use only sourced
 > facts and list the sources. Never change any other files.
+
+# Sunday routine setup
+
+Schedule: `CRON_TZ=America/Chicago 15 8 * * 0` (Sunday 8:15 AM Central), a
+fresh session on each run, no notifications.
+
+Prompt:
+
+> You maintain Dean's South Alabama Jaguars dashboard. Attach the GitHub repo
+> dean67benton-byte/jaguars-dashboard with push access, clone it with --depth 1,
+> and follow docs/SUNDAY_ROUTINE.md exactly. Work cheaply: read
+> docs/routine-config.json and public/data/rankings.json first, and skip any
+> section that is switched off or has nothing new. If nothing is due, stop with
+> no commit and no web research. No betting lines. Use only sourced facts.
+> Never change files other than the ones the routine names.

@@ -30,6 +30,12 @@ export function SettingsScreen() {
         <div class="panel" style="padding:14px;display:grid;gap:10px" >
           <p><strong>Data refresh</strong> runs on GitHub, hourly on game days and every 2 hours otherwise. To stop it, open the repo's Actions tab, pick “Update data”, and choose Disable workflow.</p>
           <p><strong>Game Day briefs</strong> are written by a scheduled Claude routine for football only. Basketball briefs are off until you ask Claude to turn them on. Pause the routine in Claude to stop all Claude usage.</p>
+          <p><strong>Sunday analysis</strong> is one Claude run each Sunday at 8:15 AM. It writes the power ranking blurbs, and later the NFL grades and coaching outlook. The formula rankings post without it.</p>
+          <p>
+            Each Claude section has its own switch in{' '}
+            <a href="https://github.com/dean67benton-byte/jaguars-dashboard/edit/main/docs/routine-config.json" target="_blank" rel="noopener">routine-config.json</a>{' '}
+            (set it to false to turn it off), or ask Claude to change it. Pause both routines in Claude to stop all Claude usage.
+          </p>
         </div>
       </section>
       <section class="section">

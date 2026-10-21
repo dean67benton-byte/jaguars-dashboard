@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'preact/hooks';
-import type { Brief, BriefIndexEntry, GameEvent, SportKey, TeamData } from './types';
+import type { Brief, BriefIndexEntry, GameEvent, Rankings, SportKey, TeamData } from './types';
 
 const cache = new Map<string, unknown>();
 
@@ -63,3 +63,4 @@ export const ESPN_PATH: Record<SportKey, string> = {
   mbb: 'basketball/mens-college-basketball',
 };
 export const LISTEN_URL = 'https://apps.apple.com/app/id1574519982'; // Varsity Network app
+export const useRankings = () => useJson<Rankings>('./data/rankings.json', 30 * 60e3);
