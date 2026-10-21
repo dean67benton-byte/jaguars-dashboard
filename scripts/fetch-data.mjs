@@ -189,12 +189,12 @@ function normalizeEspnNews(json) {
   }));
 }
 
-async function fetchRss(url) {
+async function fetchRss(url, source = 'usajaguars.com') {
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 (jaguars-dashboard)' } });
     if (!res.ok) throw new Error(`${res.status}`);
     const xml = await res.text();
-    const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, 15);
+    const items = [...xml.matchAll(/<item[\s>]([\s\S]*?)<\/item>/g)].slice(0, 20);
     const tag = (s, t) => {
       const m = s.match(new RegExp(`<${t}>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?</${t}>`));
       return m ? m[1].trim() : undefined;
@@ -203,12 +203,77 @@ async function fetchRss(url) {
       title: tag(s, 'title'),
       url: tag(s, 'link'),
       date: tag(s, 'pubDate') ? new Date(tag(s, 'pubDate')).toISOString() : undefined,
-      source: 'usajaguars.com',
-    })).filter((n) => n.title && n.url);
+      source,
+    })).filter((n) => n.title && n.url).map((n) => ({ ...n, title: decode(n.title) }));
   } catch (err) {
     console.warn(`  skip rss ${url}: ${err.message}`);
     return [];
   }
+}
+
+const decode = (t) =>
+  t.replace(/&amp;/g, '&').replace(/&#39;|&#x27;|&rsquo;/g, '’').replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+
+// Diehard Sports Network has no RSS feed. Its section page is a Next.js app,
+// so read the article list from the embedded page data, falling back to links.
+async function fetchDiehard() {
+  const base = 'https://www.diehardsportsnetwork.com';
+  try {
+    const res = await fetch(`${base}/south-alabama`, { headers: { 'user-agent': 'Mozilla/5.0 (jaguars-dashboard)' } });
+    if (!res.ok) throw new Error(`${res.status}`);
+    const html = await res.text();
+    const found = new Map();
+    const nextData = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+    if (nextData) {
+      const walk = (o) => {
+        if (!o || typeof o !== 'object') return;
+        if (Array.isArray(o)) return o.forEach(walk);
+        const title = o.title ?? o.headline;
+        const slug = o.slug ?? o.url ?? o.href;
+        const date = o.publishedAt ?? o.published_at ?? o.date ?? o.createdAt;
+        if (typeof title === 'string' && typeof slug === 'string' && title.length > 12) {
+          const url = slug.startsWith('http') ? slug : `${base}/south-alabama/${slug.replace(/^\/?(south-alabama\/)?/, '')}`;
+          if (!found.has(url)) found.set(url, { title: decode(title), url, date: date && !Number.isNaN(Date.parse(date)) ? new Date(date).toISOString() : undefined, source: 'Diehard Sports Network' });
+        }
+        Object.values(o).forEach(walk);
+      };
+      try {
+        walk(JSON.parse(nextData[1]));
+      } catch {
+        /* fall through to links */
+      }
+    }
+    if (!found.size) {
+      for (const [, href, inner] of html.matchAll(/<a[^>]+href="(\/south-alabama\/[a-z0-9-]+)"[^>]*>([\s\S]*?)<\/a>/g)) {
+        const title = decode(inner.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
+        const url = base + href;
+        if (title.length > 12 && !found.has(url)) found.set(url, { title, url, source: 'Diehard Sports Network' });
+      }
+    }
+    return [...found.values()].slice(0, 12);
+  } catch (err) {
+    console.warn(`  skip diehard: ${err.message}`);
+    return [];
+  }
+}
+
+// AL.com's South Alabama section covers every sport; keep stories that fit this sport.
+const OTHER_SPORTS = /baseball|softball|volleyball|soccer|golf|tennis|track|cross country|women's basketball/i;
+const fitsSport = (sport, title) => {
+  if (OTHER_SPORTS.test(title)) return false;
+  return sport === 'football' ? !/basketball|hoops/i.test(title) : !/football|bowl|kickoff/i.test(title);
+};
+
+let sharedNews;
+async function fetchSharedNews() {
+  sharedNews ??= Promise.all([
+    fetchRss('https://www.al.com/arc/outboundfeeds/rss/category/usa/?outputType=xml', 'AL.com'),
+    fetchDiehard(),
+  ]).then(([al, diehard]) => {
+    console.log(`  AL.com: ${al.length} stories, Diehard Sports Network: ${diehard.length} stories`);
+    return [...al, ...diehard];
+  });
+  return sharedNews;
 }
 
 async function readPrevious(sport) {
@@ -276,11 +341,12 @@ async function updateSport(sport, now) {
   events.sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
 
   // The athletics site's feed mixes sports; keep this sport's stories only.
-  const rss = (await Promise.all(cfg.rss.map(fetchRss))).flat().filter((n) => cfg.slug.test(n.url));
-  const news = [...rss, ...normalizeEspnNews(newsJson)]
+  const rss = (await Promise.all(cfg.rss.map((u) => fetchRss(u)))).flat().filter((n) => cfg.slug.test(n.url));
+  const local = (await fetchSharedNews()).filter((n) => fitsSport(sport, n.title));
+  const news = [...rss, ...local, ...normalizeEspnNews(newsJson)]
     .filter((n, i, all) => all.findIndex((m) => m.title === n.title) === i)
-    .sort((a, b) => Date.parse(b.date ?? 0) - Date.parse(a.date ?? 0))
-    .slice(0, 25);
+    .sort((a, b) => (b.date ? Date.parse(b.date) : 0) - (a.date ? Date.parse(a.date) : 0))
+    .slice(0, 30);
 
   let { roster = [], stats = [], leaders = [], standings = [], nextOpponent } = prev ?? {};
   if (daily) {

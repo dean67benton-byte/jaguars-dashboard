@@ -52,6 +52,12 @@ keys held up, a 2 to 3 sentence summary, every key with hit/miss and one line
 of evidence, the players to watch with what they did, what the brief missed,
 and sources. Set `status` to `final` in the brief and the index.
 
+Sources to check every time, besides ESPN and usajaguars.com:
+- AL.com South Alabama coverage: https://www.al.com/usa/ (beat reporting, injuries, depth chart news)
+- Diehard Sports Network: https://www.diehardsportsnetwork.com/south-alabama (game previews,
+  rapid reactions, postgame reports; use these for the preview and the postgame grade)
+Cite every page you used in `sources`, with its URL.
+
 Use only facts you found in sources; write "not found" rather than guessing.
 Times are Central. Validate JSON (`node -e "JSON.parse(require('fs').readFileSync(f))"`)
 and run `npm run build` before committing.
