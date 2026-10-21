@@ -282,7 +282,8 @@ const fitsSport = (sport, n) => {
   const title = n.title;
   if (n.source === 'AL.com' && !ABOUT_USA.test(title) && !/south-alabama/.test(n.url)) return false;
   if (OTHER_SPORTS.test(title)) return false;
-  return sport === 'football' ? !/basketball|hoops/i.test(title) : !/football|bowl|kickoff/i.test(title);
+  // Most local coverage is football, so basketball keeps only stories that say so.
+  return sport === 'football' ? !/basketball|hoops/i.test(title + n.url) : /basketball|hoops/i.test(title + n.url);
 };
 
 let sharedNews;
