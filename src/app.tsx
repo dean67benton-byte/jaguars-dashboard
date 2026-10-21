@@ -90,7 +90,7 @@ export function App() {
       <header class="topbar">
         <div class="topbar-inner">
           <a class="brand" href="#home" aria-label="Jaguars Hub home">
-            <span class="brand-mark">USA</span>
+            <img class="brand-mark" src="./icons/jaguar.png" width={40} height={40} alt="" />
             <span class="brand-name">Jaguars</span>
           </a>
           <nav class="topnav" aria-label="Main">
