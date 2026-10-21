@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-21T16:46:45.802Z",
+ "updatedAt": "2026-10-21T17:33:24.330Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -304,7 +304,8 @@
    "cls": "SO",
    "ht": "6' 5\"",
    "wt": "295 lbs",
-   "hometown": "Chatom, AL"
+   "hometown": "Chatom, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5258300.png"
   },
   {
    "number": "71",
@@ -313,7 +314,8 @@
    "cls": "JR",
    "ht": "6' 5\"",
    "wt": "305 lbs",
-   "hometown": "Jacksonville, FL"
+   "hometown": "Jacksonville, FL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5229584.png"
   },
   {
    "number": "51",
@@ -322,7 +324,8 @@
    "cls": "SR",
    "ht": "6' 5\"",
    "wt": "265 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5225242.png"
   },
   {
    "number": "81",
@@ -331,7 +334,8 @@
    "cls": "SR",
    "ht": "5' 9\"",
    "wt": "175 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5168613.png"
   },
   {
    "number": "27",
@@ -340,7 +344,8 @@
    "cls": "SR",
    "ht": "5' 10\"",
    "wt": "185 lbs",
-   "hometown": "Jackson, AL"
+   "hometown": "Jackson, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5093215.png"
   },
   {
    "number": "88",
@@ -349,7 +354,8 @@
    "cls": "SO",
    "ht": "6' 2\"",
    "wt": "230 lbs",
-   "hometown": "Chelsea, AL"
+   "hometown": "Chelsea, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5295062.png"
   },
   {
    "number": "70",
@@ -358,7 +364,8 @@
    "cls": "FR",
    "ht": "6' 5\"",
    "wt": "290 lbs",
-   "hometown": "Oxford, MS"
+   "hometown": "Oxford, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5295705.png"
   },
   {
    "number": "20",
@@ -367,7 +374,8 @@
    "cls": "FR",
    "ht": "5' 11\"",
    "wt": "195 lbs",
-   "hometown": "Thomasville, GA"
+   "hometown": "Thomasville, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5279202.png"
   },
   {
    "number": "26",
@@ -376,7 +384,8 @@
    "cls": "FR",
    "ht": "5' 11\"",
    "wt": "215 lbs",
-   "hometown": "Phenix City, AL"
+   "hometown": "Phenix City, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395310.png"
   },
   {
    "number": "4",
@@ -385,7 +394,8 @@
    "cls": "SR",
    "ht": "6' 2\"",
    "wt": "210 lbs",
-   "hometown": "Spring, TX"
+   "hometown": "Spring, TX",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4869553.png"
   },
   {
    "number": "21",
@@ -394,7 +404,8 @@
    "cls": "JR",
    "ht": "5' 10\"",
    "wt": "205 lbs",
-   "hometown": "Graniteville, SC"
+   "hometown": "Graniteville, SC",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079412.png"
   },
   {
    "number": "1",
@@ -403,7 +414,8 @@
    "cls": "SR",
    "ht": "6' 1\"",
    "wt": "185 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5075529.png"
   },
   {
    "number": "84",
@@ -412,7 +424,8 @@
    "cls": "SR",
    "ht": "6' 5\"",
    "wt": "260 lbs",
-   "hometown": "Green Bay, WI"
+   "hometown": "Green Bay, WI",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5087164.png"
   },
   {
    "number": "9",
@@ -421,7 +434,8 @@
    "cls": "SR",
    "ht": "6' 4\"",
    "wt": "250 lbs",
-   "hometown": "Atlanta, GA"
+   "hometown": "Atlanta, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220195.png"
   },
   {
    "number": "19",
@@ -430,7 +444,8 @@
    "cls": "JR",
    "ht": "6' 1\"",
    "wt": "200 lbs",
-   "hometown": "Prichard, AL"
+   "hometown": "Prichard, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5155776.png"
   },
   {
    "number": "62",
@@ -439,7 +454,8 @@
    "cls": "FR",
    "ht": "6' 2\"",
    "wt": "293 lbs",
-   "hometown": "Orange Beach, AL"
+   "hometown": "Orange Beach, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395319.png"
   },
   {
    "number": "7",
@@ -448,7 +464,8 @@
    "cls": "JR",
    "ht": "6' 4\"",
    "wt": "210 lbs",
-   "hometown": "Semmes, AL"
+   "hometown": "Semmes, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5148858.png"
   },
   {
    "number": "18",
@@ -457,7 +474,8 @@
    "cls": "SO",
    "ht": "6' 0\"",
    "wt": "200 lbs",
-   "hometown": "Denham Springs, LA"
+   "hometown": "Denham Springs, LA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5294516.png"
   },
   {
    "number": "72",
@@ -466,7 +484,8 @@
    "cls": "SR",
    "ht": "6' 6\"",
    "wt": "295 lbs",
-   "hometown": "Hoover, AL"
+   "hometown": "Hoover, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5078273.png"
   },
   {
    "number": "57",
@@ -475,7 +494,8 @@
    "cls": "SR",
    "ht": "6' 4\"",
    "wt": "330 lbs",
-   "hometown": "Patterson, NJ"
+   "hometown": "Patterson, NJ",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5085800.png"
   },
   {
    "number": "83",
@@ -484,7 +504,8 @@
    "cls": "SR",
    "ht": "6' 4\"",
    "wt": "250 lbs",
-   "hometown": "Manteca, CA"
+   "hometown": "Manteca, CA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5151609.png"
   },
   {
    "number": "15",
@@ -493,7 +514,8 @@
    "cls": "FR",
    "ht": "5' 11\"",
    "wt": "195 lbs",
-   "hometown": "Tallahassee, FL"
+   "hometown": "Tallahassee, FL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5289802.png"
   },
   {
    "number": "17",
@@ -502,7 +524,8 @@
    "cls": "SO",
    "ht": "5' 8\"",
    "wt": "190 lbs",
-   "hometown": "Thomson, GA"
+   "hometown": "Thomson, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5215189.png"
   },
   {
    "number": "12",
@@ -511,7 +534,8 @@
    "cls": "SR",
    "ht": "6' 0\"",
    "wt": "195 lbs",
-   "hometown": "Hoschton, GA"
+   "hometown": "Hoschton, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5156183.png"
   },
   {
    "number": "69",
@@ -520,7 +544,8 @@
    "cls": "SR",
    "ht": "6' 3\"",
    "wt": "340 lbs",
-   "hometown": "Tuscaloosa, AL"
+   "hometown": "Tuscaloosa, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4879603.png"
   },
   {
    "number": "2",
@@ -529,7 +554,8 @@
    "cls": "SO",
    "ht": "5' 11\"",
    "wt": "180 lbs",
-   "hometown": "Crawfordville, FL"
+   "hometown": "Crawfordville, FL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5295064.png"
   },
   {
    "number": "24",
@@ -538,7 +564,8 @@
    "cls": "SO",
    "ht": "5' 9\"",
    "wt": "180 lbs",
-   "hometown": "Guntersville, AL"
+   "hometown": "Guntersville, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220588.png"
   },
   {
    "number": "61",
@@ -547,7 +574,8 @@
    "cls": "SR",
    "ht": "6' 2\"",
    "wt": "260 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5160235.png"
   },
   {
    "number": "67",
@@ -556,7 +584,8 @@
    "cls": "FR",
    "ht": "6' 4\"",
    "wt": "300 lbs",
-   "hometown": "Moscow"
+   "hometown": "Moscow",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5290748.png"
   },
   {
    "number": "14",
@@ -565,7 +594,8 @@
    "cls": "SO",
    "ht": "6' 5\"",
    "wt": "240 lbs",
-   "hometown": "Vicksburg, MS"
+   "hometown": "Vicksburg, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5259827.png"
   },
   {
    "number": "79",
@@ -574,7 +604,8 @@
    "cls": "FR",
    "ht": "6' 3\"",
    "wt": "402 lbs",
-   "hometown": "Spanish Fort, AL"
+   "hometown": "Spanish Fort, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395322.png"
   },
   {
    "number": "10",
@@ -583,7 +614,8 @@
    "cls": "FR",
    "ht": "5' 11\"",
    "wt": "180 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5274378.png"
   },
   {
    "number": "0",
@@ -592,7 +624,8 @@
    "cls": "SR",
    "ht": "5' 10\"",
    "wt": "205 lbs",
-   "hometown": "New Orleans, LA"
+   "hometown": "New Orleans, LA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5124334.png"
   },
   {
    "number": "82",
@@ -601,7 +634,8 @@
    "cls": "FR",
    "ht": "6' 4\"",
    "wt": "230 lbs",
-   "hometown": "Lexington, MS"
+   "hometown": "Lexington, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5274293.png"
   },
   {
    "number": "34",
@@ -610,7 +644,8 @@
    "cls": "JR",
    "ht": "6' 4\"",
    "wt": "240 lbs",
-   "hometown": "Hoover, AL"
+   "hometown": "Hoover, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395313.png"
   },
   {
    "number": "87",
@@ -619,7 +654,8 @@
    "cls": "SR",
    "ht": "6' 4\"",
    "wt": "230 lbs",
-   "hometown": "Apache Junction, AZ"
+   "hometown": "Apache Junction, AZ",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395324.png"
   },
   {
    "number": "74",
@@ -628,7 +664,8 @@
    "cls": "FR",
    "ht": "6' 3\"",
    "wt": "315 lbs",
-   "hometown": "Brandon, MS"
+   "hometown": "Brandon, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5199938.png"
   },
   {
    "number": "89",
@@ -646,7 +683,8 @@
    "cls": "SR",
    "ht": "6' 4\"",
    "wt": "310 lbs",
-   "hometown": "Cypress, TX"
+   "hometown": "Cypress, TX",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5154941.png"
   },
   {
    "number": "3",
@@ -655,7 +693,8 @@
    "cls": "JR",
    "ht": "5' 10\"",
    "wt": "185 lbs",
-   "hometown": "Bainbridge, GA"
+   "hometown": "Bainbridge, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5295070.png"
   },
   {
    "number": "73",
@@ -664,7 +703,8 @@
    "cls": "FR",
    "ht": "5' 11\"",
    "wt": "230 lbs",
-   "hometown": "Saint Francisville, LA"
+   "hometown": "Saint Francisville, LA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395320.png"
   },
   {
    "number": "16",
@@ -673,7 +713,8 @@
    "cls": "FR",
    "ht": "6' 2\"",
    "wt": "180 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5290347.png"
   },
   {
    "number": "64",
@@ -682,7 +723,8 @@
    "cls": "JR",
    "ht": "6' 4\"",
    "wt": "310 lbs",
-   "hometown": "Elba, AL"
+   "hometown": "Elba, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5198261.png"
   },
   {
    "number": "89",
@@ -691,7 +733,8 @@
    "cls": "FR",
    "ht": "5' 9\"",
    "wt": "169 lbs",
-   "hometown": "Gulf Breeze, FL"
+   "hometown": "Gulf Breeze, FL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5295071.png"
   },
   {
    "number": "11",
@@ -700,7 +743,8 @@
    "cls": "SO",
    "ht": "5' 11\"",
    "wt": "190 lbs",
-   "hometown": "Madison, MS"
+   "hometown": "Madison, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5222214.png"
   },
   {
    "number": "58",
@@ -709,7 +753,8 @@
    "cls": "FR",
    "ht": "6' 3\"",
    "wt": "330 lbs",
-   "hometown": "Savannah, GA"
+   "hometown": "Savannah, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5161861.png"
   },
   {
    "number": "8",
@@ -718,7 +763,8 @@
    "cls": "SR",
    "ht": "6' 4\"",
    "wt": "200 lbs",
-   "hometown": "Apex, NC"
+   "hometown": "Apex, NC",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220194.png"
   },
   {
    "number": "26",
@@ -727,7 +773,8 @@
    "cls": "FR",
    "ht": "6' 0\"",
    "wt": "225 lbs",
-   "hometown": "Hogansville, GA"
+   "hometown": "Hogansville, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5290934.png"
   },
   {
    "number": "44",
@@ -736,7 +783,8 @@
    "cls": "SO",
    "ht": "5' 11\"",
    "wt": "235 lbs",
-   "hometown": "Deatsville, AL"
+   "hometown": "Deatsville, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220207.png"
   },
   {
    "number": "14",
@@ -745,7 +793,8 @@
    "cls": "SR",
    "ht": "6' 0\"",
    "wt": "190 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5097969.png"
   },
   {
    "number": "4",
@@ -754,7 +803,8 @@
    "cls": "SO",
    "ht": "6' 0\"",
    "wt": "190 lbs",
-   "hometown": "Lucedale, MS"
+   "hometown": "Lucedale, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5221511.png"
   },
   {
    "number": "49",
@@ -763,7 +813,8 @@
    "cls": "SR",
    "ht": "6' 3\"",
    "wt": "295 lbs",
-   "hometown": "Natchitoches, LA"
+   "hometown": "Natchitoches, LA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5041959.png"
   },
   {
    "number": "31",
@@ -772,7 +823,8 @@
    "cls": "JR",
    "ht": "5' 7\"",
    "wt": "165 lbs",
-   "hometown": "Prattville, AL"
+   "hometown": "Prattville, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220199.png"
   },
   {
    "number": "21",
@@ -781,7 +833,8 @@
    "cls": "FR",
    "ht": "5' 10\"",
    "wt": "190 lbs",
-   "hometown": "Birmingham, AL"
+   "hometown": "Birmingham, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5278663.png"
   },
   {
    "number": "41",
@@ -790,7 +843,8 @@
    "cls": "JR",
    "ht": "6' 4\"",
    "wt": "290 lbs",
-   "hometown": "Vicksburg, MS"
+   "hometown": "Vicksburg, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5146853.png"
   },
   {
    "number": "38",
@@ -799,7 +853,8 @@
    "cls": "FR",
    "ht": "5' 10\"",
    "wt": "175 lbs",
-   "hometown": "Pace, FL"
+   "hometown": "Pace, FL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395315.png"
   },
   {
    "number": "42",
@@ -808,7 +863,8 @@
    "cls": "SR",
    "ht": "6' 0\"",
    "wt": "230 lbs",
-   "hometown": "Jacksonville, FL"
+   "hometown": "Jacksonville, FL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4837158.png"
   },
   {
    "number": "19",
@@ -817,7 +873,8 @@
    "cls": "FR",
    "ht": "6' 0\"",
    "wt": "180 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5291711.png"
   },
   {
    "number": "24",
@@ -826,7 +883,8 @@
    "cls": "JR",
    "ht": "5' 11\"",
    "wt": "180 lbs",
-   "hometown": "Bassfield, MS"
+   "hometown": "Bassfield, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5192954.png"
   },
   {
    "number": "33",
@@ -835,7 +893,8 @@
    "cls": "FR",
    "ht": "5' 11\"",
    "wt": "225 lbs",
-   "hometown": "Chalmette, LA"
+   "hometown": "Chalmette, LA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5274366.png"
   },
   {
    "number": "6",
@@ -844,7 +903,8 @@
    "cls": "SR",
    "ht": "6' 0\"",
    "wt": "225 lbs",
-   "hometown": "Jacksonville, FL"
+   "hometown": "Jacksonville, FL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5227211.png"
   },
   {
    "number": "22",
@@ -853,7 +913,8 @@
    "cls": "JR",
    "ht": "6' 2\"",
    "wt": "220 lbs",
-   "hometown": "Dothan, AL"
+   "hometown": "Dothan, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5140721.png"
   },
   {
    "number": "10",
@@ -862,7 +923,8 @@
    "cls": "JR",
    "ht": "6' 1\"",
    "wt": "225 lbs",
-   "hometown": "Pelham, AL"
+   "hometown": "Pelham, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220202.png"
   },
   {
    "number": "36",
@@ -871,7 +933,8 @@
    "cls": "FR",
    "ht": "6' 0\"",
    "wt": "215 lbs",
-   "hometown": "Vicksburg, MS"
+   "hometown": "Vicksburg, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5274334.png"
   },
   {
    "number": "23",
@@ -880,7 +943,8 @@
    "cls": "JR",
    "ht": "6' 1\"",
    "wt": "195 lbs",
-   "hometown": "New Orleans, LA"
+   "hometown": "New Orleans, LA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5148584.png"
   },
   {
    "number": "27",
@@ -889,7 +953,8 @@
    "cls": "FR",
    "ht": "6' 1\"",
    "wt": "230 lbs",
-   "hometown": "Sylvester, GA"
+   "hometown": "Sylvester, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5266922.png"
   },
   {
    "number": "30",
@@ -898,7 +963,8 @@
    "cls": "FR",
    "ht": "5' 11\"",
    "wt": "200 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395312.png"
   },
   {
    "number": "2",
@@ -907,7 +973,8 @@
    "cls": "SR",
    "ht": "5' 10\"",
    "wt": "190 lbs",
-   "hometown": "Auburn, GA"
+   "hometown": "Auburn, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5084551.png"
   },
   {
    "number": "25",
@@ -916,7 +983,8 @@
    "cls": "SR",
    "ht": "6' 1\"",
    "wt": "235 lbs",
-   "hometown": "Columbus, GA"
+   "hometown": "Columbus, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4870769.png"
   },
   {
    "number": "94",
@@ -925,7 +993,8 @@
    "cls": "SO",
    "ht": "6' 3\"",
    "wt": "285 lbs",
-   "hometown": "Kissimmee, FL"
+   "hometown": "Kissimmee, FL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5301748.png"
   },
   {
    "number": "39",
@@ -934,7 +1003,8 @@
    "cls": "JR",
    "ht": "6' 2\"",
    "wt": "305 lbs",
-   "hometown": "Memphis, TN"
+   "hometown": "Memphis, TN",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395316.png"
   },
   {
    "number": "80",
@@ -943,7 +1013,8 @@
    "cls": "FR",
    "ht": "6' 3\"",
    "wt": "310 lbs",
-   "hometown": "Ponchatoula, LA"
+   "hometown": "Ponchatoula, LA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5308486.png"
   },
   {
    "number": "29",
@@ -952,7 +1023,8 @@
    "cls": "SR",
    "ht": "5' 8\"",
    "wt": "180 lbs",
-   "hometown": "Bessemer, AL"
+   "hometown": "Bessemer, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220200.png"
   },
   {
    "number": "56",
@@ -961,7 +1033,8 @@
    "cls": "SR",
    "ht": "6' 3\"",
    "wt": "310 lbs",
-   "hometown": "Fayetteville, GA"
+   "hometown": "Fayetteville, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5078047.png"
   },
   {
    "number": "20",
@@ -970,7 +1043,8 @@
    "cls": "SR",
    "ht": "6' 2\"",
    "wt": "230 lbs",
-   "hometown": "Wynne, AR"
+   "hometown": "Wynne, AR",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5192749.png"
   },
   {
    "number": "28",
@@ -979,7 +1053,8 @@
    "cls": "FR",
    "ht": "6' 2\"",
    "wt": "200 lbs",
-   "hometown": "Pascagoula, MS"
+   "hometown": "Pascagoula, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5274336.png"
   },
   {
    "number": "37",
@@ -988,7 +1063,8 @@
    "cls": "FR",
    "ht": "6' 0\"",
    "wt": "175 lbs",
-   "hometown": "Arab, AL"
+   "hometown": "Arab, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395314.png"
   },
   {
    "number": "46",
@@ -997,7 +1073,8 @@
    "cls": "SR",
    "ht": "6' 2\"",
    "wt": "245 lbs",
-   "hometown": "Theodore, AL"
+   "hometown": "Theodore, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5151082.png"
   },
   {
    "number": "16",
@@ -1006,7 +1083,8 @@
    "cls": "SR",
    "ht": "6' 1\"",
    "wt": "220 lbs",
-   "hometown": "Lanett, AL"
+   "hometown": "Lanett, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220224.png"
   },
   {
    "number": "35",
@@ -1015,7 +1093,8 @@
    "cls": "SO",
    "ht": "6' 0\"",
    "wt": "180 lbs",
-   "hometown": "Flowood, MS"
+   "hometown": "Flowood, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220201.png"
   },
   {
    "number": "53",
@@ -1024,7 +1103,8 @@
    "cls": "SO",
    "ht": "5' 8\"",
    "wt": "235 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5306406.png"
   },
   {
    "number": "18",
@@ -1033,7 +1113,8 @@
    "cls": "SR",
    "ht": "6' 3\"",
    "wt": "275 lbs",
-   "hometown": "Breaux Bridge, LA"
+   "hometown": "Breaux Bridge, LA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5084222.png"
   },
   {
    "number": "1",
@@ -1042,7 +1123,8 @@
    "cls": "SR",
    "ht": "6' 0\"",
    "wt": "200 lbs",
-   "hometown": "Loganville, GA"
+   "hometown": "Loganville, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4840124.png"
   },
   {
    "number": "45",
@@ -1051,7 +1133,8 @@
    "cls": "FR",
    "ht": "6' 2\"",
    "wt": "195 lbs",
-   "hometown": "Pensacola, FL"
+   "hometown": "Pensacola, FL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5298224.png"
   },
   {
    "number": "12",
@@ -1060,7 +1143,8 @@
    "cls": "SR",
    "ht": "5' 11\"",
    "wt": "175 lbs",
-   "hometown": "Kennesaw, GA"
+   "hometown": "Kennesaw, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5077268.png"
   },
   {
    "number": "43",
@@ -1069,7 +1153,8 @@
    "cls": "JR",
    "ht": "6' 1\"",
    "wt": "210 lbs",
-   "hometown": "Birmingham, AL"
+   "hometown": "Birmingham, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220206.png"
   },
   {
    "number": "13",
@@ -1078,7 +1163,8 @@
    "cls": "SR",
    "ht": "5' 11\"",
    "wt": "185 lbs",
-   "hometown": "Winona, MS"
+   "hometown": "Winona, MS",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395309.png"
   },
   {
    "number": "17",
@@ -1087,7 +1173,8 @@
    "cls": "SR",
    "ht": "6' 2\"",
    "wt": "235 lbs",
-   "hometown": "Teaneck, NJ"
+   "hometown": "Teaneck, NJ",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5087083.png"
   },
   {
    "number": "11",
@@ -1096,7 +1183,8 @@
    "cls": "JR",
    "ht": "6' 1\"",
    "wt": "220 lbs",
-   "hometown": "LaGrange, GA"
+   "hometown": "LaGrange, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5148775.png"
   },
   {
    "number": "90",
@@ -1105,7 +1193,8 @@
    "cls": "SO",
    "ht": "6' 1\"",
    "wt": "265 lbs",
-   "hometown": "Opelika, AL"
+   "hometown": "Opelika, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5217871.png"
   },
   {
    "number": "34",
@@ -1114,7 +1203,8 @@
    "cls": "SR",
    "ht": "5' 11\"",
    "wt": "175 lbs",
-   "hometown": "Montgomery, AL"
+   "hometown": "Montgomery, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5154353.png"
   },
   {
    "number": "98",
@@ -1123,7 +1213,8 @@
    "cls": "FR",
    "ht": "5' 11\"",
    "wt": "150 lbs",
-   "hometown": "Schertz, TX"
+   "hometown": "Schertz, TX",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395327.png"
   },
   {
    "number": "38",
@@ -1132,7 +1223,8 @@
    "cls": "JR",
    "ht": "6' 0\"",
    "wt": "195 lbs",
-   "hometown": "Hoover, AL"
+   "hometown": "Hoover, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5154342.png"
   },
   {
    "number": "37",
@@ -1141,7 +1233,8 @@
    "cls": "SO",
    "ht": "5' 10\"",
    "wt": "180 lbs",
-   "hometown": "Rancho Palos Verdes, CA"
+   "hometown": "Rancho Palos Verdes, CA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5258469.png"
   },
   {
    "number": "35",
@@ -1150,7 +1243,8 @@
    "cls": "JR",
    "ht": "6' 0\"",
    "wt": "175 lbs",
-   "hometown": "Suwanee, GA"
+   "hometown": "Suwanee, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5185701.png"
   },
   {
    "number": "40",
@@ -1159,7 +1253,8 @@
    "cls": "SR",
    "ht": "6' 4\"",
    "wt": "215 lbs",
-   "hometown": "Helsinki"
+   "hometown": "Helsinki",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5160230.png"
   },
   {
    "number": "47",
@@ -1168,7 +1263,8 @@
    "cls": "JR",
    "ht": "6' 1\"",
    "wt": "215 lbs",
-   "hometown": "Nashville, TN"
+   "hometown": "Nashville, TN",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220208.png"
   },
   {
    "number": "44",
@@ -1177,7 +1273,8 @@
    "cls": "SR",
    "ht": "5' 11\"",
    "wt": "200 lbs",
-   "hometown": "Tibbie, AL"
+   "hometown": "Tibbie, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5160239.png"
   }
  ],
  "stats": [
@@ -2171,22 +2268,32 @@
  ],
  "news": [
   {
+   "title": "The postgame report: Marshall 20, South Alabama 13",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-marshall-postgame-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-21T16:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/3fc995149e89d5ccbfd34ac65038b664b996326a-2376x1306.jpg?rect=0,30,2376,1247&w=1200&h=630&fit=crop"
+  },
+  {
    "title": "Rapid Reaction: What we learned from the Marshall game",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-marshall-rapid-reaction-week8",
    "source": "Diehard Sports Network",
-   "date": "2026-10-21T12:00:00.000Z"
+   "date": "2026-10-21T12:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/567bae324f153987879d89e830585ab7e3c94c5f-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
   },
   {
    "title": "Herd Score Late as Jags Fall in Huntington.",
    "url": "https://usajaguars.com/news/2026/10/20/football-herd-score-late-as-jags-fall-in-huntington.aspx",
    "date": "2026-10-21T05:00:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/20/102026_SD_Marshall_0177.jpg"
   },
   {
    "title": "South Alabama falls at Marshall for first Sun Belt loss of season",
    "url": "https://www.al.com/sports/2026/10/south-alabama-falls-at-marshall-for-first-sun-belt-loss-of-season.html",
    "date": "2026-10-21T03:39:39.000Z",
-   "source": "AL.com"
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/G4N5PDOVSZHWNKQUPO4VV63S4Y.jpg?auth=88e03370c22594bcf111e80a1f11d314f7de74b7049209030f9cbbd3acb0e596&smart=true&height=1200"
   },
   {
    "title": "Judah Price's late TD helps Marshall edge South Alabama 20-13",
@@ -2206,43 +2313,50 @@
    "title": "10 things you didn’t know about South Alabama and Marshall",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/10-things-southalabama-marshall-week8-2026",
    "source": "Diehard Sports Network",
-   "date": "2026-10-20T04:08:22.000Z"
+   "date": "2026-10-20T04:08:22.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/0edb238b2256bcb0cab7141ab64b95402b7a9f52-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
   },
   {
    "title": "The Really Big Preview: South Alabama at Marshall",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/really-big-preview-southalabama-marshall-week8-2026",
    "source": "Diehard Sports Network",
-   "date": "2026-10-19T23:51:24.000Z"
+   "date": "2026-10-19T23:51:24.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/570b49490f23ccc126007beb97abe52910fd1d14-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
   },
   {
    "title": "Scouting report: What you need to know for South Alabama’s game at Marshall",
    "url": "https://www.al.com/sports/2026/10/scouting-report-what-you-need-to-know-for-south-alabamas-game-at-marshall.html",
    "date": "2026-10-19T21:10:45.000Z",
-   "source": "AL.com"
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/526URATWTRFCXICXU3ABW3TTPQ.jpg?auth=5895e2ba70df5ffaf6de569c5019eb49f498c540b0cabaf65d58a06b5664837b&smart=true&height=1200"
   },
   {
    "title": "Five with a foe: The Thundering Herd",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/five-with-a-foe-southalabama-marshall-week8-2026",
    "source": "Diehard Sports Network",
-   "date": "2026-10-19T21:00:00.000Z"
+   "date": "2026-10-19T21:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/9a6bc5d94b08d643ab0b4928a338daaf550e68ce-2180x1164.png?rect=0,10,2180,1145&w=1200&h=630&fit=crop"
   },
   {
    "title": "Kickoff Time Set for Halloween Game Versus Louisiana Tech",
    "url": "https://usajaguars.com/news/2026/10/19/football-kickoff-time-set-for-halloween-game-versus-louisiana-tech.aspx",
    "date": "2026-10-19T20:00:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/19/ANW_116.jpg"
   },
   {
    "title": "Bowl projections: South Alabama is a unanimous pick, but nobody agrees on the destination",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/bowl-projection-southalabama-week8-2026",
    "source": "Diehard Sports Network",
-   "date": "2026-10-19T18:30:00.000Z"
+   "date": "2026-10-19T18:30:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/c51c368d12027d121e6bd88c8a626c35973f082c-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
   },
   {
    "title": "Jags Jungle picks: South Alabama at Marshall",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jags-jungle-picks-marshall-week8-2026",
    "source": "Diehard Sports Network",
-   "date": "2026-10-19T16:00:00.000Z"
+   "date": "2026-10-19T16:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/4d40b3169fba9471f9a100937f60b966213620bb-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
   },
   {
    "title": "Sun Belt matchup features South Alabama playing Marshall",
@@ -2255,31 +2369,29 @@
    "title": "Jags Head to Marshall for Tuesday Night Game",
    "url": "https://usajaguars.com/news/2026/10/17/football-jags-head-to-marshall-for-tuesday-night-game.aspx",
    "date": "2026-10-17T20:57:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/17/Game_Week_7_-_Web.png"
   },
   {
    "title": "Versatile running back Keenan Phillips is South Alabama’s ‘Swiss Army knife’",
    "url": "https://www.al.com/sports/2026/10/versatile-running-back-keenan-phillips-is-south-alabamas-swiss-army-knife.html",
    "date": "2026-10-14T21:43:23.000Z",
-   "source": "AL.com"
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/ANOKFRECAFHITHMWXODPODRYF4.jpg?auth=139d141a76f77778ebc5ad628ed08e342ffc03688ce62b5c97d8db611a2421b2&smart=true&height=1200"
   },
   {
    "title": "Keenan Phillips Tabbed Sun Belt Special Teams Player of the Week",
    "url": "https://usajaguars.com/news/2026/10/12/football-keenan-phillips-tabbed-sun-belt-special-teams-player-of-the-week.aspx",
    "date": "2026-10-12T19:00:00.000Z",
-   "source": "usajaguars.com"
-  },
-  {
-   "title": "The postgame report: South Alabama 56, Arkansas State 49",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-arkansasstate-postgame-week6-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-09T06:00:00.000Z"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/12/20261008_USAFootball_Q4_vsArkansasSt_BIGGS_0066.jpg"
   },
   {
    "title": "Keenan Phillips Powers South Alabama Past Arkansas State in Road Win",
    "url": "https://usajaguars.com/news/2026/10/8/football-keenan-phillips-powers-south-alabama-past-arkansas-state-in-road-win.aspx",
    "date": "2026-10-09T05:26:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/8/SD_ARKST_10826_1339.jpg"
   },
   {
    "title": "South Alabama beats Arkansas State 56-49 in the highest scoring FBS game this season",
@@ -2299,19 +2411,22 @@
    "title": "South Alabama Travels to Arkansas State for Thursday Night Clash",
    "url": "https://usajaguars.com/news/2026/10/6/football-south-alabama-travels-to-arkansas-state-for-thursday-night-clash.aspx",
    "date": "2026-10-06T13:36:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/6/ANW_110.jpg"
   },
   {
    "title": "Hollins Named to Week 5 Davey O'Brien Great 8 List",
    "url": "https://usajaguars.com/news/2026/10/5/football-hollins-named-to-week-5-davey-o-brien-great-8-list.aspx",
    "date": "2026-10-05T16:57:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/5/ANW_096.jpg"
   },
   {
    "title": "Jamaal Pritchett Signed to Jets Active Roster",
    "url": "https://usajaguars.com/news/2026/10/4/football-pritchett-signed-to-jets-active-roster.aspx",
    "date": "2026-10-04T21:39:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2024/10/18/SD_NWSU_91224_0152.jpg"
   },
   {
    "title": "Arkansas State and South Alabama meet in Sun Belt action",
@@ -2324,7 +2439,8 @@
    "title": "Jags Power Past ULM in 52-35 Homecoming Victory",
    "url": "https://usajaguars.com/news/2026/10/3/football-jags-power-past-ulm-in-52-35-homecoming-victory.aspx",
    "date": "2026-10-04T05:46:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/3/mason-936.jpg"
   },
   {
    "title": "Hollins throws 3 TD passes, South Alabama beats Louisiana-Monroe 52-35",
@@ -2344,7 +2460,8 @@
    "title": "South Alabama Hosts ULM for Sun Belt Opener",
    "url": "https://usajaguars.com/news/2026/9/29/football-south-alabama-hosts-ulm-for-sun-belt-opener.aspx",
    "date": "2026-09-29T19:17:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/9/29/Game_Week_5_-_Web.png"
   }
  ],
  "nextOpponent": {

@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-10-21T16:46:45.802Z",
+ "updatedAt": "2026-10-21T17:33:24.330Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -660,7 +660,8 @@
    "cls": "SR",
    "ht": "6' 7\"",
    "wt": "220 lbs",
-   "hometown": "Calhoun, GA"
+   "hometown": "Calhoun, GA",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313205.png"
   },
   {
    "number": "12",
@@ -696,7 +697,8 @@
    "cls": "SO",
    "ht": "6' 2\"",
    "wt": "195 lbs",
-   "hometown": "London, KY"
+   "hometown": "London, KY",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313201.png"
   },
   {
    "number": "3",
@@ -705,7 +707,8 @@
    "cls": "SO",
    "ht": "6' 3\"",
    "wt": "185 lbs",
-   "hometown": "Mobile, AL"
+   "hometown": "Mobile, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313204.png"
   },
   {
    "number": "4",
@@ -714,7 +717,8 @@
    "cls": "JR",
    "ht": "6' 9\"",
    "wt": "245 lbs",
-   "hometown": "Atmore, AL"
+   "hometown": "Atmore, AL",
+   "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313202.png"
   },
   {
    "number": "10",
@@ -1065,61 +1069,71 @@
    "title": "Where are South Alabama men, women picked in SBC preseason basketball poll?",
    "url": "https://www.al.com/sports/2026/10/where-are-south-alabama-men-women-picked-in-sun-belt-preseason-basketball-poll.html",
    "date": "2026-10-19T19:30:02.000Z",
-   "source": "AL.com"
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/NOO5JPD3NBDRPHAYRQG3ITR4UQ.jpg?auth=ab61cad38faa3cca3d98fefb467b97c483733bfdcae19e9baac15cbcead92fc6&smart=true&height=1200"
   },
   {
    "title": "Law, Langsy Earn Preseason All-Sun Belt Honors; Jags Picked Fourth",
    "url": "https://usajaguars.com/news/2026/10/19/mens-basketball-law-langsy-earn-preseason-all-sun-belt-honors-jags-picked-fourth.aspx",
    "date": "2026-10-19T18:01:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/19/DSC00783.jpg"
   },
   {
    "title": "South Alabama announces full men’s basketball schedule for 2026-27",
    "url": "https://www.al.com/sports/2026/10/south-alabama-announces-full-mens-basketball-schedule-for-2026-27.html",
    "date": "2026-10-18T14:00:00.000Z",
-   "source": "AL.com"
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/SCZBJNGF2BGRDLBJSPWLFK6TT4.JPG?auth=f07c62db113e7a80dafb195b4223bce22b068b80c1db2fb6f70cb4764b470ce1&smart=true&height=1200"
   },
   {
    "title": "South Alabama basketball stays comfortable with change",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-basketball-preview-2026",
    "source": "Diehard Sports Network",
-   "date": "2026-10-12T16:00:00.000Z"
+   "date": "2026-10-12T16:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/9bb3510d5215526563de7835ba26065a76b67d2b-2048x1365.jpg?rect=0,146,2048,1075&w=1200&h=630&fit=crop"
   },
   {
    "title": "South Alabama to Face Loyola Marymount in Coastal Classic",
    "url": "https://usajaguars.com/news/2026/8/25/mens-basketball-south-alabama-to-face-loyola-marymount-in-coastal-classic.aspx",
    "date": "2026-08-25T16:05:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/1/2/DSC05198.jpg"
   },
   {
    "title": "South Alabama Men’s Basketball to Host LSF Tip-Off Gala Oct. 15",
    "url": "https://usajaguars.com/news/2026/8/14/mens-basketball-south-alabama-mens-basketball-to-host-lsf-tip-off-gala-oct-15.aspx",
    "date": "2026-08-14T19:42:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2025/3/2/DSC08572__2_.jpg"
   },
   {
    "title": "Men's Basketball Signs Russian Forward Alexey Sereda",
    "url": "https://usajaguars.com/news/2026/8/12/mens-basketball-south-alabama-signs-russian-forward-alexey-sereda.aspx",
    "date": "2026-08-12T17:25:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/6/2/Richie.png"
   },
   {
    "title": "Men's Basketball Reveals 2026-27 Sun Belt Conference Schedule",
    "url": "https://usajaguars.com/news/2026/8/6/mens-basketball-reveals-2026-27-sun-belt-conference-schedule.aspx",
    "date": "2026-08-06T19:00:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/8/6/DSC09632-2.jpg"
   },
   {
    "title": "Men's Basketball Draws Ohio in 2026 MAC-SBC Challenge",
    "url": "https://usajaguars.com/news/2026/7/2/mens-basketball-jaguars-draw-ohio-in-2026-mac-sbc-challenge.aspx",
    "date": "2026-07-02T18:02:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/7/2/DSC00001__1_.jpg"
   },
   {
    "title": "Riley Announces Signings of Keyne Costa and Roderick Williams Jr.",
    "url": "https://usajaguars.com/news/2026/6/2/mens-basketball-riley-announces-signings-of-keyne-costa-and-roderick-williams.aspx",
    "date": "2026-06-02T18:25:00.000Z",
-   "source": "usajaguars.com"
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/6/2/Richie.png"
   },
   {
    "title": "South Alabama Jaguars vs. Auburn Tigers: Game Highlights",
