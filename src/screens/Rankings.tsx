@@ -58,7 +58,7 @@ export function Rankings({ sport, data, error }: { sport: SportKey; data: Rankin
             <li class={`rank-row${r.teamId === US ? ' us' : ''}`} key={r.teamId}>
               <div class="rank-top">
                 <span class="rank-n">{r.rank}</span>
-                <Move n={movement(r, prev)} />
+                {prev && <Move n={movement(r, prev)} />}
                 <Logo src={r.logo} id={r.teamId} size={32} />
                 <div class="grow">
                   <div class="title">{r.team}</div>
