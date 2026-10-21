@@ -1,0 +1,57 @@
+name: Update data
+
+# Hourly check. scripts/fetch-data.mjs decides what is due: hourly on game
+# days, every 2 hours in season, once a day (5 a.m. Central) off-season.
+# To stop all background updates: Actions tab -> Update data -> Disable workflow.
+on:
+  schedule:
+    - cron: '15 * * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+
+      - name: Fetch ESPN and usajaguars.com data
+        id: fetch
+        run: node scripts/fetch-data.mjs ${{ github.event_name != 'schedule' && '--force' || '' }}
+
+      - name: Save data snapshot
+        if: steps.fetch.outputs.changed == 'true'
+        run: |
+          git config user.name "jaguars-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          git diff --cached --quiet || (git commit -m "Update data $(date -u +%Y-%m-%dT%H:%MZ)" && git push)
+
+      - name: Build
+        if: steps.fetch.outputs.changed == 'true' || github.event_name != 'schedule'
+        run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.fetch.outputs.changed == 'true' || github.event_name != 'schedule'
+        with:
+          path: dist
+
+      - uses: actions/deploy-pages@v4
+        if: steps.fetch.outputs.changed == 'true' || github.event_name != 'schedule'

@@ -1,0 +1,17 @@
+{
+ "sport": "mbb",
+ "updatedAt": "2026-10-21T01:30:00Z",
+ "source": "seed",
+ "team": {
+  "id": "6",
+  "name": "South Alabama Jaguars",
+  "short": "South Alabama",
+  "abbr": "USA"
+ },
+ "events": [],
+ "roster": [],
+ "stats": [],
+ "leaders": [],
+ "standings": [],
+ "news": []
+}

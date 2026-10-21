@@ -1,0 +1,129 @@
+{
+ "id": "2026-10-20-marshall",
+ "sport": "football",
+ "eventId": "seed-7",
+ "date": "2026-10-20T23:30:00Z",
+ "opponent": "Marshall",
+ "home": false,
+ "venue": "Joan C. Edwards Stadium, Huntington, W.Va.",
+ "tv": "ESPN2",
+ "status": "preview",
+ "preview": {
+  "generatedAt": "2026-10-17T20:00:00-04:00",
+  "headline": "Two leaky defenses, one fragile quarterback room.",
+  "summary": "South Alabama scores far more; Marshall has been giving the ball away.",
+  "records": {
+   "usa": "4-2 (2-0 Sun Belt)",
+   "opp": "3-3 (0-2 Sun Belt)"
+  },
+  "matchup": [
+   {
+    "metric": "Points scored / game",
+    "usa": "38.8",
+    "opp": "22.0",
+    "edge": "USA",
+    "why": "The Jaguars have scored 39+ in four of six games; Marshall has topped 30 once."
+   },
+   {
+    "metric": "Points allowed / game",
+    "usa": "34.5",
+    "opp": "33.7",
+    "edge": "Even",
+    "why": "Both defenses leak points. Marshall's number includes 45 to Penn State and 45 to JMU."
+   },
+   {
+    "metric": "Total offense / game",
+    "usa": "451.0",
+    "opp": "406.5",
+    "edge": "USA",
+    "why": "USA is balanced; Marshall is run-first (158.7 rush, 247.8 pass yds per game)."
+   },
+   {
+    "metric": "Turnover margin",
+    "usa": "+1.3 / game",
+    "opp": "-9 total",
+    "edge": "USA",
+    "why": "The biggest gap on the page. Marshall had six giveaways in last week's loss alone."
+   },
+   {
+    "metric": "Run game vs. run defense",
+    "usa": "867 yds, 11 TD (Phillips + Martin)",
+    "opp": "5.54 yds/carry allowed",
+    "edge": "USA",
+    "why": "USA's best weapon meets Marshall's softest spot."
+   }
+  ],
+  "keys": {
+   "usa": [
+    "Win the turnover battle. Marshall is -1.5 per game and USA is +1.3.",
+    "Run early and often. Marshall allows 5.54 yards a carry; USA ran for 241, 266 and 249 in wins over SE Louisiana, Ohio and ULM.",
+    "Stop the explosive run. USA gave up 390 rushing yards to Kentucky and 223 to Tulane."
+   ],
+   "opp": [
+    "Play a clean game. The Herd gained 505 yards vs. Coastal yet lost 27-21 because of six turnovers.",
+    "Keep USA's big plays in check. Hollins hit TDs of 72, 35 and 69 yards against ULM."
+   ]
+  },
+  "players": [
+   {
+    "name": "Keenan Phillips",
+    "team": "USA",
+    "pos": "RB",
+    "note": "Preseason All-Sun Belt. Watch for 4+ yards before contact; that signals the line is winning."
+   },
+   {
+    "name": "Jared Hollins",
+    "team": "USA",
+    "pos": "QB",
+    "note": "14-of-19, 321 yards, 3 TD vs. ULM, but 2 INTs at Kentucky. Watch deep shots and decisions under pressure."
+   },
+   {
+    "name": "Carlos Del Rio-Wilson / Zion Turner",
+    "team": "OPP",
+    "pos": "QB",
+    "note": "Del Rio-Wilson was pulled vs. Coastal after 3 INTs; Turner went 18-of-27, 219 yards, 2 TD. No starter named."
+   },
+   {
+    "name": "Judah Price",
+    "team": "OPP",
+    "pos": "RB",
+    "note": "First start vs. Coastal: 12 carries, 124 yards, a TD run and a TD catch. 7.4 yards a carry."
+   }
+  ],
+  "watch": [
+   {
+    "title": "Marshall's first QB series",
+    "text": "Short, safe throws mean the Herd is protecting the ball; constant early-down handoffs mean it is trying to shorten the game."
+   },
+   {
+    "title": "USA's first-down runs",
+    "text": "4+ yards on first down leaves 2nd-and-short, which opens play-action."
+   },
+   {
+    "title": "Explosive plays (20+ yards)",
+    "text": "The team with more usually wins the points race."
+   }
+  ],
+  "injuries": [
+   "None confirmed. Marshall's starting QB not announced."
+  ],
+  "weather": "No reliable forecast found.",
+  "lastGame": {
+   "usa": "Won 56-49 at Arkansas State.",
+   "opp": "Lost 27-21 to Coastal Carolina with six turnovers."
+  },
+  "prediction": {
+   "usa": 35,
+   "opp": 28,
+   "confidence": "Medium",
+   "reasoning": "South Alabama scores 17 more points per game, has the best run game against the worst run defense, and wins the turnover margin by a wide gap. Marshall's offense moves the ball but has been giving it away, and its quarterback job is unsettled.",
+   "risks": "A clean game from Marshall. If the Herd avoids turnovers and Price keeps running at 7+ yards a carry, USA's run defense could let Marshall win a home shootout."
+  },
+  "context": "Second meeting ever and the first in Huntington; South Alabama won 28-0 in Mobile in 2023. Only Marshall's fifth regular-season home game on a Tuesday.",
+  "sources": [
+   {
+    "title": "Dean's Game Day Brief (PDF), checked Oct 17, 2026"
+   }
+  ]
+ }
+}

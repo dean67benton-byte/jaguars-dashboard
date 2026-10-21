@@ -1,0 +1,209 @@
+{
+ "sport": "football",
+ "updatedAt": "2026-10-21T01:30:00Z",
+ "source": "seed",
+ "team": {
+  "id": "6",
+  "name": "South Alabama Jaguars",
+  "short": "South Alabama",
+  "abbr": "USA",
+  "record": "4-2",
+  "confRecord": "2-0"
+ },
+ "events": [
+  {
+   "id": "seed-1",
+   "date": "2026-09-05T17:00:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "Southeastern Louisiana",
+    "short": "Southeastern Louisiana",
+    "abbr": "SELA"
+   },
+   "home": true,
+   "conference": false,
+   "status": "post",
+   "usScore": 39,
+   "oppScore": 14,
+   "result": "W"
+  },
+  {
+   "id": "seed-2",
+   "date": "2026-09-12T17:00:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "Tulane",
+    "short": "Tulane",
+    "abbr": "TULN"
+   },
+   "home": false,
+   "conference": false,
+   "status": "post",
+   "usScore": 24,
+   "oppScore": 28,
+   "result": "L"
+  },
+  {
+   "id": "seed-3",
+   "date": "2026-09-19T17:00:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "Ohio",
+    "short": "Ohio",
+    "abbr": "OHIO"
+   },
+   "home": true,
+   "conference": false,
+   "status": "post",
+   "usScore": 41,
+   "oppScore": 36,
+   "result": "W"
+  },
+  {
+   "id": "seed-4",
+   "date": "2026-09-26T17:00:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "Kentucky",
+    "short": "Kentucky",
+    "abbr": "UK"
+   },
+   "home": false,
+   "conference": false,
+   "status": "post",
+   "usScore": 21,
+   "oppScore": 45,
+   "result": "L"
+  },
+  {
+   "id": "seed-5",
+   "date": "2026-10-03T17:00:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "UL Monroe",
+    "short": "UL Monroe",
+    "abbr": "ULM"
+   },
+   "home": true,
+   "conference": true,
+   "status": "post",
+   "usScore": 52,
+   "oppScore": 35,
+   "result": "W"
+  },
+  {
+   "id": "seed-6",
+   "date": "2026-10-08T23:30:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "Arkansas State",
+    "short": "Arkansas State",
+    "abbr": "ARST"
+   },
+   "home": false,
+   "conference": true,
+   "status": "post",
+   "usScore": 56,
+   "oppScore": 49,
+   "result": "W"
+  },
+  {
+   "id": "seed-7",
+   "date": "2026-10-20T23:30:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "",
+    "name": "Marshall",
+    "short": "Marshall",
+    "abbr": "MRSH",
+    "record": "3-3"
+   },
+   "home": false,
+   "conference": true,
+   "status": "pre",
+   "tv": "ESPN2",
+   "venue": "Joan C. Edwards Stadium",
+   "city": "Huntington, WV"
+  },
+  {
+   "id": "seed-8",
+   "date": "2026-10-31T17:00:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "Louisiana Tech",
+    "short": "Louisiana Tech",
+    "abbr": "LT"
+   },
+   "home": true,
+   "conference": false,
+   "status": "pre"
+  },
+  {
+   "id": "seed-9",
+   "date": "2026-11-07T17:00:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "Louisiana",
+    "short": "Louisiana",
+    "abbr": "UL"
+   },
+   "home": false,
+   "conference": true,
+   "status": "pre"
+  },
+  {
+   "id": "seed-10",
+   "date": "2026-11-14T17:00:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "Troy",
+    "short": "Troy",
+    "abbr": "TROY"
+   },
+   "home": true,
+   "conference": true,
+   "status": "pre"
+  },
+  {
+   "id": "seed-11",
+   "date": "2026-11-21T17:00:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "",
+    "name": "Southern Miss",
+    "short": "Southern Miss",
+    "abbr": "USM"
+   },
+   "home": false,
+   "conference": true,
+   "status": "pre"
+  }
+ ],
+ "roster": [],
+ "stats": [],
+ "leaders": [],
+ "standings": [],
+ "news": [
+  {
+   "title": "South Alabama announces 2026 football schedule",
+   "url": "https://usajaguars.com/news/2026/3/13/south-alabama-announces-2026-football-schedule.aspx",
+   "date": "2026-03-13T15:00:00Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "South Alabama announces radio partnership with Cumulus Media",
+   "url": "https://usajaguars.com/news/2026/7/10/general-south-alabama-announces-radio-partnership-with-cumulus-media.aspx",
+   "date": "2026-07-10T15:00:00Z",
+   "source": "usajaguars.com"
+  }
+ ]
+}
