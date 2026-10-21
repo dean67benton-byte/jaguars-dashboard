@@ -19,11 +19,13 @@ const SPORTS = {
   football: {
     path: 'football/college-football',
     rss: ['https://usajaguars.com/rss.aspx?path=football'],
+    slug: /\/\d{4}\/\d+\/\d+\/football-/,
     season: (d) => (d.getUTCMonth() < 1 ? d.getUTCFullYear() - 1 : d.getUTCFullYear()),
   },
   mbb: {
     path: 'basketball/mens-college-basketball',
-    rss: ['https://usajaguars.com/rss.aspx?path=mbball', 'https://usajaguars.com/rss.aspx?path=mens-basketball'],
+    rss: ['https://usajaguars.com/rss.aspx?path=mbball'],
+    slug: /\/\d{4}\/\d+\/\d+\/mens-basketball-/,
     season: (d) => (d.getUTCMonth() >= 6 ? d.getUTCFullYear() + 1 : d.getUTCFullYear()),
   },
 };
@@ -80,7 +82,7 @@ function normalizeEvent(ev) {
   return {
     id: String(ev.id),
     date: ev.date,
-    timeTbd: Boolean(comp.timeValid === false || ev.timeValid === false),
+    timeTbd: Boolean(comp.timeValid === false || ev.timeValid === false || /^TBD$/i.test(comp.status?.type?.shortDetail ?? '')),
     opponent: opp,
     home: us.homeAway === 'home',
     neutral: Boolean(comp.neutralSite),
@@ -142,10 +144,17 @@ function normalizeLeaders(teamJson) {
 // groups that contain South Alabama.
 function normalizeStandings(json) {
   const out = [];
+  const hasUs = (n) => n.standings?.entries?.some((e) => String(e.team?.id) === TEAM_ID) || (n.children ?? []).some(hasUs);
   const walk = (node, parentName) => {
+    // Football splits the Sun Belt into East and West: keep both divisions.
+    const kids = node.children ?? [];
+    if (kids.length && kids.length <= 3 && kids.every((k) => k.standings) && kids.some(hasUs) && !node.standings) {
+      kids.forEach((k) => walk({ ...k, _all: true }, ''));
+      return;
+    }
     const name = [parentName, node.name ?? node.abbreviation].filter(Boolean).join(' · ');
     const entries = node.standings?.entries;
-    if (entries?.some((e) => String(e.team?.id) === TEAM_ID)) {
+    if (entries && (node._all || entries.some((e) => String(e.team?.id) === TEAM_ID))) {
       const stat = (e, ...names) => {
         const s = (e.stats ?? []).find((x) => names.includes(x.name) || names.includes(x.type));
         return s ? pick(s.displayValue, s.summary, String(s.value ?? '')) : '';
@@ -238,9 +247,11 @@ async function updateSport(sport, now) {
 
   const base = `${SITE}/${cfg.path}`;
   const season = cfg.season(new Date(now));
-  const [teamJson, schedJson, newsJson] = await Promise.all([
+  // seasontype 2 = regular season, 3 = postseason (bowls, conference tournament).
+  const [teamJson, schedJson, postJson, newsJson] = await Promise.all([
     tryJson(`${base}/teams/${TEAM_ID}`),
-    tryJson(`${base}/teams/${TEAM_ID}/schedule?season=${season}`),
+    tryJson(`${base}/teams/${TEAM_ID}/schedule?season=${season}&seasontype=2`),
+    tryJson(`${base}/teams/${TEAM_ID}/schedule?season=${season}&seasontype=3`),
     tryJson(`${base}/news?team=${TEAM_ID}&limit=15`),
   ]);
   if (!teamJson && !schedJson) {
@@ -258,10 +269,14 @@ async function updateSport(sport, now) {
     standingSummary: t.standingSummary,
   };
 
-  const events = (schedJson?.events ?? prev?.events ?? []).map((e) => (e.competitions ? normalizeEvent(e) : e));
+  const raw = schedJson ? [...(schedJson.events ?? []), ...(postJson?.events ?? [])] : prev?.events ?? [];
+  const events = raw
+    .map((e) => (e.competitions ? normalizeEvent(e) : e))
+    .filter((e, i, all) => all.findIndex((x) => x.id === e.id) === i);
   events.sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
 
-  const rss = (await Promise.all(cfg.rss.map(fetchRss))).flat();
+  // The athletics site's feed mixes sports; keep this sport's stories only.
+  const rss = (await Promise.all(cfg.rss.map(fetchRss))).flat().filter((n) => cfg.slug.test(n.url));
   const news = [...rss, ...normalizeEspnNews(newsJson)]
     .filter((n, i, all) => all.findIndex((m) => m.title === n.title) === i)
     .sort((a, b) => Date.parse(b.date ?? 0) - Date.parse(a.date ?? 0))
@@ -279,6 +294,10 @@ async function updateSport(sport, now) {
     if (standJson) standings = normalizeStandings(standJson);
   }
   leaders = normalizeLeaders(teamJson).length ? normalizeLeaders(teamJson) : leaders;
+
+  // Mark Sun Belt games: the opponent appears in our standings groups.
+  const confIds = new Set(standings.flatMap((g) => g.rows.map((r) => r.teamId)));
+  events.forEach((e) => (e.conference = e.conference || confIds.has(e.opponent.id)));
 
   const next = events.find((e) => e.status !== 'post');
   if (next && (daily || nextOpponent?.team?.id !== next.opponent.id) && next.opponent.id) {

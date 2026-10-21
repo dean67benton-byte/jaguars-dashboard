@@ -1,209 +1,3237 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-21T01:30:00Z",
- "source": "seed",
+ "updatedAt": "2026-10-21T01:42:51.132Z",
+ "source": "espn",
  "team": {
   "id": "6",
   "name": "South Alabama Jaguars",
   "short": "South Alabama",
   "abbr": "USA",
+  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
   "record": "4-2",
-  "confRecord": "2-0"
+  "standingSummary": "2nd in Sun Belt"
  },
  "events": [
   {
-   "id": "seed-1",
-   "date": "2026-09-05T17:00:00Z",
-   "timeTbd": true,
+   "id": "401868316",
+   "date": "2026-09-05T23:00Z",
+   "timeTbd": false,
    "opponent": {
-    "id": "",
-    "name": "Southeastern Louisiana",
-    "short": "Southeastern Louisiana",
-    "abbr": "SELA"
+    "id": "2545",
+    "name": "SE Louisiana Lions",
+    "short": "SE Louisiana",
+    "abbr": "SELA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
+    "record": "0-2"
    },
    "home": true,
+   "neutral": false,
    "conference": false,
+   "venue": "Hancock Whitney Stadium",
+   "city": "Mobile, AL",
+   "tv": "ESPN+",
    "status": "post",
+   "statusDetail": "Final",
    "usScore": 39,
    "oppScore": 14,
    "result": "W"
   },
   {
-   "id": "seed-2",
-   "date": "2026-09-12T17:00:00Z",
-   "timeTbd": true,
+   "id": "401864575",
+   "date": "2026-09-12T23:00Z",
+   "timeTbd": false,
    "opponent": {
-    "id": "",
-    "name": "Tulane",
+    "id": "2655",
+    "name": "Tulane Green Wave",
     "short": "Tulane",
-    "abbr": "TULN"
+    "abbr": "TULN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+    "record": "1-1"
    },
    "home": false,
+   "neutral": false,
    "conference": false,
+   "venue": "Yulman Stadium",
+   "city": "New Orleans, LA",
+   "tv": "ESPN+",
    "status": "post",
+   "statusDetail": "Final",
    "usScore": 24,
    "oppScore": 28,
    "result": "L"
   },
   {
-   "id": "seed-3",
-   "date": "2026-09-19T17:00:00Z",
-   "timeTbd": true,
+   "id": "401866423",
+   "date": "2026-09-19T23:00Z",
+   "timeTbd": false,
    "opponent": {
-    "id": "",
-    "name": "Ohio",
+    "id": "195",
+    "name": "Ohio Bobcats",
     "short": "Ohio",
-    "abbr": "OHIO"
+    "abbr": "OHIO",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+    "record": "1-2"
    },
    "home": true,
+   "neutral": false,
    "conference": false,
+   "venue": "Hancock Whitney Stadium",
+   "city": "Mobile, AL",
+   "tv": "ESPN+",
    "status": "post",
+   "statusDetail": "Final",
    "usScore": 41,
    "oppScore": 36,
    "result": "W"
   },
   {
-   "id": "seed-4",
-   "date": "2026-09-26T17:00:00Z",
-   "timeTbd": true,
+   "id": "401864576",
+   "date": "2026-09-26T16:45Z",
+   "timeTbd": false,
    "opponent": {
-    "id": "",
-    "name": "Kentucky",
+    "id": "96",
+    "name": "Kentucky Wildcats",
     "short": "Kentucky",
-    "abbr": "UK"
+    "abbr": "UK",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+    "record": "3-1"
    },
    "home": false,
+   "neutral": false,
    "conference": false,
+   "venue": "Kroger Field",
+   "city": "Lexington, KY",
+   "tv": "SEC Network",
    "status": "post",
+   "statusDetail": "Final",
    "usScore": 21,
    "oppScore": 45,
    "result": "L"
   },
   {
-   "id": "seed-5",
-   "date": "2026-10-03T17:00:00Z",
-   "timeTbd": true,
+   "id": "401871089",
+   "date": "2026-10-03T23:00Z",
+   "timeTbd": false,
    "opponent": {
-    "id": "",
-    "name": "UL Monroe",
+    "id": "2433",
+    "name": "UL Monroe Warhawks",
     "short": "UL Monroe",
-    "abbr": "ULM"
+    "abbr": "ULM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+    "record": "0-5"
    },
    "home": true,
+   "neutral": false,
    "conference": true,
+   "venue": "Hancock Whitney Stadium",
+   "city": "Mobile, AL",
+   "tv": "ESPN+",
    "status": "post",
+   "statusDetail": "Final",
    "usScore": 52,
    "oppScore": 35,
    "result": "W"
   },
   {
-   "id": "seed-6",
-   "date": "2026-10-08T23:30:00Z",
-   "timeTbd": true,
+   "id": "401869933",
+   "date": "2026-10-08T23:30Z",
+   "timeTbd": false,
    "opponent": {
-    "id": "",
-    "name": "Arkansas State",
-    "short": "Arkansas State",
-    "abbr": "ARST"
+    "id": "2032",
+    "name": "Arkansas State Red Wolves",
+    "short": "Arkansas St",
+    "abbr": "ARST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+    "record": "2-4"
    },
    "home": false,
+   "neutral": false,
    "conference": true,
+   "venue": "Centennial Bank Stadium",
+   "city": "Jonesboro, AR",
+   "tv": "ESPN2",
    "status": "post",
+   "statusDetail": "Final",
    "usScore": 56,
    "oppScore": 49,
    "result": "W"
   },
   {
-   "id": "seed-7",
-   "date": "2026-10-20T23:30:00Z",
+   "id": "401871092",
+   "date": "2026-10-20T23:30Z",
    "timeTbd": false,
    "opponent": {
-    "id": "",
-    "name": "Marshall",
+    "id": "276",
+    "name": "Marshall Thundering Herd",
     "short": "Marshall",
     "abbr": "MRSH",
-    "record": "3-3"
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png"
    },
    "home": false,
+   "neutral": false,
    "conference": true,
-   "status": "pre",
-   "tv": "ESPN2",
    "venue": "Joan C. Edwards Stadium",
-   "city": "Huntington, WV"
+   "city": "Huntington, WV",
+   "tv": "ESPN2",
+   "status": "in",
+   "statusDetail": "9:34 - 3rd"
   },
   {
-   "id": "seed-8",
-   "date": "2026-10-31T17:00:00Z",
-   "timeTbd": true,
+   "id": "401871097",
+   "date": "2026-10-31T19:00Z",
+   "timeTbd": false,
    "opponent": {
-    "id": "",
-    "name": "Louisiana Tech",
+    "id": "2348",
+    "name": "Louisiana Tech Bulldogs",
     "short": "Louisiana Tech",
-    "abbr": "LT"
+    "abbr": "LT",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png"
    },
    "home": true,
-   "conference": false,
-   "status": "pre"
+   "neutral": false,
+   "conference": true,
+   "venue": "Hancock Whitney Stadium",
+   "city": "Mobile, AL",
+   "tv": "ESPN+",
+   "status": "pre",
+   "statusDetail": "10/31 - 3:00 PM EDT"
   },
   {
-   "id": "seed-9",
-   "date": "2026-11-07T17:00:00Z",
+   "id": "401869968",
+   "date": "2026-11-07T05:00Z",
    "timeTbd": true,
    "opponent": {
-    "id": "",
-    "name": "Louisiana",
+    "id": "309",
+    "name": "Louisiana Ragin' Cajuns",
     "short": "Louisiana",
-    "abbr": "UL"
+    "abbr": "UL",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png"
    },
    "home": false,
+   "neutral": false,
    "conference": true,
-   "status": "pre"
+   "venue": "Our Lady of Lourdes Stadium",
+   "city": "Lafayette, LA",
+   "status": "pre",
+   "statusDetail": "TBD"
   },
   {
-   "id": "seed-10",
-   "date": "2026-11-14T17:00:00Z",
+   "id": "401871100",
+   "date": "2026-11-14T05:00Z",
    "timeTbd": true,
    "opponent": {
-    "id": "",
-    "name": "Troy",
+    "id": "2653",
+    "name": "Troy Trojans",
     "short": "Troy",
-    "abbr": "TROY"
+    "abbr": "TROY",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png"
    },
    "home": true,
+   "neutral": false,
    "conference": true,
-   "status": "pre"
+   "venue": "Hancock Whitney Stadium",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "TBD"
   },
   {
-   "id": "seed-11",
-   "date": "2026-11-21T17:00:00Z",
+   "id": "401871101",
+   "date": "2026-11-21T05:00Z",
    "timeTbd": true,
    "opponent": {
-    "id": "",
-    "name": "Southern Miss",
+    "id": "2572",
+    "name": "Southern Miss Golden Eagles",
     "short": "Southern Miss",
-    "abbr": "USM"
+    "abbr": "USM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png"
    },
    "home": false,
+   "neutral": false,
    "conference": true,
-   "status": "pre"
+   "venue": "M. M. Roberts Stadium",
+   "city": "Hattiesburg, MS",
+   "status": "pre",
+   "statusDetail": "TBD"
+  },
+  {
+   "id": "401869930",
+   "date": "2026-11-27T20:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2026",
+    "name": "App State Mountaineers",
+    "short": "App State",
+    "abbr": "APP",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Hancock Whitney Stadium",
+   "city": "Mobile, AL",
+   "tv": "ESPN+",
+   "status": "pre",
+   "statusDetail": "11/27 - 3:00 PM EST"
   }
  ],
- "roster": [],
- "stats": [],
+ "roster": [
+  {
+   "number": "56",
+   "name": "Naol Andarge",
+   "pos": "OL",
+   "cls": "JR",
+   "ht": "6' 5\"",
+   "wt": "300 lbs",
+   "hometown": "Fairfax, VA"
+  },
+  {
+   "number": "85",
+   "name": "Brian Barnes",
+   "pos": "WR",
+   "cls": "JR",
+   "ht": "6' 1\"",
+   "wt": "215 lbs",
+   "hometown": "Pascagoula, MS"
+  },
+  {
+   "number": "77",
+   "name": "Kearius Bivens",
+   "pos": "OL",
+   "cls": "SO",
+   "ht": "6' 5\"",
+   "wt": "295 lbs",
+   "hometown": "Chatom, AL"
+  },
+  {
+   "number": "71",
+   "name": "Jaylen Booker",
+   "pos": "OL",
+   "cls": "JR",
+   "ht": "6' 5\"",
+   "wt": "305 lbs",
+   "hometown": "Jacksonville, FL"
+  },
+  {
+   "number": "51",
+   "name": "Diego Camboia",
+   "pos": "OL",
+   "cls": "SR",
+   "ht": "6' 5\"",
+   "wt": "265 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "81",
+   "name": "Miguel Camboia",
+   "pos": "WR",
+   "cls": "SR",
+   "ht": "5' 9\"",
+   "wt": "175 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "27",
+   "name": "Tylen Campbell",
+   "pos": "WR",
+   "cls": "SR",
+   "ht": "5' 10\"",
+   "wt": "185 lbs",
+   "hometown": "Jackson, AL"
+  },
+  {
+   "number": "88",
+   "name": "Owen Carlson",
+   "pos": "TE",
+   "cls": "SO",
+   "ht": "6' 2\"",
+   "wt": "230 lbs",
+   "hometown": "Chelsea, AL"
+  },
+  {
+   "number": "70",
+   "name": "Elliott Chaney",
+   "pos": "OL",
+   "cls": "FR",
+   "ht": "6' 5\"",
+   "wt": "290 lbs",
+   "hometown": "Oxford, MS"
+  },
+  {
+   "number": "20",
+   "name": "Lavonte Cole",
+   "pos": "RB",
+   "cls": "FR",
+   "ht": "5' 11\"",
+   "wt": "195 lbs",
+   "hometown": "Thomasville, GA"
+  },
+  {
+   "number": "26",
+   "name": "Donovan Crow",
+   "pos": "RB",
+   "cls": "FR",
+   "ht": "5' 11\"",
+   "wt": "215 lbs",
+   "hometown": "Phenix City, AL"
+  },
+  {
+   "number": "4",
+   "name": "Bishop Davenport",
+   "pos": "QB",
+   "cls": "SR",
+   "ht": "6' 2\"",
+   "wt": "210 lbs",
+   "hometown": "Spring, TX"
+  },
+  {
+   "number": "21",
+   "name": "Trae'von Dunbar",
+   "pos": "RB",
+   "cls": "JR",
+   "ht": "5' 10\"",
+   "wt": "205 lbs",
+   "hometown": "Graniteville, SC"
+  },
+  {
+   "number": "1",
+   "name": "Anthony Eager",
+   "pos": "WR",
+   "cls": "SR",
+   "ht": "6' 1\"",
+   "wt": "185 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "84",
+   "name": "Nate Forystek",
+   "pos": "TE",
+   "cls": "SR",
+   "ht": "6' 5\"",
+   "wt": "260 lbs",
+   "hometown": "Green Bay, WI"
+  },
+  {
+   "number": "9",
+   "name": "Rod Gibbs",
+   "pos": "TE",
+   "cls": "SR",
+   "ht": "6' 4\"",
+   "wt": "250 lbs",
+   "hometown": "Atlanta, GA"
+  },
+  {
+   "number": "19",
+   "name": "Jerrian Graham",
+   "pos": "WR",
+   "cls": "JR",
+   "ht": "6' 1\"",
+   "wt": "200 lbs",
+   "hometown": "Prichard, AL"
+  },
+  {
+   "number": "62",
+   "name": "Kyle Greak",
+   "pos": "OL",
+   "cls": "FR",
+   "ht": "6' 2\"",
+   "wt": "293 lbs",
+   "hometown": "Orange Beach, AL"
+  },
+  {
+   "number": "7",
+   "name": "Jared Hollins",
+   "pos": "QB",
+   "cls": "JR",
+   "ht": "6' 4\"",
+   "wt": "210 lbs",
+   "hometown": "Semmes, AL"
+  },
+  {
+   "number": "18",
+   "name": "Jerry Horne",
+   "pos": "QB",
+   "cls": "SO",
+   "ht": "6' 0\"",
+   "wt": "200 lbs",
+   "hometown": "Denham Springs, LA"
+  },
+  {
+   "number": "72",
+   "name": "Ethan Hubbard",
+   "pos": "OL",
+   "cls": "SR",
+   "ht": "6' 6\"",
+   "wt": "295 lbs",
+   "hometown": "Hoover, AL"
+  },
+  {
+   "number": "57",
+   "name": "Shalik Hubbard",
+   "pos": "OL",
+   "cls": "SR",
+   "ht": "6' 4\"",
+   "wt": "330 lbs",
+   "hometown": "Patterson, NJ"
+  },
+  {
+   "number": "83",
+   "name": "Everett Hunter",
+   "pos": "TE",
+   "cls": "SR",
+   "ht": "6' 4\"",
+   "wt": "250 lbs",
+   "hometown": "Manteca, CA"
+  },
+  {
+   "number": "15",
+   "name": "Taylor Jacobs Jr.",
+   "pos": "QB",
+   "cls": "FR",
+   "ht": "5' 11\"",
+   "wt": "195 lbs",
+   "hometown": "Tallahassee, FL"
+  },
+  {
+   "number": "17",
+   "name": "Anthony Jeffery",
+   "pos": "RB",
+   "cls": "SO",
+   "ht": "5' 8\"",
+   "wt": "190 lbs",
+   "hometown": "Thomson, GA"
+  },
+  {
+   "number": "12",
+   "name": "Brendan Jenkins",
+   "pos": "WR",
+   "cls": "SR",
+   "ht": "6' 0\"",
+   "wt": "195 lbs",
+   "hometown": "Hoschton, GA"
+  },
+  {
+   "number": "69",
+   "name": "Kenton Jerido",
+   "pos": "OL",
+   "cls": "SR",
+   "ht": "6' 3\"",
+   "wt": "340 lbs",
+   "hometown": "Tuscaloosa, AL"
+  },
+  {
+   "number": "2",
+   "name": "Jeremiah Jones-Thomas",
+   "pos": "WR",
+   "cls": "SO",
+   "ht": "5' 11\"",
+   "wt": "180 lbs",
+   "hometown": "Crawfordville, FL"
+  },
+  {
+   "number": "24",
+   "name": "Julyon Jordan",
+   "pos": "RB",
+   "cls": "SO",
+   "ht": "5' 9\"",
+   "wt": "180 lbs",
+   "hometown": "Guntersville, AL"
+  },
+  {
+   "number": "61",
+   "name": "Julius Kidd",
+   "pos": "OL",
+   "cls": "SR",
+   "ht": "6' 2\"",
+   "wt": "260 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "67",
+   "name": "Artem Korchagin Jr.",
+   "pos": "OL",
+   "cls": "FR",
+   "ht": "6' 4\"",
+   "wt": "300 lbs",
+   "hometown": "Moscow"
+  },
+  {
+   "number": "14",
+   "name": "Maddox Lynch",
+   "pos": "TE",
+   "cls": "SO",
+   "ht": "6' 5\"",
+   "wt": "240 lbs",
+   "hometown": "Vicksburg, MS"
+  },
+  {
+   "number": "79",
+   "name": "Eric Mahan",
+   "pos": "OL",
+   "cls": "FR",
+   "ht": "6' 3\"",
+   "wt": "402 lbs",
+   "hometown": "Spanish Fort, AL"
+  },
+  {
+   "number": "10",
+   "name": "Khatori Marion",
+   "pos": "WR",
+   "cls": "FR",
+   "ht": "5' 11\"",
+   "wt": "180 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "0",
+   "name": "PJ Martin",
+   "pos": "RB",
+   "cls": "SR",
+   "ht": "5' 10\"",
+   "wt": "205 lbs",
+   "hometown": "New Orleans, LA"
+  },
+  {
+   "number": "82",
+   "name": "Julius Mathis",
+   "pos": "TE",
+   "cls": "FR",
+   "ht": "6' 4\"",
+   "wt": "230 lbs",
+   "hometown": "Lexington, MS"
+  },
+  {
+   "number": "34",
+   "name": "Cam McFarlin",
+   "pos": "TE",
+   "cls": "JR",
+   "ht": "6' 4\"",
+   "wt": "240 lbs",
+   "hometown": "Hoover, AL"
+  },
+  {
+   "number": "87",
+   "name": "Jordan Morris",
+   "pos": "TE",
+   "cls": "SR",
+   "ht": "6' 4\"",
+   "wt": "230 lbs",
+   "hometown": "Apache Junction, AZ"
+  },
+  {
+   "number": "74",
+   "name": "Aydan Newell",
+   "pos": "OL",
+   "cls": "FR",
+   "ht": "6' 3\"",
+   "wt": "315 lbs",
+   "hometown": "Brandon, MS"
+  },
+  {
+   "number": "89",
+   "name": "Brandon Nolan",
+   "pos": "WR",
+   "cls": "FR",
+   "ht": "5' 10\"",
+   "wt": "170 lbs",
+   "hometown": "Elberta, AK"
+  },
+  {
+   "number": "68",
+   "name": "Reese Osei-Wusu",
+   "pos": "OL",
+   "cls": "SR",
+   "ht": "6' 4\"",
+   "wt": "310 lbs",
+   "hometown": "Cypress, TX"
+  },
+  {
+   "number": "3",
+   "name": "Keenan Phillips",
+   "pos": "RB",
+   "cls": "JR",
+   "ht": "5' 10\"",
+   "wt": "185 lbs",
+   "hometown": "Bainbridge, GA"
+  },
+  {
+   "number": "73",
+   "name": "Jamal Scott",
+   "pos": "OL",
+   "cls": "FR",
+   "ht": "5' 11\"",
+   "wt": "230 lbs",
+   "hometown": "Saint Francisville, LA"
+  },
+  {
+   "number": "16",
+   "name": "Aaden Shamburger",
+   "pos": "QB",
+   "cls": "FR",
+   "ht": "6' 2\"",
+   "wt": "180 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "64",
+   "name": "Jamal Siler",
+   "pos": "OL",
+   "cls": "JR",
+   "ht": "6' 4\"",
+   "wt": "310 lbs",
+   "hometown": "Elba, AL"
+  },
+  {
+   "number": "89",
+   "name": "Nick Simmons",
+   "pos": "WR",
+   "cls": "FR",
+   "ht": "5' 9\"",
+   "wt": "169 lbs",
+   "hometown": "Gulf Breeze, FL"
+  },
+  {
+   "number": "11",
+   "name": "Trae Stevenson",
+   "pos": "WR",
+   "cls": "SO",
+   "ht": "5' 11\"",
+   "wt": "190 lbs",
+   "hometown": "Madison, MS"
+  },
+  {
+   "number": "58",
+   "name": "Cam'Ron Thompson",
+   "pos": "OL",
+   "cls": "FR",
+   "ht": "6' 3\"",
+   "wt": "330 lbs",
+   "hometown": "Savannah, GA"
+  },
+  {
+   "number": "8",
+   "name": "Noah Toster",
+   "pos": "WR",
+   "cls": "SR",
+   "ht": "6' 4\"",
+   "wt": "200 lbs",
+   "hometown": "Apex, NC"
+  },
+  {
+   "number": "26",
+   "name": "Xavious Anderson Jr.",
+   "pos": "LB",
+   "cls": "FR",
+   "ht": "6' 0\"",
+   "wt": "225 lbs",
+   "hometown": "Hogansville, GA"
+  },
+  {
+   "number": "44",
+   "name": "Donnie Arnold",
+   "pos": "LB",
+   "cls": "SO",
+   "ht": "5' 11\"",
+   "wt": "235 lbs",
+   "hometown": "Deatsville, AL"
+  },
+  {
+   "number": "14",
+   "name": "Cole Blaylock",
+   "pos": "S",
+   "cls": "SR",
+   "ht": "6' 0\"",
+   "wt": "190 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "4",
+   "name": "Kohl Bradley",
+   "pos": "S",
+   "cls": "SO",
+   "ht": "6' 0\"",
+   "wt": "190 lbs",
+   "hometown": "Lucedale, MS"
+  },
+  {
+   "number": "49",
+   "name": "Tre Brown",
+   "pos": "DL",
+   "cls": "SR",
+   "ht": "6' 3\"",
+   "wt": "295 lbs",
+   "hometown": "Natchitoches, LA"
+  },
+  {
+   "number": "31",
+   "name": "Dashaun Caffee",
+   "pos": "S",
+   "cls": "JR",
+   "ht": "5' 7\"",
+   "wt": "165 lbs",
+   "hometown": "Prattville, AL"
+  },
+  {
+   "number": "21",
+   "name": "Deon Callins",
+   "pos": "S",
+   "cls": "FR",
+   "ht": "5' 10\"",
+   "wt": "190 lbs",
+   "hometown": "Birmingham, AL"
+  },
+  {
+   "number": "41",
+   "name": "Tyler Carter",
+   "pos": "DL",
+   "cls": "JR",
+   "ht": "6' 4\"",
+   "wt": "290 lbs",
+   "hometown": "Vicksburg, MS"
+  },
+  {
+   "number": "38",
+   "name": "Braiden Cheshire",
+   "pos": "S",
+   "cls": "FR",
+   "ht": "5' 10\"",
+   "wt": "175 lbs",
+   "hometown": "Pace, FL"
+  },
+  {
+   "number": "42",
+   "name": "Dylan Chiedo",
+   "pos": "LB",
+   "cls": "SR",
+   "ht": "6' 0\"",
+   "wt": "230 lbs",
+   "hometown": "Jacksonville, FL"
+  },
+  {
+   "number": "19",
+   "name": "TJ Collier",
+   "pos": "CB",
+   "cls": "FR",
+   "ht": "6' 0\"",
+   "wt": "180 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "24",
+   "name": "Damyrion Darby",
+   "pos": "CB",
+   "cls": "JR",
+   "ht": "5' 11\"",
+   "wt": "180 lbs",
+   "hometown": "Bassfield, MS"
+  },
+  {
+   "number": "33",
+   "name": "Tyray Darensburg",
+   "pos": "LB",
+   "cls": "FR",
+   "ht": "5' 11\"",
+   "wt": "225 lbs",
+   "hometown": "Chalmette, LA"
+  },
+  {
+   "number": "6",
+   "name": "Kaydon Degraffenreid",
+   "pos": "LB",
+   "cls": "SR",
+   "ht": "6' 0\"",
+   "wt": "225 lbs",
+   "hometown": "Jacksonville, FL"
+  },
+  {
+   "number": "22",
+   "name": "Caleb Dozier",
+   "pos": "LB",
+   "cls": "JR",
+   "ht": "6' 2\"",
+   "wt": "220 lbs",
+   "hometown": "Dothan, AL"
+  },
+  {
+   "number": "10",
+   "name": "William Felton IV",
+   "pos": "LB",
+   "cls": "JR",
+   "ht": "6' 1\"",
+   "wt": "225 lbs",
+   "hometown": "Pelham, AL"
+  },
+  {
+   "number": "36",
+   "name": "Teryn Green",
+   "pos": "S",
+   "cls": "FR",
+   "ht": "6' 0\"",
+   "wt": "215 lbs",
+   "hometown": "Vicksburg, MS"
+  },
+  {
+   "number": "23",
+   "name": "Cube Gurley",
+   "pos": "CB",
+   "cls": "JR",
+   "ht": "6' 1\"",
+   "wt": "195 lbs",
+   "hometown": "New Orleans, LA"
+  },
+  {
+   "number": "27",
+   "name": "Zechariah Hall",
+   "pos": "LB",
+   "cls": "FR",
+   "ht": "6' 1\"",
+   "wt": "230 lbs",
+   "hometown": "Sylvester, GA"
+  },
+  {
+   "number": "30",
+   "name": "Perry Hand",
+   "pos": "LB",
+   "cls": "FR",
+   "ht": "5' 11\"",
+   "wt": "200 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "2",
+   "name": "Jayvon Henderson",
+   "pos": "S",
+   "cls": "SR",
+   "ht": "5' 10\"",
+   "wt": "190 lbs",
+   "hometown": "Auburn, GA"
+  },
+  {
+   "number": "25",
+   "name": "Tre'Mon Henry",
+   "pos": "LB",
+   "cls": "SR",
+   "ht": "6' 1\"",
+   "wt": "235 lbs",
+   "hometown": "Columbus, GA"
+  },
+  {
+   "number": "94",
+   "name": "Andrew Hines",
+   "pos": "DL",
+   "cls": "SO",
+   "ht": "6' 3\"",
+   "wt": "285 lbs",
+   "hometown": "Kissimmee, FL"
+  },
+  {
+   "number": "39",
+   "name": "Rodney Hunter",
+   "pos": "DL",
+   "cls": "JR",
+   "ht": "6' 2\"",
+   "wt": "305 lbs",
+   "hometown": "Memphis, TN"
+  },
+  {
+   "number": "80",
+   "name": "Brayden Hurst",
+   "pos": "DL",
+   "cls": "FR",
+   "ht": "6' 3\"",
+   "wt": "310 lbs",
+   "hometown": "Ponchatoula, LA"
+  },
+  {
+   "number": "29",
+   "name": "Kaleb Jackson",
+   "pos": "S",
+   "cls": "SR",
+   "ht": "5' 8\"",
+   "wt": "180 lbs",
+   "hometown": "Bessemer, AL"
+  },
+  {
+   "number": "56",
+   "name": "Stephen Johnson",
+   "pos": "DL",
+   "cls": "SR",
+   "ht": "6' 3\"",
+   "wt": "310 lbs",
+   "hometown": "Fayetteville, GA"
+  },
+  {
+   "number": "20",
+   "name": "Tirrell Johnson",
+   "pos": "LB",
+   "cls": "SR",
+   "ht": "6' 2\"",
+   "wt": "230 lbs",
+   "hometown": "Wynne, AR"
+  },
+  {
+   "number": "28",
+   "name": "Tomareo Johnson Jr.",
+   "pos": "S",
+   "cls": "FR",
+   "ht": "6' 2\"",
+   "wt": "200 lbs",
+   "hometown": "Pascagoula, MS"
+  },
+  {
+   "number": "37",
+   "name": "Evan Jones",
+   "pos": "CB",
+   "cls": "FR",
+   "ht": "6' 0\"",
+   "wt": "175 lbs",
+   "hometown": "Arab, AL"
+  },
+  {
+   "number": "46",
+   "name": "Terry Kirksey Jr.",
+   "pos": "LB",
+   "cls": "SR",
+   "ht": "6' 2\"",
+   "wt": "245 lbs",
+   "hometown": "Theodore, AL"
+  },
+  {
+   "number": "16",
+   "name": "Seidrion Langston",
+   "pos": "LB",
+   "cls": "SR",
+   "ht": "6' 1\"",
+   "wt": "220 lbs",
+   "hometown": "Lanett, AL"
+  },
+  {
+   "number": "35",
+   "name": "Matthew Laseter",
+   "pos": "S",
+   "cls": "SO",
+   "ht": "6' 0\"",
+   "wt": "180 lbs",
+   "hometown": "Flowood, MS"
+  },
+  {
+   "number": "53",
+   "name": "Latrelle Lett",
+   "pos": "LB",
+   "cls": "SO",
+   "ht": "5' 8\"",
+   "wt": "235 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "18",
+   "name": "Masey Lewis",
+   "pos": "DL",
+   "cls": "SR",
+   "ht": "6' 3\"",
+   "wt": "275 lbs",
+   "hometown": "Breaux Bridge, LA"
+  },
+  {
+   "number": "1",
+   "name": "D.J. Moore",
+   "pos": "S",
+   "cls": "SR",
+   "ht": "6' 0\"",
+   "wt": "200 lbs",
+   "hometown": "Loganville, GA"
+  },
+  {
+   "number": "45",
+   "name": "Demetress Mosley",
+   "pos": "LB",
+   "cls": "FR",
+   "ht": "6' 2\"",
+   "wt": "195 lbs",
+   "hometown": "Pensacola, FL"
+  },
+  {
+   "number": "12",
+   "name": "Jaylen Moson",
+   "pos": "CB",
+   "cls": "SR",
+   "ht": "5' 11\"",
+   "wt": "175 lbs",
+   "hometown": "Kennesaw, GA"
+  },
+  {
+   "number": "43",
+   "name": "Jacob Porco",
+   "pos": "LB",
+   "cls": "JR",
+   "ht": "6' 1\"",
+   "wt": "210 lbs",
+   "hometown": "Birmingham, AL"
+  },
+  {
+   "number": "13",
+   "name": "Kam Robinson",
+   "pos": "S",
+   "cls": "SR",
+   "ht": "5' 11\"",
+   "wt": "185 lbs",
+   "hometown": "Winona, MS"
+  },
+  {
+   "number": "17",
+   "name": "Christian Ross",
+   "pos": "LB",
+   "cls": "SR",
+   "ht": "6' 2\"",
+   "wt": "235 lbs",
+   "hometown": "Teaneck, NJ"
+  },
+  {
+   "number": "11",
+   "name": "Parker Shattuck",
+   "pos": "LB",
+   "cls": "JR",
+   "ht": "6' 1\"",
+   "wt": "220 lbs",
+   "hometown": "LaGrange, GA"
+  },
+  {
+   "number": "90",
+   "name": "E'Mauri Smiley",
+   "pos": "DL",
+   "cls": "SO",
+   "ht": "6' 1\"",
+   "wt": "265 lbs",
+   "hometown": "Opelika, AL"
+  },
+  {
+   "number": "34",
+   "name": "Bradley Thomas",
+   "pos": "CB",
+   "cls": "SR",
+   "ht": "5' 11\"",
+   "wt": "175 lbs",
+   "hometown": "Montgomery, AL"
+  },
+  {
+   "number": "98",
+   "name": "Christopher Aikman",
+   "pos": "PK",
+   "cls": "FR",
+   "ht": "5' 11\"",
+   "wt": "150 lbs",
+   "hometown": "Schertz, TX"
+  },
+  {
+   "number": "38",
+   "name": "Peyton Argent",
+   "pos": "PK",
+   "cls": "JR",
+   "ht": "6' 0\"",
+   "wt": "195 lbs",
+   "hometown": "Hoover, AL"
+  },
+  {
+   "number": "37",
+   "name": "Dylan Freebury",
+   "pos": "PK",
+   "cls": "SO",
+   "ht": "5' 10\"",
+   "wt": "180 lbs",
+   "hometown": "Rancho Palos Verdes, CA"
+  },
+  {
+   "number": "35",
+   "name": "Davis Little",
+   "pos": "PK",
+   "cls": "JR",
+   "ht": "6' 0\"",
+   "wt": "175 lbs",
+   "hometown": "Suwanee, GA"
+  },
+  {
+   "number": "40",
+   "name": "Aleksi Pulkkinen",
+   "pos": "P",
+   "cls": "SR",
+   "ht": "6' 4\"",
+   "wt": "215 lbs",
+   "hometown": "Helsinki"
+  },
+  {
+   "number": "47",
+   "name": "Grant Rountree",
+   "pos": "LS",
+   "cls": "JR",
+   "ht": "6' 1\"",
+   "wt": "215 lbs",
+   "hometown": "Nashville, TN"
+  },
+  {
+   "number": "44",
+   "name": "Baxter Turner",
+   "pos": "LS",
+   "cls": "SR",
+   "ht": "5' 11\"",
+   "wt": "200 lbs",
+   "hometown": "Tibbie, AL"
+  }
+ ],
+ "stats": [
+  {
+   "name": "Passing",
+   "stats": [
+    {
+     "name": "completionPct",
+     "label": "Completion Percentage",
+     "value": "63.6"
+    },
+    {
+     "name": "completions",
+     "label": "Completions",
+     "value": "96"
+    },
+    {
+     "name": "interceptionPct",
+     "label": "Interception Percentage",
+     "value": "1.30"
+    },
+    {
+     "name": "interceptions",
+     "label": "Interceptions",
+     "value": "2"
+    },
+    {
+     "name": "longPassing",
+     "label": "Longest Pass",
+     "value": "72"
+    },
+    {
+     "name": "netPassingYards",
+     "label": "Net Passing Yards",
+     "value": "1,305"
+    },
+    {
+     "name": "netPassingYardsPerGame",
+     "label": "Net Passing Yards Per Game",
+     "value": "217.5"
+    },
+    {
+     "name": "passingAttempts",
+     "label": "Passing Attempts",
+     "value": "151"
+    },
+    {
+     "name": "passingTouchdownPct",
+     "label": "Passing Touchdown %",
+     "value": "6.60"
+    },
+    {
+     "name": "passingTouchdowns",
+     "label": "Passing Touchdowns",
+     "value": "10"
+    },
+    {
+     "name": "QBRating",
+     "label": "Passer Rating",
+     "value": "155.1"
+    },
+    {
+     "name": "sacks",
+     "label": "Total Sacks",
+     "value": "7"
+    },
+    {
+     "name": "sackYardsLost",
+     "label": "Sack Yards Lost",
+     "value": "36"
+    },
+    {
+     "name": "yardsPerPassAttempt",
+     "label": "Yards Per Pass Attempt",
+     "value": "8.6"
+    },
+    {
+     "name": "passingYards",
+     "label": "Passing Yards",
+     "value": "1,305"
+    },
+    {
+     "name": "passingFumblesLost",
+     "label": "Passing Fumbles Lost",
+     "value": "0"
+    },
+    {
+     "name": "teamGamesPlayed",
+     "label": "Team Games Played",
+     "value": "6"
+    },
+    {
+     "name": "yardsPerGame",
+     "label": "Yards Per Game",
+     "value": "437.8"
+    },
+    {
+     "name": "totalPointsPerGame",
+     "label": "Total Points Per Game",
+     "value": "38.8"
+    },
+    {
+     "name": "totalPoints",
+     "label": "Total Points",
+     "value": "233"
+    },
+    {
+     "name": "totalTouchdowns",
+     "label": "Total Touchdowns",
+     "value": "30"
+    },
+    {
+     "name": "passingYardsPerGame",
+     "label": "Passing Yards Per Game",
+     "value": "217.5"
+    },
+    {
+     "name": "completionAttempts",
+     "label": "Comp-Att",
+     "value": "96-151"
+    },
+    {
+     "name": "sacksYardsLost",
+     "label": "Sacks-Yards Lost",
+     "value": "7-36"
+    }
+   ]
+  },
+  {
+   "name": "Rushing",
+   "stats": [
+    {
+     "name": "rushingAttempts",
+     "label": "Rushing Attempts",
+     "value": "276"
+    },
+    {
+     "name": "rushingYards",
+     "label": "Rushing Yards",
+     "value": "1,322"
+    },
+    {
+     "name": "yardsPerRushAttempt",
+     "label": "Yards Per Rush Attempt",
+     "value": "4.8"
+    },
+    {
+     "name": "longRushing",
+     "label": "Long Rushing",
+     "value": "42"
+    },
+    {
+     "name": "rushingBigPlays",
+     "label": "20+ Yard Rushing Plays",
+     "value": "0"
+    },
+    {
+     "name": "rushingTouchdowns",
+     "label": "Rushing Touchdowns",
+     "value": "18"
+    },
+    {
+     "name": "rushingYardsPerGame",
+     "label": "Rushing Yards Per Game",
+     "value": "220.3"
+    },
+    {
+     "name": "rushingFumbles",
+     "label": "Rushing Fumbles",
+     "value": "0"
+    },
+    {
+     "name": "rushingFumblesLost",
+     "label": "Rushing Fumbles Lost",
+     "value": "0"
+    },
+    {
+     "name": "rushingFirstDowns",
+     "label": "Rushing 1st downs",
+     "value": "69"
+    },
+    {
+     "name": "teamGamesPlayed",
+     "label": "Team Games Played",
+     "value": "6"
+    },
+    {
+     "name": "totalYards",
+     "label": "Total Yards",
+     "value": "2,627"
+    },
+    {
+     "name": "totalOffensivePlays",
+     "label": "Total Offensive Plays",
+     "value": "434"
+    },
+    {
+     "name": "totalPointsPerGame",
+     "label": "Total Points Per Game",
+     "value": "38.8"
+    },
+    {
+     "name": "totalPoints",
+     "label": "Total Points",
+     "value": "233"
+    },
+    {
+     "name": "totalTouchdowns",
+     "label": "Total Touchdowns",
+     "value": "30"
+    }
+   ]
+  },
+  {
+   "name": "Receiving",
+   "stats": [
+    {
+     "name": "receptions",
+     "label": "Receptions",
+     "value": "96"
+    },
+    {
+     "name": "receivingTargets",
+     "label": "Receiving Targets",
+     "value": "0"
+    },
+    {
+     "name": "receivingYards",
+     "label": "Receiving Yards",
+     "value": "1,305"
+    },
+    {
+     "name": "receivingYards",
+     "label": "Receiving Yards",
+     "value": "1,305"
+    },
+    {
+     "name": "receivingTouchdowns",
+     "label": "Receiving Touchdowns",
+     "value": "10"
+    },
+    {
+     "name": "longReception",
+     "label": "Long Reception",
+     "value": "72"
+    },
+    {
+     "name": "receivingBigPlays",
+     "label": "20+ Yard Receiving Plays",
+     "value": "0"
+    },
+    {
+     "name": "receivingYardsPerGame",
+     "label": "Receiving Yards Per Game",
+     "value": "217.5"
+    },
+    {
+     "name": "receivingFumbles",
+     "label": "Receiving Fumbles",
+     "value": "0"
+    },
+    {
+     "name": "receivingFumblesLost",
+     "label": "Receiving Fumbles Lost",
+     "value": "0"
+    },
+    {
+     "name": "receivingYardsAfterCatch",
+     "label": "Receiving Yards After Catch",
+     "value": "627"
+    },
+    {
+     "name": "receivingFirstDowns",
+     "label": "Receiving First Downs",
+     "value": "52"
+    },
+    {
+     "name": "teamGamesPlayed",
+     "label": "Team Games Played",
+     "value": "6"
+    },
+    {
+     "name": "yardsPerReception",
+     "label": "Yards Per Reception",
+     "value": "13.6"
+    },
+    {
+     "name": "totalPointsPerGame",
+     "label": "Total Points Per Game",
+     "value": "38.8"
+    },
+    {
+     "name": "totalPoints",
+     "label": "Total Points",
+     "value": "233"
+    },
+    {
+     "name": "totalTouchdowns",
+     "label": "Total Touchdowns",
+     "value": "30"
+    }
+   ]
+  },
+  {
+   "name": "Miscellaneous",
+   "stats": [
+    {
+     "name": "firstDowns",
+     "label": "Total 1st downs",
+     "value": "133"
+    },
+    {
+     "name": "firstDownsRushing",
+     "label": "Rushing 1st downs",
+     "value": "69"
+    },
+    {
+     "name": "firstDownsPassing",
+     "label": "Passing 1st downs",
+     "value": "52"
+    },
+    {
+     "name": "firstDownsPenalty",
+     "label": "1st downs by penalty",
+     "value": "11"
+    },
+    {
+     "name": "thirdDownConvs",
+     "label": "Third Down Conversions",
+     "value": "38"
+    },
+    {
+     "name": "thirdDownAttempts",
+     "label": "Third Down Attempts",
+     "value": "86"
+    },
+    {
+     "name": "thirdDownConvPct",
+     "label": "3rd down %",
+     "value": "44.19"
+    },
+    {
+     "name": "fourthDownConvs",
+     "label": "Fourth Down Conversions",
+     "value": "12"
+    },
+    {
+     "name": "fourthDownAttempts",
+     "label": "First Downs Attempts",
+     "value": "20"
+    },
+    {
+     "name": "fourthDownConvPct",
+     "label": "4th down %",
+     "value": "60.00"
+    },
+    {
+     "name": "totalPenalties",
+     "label": "Total Penalties",
+     "value": "39"
+    },
+    {
+     "name": "totalPenaltyYards",
+     "label": "Total Penalty Yards",
+     "value": "349"
+    },
+    {
+     "name": "possessionTimeSeconds",
+     "label": "Possession Time Seconds",
+     "value": "11880"
+    },
+    {
+     "name": "redzoneFieldGoalPct",
+     "label": "Red Zone Field Goal Percentage",
+     "value": "0.00"
+    },
+    {
+     "name": "redzoneScoringPct",
+     "label": "Red Zone Scoring Percentage",
+     "value": "0.00"
+    },
+    {
+     "name": "redzoneEfficiencyPct",
+     "label": "Red Zone Efficiency Percentage",
+     "value": "0.00"
+    },
+    {
+     "name": "redzoneTouchdownPct",
+     "label": "Red Zone Touchdown Percentage",
+     "value": "0.00"
+    },
+    {
+     "name": "totalTakeaways",
+     "label": "Total Takeaways",
+     "value": "7"
+    },
+    {
+     "name": "totalGiveaways",
+     "label": "Total Giveaways",
+     "value": "3"
+    },
+    {
+     "name": "turnOverDifferential",
+     "label": "Turnover Ratio",
+     "value": "4"
+    },
+    {
+     "name": "fumblesLost",
+     "label": "Fumbles Lost",
+     "value": "0"
+    },
+    {
+     "name": "thirdDownEff",
+     "label": "3rd down efficiency",
+     "value": "38-86"
+    },
+    {
+     "name": "fourthDownEff",
+     "label": "4th down efficiency",
+     "value": "12-20"
+    },
+    {
+     "name": "totalPenaltiesYards",
+     "label": "Total-Yards",
+     "value": "39-349"
+    }
+   ]
+  },
+  {
+   "name": "Defense",
+   "stats": [
+    {
+     "name": "soloTackles",
+     "label": "Solo Tackles",
+     "value": "173"
+    },
+    {
+     "name": "assistTackles",
+     "label": "Assist Tackles",
+     "value": "186"
+    },
+    {
+     "name": "totalTackles",
+     "label": "Total Tackles",
+     "value": "359"
+    },
+    {
+     "name": "sacks",
+     "label": "Sacks",
+     "value": "10"
+    },
+    {
+     "name": "sackYards",
+     "label": "Sack Yards",
+     "value": "54"
+    },
+    {
+     "name": "stuffs",
+     "label": "Stuffs",
+     "value": "37"
+    },
+    {
+     "name": "passesDefended",
+     "label": "Passes Defended",
+     "value": "15"
+    },
+    {
+     "name": "avgInterceptionYards",
+     "label": "Average Interception Yards",
+     "value": "14.5"
+    },
+    {
+     "name": "longInterception",
+     "label": "Long Interception",
+     "value": "58"
+    },
+    {
+     "name": "miscTouchdowns",
+     "label": "Miscellaneous Touchdowns",
+     "value": "0"
+    },
+    {
+     "name": "kicksBlocked",
+     "label": "Kicks Blocked",
+     "value": "0"
+    },
+    {
+     "name": "tacklesForLoss",
+     "label": "Tackles For Loss",
+     "value": "16"
+    },
+    {
+     "name": "teamGamesPlayed",
+     "label": "Team Games Played",
+     "value": "6"
+    }
+   ]
+  },
+  {
+   "name": "Defensive Interceptions",
+   "stats": [
+    {
+     "name": "interceptions",
+     "label": "Interceptions",
+     "value": "6"
+    },
+    {
+     "name": "interceptionYards",
+     "label": "Interception Yards",
+     "value": "87"
+    },
+    {
+     "name": "interceptionTouchdowns",
+     "label": "Interception Touchdowns",
+     "value": "0"
+    },
+    {
+     "name": "totalInterceptionsYards",
+     "label": "INT: Total",
+     "value": "6-87"
+    }
+   ]
+  },
+  {
+   "name": "General",
+   "stats": [
+    {
+     "name": "fumbles",
+     "label": "Fumbles",
+     "value": "6"
+    },
+    {
+     "name": "fumblesForced",
+     "label": "Forced Fumbles",
+     "value": "4"
+    },
+    {
+     "name": "fumblesRecovered",
+     "label": "Fumbles Recovered",
+     "value": "5"
+    },
+    {
+     "name": "fumblesTouchdowns",
+     "label": "Fumbles Touchdowns",
+     "value": "1"
+    },
+    {
+     "name": "gamesPlayed",
+     "label": "Games Played",
+     "value": "6"
+    },
+    {
+     "name": "fumblesAndLost",
+     "label": "Fumbles-Lost",
+     "value": "6-0"
+    }
+   ]
+  },
+  {
+   "name": "Returning",
+   "stats": [
+    {
+     "name": "kickReturns",
+     "label": "Kick Returns",
+     "value": "9"
+    },
+    {
+     "name": "kickReturnYards",
+     "label": "Kick Return Yards",
+     "value": "249"
+    },
+    {
+     "name": "yardsPerKickReturn",
+     "label": "Yards Per Kick Return",
+     "value": "27.7"
+    },
+    {
+     "name": "longKickReturn",
+     "label": "Long Kick Return",
+     "value": "100"
+    },
+    {
+     "name": "kickReturnTouchdowns",
+     "label": "Kick Return Touchdowns",
+     "value": "1"
+    },
+    {
+     "name": "puntReturns",
+     "label": "Punt Returns",
+     "value": "2"
+    },
+    {
+     "name": "puntReturnYards",
+     "label": "Punt Return Yards",
+     "value": "8"
+    },
+    {
+     "name": "yardsPerPuntReturn",
+     "label": "Yards Per Punt Return",
+     "value": "4.0"
+    },
+    {
+     "name": "longPuntReturn",
+     "label": "Long Punt Return",
+     "value": "6"
+    },
+    {
+     "name": "puntReturnTouchdowns",
+     "label": "Punt Return Touchdowns",
+     "value": "0"
+    },
+    {
+     "name": "puntReturnFairCatches",
+     "label": "Punt Return Fair Catches",
+     "value": "0"
+    },
+    {
+     "name": "kickReturnFumblesLost",
+     "label": "Kick Return Fumbles Lost",
+     "value": "0"
+    },
+    {
+     "name": "puntReturnFumblesLost",
+     "label": "Punt Return Fumbles Lost",
+     "value": "0"
+    },
+    {
+     "name": "teamGamesPlayed",
+     "label": "Team Games Played",
+     "value": "6"
+    },
+    {
+     "name": "totalPuntReturnsYards",
+     "label": "Punt: Total",
+     "value": "2-8"
+    }
+   ]
+  },
+  {
+   "name": "Kicking",
+   "stats": [
+    {
+     "name": "fieldGoalsMade",
+     "label": "Field Goal Made",
+     "value": "7"
+    },
+    {
+     "name": "fieldGoalAttempts",
+     "label": "Field Goal Attempts",
+     "value": "9"
+    },
+    {
+     "name": "fieldGoalPct",
+     "label": "Field Goal Percentage",
+     "value": "77.8"
+    },
+    {
+     "name": "longFieldGoalMade",
+     "label": "Long Field Goal Made",
+     "value": "40"
+    },
+    {
+     "name": "fieldGoalAttempts1_19",
+     "label": "Field Goal Attempts 1-19",
+     "value": "0"
+    },
+    {
+     "name": "fieldGoalAttempts20_29",
+     "label": "Field Goal Attempts 20-29",
+     "value": "2"
+    },
+    {
+     "name": "fieldGoalAttempts30_39",
+     "label": "Field Goal Attempts 30-39",
+     "value": "5"
+    },
+    {
+     "name": "fieldGoalAttempts40_49",
+     "label": "Field Goal Attempts 40-49",
+     "value": "1"
+    },
+    {
+     "name": "fieldGoalAttempts50",
+     "label": "Field Goal Attempts 50+",
+     "value": "1"
+    },
+    {
+     "name": "extraPointsMade",
+     "label": "Extra Points Made",
+     "value": "28"
+    },
+    {
+     "name": "extraPointAttempts",
+     "label": "Extra Point Attempts",
+     "value": "29"
+    },
+    {
+     "name": "extraPointPct",
+     "label": "Extra Point Percentage",
+     "value": "96.6"
+    },
+    {
+     "name": "fieldGoalsMade1_19",
+     "label": "Field Goals Made 1-19",
+     "value": "0"
+    },
+    {
+     "name": "fieldGoalsMade20_29",
+     "label": "Field Goals Made 20-29",
+     "value": "2"
+    },
+    {
+     "name": "fieldGoalsMade30_39",
+     "label": "Field Goals Made 30-39",
+     "value": "4"
+    },
+    {
+     "name": "fieldGoalsMade40_49",
+     "label": "Field Goals Made 40-49",
+     "value": "1"
+    },
+    {
+     "name": "fieldGoalsMade50",
+     "label": "Field Goals Made 50+",
+     "value": "0"
+    },
+    {
+     "name": "totalKickingPoints",
+     "label": "Total Kicking Points",
+     "value": "49"
+    },
+    {
+     "name": "teamGamesPlayed",
+     "label": "Team Games Played",
+     "value": "6"
+    },
+    {
+     "name": "touchbackPct",
+     "label": "Touchback Percentage",
+     "value": "14"
+    },
+    {
+     "name": "avgKickoffReturnYards",
+     "label": "Average Kickoff Return Yards",
+     "value": "19.888"
+    },
+    {
+     "name": "kickoffReturnYards",
+     "label": "Kickoff Return Yards",
+     "value": "0"
+    },
+    {
+     "name": "kickoffReturns",
+     "label": "Kickoff Returns",
+     "value": "0"
+    },
+    {
+     "name": "totalKickoffYards",
+     "label": "Kickoffs: Total",
+     "value": "0-0"
+    },
+    {
+     "name": "totalGoalsVsAttemps",
+     "label": "FG: Good-Attempts",
+     "value": "7-9"
+    }
+   ]
+  },
+  {
+   "name": "Punting",
+   "stats": [
+    {
+     "name": "punts",
+     "label": "Punts",
+     "value": "16"
+    },
+    {
+     "name": "puntYards",
+     "label": "Punt Yards",
+     "value": "607"
+    },
+    {
+     "name": "longPunt",
+     "label": "Long Punt",
+     "value": "53"
+    },
+    {
+     "name": "grossAvgPuntYards",
+     "label": "Gross Average Punt Yards",
+     "value": "37.9"
+    },
+    {
+     "name": "netAvgPuntYards",
+     "label": "Net Average Punt Yards",
+     "value": "37.9"
+    },
+    {
+     "name": "puntsBlocked",
+     "label": "Punts Blocked",
+     "value": "0"
+    },
+    {
+     "name": "puntsInside20",
+     "label": "Punts Inside 20",
+     "value": "7"
+    },
+    {
+     "name": "touchbacks",
+     "label": "Touchbacks",
+     "value": "0"
+    },
+    {
+     "name": "fairCatches",
+     "label": "Fair Catches",
+     "value": "3"
+    },
+    {
+     "name": "puntReturns",
+     "label": "Punt Returns",
+     "value": "3"
+    },
+    {
+     "name": "puntReturnYards",
+     "label": "Punt Return Yards",
+     "value": "0"
+    },
+    {
+     "name": "avgPuntReturnYards",
+     "label": "Average Punt Return Yards",
+     "value": "0.0"
+    },
+    {
+     "name": "teamGamesPlayed",
+     "label": "Team Games Played",
+     "value": "6"
+    },
+    {
+     "name": "totalPuntsYards",
+     "label": "Punt: Total Yards",
+     "value": "16-607"
+    }
+   ]
+  },
+  {
+   "name": "Scoring",
+   "stats": [
+    {
+     "name": "rushingTouchdowns",
+     "label": "Rushing Touchdowns",
+     "value": "18"
+    },
+    {
+     "name": "receivingTouchdowns",
+     "label": "Receiving Touchdowns",
+     "value": "10"
+    },
+    {
+     "name": "returnTouchdowns",
+     "label": "Return Touchdowns",
+     "value": "1"
+    },
+    {
+     "name": "totalTouchdowns",
+     "label": "Total Touchdowns",
+     "value": "30"
+    },
+    {
+     "name": "fieldGoals",
+     "label": "Field Goals",
+     "value": "7"
+    },
+    {
+     "name": "kickExtraPoints",
+     "label": "Kick Extra Points",
+     "value": "28"
+    },
+    {
+     "name": "totalTwoPointConvs",
+     "label": "Total Two Point Conversions",
+     "value": "1"
+    },
+    {
+     "name": "totalPoints",
+     "label": "Total Points",
+     "value": "233"
+    },
+    {
+     "name": "totalPointsPerGame",
+     "label": "Total Points Per Game",
+     "value": "38.8"
+    }
+   ]
+  }
+ ],
  "leaders": [],
- "standings": [],
+ "standings": [
+  {
+   "name": "Sun Belt - East",
+   "rows": [
+    {
+     "teamId": "256",
+     "team": "James Madison",
+     "conf": "4-0",
+     "overall": "7-0"
+    },
+    {
+     "teamId": "290",
+     "team": "GA Southern",
+     "conf": "2-1",
+     "overall": "3-4"
+    },
+    {
+     "teamId": "2026",
+     "team": "App State",
+     "conf": "1-1",
+     "overall": "4-2"
+    },
+    {
+     "teamId": "2247",
+     "team": "Georgia St",
+     "conf": "1-1",
+     "overall": "4-2"
+    },
+    {
+     "teamId": "324",
+     "team": "Coastal",
+     "conf": "1-2",
+     "overall": "2-5"
+    },
+    {
+     "teamId": "295",
+     "team": "Old Dominion",
+     "conf": "1-3",
+     "overall": "2-5"
+    },
+    {
+     "teamId": "276",
+     "team": "Marshall",
+     "conf": "0-2",
+     "overall": "3-3"
+    }
+   ]
+  },
+  {
+   "name": "Sun Belt - West",
+   "rows": [
+    {
+     "teamId": "2348",
+     "team": "Louisiana Tech",
+     "conf": "2-0",
+     "overall": "4-2"
+    },
+    {
+     "teamId": "6",
+     "team": "South Alabama",
+     "conf": "2-0",
+     "overall": "4-2"
+    },
+    {
+     "teamId": "309",
+     "team": "Louisiana",
+     "conf": "2-1",
+     "overall": "5-2"
+    },
+    {
+     "teamId": "2653",
+     "team": "Troy",
+     "conf": "1-1",
+     "overall": "3-3"
+    },
+    {
+     "teamId": "2032",
+     "team": "Arkansas St",
+     "conf": "1-2",
+     "overall": "3-4"
+    },
+    {
+     "teamId": "2572",
+     "team": "Southern Miss",
+     "conf": "0-2",
+     "overall": "1-5"
+    },
+    {
+     "teamId": "2433",
+     "team": "UL Monroe",
+     "conf": "0-2",
+     "overall": "0-6"
+    }
+   ]
+  }
+ ],
  "news": [
   {
-   "title": "South Alabama announces 2026 football schedule",
-   "url": "https://usajaguars.com/news/2026/3/13/south-alabama-announces-2026-football-schedule.aspx",
-   "date": "2026-03-13T15:00:00Z",
+   "title": "Kickoff Time Set for Halloween Game Versus Louisiana Tech",
+   "url": "https://usajaguars.com/news/2026/10/19/football-kickoff-time-set-for-halloween-game-versus-louisiana-tech.aspx",
+   "date": "2026-10-19T20:00:00.000Z",
    "source": "usajaguars.com"
   },
   {
-   "title": "South Alabama announces radio partnership with Cumulus Media",
-   "url": "https://usajaguars.com/news/2026/7/10/general-south-alabama-announces-radio-partnership-with-cumulus-media.aspx",
-   "date": "2026-07-10T15:00:00Z",
+   "title": "Sun Belt matchup features South Alabama playing Marshall",
+   "url": "http://www.espn.com/ncf/preview?gameId=401871092",
+   "date": "2026-10-18T19:44:43Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871092.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Jags Head to Marshall for Tuesday Night Game",
+   "url": "https://usajaguars.com/news/2026/10/17/football-jags-head-to-marshall-for-tuesday-night-game.aspx",
+   "date": "2026-10-17T20:57:00.000Z",
    "source": "usajaguars.com"
+  },
+  {
+   "title": "Keenan Phillips Tabbed Sun Belt Special Teams Player of the Week",
+   "url": "https://usajaguars.com/news/2026/10/12/football-keenan-phillips-tabbed-sun-belt-special-teams-player-of-the-week.aspx",
+   "date": "2026-10-12T19:00:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Keenan Phillips Powers South Alabama Past Arkansas State in Road Win",
+   "url": "https://usajaguars.com/news/2026/10/8/football-keenan-phillips-powers-south-alabama-past-arkansas-state-in-road-win.aspx",
+   "date": "2026-10-09T05:26:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "South Alabama beats Arkansas State 56-49 in the highest scoring FBS game this season",
+   "url": "http://www.espn.com/ncf/recap?gameId=401869933",
+   "date": "2026-10-09T03:51:27Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869933.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "South Alabama Jaguars vs. Arkansas State Red Wolves: Full Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/50137660/full-highlights",
+   "date": "2026-10-09T03:49:32Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/417f3ac6-b05c-4dcf-8ae9-8155f4fee4b6/417f3ac6-b05c-4dcf-8ae9-8155f4fee4b6.jpg"
+  },
+  {
+   "title": "South Alabama Travels to Arkansas State for Thursday Night Clash",
+   "url": "https://usajaguars.com/news/2026/10/6/football-south-alabama-travels-to-arkansas-state-for-thursday-night-clash.aspx",
+   "date": "2026-10-06T13:36:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Hollins Named to Week 5 Davey O'Brien Great 8 List",
+   "url": "https://usajaguars.com/news/2026/10/5/football-hollins-named-to-week-5-davey-o-brien-great-8-list.aspx",
+   "date": "2026-10-05T16:57:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Jamaal Pritchett Signed to Jets Active Roster",
+   "url": "https://usajaguars.com/news/2026/10/4/football-pritchett-signed-to-jets-active-roster.aspx",
+   "date": "2026-10-04T21:39:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Arkansas State and South Alabama meet in Sun Belt action",
+   "url": "http://www.espn.com/ncf/preview?gameId=401869933",
+   "date": "2026-10-04T19:45:33Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869933.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Jags Power Past ULM in 52-35 Homecoming Victory",
+   "url": "https://usajaguars.com/news/2026/10/3/football-jags-power-past-ulm-in-52-35-homecoming-victory.aspx",
+   "date": "2026-10-04T05:46:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Hollins throws 3 TD passes, South Alabama beats Louisiana-Monroe 52-35",
+   "url": "http://www.espn.com/ncf/recap?gameId=401871089",
+   "date": "2026-10-04T04:11:29Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871089.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "UL Monroe Warhawks vs. South Alabama Jaguars: Full Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/50096295/full-highlights",
+   "date": "2026-10-04T02:48:10Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/725f04c4-7196-4641-93a4-410f8ca40bda/725f04c4-7196-4641-93a4-410f8ca40bda.jpg"
+  },
+  {
+   "title": "Game Day Kickoff: An epic QB showcase in Starkville and the best of the rest of Week 5",
+   "url": "https://www.espn.com/college-football/story/_/page/gamedaykickoff100126/2026-gameday-kickoff-week-5-preview-top-games-mississippi-state-alabama",
+   "date": "2026-10-01T18:55:47Z",
+   "source": "ESPN",
+   "image": "https://a.espncdn.com/photo/2026/1001/r1723940_608x342_16-9.jpg"
+  },
+  {
+   "title": "South Alabama Hosts ULM for Sun Belt Opener",
+   "url": "https://usajaguars.com/news/2026/9/29/football-south-alabama-hosts-ulm-for-sun-belt-opener.aspx",
+   "date": "2026-09-29T19:17:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "South Alabama squares off against UL Monroe in Sun Belt action",
+   "url": "http://www.espn.com/ncf/preview?gameId=401871089",
+   "date": "2026-09-27T19:44:52Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871089.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "South Alabama Falls at Kentucky, 45-21",
+   "url": "https://usajaguars.com/news/2026/9/26/football-south-alabama-falls-at-kentucky-45-21.aspx",
+   "date": "2026-09-26T22:45:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Baxter, Patterson and Barnes rush for 100 yards, Kentucky rolls over South Alabama 45-21",
+   "url": "http://www.espn.com/ncf/recap?gameId=401864576",
+   "date": "2026-09-26T21:14:29Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401864576.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "South Alabama Jaguars vs. Kentucky Wildcats: Full Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/50035703/full-highlights",
+   "date": "2026-09-26T20:16:23Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/3b3689a9-a5e1-4dcd-aa61-0c235f04df2a/3b3689a9-a5e1-4dcd-aa61-0c235f04df2a.jpg"
+  },
+  {
+   "title": "Kentucky squares off against South Alabama",
+   "url": "http://www.espn.com/ncf/preview?gameId=401864576",
+   "date": "2026-09-20T19:45:09Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401864576.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Phillips, South Alabama ground game helps churn 41-36 win over Ohio",
+   "url": "http://www.espn.com/ncf/recap?gameId=401866423",
+   "date": "2026-09-20T04:38:29Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401866423.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Ohio Bobcats vs. South Alabama Jaguars: Full Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/49985413/full-highlights",
+   "date": "2026-09-20T02:47:58Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/0a2fcc47-7704-4813-983a-7b977413fd7b/0a2fcc47-7704-4813-983a-7b977413fd7b.jpg"
+  },
+  {
+   "title": "South Alabama matches up against Ohio",
+   "url": "http://www.espn.com/ncf/preview?gameId=401866423",
+   "date": "2026-09-13T19:45:31Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401866423.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Jaylin Lucas runs for 214 yards, Tulane scores late in fourth quarter to top South Alabama 28-24",
+   "url": "http://www.espn.com/ncf/recap?gameId=401864575",
+   "date": "2026-09-13T02:58:29Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401864575.png?templateId=espn.applewatch.awayhome.1"
   }
- ]
+ ],
+ "nextOpponent": {
+  "team": {
+   "id": "276",
+   "name": "Marshall Thundering Herd",
+   "short": "Marshall",
+   "abbr": "MRSH",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+   "record": "3-3"
+  },
+  "stats": [
+   {
+    "name": "Passing",
+    "stats": [
+     {
+      "name": "completionPct",
+      "label": "Completion Percentage",
+      "value": "62.4"
+     },
+     {
+      "name": "completions",
+      "label": "Completions",
+      "value": "128"
+     },
+     {
+      "name": "interceptionPct",
+      "label": "Interception Percentage",
+      "value": "3.40"
+     },
+     {
+      "name": "interceptions",
+      "label": "Interceptions",
+      "value": "7"
+     },
+     {
+      "name": "longPassing",
+      "label": "Longest Pass",
+      "value": "69"
+     },
+     {
+      "name": "netPassingYards",
+      "label": "Net Passing Yards",
+      "value": "1,487"
+     },
+     {
+      "name": "netPassingYardsPerGame",
+      "label": "Net Passing Yards Per Game",
+      "value": "247.8"
+     },
+     {
+      "name": "passingAttempts",
+      "label": "Passing Attempts",
+      "value": "205"
+     },
+     {
+      "name": "passingTouchdownPct",
+      "label": "Passing Touchdown %",
+      "value": "3.90"
+     },
+     {
+      "name": "passingTouchdowns",
+      "label": "Passing Touchdowns",
+      "value": "8"
+     },
+     {
+      "name": "QBRating",
+      "label": "Passer Rating",
+      "value": "129.8"
+     },
+     {
+      "name": "sacks",
+      "label": "Total Sacks",
+      "value": "11"
+     },
+     {
+      "name": "sackYardsLost",
+      "label": "Sack Yards Lost",
+      "value": "73"
+     },
+     {
+      "name": "yardsPerPassAttempt",
+      "label": "Yards Per Pass Attempt",
+      "value": "7.3"
+     },
+     {
+      "name": "passingYards",
+      "label": "Passing Yards",
+      "value": "1,487"
+     },
+     {
+      "name": "passingFumblesLost",
+      "label": "Passing Fumbles Lost",
+      "value": "0"
+     },
+     {
+      "name": "teamGamesPlayed",
+      "label": "Team Games Played",
+      "value": "6"
+     },
+     {
+      "name": "yardsPerGame",
+      "label": "Yards Per Game",
+      "value": "406.5"
+     },
+     {
+      "name": "totalPointsPerGame",
+      "label": "Total Points Per Game",
+      "value": "22.0"
+     },
+     {
+      "name": "totalPoints",
+      "label": "Total Points",
+      "value": "132"
+     },
+     {
+      "name": "totalTouchdowns",
+      "label": "Total Touchdowns",
+      "value": "16"
+     },
+     {
+      "name": "passingYardsPerGame",
+      "label": "Passing Yards Per Game",
+      "value": "247.8"
+     },
+     {
+      "name": "completionAttempts",
+      "label": "Comp-Att",
+      "value": "128-205"
+     },
+     {
+      "name": "sacksYardsLost",
+      "label": "Sacks-Yards Lost",
+      "value": "11-73"
+     }
+    ]
+   },
+   {
+    "name": "Rushing",
+    "stats": [
+     {
+      "name": "rushingAttempts",
+      "label": "Rushing Attempts",
+      "value": "215"
+     },
+     {
+      "name": "rushingYards",
+      "label": "Rushing Yards",
+      "value": "952"
+     },
+     {
+      "name": "yardsPerRushAttempt",
+      "label": "Yards Per Rush Attempt",
+      "value": "4.4"
+     },
+     {
+      "name": "longRushing",
+      "label": "Long Rushing",
+      "value": "50"
+     },
+     {
+      "name": "rushingBigPlays",
+      "label": "20+ Yard Rushing Plays",
+      "value": "0"
+     },
+     {
+      "name": "rushingTouchdowns",
+      "label": "Rushing Touchdowns",
+      "value": "8"
+     },
+     {
+      "name": "rushingYardsPerGame",
+      "label": "Rushing Yards Per Game",
+      "value": "158.7"
+     },
+     {
+      "name": "rushingFumbles",
+      "label": "Rushing Fumbles",
+      "value": "0"
+     },
+     {
+      "name": "rushingFumblesLost",
+      "label": "Rushing Fumbles Lost",
+      "value": "0"
+     },
+     {
+      "name": "rushingFirstDowns",
+      "label": "Rushing 1st downs",
+      "value": "51"
+     },
+     {
+      "name": "teamGamesPlayed",
+      "label": "Team Games Played",
+      "value": "6"
+     },
+     {
+      "name": "totalYards",
+      "label": "Total Yards",
+      "value": "2,439"
+     },
+     {
+      "name": "totalOffensivePlays",
+      "label": "Total Offensive Plays",
+      "value": "431"
+     },
+     {
+      "name": "totalPointsPerGame",
+      "label": "Total Points Per Game",
+      "value": "22.0"
+     },
+     {
+      "name": "totalPoints",
+      "label": "Total Points",
+      "value": "132"
+     },
+     {
+      "name": "totalTouchdowns",
+      "label": "Total Touchdowns",
+      "value": "16"
+     }
+    ]
+   },
+   {
+    "name": "Receiving",
+    "stats": [
+     {
+      "name": "receptions",
+      "label": "Receptions",
+      "value": "128"
+     },
+     {
+      "name": "receivingTargets",
+      "label": "Receiving Targets",
+      "value": "0"
+     },
+     {
+      "name": "receivingYards",
+      "label": "Receiving Yards",
+      "value": "1,487"
+     },
+     {
+      "name": "receivingYards",
+      "label": "Receiving Yards",
+      "value": "1,487"
+     },
+     {
+      "name": "receivingTouchdowns",
+      "label": "Receiving Touchdowns",
+      "value": "8"
+     },
+     {
+      "name": "longReception",
+      "label": "Long Reception",
+      "value": "69"
+     },
+     {
+      "name": "receivingBigPlays",
+      "label": "20+ Yard Receiving Plays",
+      "value": "0"
+     },
+     {
+      "name": "receivingYardsPerGame",
+      "label": "Receiving Yards Per Game",
+      "value": "247.8"
+     },
+     {
+      "name": "receivingFumbles",
+      "label": "Receiving Fumbles",
+      "value": "0"
+     },
+     {
+      "name": "receivingFumblesLost",
+      "label": "Receiving Fumbles Lost",
+      "value": "0"
+     },
+     {
+      "name": "receivingYardsAfterCatch",
+      "label": "Receiving Yards After Catch",
+      "value": "665"
+     },
+     {
+      "name": "receivingFirstDowns",
+      "label": "Receiving First Downs",
+      "value": "65"
+     },
+     {
+      "name": "teamGamesPlayed",
+      "label": "Team Games Played",
+      "value": "6"
+     },
+     {
+      "name": "yardsPerReception",
+      "label": "Yards Per Reception",
+      "value": "11.6"
+     },
+     {
+      "name": "totalPointsPerGame",
+      "label": "Total Points Per Game",
+      "value": "22.0"
+     },
+     {
+      "name": "totalPoints",
+      "label": "Total Points",
+      "value": "132"
+     },
+     {
+      "name": "totalTouchdowns",
+      "label": "Total Touchdowns",
+      "value": "16"
+     }
+    ]
+   },
+   {
+    "name": "Miscellaneous",
+    "stats": [
+     {
+      "name": "firstDowns",
+      "label": "Total 1st downs",
+      "value": "130"
+     },
+     {
+      "name": "firstDownsRushing",
+      "label": "Rushing 1st downs",
+      "value": "51"
+     },
+     {
+      "name": "firstDownsPassing",
+      "label": "Passing 1st downs",
+      "value": "65"
+     },
+     {
+      "name": "firstDownsPenalty",
+      "label": "1st downs by penalty",
+      "value": "13"
+     },
+     {
+      "name": "thirdDownConvs",
+      "label": "Third Down Conversions",
+      "value": "32"
+     },
+     {
+      "name": "thirdDownAttempts",
+      "label": "Third Down Attempts",
+      "value": "80"
+     },
+     {
+      "name": "thirdDownConvPct",
+      "label": "3rd down %",
+      "value": "40.00"
+     },
+     {
+      "name": "fourthDownConvs",
+      "label": "Fourth Down Conversions",
+      "value": "3"
+     },
+     {
+      "name": "fourthDownAttempts",
+      "label": "First Downs Attempts",
+      "value": "7"
+     },
+     {
+      "name": "fourthDownConvPct",
+      "label": "4th down %",
+      "value": "42.86"
+     },
+     {
+      "name": "totalPenalties",
+      "label": "Total Penalties",
+      "value": "39"
+     },
+     {
+      "name": "totalPenaltyYards",
+      "label": "Total Penalty Yards",
+      "value": "352"
+     },
+     {
+      "name": "possessionTimeSeconds",
+      "label": "Possession Time Seconds",
+      "value": "10688"
+     },
+     {
+      "name": "redzoneFieldGoalPct",
+      "label": "Red Zone Field Goal Percentage",
+      "value": "0.00"
+     },
+     {
+      "name": "redzoneScoringPct",
+      "label": "Red Zone Scoring Percentage",
+      "value": "0.00"
+     },
+     {
+      "name": "redzoneEfficiencyPct",
+      "label": "Red Zone Efficiency Percentage",
+      "value": "0.00"
+     },
+     {
+      "name": "redzoneTouchdownPct",
+      "label": "Red Zone Touchdown Percentage",
+      "value": "0.00"
+     },
+     {
+      "name": "totalTakeaways",
+      "label": "Total Takeaways",
+      "value": "10"
+     },
+     {
+      "name": "totalGiveaways",
+      "label": "Total Giveaways",
+      "value": "14"
+     },
+     {
+      "name": "turnOverDifferential",
+      "label": "Turnover Ratio",
+      "value": "-4"
+     },
+     {
+      "name": "fumblesLost",
+      "label": "Fumbles Lost",
+      "value": "0"
+     },
+     {
+      "name": "thirdDownEff",
+      "label": "3rd down efficiency",
+      "value": "32-80"
+     },
+     {
+      "name": "fourthDownEff",
+      "label": "4th down efficiency",
+      "value": "3-7"
+     },
+     {
+      "name": "totalPenaltiesYards",
+      "label": "Total-Yards",
+      "value": "39-352"
+     }
+    ]
+   },
+   {
+    "name": "Defense",
+    "stats": [
+     {
+      "name": "soloTackles",
+      "label": "Solo Tackles",
+      "value": "182"
+     },
+     {
+      "name": "assistTackles",
+      "label": "Assist Tackles",
+      "value": "242"
+     },
+     {
+      "name": "totalTackles",
+      "label": "Total Tackles",
+      "value": "424"
+     },
+     {
+      "name": "sacks",
+      "label": "Sacks",
+      "value": "5"
+     },
+     {
+      "name": "sackYards",
+      "label": "Sack Yards",
+      "value": "33"
+     },
+     {
+      "name": "stuffs",
+      "label": "Stuffs",
+      "value": "35"
+     },
+     {
+      "name": "passesDefended",
+      "label": "Passes Defended",
+      "value": "23"
+     },
+     {
+      "name": "avgInterceptionYards",
+      "label": "Average Interception Yards",
+      "value": "19.0"
+     },
+     {
+      "name": "longInterception",
+      "label": "Long Interception",
+      "value": "54"
+     },
+     {
+      "name": "miscTouchdowns",
+      "label": "Miscellaneous Touchdowns",
+      "value": "0"
+     },
+     {
+      "name": "kicksBlocked",
+      "label": "Kicks Blocked",
+      "value": "2"
+     },
+     {
+      "name": "tacklesForLoss",
+      "label": "Tackles For Loss",
+      "value": "13"
+     },
+     {
+      "name": "teamGamesPlayed",
+      "label": "Team Games Played",
+      "value": "6"
+     }
+    ]
+   },
+   {
+    "name": "Defensive Interceptions",
+    "stats": [
+     {
+      "name": "interceptions",
+      "label": "Interceptions",
+      "value": "3"
+     },
+     {
+      "name": "interceptionYards",
+      "label": "Interception Yards",
+      "value": "57"
+     },
+     {
+      "name": "interceptionTouchdowns",
+      "label": "Interception Touchdowns",
+      "value": "0"
+     },
+     {
+      "name": "totalInterceptionsYards",
+      "label": "INT: Total",
+      "value": "3-57"
+     }
+    ]
+   },
+   {
+    "name": "General",
+    "stats": [
+     {
+      "name": "fumbles",
+      "label": "Fumbles",
+      "value": "14"
+     },
+     {
+      "name": "fumblesForced",
+      "label": "Forced Fumbles",
+      "value": "3"
+     },
+     {
+      "name": "fumblesRecovered",
+      "label": "Fumbles Recovered",
+      "value": "3"
+     },
+     {
+      "name": "fumblesTouchdowns",
+      "label": "Fumbles Touchdowns",
+      "value": "0"
+     },
+     {
+      "name": "gamesPlayed",
+      "label": "Games Played",
+      "value": "6"
+     },
+     {
+      "name": "fumblesAndLost",
+      "label": "Fumbles-Lost",
+      "value": "14-0"
+     }
+    ]
+   },
+   {
+    "name": "Returning",
+    "stats": [
+     {
+      "name": "kickReturns",
+      "label": "Kick Returns",
+      "value": "20"
+     },
+     {
+      "name": "kickReturnYards",
+      "label": "Kick Return Yards",
+      "value": "369"
+     },
+     {
+      "name": "yardsPerKickReturn",
+      "label": "Yards Per Kick Return",
+      "value": "18.5"
+     },
+     {
+      "name": "longKickReturn",
+      "label": "Long Kick Return",
+      "value": "36"
+     },
+     {
+      "name": "kickReturnTouchdowns",
+      "label": "Kick Return Touchdowns",
+      "value": "0"
+     },
+     {
+      "name": "puntReturns",
+      "label": "Punt Returns",
+      "value": "5"
+     },
+     {
+      "name": "puntReturnYards",
+      "label": "Punt Return Yards",
+      "value": "31"
+     },
+     {
+      "name": "yardsPerPuntReturn",
+      "label": "Yards Per Punt Return",
+      "value": "6.2"
+     },
+     {
+      "name": "longPuntReturn",
+      "label": "Long Punt Return",
+      "value": "16"
+     },
+     {
+      "name": "puntReturnTouchdowns",
+      "label": "Punt Return Touchdowns",
+      "value": "0"
+     },
+     {
+      "name": "puntReturnFairCatches",
+      "label": "Punt Return Fair Catches",
+      "value": "0"
+     },
+     {
+      "name": "kickReturnFumblesLost",
+      "label": "Kick Return Fumbles Lost",
+      "value": "0"
+     },
+     {
+      "name": "puntReturnFumblesLost",
+      "label": "Punt Return Fumbles Lost",
+      "value": "0"
+     },
+     {
+      "name": "teamGamesPlayed",
+      "label": "Team Games Played",
+      "value": "6"
+     },
+     {
+      "name": "totalPuntReturnsYards",
+      "label": "Punt: Total",
+      "value": "5-31"
+     }
+    ]
+   },
+   {
+    "name": "Kicking",
+    "stats": [
+     {
+      "name": "fieldGoalsMade",
+      "label": "Field Goal Made",
+      "value": "7"
+     },
+     {
+      "name": "fieldGoalAttempts",
+      "label": "Field Goal Attempts",
+      "value": "9"
+     },
+     {
+      "name": "fieldGoalPct",
+      "label": "Field Goal Percentage",
+      "value": "77.8"
+     },
+     {
+      "name": "longFieldGoalMade",
+      "label": "Long Field Goal Made",
+      "value": "54"
+     },
+     {
+      "name": "fieldGoalAttempts1_19",
+      "label": "Field Goal Attempts 1-19",
+      "value": "0"
+     },
+     {
+      "name": "fieldGoalAttempts20_29",
+      "label": "Field Goal Attempts 20-29",
+      "value": "3"
+     },
+     {
+      "name": "fieldGoalAttempts30_39",
+      "label": "Field Goal Attempts 30-39",
+      "value": "4"
+     },
+     {
+      "name": "fieldGoalAttempts40_49",
+      "label": "Field Goal Attempts 40-49",
+      "value": "0"
+     },
+     {
+      "name": "fieldGoalAttempts50",
+      "label": "Field Goal Attempts 50+",
+      "value": "2"
+     },
+     {
+      "name": "extraPointsMade",
+      "label": "Extra Points Made",
+      "value": "15"
+     },
+     {
+      "name": "extraPointAttempts",
+      "label": "Extra Point Attempts",
+      "value": "15"
+     },
+     {
+      "name": "extraPointPct",
+      "label": "Extra Point Percentage",
+      "value": "100.0"
+     },
+     {
+      "name": "fieldGoalsMade1_19",
+      "label": "Field Goals Made 1-19",
+      "value": "0"
+     },
+     {
+      "name": "fieldGoalsMade20_29",
+      "label": "Field Goals Made 20-29",
+      "value": "3"
+     },
+     {
+      "name": "fieldGoalsMade30_39",
+      "label": "Field Goals Made 30-39",
+      "value": "3"
+     },
+     {
+      "name": "fieldGoalsMade40_49",
+      "label": "Field Goals Made 40-49",
+      "value": "0"
+     },
+     {
+      "name": "fieldGoalsMade50",
+      "label": "Field Goals Made 50+",
+      "value": "1"
+     },
+     {
+      "name": "totalKickingPoints",
+      "label": "Total Kicking Points",
+      "value": "36"
+     },
+     {
+      "name": "teamGamesPlayed",
+      "label": "Team Games Played",
+      "value": "6"
+     },
+     {
+      "name": "touchbackPct",
+      "label": "Touchback Percentage",
+      "value": "59"
+     },
+     {
+      "name": "avgKickoffReturnYards",
+      "label": "Average Kickoff Return Yards",
+      "value": "18.592"
+     },
+     {
+      "name": "kickoffReturnYards",
+      "label": "Kickoff Return Yards",
+      "value": "0"
+     },
+     {
+      "name": "kickoffReturns",
+      "label": "Kickoff Returns",
+      "value": "0"
+     },
+     {
+      "name": "totalKickoffYards",
+      "label": "Kickoffs: Total",
+      "value": "0-0"
+     },
+     {
+      "name": "totalGoalsVsAttemps",
+      "label": "FG: Good-Attempts",
+      "value": "7-9"
+     }
+    ]
+   },
+   {
+    "name": "Punting",
+    "stats": [
+     {
+      "name": "punts",
+      "label": "Punts",
+      "value": "25"
+     },
+     {
+      "name": "puntYards",
+      "label": "Punt Yards",
+      "value": "1,132"
+     },
+     {
+      "name": "longPunt",
+      "label": "Long Punt",
+      "value": "57"
+     },
+     {
+      "name": "grossAvgPuntYards",
+      "label": "Gross Average Punt Yards",
+      "value": "45.3"
+     },
+     {
+      "name": "netAvgPuntYards",
+      "label": "Net Average Punt Yards",
+      "value": "45.3"
+     },
+     {
+      "name": "puntsBlocked",
+      "label": "Punts Blocked",
+      "value": "0"
+     },
+     {
+      "name": "puntsInside20",
+      "label": "Punts Inside 20",
+      "value": "8"
+     },
+     {
+      "name": "touchbacks",
+      "label": "Touchbacks",
+      "value": "2"
+     },
+     {
+      "name": "fairCatches",
+      "label": "Fair Catches",
+      "value": "7"
+     },
+     {
+      "name": "puntReturns",
+      "label": "Punt Returns",
+      "value": "10"
+     },
+     {
+      "name": "puntReturnYards",
+      "label": "Punt Return Yards",
+      "value": "0"
+     },
+     {
+      "name": "avgPuntReturnYards",
+      "label": "Average Punt Return Yards",
+      "value": "0.0"
+     },
+     {
+      "name": "teamGamesPlayed",
+      "label": "Team Games Played",
+      "value": "6"
+     },
+     {
+      "name": "totalPuntsYards",
+      "label": "Punt: Total Yards",
+      "value": "25-1,132"
+     }
+    ]
+   },
+   {
+    "name": "Scoring",
+    "stats": [
+     {
+      "name": "rushingTouchdowns",
+      "label": "Rushing Touchdowns",
+      "value": "8"
+     },
+     {
+      "name": "receivingTouchdowns",
+      "label": "Receiving Touchdowns",
+      "value": "8"
+     },
+     {
+      "name": "returnTouchdowns",
+      "label": "Return Touchdowns",
+      "value": "0"
+     },
+     {
+      "name": "totalTouchdowns",
+      "label": "Total Touchdowns",
+      "value": "16"
+     },
+     {
+      "name": "fieldGoals",
+      "label": "Field Goals",
+      "value": "7"
+     },
+     {
+      "name": "kickExtraPoints",
+      "label": "Kick Extra Points",
+      "value": "15"
+     },
+     {
+      "name": "totalTwoPointConvs",
+      "label": "Total Two Point Conversions",
+      "value": "0"
+     },
+     {
+      "name": "totalPoints",
+      "label": "Total Points",
+      "value": "132"
+     },
+     {
+      "name": "totalPointsPerGame",
+      "label": "Total Points Per Game",
+      "value": "22.0"
+     }
+    ]
+   }
+  ]
+ }
 }

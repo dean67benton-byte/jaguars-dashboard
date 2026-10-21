@@ -34,6 +34,13 @@ export function parseSummary(s: any): Summary {
     const usHome = us.homeAway === 'home';
     if (!Number.isNaN(home) && !Number.isNaN(away)) winProb = { us: usHome ? home : away, opp: usHome ? away : home };
   }
+  // During and after a game ESPN publishes a running win probability instead.
+  const wp: any[] = s?.winprobability ?? [];
+  if (wp.length) {
+    const home = Number(wp[wp.length - 1].homeWinPercentage) * 100;
+    const usHome = us.homeAway === 'home';
+    if (!Number.isNaN(home)) winProb = { us: usHome ? home : 100 - home, opp: usHome ? 100 - home : home };
+  }
   const w = s?.gameInfo?.weather;
   return {
     state: comp.status?.type?.state ?? 'pre',
@@ -42,7 +49,7 @@ export function parseSummary(s: any): Summary {
     oppScore: num(them.score),
     situation: s?.situation?.downDistanceText ?? s?.drives?.current?.description,
     winProb,
-    weather: w ? [w.displayValue, w.temperature ? `${w.temperature}°F` : w.highTemperature ? `High ${w.highTemperature}°F` : ''].filter(Boolean).join(', ') : undefined,
+    weather: w ? [w.displayValue ?? w.conditionId, w.temperature ? `${w.temperature}°F` : w.highTemperature ? `High ${w.highTemperature}°F` : '', w.precipitation ? `${w.precipitation}% chance of rain` : ''].filter(Boolean).join(', ') : undefined,
     injuries: (s?.injuries ?? []).flatMap((t: any) =>
       (t.injuries ?? []).map((i: any) => ({
         team: side(t.team?.id),

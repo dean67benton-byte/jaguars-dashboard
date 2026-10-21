@@ -14,8 +14,10 @@ function sideBySide(us: StatCategory[], them: StatCategory[]) {
       .map((s) => ({ label: s.label, us: s.value, them: theirs.get(`${c.name}|${s.name}`)!.value, cat: c.name })),
   );
   // Prefer per-game and rate stats; they compare fairly across schedules.
-  const rate = rows.filter((r) => /per game|avg|average|pct|%|per/i.test(r.label));
-  return (rate.length >= 6 ? rate : rows).slice(0, 14);
+  const seen = new Set<string>();
+  const unique = rows.filter((r) => !seen.has(r.label) && seen.add(r.label));
+  const rate = unique.filter((r) => /per game|avg|average|pct|%|per/i.test(r.label));
+  return (rate.length >= 6 ? rate : unique).slice(0, 14);
 }
 
 export function Game({ sport, id, team, briefs }: { sport: SportKey; id: string; team: TeamState; briefs: BriefIndexEntry[] | null }) {
@@ -81,7 +83,7 @@ export function Game({ sport, id, team, briefs }: { sport: SportKey; id: string;
 
       {summary?.winProb && (
         <section class="section">
-          <h2>ESPN win probability</h2>
+          <h2>ESPN win probability{state === 'pre' ? '' : state === 'in' ? ', live' : ', final'}</h2>
           <div class="panel" style="padding:14px;display:grid;gap:8px">
             <div style="display:flex;justify-content:space-between" class="num">
               <span>USA {summary.winProb.us.toFixed(1)}%</span>

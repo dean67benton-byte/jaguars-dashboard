@@ -1,17 +1,1463 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-10-21T01:30:00Z",
- "source": "seed",
+ "updatedAt": "2026-10-21T01:42:51.132Z",
+ "source": "espn",
  "team": {
   "id": "6",
   "name": "South Alabama Jaguars",
   "short": "South Alabama",
-  "abbr": "USA"
+  "abbr": "USA",
+  "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png"
  },
- "events": [],
- "roster": [],
- "stats": [],
+ "events": [
+  {
+   "id": "401911003",
+   "date": "2026-11-03T01:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "195",
+    "name": "Ohio Bobcats",
+    "short": "Ohio",
+    "abbr": "OHIO",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": false,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "11/2 - 8:00 PM EST"
+  },
+  {
+   "id": "401926780",
+   "date": "2026-11-06T00:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "55",
+    "name": "Jacksonville State Gamecocks",
+    "short": "Jax State",
+    "abbr": "JXST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": false,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "11/5 - 7:00 PM EST"
+  },
+  {
+   "id": "401921755",
+   "date": "2026-11-11T00:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2116",
+    "name": "UCF Knights",
+    "short": "UCF",
+    "abbr": "UCF",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": false,
+   "venue": "Addition Financial Arena",
+   "city": "Orlando, FL",
+   "status": "pre",
+   "statusDetail": "11/10 - 7:00 PM EST"
+  },
+  {
+   "id": "401917524",
+   "date": "2026-11-13T01:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2351",
+    "name": "Loyola Marymount Lions",
+    "short": "LMU",
+    "abbr": "LMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png"
+   },
+   "home": true,
+   "neutral": true,
+   "conference": false,
+   "venue": "Pensacola Bay Center",
+   "city": "Pensacola, FL",
+   "status": "pre",
+   "statusDetail": "11/12 - 8:00 PM EST"
+  },
+  {
+   "id": "401925827",
+   "date": "2026-11-14T23:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "249",
+    "name": "North Texas Mean Green",
+    "short": "North Texas",
+    "abbr": "UNT",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": false,
+   "venue": "The Super Pit",
+   "city": "Denton, TX",
+   "status": "pre",
+   "statusDetail": "11/14 - 6:00 PM EST"
+  },
+  {
+   "id": "401930568",
+   "date": "2026-11-18T00:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2590",
+    "name": "Spring Hill Badgers",
+    "short": "Spring Hill",
+    "abbr": "SPRH"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": false,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "11/17 - 7:00 PM EST"
+  },
+  {
+   "id": "401929459",
+   "date": "2026-11-21T01:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2567",
+    "name": "SMU Mustangs",
+    "short": "SMU",
+    "abbr": "SMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": false,
+   "venue": "Moody Coliseum (Dallas)",
+   "city": "Dallas, TX",
+   "status": "pre",
+   "statusDetail": "11/20 - 8:00 PM EST"
+  },
+  {
+   "id": "401922252",
+   "date": "2026-11-22T20:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2697",
+    "name": "West Florida Argonauts",
+    "short": "West Florida",
+    "abbr": "UWF",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2697.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": false,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "11/22 - 3:00 PM EST"
+  },
+  {
+   "id": "401929421",
+   "date": "2026-11-25T01:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "50",
+    "name": "Florida A&M Rattlers",
+    "short": "Florida A&M",
+    "abbr": "FAMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": false,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "11/24 - 8:00 PM EST"
+  },
+  {
+   "id": "401929181",
+   "date": "2026-11-27T19:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "278",
+    "name": "Fresno State Bulldogs",
+    "short": "Fresno St",
+    "abbr": "FRES",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png"
+   },
+   "home": false,
+   "neutral": true,
+   "conference": false,
+   "venue": "Convocation Center (LA)",
+   "city": "New Orleans, LA",
+   "status": "pre",
+   "statusDetail": "11/27 - 2:00 PM EST"
+  },
+  {
+   "id": "401929413",
+   "date": "2026-11-28T23:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2571",
+    "name": "South Dakota State Jackrabbits",
+    "short": "S Dakota St",
+    "abbr": "SDST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png"
+   },
+   "home": false,
+   "neutral": true,
+   "conference": false,
+   "venue": "Convocation Center (LA)",
+   "city": "New Orleans, LA",
+   "status": "pre",
+   "statusDetail": "11/28 - 6:00 PM EST"
+  },
+  {
+   "id": "401929621",
+   "date": "2026-12-05T20:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2636",
+    "name": "UTSA Roadrunners",
+    "short": "UTSA",
+    "abbr": "UTSA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": false,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "12/5 - 3:00 PM EST"
+  },
+  {
+   "id": "401911948",
+   "date": "2026-12-16T05:00Z",
+   "timeTbd": true,
+   "opponent": {
+    "id": "2032",
+    "name": "Arkansas State Red Wolves",
+    "short": "Arkansas St",
+    "abbr": "ARST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": true,
+   "venue": "First National Bank Arena",
+   "city": "Jonesboro, AR",
+   "status": "pre",
+   "statusDetail": "TBD"
+  },
+  {
+   "id": "401911956",
+   "date": "2026-12-19T22:30Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "295",
+    "name": "Old Dominion Monarchs",
+    "short": "Old Dominion",
+    "abbr": "ODU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "12/19 - 5:30 PM EST"
+  },
+  {
+   "id": "401930569",
+   "date": "2026-12-29T00:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2920",
+    "name": "Mobile Rams",
+    "short": "Mobile",
+    "abbr": "MOBL"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": false,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "12/28 - 7:00 PM EST"
+  },
+  {
+   "id": "401911962",
+   "date": "2026-12-31T21:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "276",
+    "name": "Marshall Thundering Herd",
+    "short": "Marshall",
+    "abbr": "MRSH",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": true,
+   "venue": "Cam Henderson Center",
+   "city": "Huntington, WV",
+   "status": "pre",
+   "statusDetail": "12/31 - 4:00 PM EST"
+  },
+  {
+   "id": "401911964",
+   "date": "2027-01-02T18:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2026",
+    "name": "App State Mountaineers",
+    "short": "App State",
+    "abbr": "APP",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": true,
+   "venue": "Holmes Convocation Center",
+   "city": "Boone, NC",
+   "status": "pre",
+   "statusDetail": "1/2 - 1:00 PM EST"
+  },
+  {
+   "id": "401911974",
+   "date": "2027-01-08T01:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "290",
+    "name": "Georgia Southern Eagles",
+    "short": "GA Southern",
+    "abbr": "GASO",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "1/7 - 8:00 PM EST"
+  },
+  {
+   "id": "401911979",
+   "date": "2027-01-09T21:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "324",
+    "name": "Coastal Carolina Chanticleers",
+    "short": "Coastal",
+    "abbr": "CCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "1/9 - 4:00 PM EST"
+  },
+  {
+   "id": "401911990",
+   "date": "2027-01-15T00:30Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2433",
+    "name": "UL Monroe Warhawks",
+    "short": "UL Monroe",
+    "abbr": "ULM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": true,
+   "venue": "b1Bank Fant Coliseum",
+   "city": "Monroe, LA",
+   "status": "pre",
+   "statusDetail": "1/14 - 7:30 PM EST"
+  },
+  {
+   "id": "401911996",
+   "date": "2027-01-16T21:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2348",
+    "name": "Louisiana Tech Bulldogs",
+    "short": "Louisiana Tech",
+    "abbr": "LT",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "1/16 - 4:00 PM EST"
+  },
+  {
+   "id": "401912002",
+   "date": "2027-01-22T01:30Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "309",
+    "name": "Louisiana Ragin' Cajuns",
+    "short": "Louisiana",
+    "abbr": "UL",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": true,
+   "venue": "Cajundome",
+   "city": "Lafayette, LA",
+   "status": "pre",
+   "statusDetail": "1/21 - 8:30 PM EST"
+  },
+  {
+   "id": "401912010",
+   "date": "2027-01-23T22:30Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2572",
+    "name": "Southern Miss Golden Eagles",
+    "short": "Southern Miss",
+    "abbr": "USM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "1/23 - 5:30 PM EST"
+  },
+  {
+   "id": "401912014",
+   "date": "2027-01-28T00:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2653",
+    "name": "Troy Trojans",
+    "short": "Troy",
+    "abbr": "TROY",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": true,
+   "venue": "Trojan Arena",
+   "city": "Troy, AL",
+   "status": "pre",
+   "statusDetail": "1/27 - 7:00 PM EST"
+  },
+  {
+   "id": "401912021",
+   "date": "2027-01-30T21:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2348",
+    "name": "Louisiana Tech Bulldogs",
+    "short": "Louisiana Tech",
+    "abbr": "LT",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": true,
+   "venue": "Thomas Assembly Center",
+   "city": "Ruston, LA",
+   "status": "pre",
+   "statusDetail": "1/30 - 4:00 PM EST"
+  },
+  {
+   "id": "401912029",
+   "date": "2027-02-04T01:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2032",
+    "name": "Arkansas State Red Wolves",
+    "short": "Arkansas St",
+    "abbr": "ARST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "2/3 - 8:00 PM EST"
+  },
+  {
+   "id": "401912039",
+   "date": "2027-02-13T18:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2247",
+    "name": "Georgia State Panthers",
+    "short": "Georgia St",
+    "abbr": "GAST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": true,
+   "venue": "GSU Convocation Center",
+   "city": "Atlanta, GA",
+   "status": "pre",
+   "statusDetail": "2/13 - 1:00 PM EST"
+  },
+  {
+   "id": "401912048",
+   "date": "2027-02-19T01:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2653",
+    "name": "Troy Trojans",
+    "short": "Troy",
+    "abbr": "TROY",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "2/18 - 8:00 PM EST"
+  },
+  {
+   "id": "401912054",
+   "date": "2027-02-20T21:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "309",
+    "name": "Louisiana Ragin' Cajuns",
+    "short": "Louisiana",
+    "abbr": "UL",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "2/20 - 4:00 PM EST"
+  },
+  {
+   "id": "401912061",
+   "date": "2027-02-25T01:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2433",
+    "name": "UL Monroe Warhawks",
+    "short": "UL Monroe",
+    "abbr": "ULM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png"
+   },
+   "home": true,
+   "neutral": false,
+   "conference": true,
+   "venue": "Mitchell Center",
+   "city": "Mobile, AL",
+   "status": "pre",
+   "statusDetail": "2/24 - 8:00 PM EST"
+  },
+  {
+   "id": "401912068",
+   "date": "2027-02-27T02:00Z",
+   "timeTbd": false,
+   "opponent": {
+    "id": "2572",
+    "name": "Southern Miss Golden Eagles",
+    "short": "Southern Miss",
+    "abbr": "USM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png"
+   },
+   "home": false,
+   "neutral": false,
+   "conference": true,
+   "venue": "Reed Green Coliseum",
+   "city": "Hattiesburg, MS",
+   "status": "pre",
+   "statusDetail": "2/26 - 9:00 PM EST"
+  }
+ ],
+ "roster": [
+  {
+   "number": "20",
+   "name": "Keyne Costa",
+   "pos": "F",
+   "cls": "SO",
+   "ht": "6' 8\"",
+   "wt": "215 lbs",
+   "hometown": "Brussels"
+  },
+  {
+   "number": "21",
+   "name": "Aaron Goldstein",
+   "pos": "G",
+   "cls": "SR",
+   "ht": "6' 0\"",
+   "wt": "180 lbs",
+   "hometown": "Staten Island, NY"
+  },
+  {
+   "number": "24",
+   "name": "Davaughn Hueitt",
+   "pos": "F",
+   "cls": "SO",
+   "ht": "6' 9\"",
+   "wt": "220 lbs",
+   "hometown": "Chula Vista, CA"
+  },
+  {
+   "number": "7",
+   "name": "Owen Kenney",
+   "pos": "F",
+   "cls": "JR",
+   "ht": "6' 7\"",
+   "wt": "225 lbs",
+   "hometown": "Barrie, ON"
+  },
+  {
+   "number": "6",
+   "name": "Lenni Kunzewitsch",
+   "pos": "F",
+   "cls": "JR",
+   "ht": "6' 10\"",
+   "wt": "220 lbs",
+   "hometown": "Gotha"
+  },
+  {
+   "number": "1",
+   "name": "Jalen Langsy",
+   "pos": "G",
+   "cls": "JR",
+   "ht": "6' 1\"",
+   "wt": "185 lbs",
+   "hometown": "Shakopee, MN"
+  },
+  {
+   "number": "9",
+   "name": "Peyton Law",
+   "pos": "F",
+   "cls": "SR",
+   "ht": "6' 7\"",
+   "wt": "220 lbs",
+   "hometown": "Calhoun, GA"
+  },
+  {
+   "number": "12",
+   "name": "Aedan Lewis",
+   "pos": "G",
+   "cls": "JR",
+   "ht": "6' 4\"",
+   "wt": "205 lbs",
+   "hometown": "Pensacola, FL"
+  },
+  {
+   "number": "13",
+   "name": "Diego Roman",
+   "pos": "G",
+   "cls": "FR",
+   "ht": "6' 8\"",
+   "wt": "215 lbs",
+   "hometown": "Barcelona"
+  },
+  {
+   "number": "35",
+   "name": "Alexey Sereda",
+   "pos": "F",
+   "cls": "FR",
+   "ht": "7' 0\"",
+   "wt": "215 lbs",
+   "hometown": "Krasnoyarsk"
+  },
+  {
+   "number": "0",
+   "name": "Samuel Shoptaw",
+   "pos": "G",
+   "cls": "SO",
+   "ht": "6' 2\"",
+   "wt": "195 lbs",
+   "hometown": "London, KY"
+  },
+  {
+   "number": "3",
+   "name": "Desmond Williams",
+   "pos": "G",
+   "cls": "SO",
+   "ht": "6' 3\"",
+   "wt": "185 lbs",
+   "hometown": "Mobile, AL"
+  },
+  {
+   "number": "4",
+   "name": "Stephen Williams",
+   "pos": "F",
+   "cls": "JR",
+   "ht": "6' 9\"",
+   "wt": "245 lbs",
+   "hometown": "Atmore, AL"
+  },
+  {
+   "number": "10",
+   "name": "Roderick Williams Jr.",
+   "pos": "F",
+   "cls": "SO",
+   "ht": "6' 6\"",
+   "wt": "230 lbs",
+   "hometown": "Magnolia, AR"
+  }
+ ],
+ "stats": [
+  {
+   "name": "General",
+   "stats": [
+    {
+     "name": "avgRebounds",
+     "label": "Rebounds Per Game",
+     "value": "35.5"
+    },
+    {
+     "name": "assistTurnoverRatio",
+     "label": "Assist To Turnover Ratio",
+     "value": "1.4"
+    },
+    {
+     "name": "avgFouls",
+     "label": "Fouls Per Game",
+     "value": "12.7"
+    },
+    {
+     "name": "gamesPlayed",
+     "label": "Games Played",
+     "value": "32"
+    },
+    {
+     "name": "gamesStarted",
+     "label": "Games Started",
+     "value": "0"
+    },
+    {
+     "name": "minutes",
+     "label": "Minutes",
+     "value": "6525"
+    },
+    {
+     "name": "avgMinutes",
+     "label": "Minutes Per Game",
+     "value": "203.9"
+    },
+    {
+     "name": "totalRebounds",
+     "label": "Rebounds",
+     "value": "1137"
+    },
+    {
+     "name": "rebounds",
+     "label": "Rebounds",
+     "value": "1137"
+    }
+   ]
+  },
+  {
+   "name": "Offensive",
+   "stats": [
+    {
+     "name": "freeThrowPct",
+     "label": "Free Throw Percentage",
+     "value": "66.0"
+    },
+    {
+     "name": "avgFieldGoalsMade",
+     "label": "Average Field Goals Made",
+     "value": "26.3"
+    },
+    {
+     "name": "avgFieldGoalsAttempted",
+     "label": "Average Field Goals Attempted",
+     "value": "56.5"
+    },
+    {
+     "name": "avgThreePointFieldGoalsMade",
+     "label": "Average 3-Point Field Goals Made",
+     "value": "7.2"
+    },
+    {
+     "name": "avgThreePointFieldGoalsAttempted",
+     "label": "Average 3-Point Field Goals Attempted",
+     "value": "20.7"
+    },
+    {
+     "name": "avgFreeThrowsMade",
+     "label": "Average Free Throws Made",
+     "value": "14.7"
+    },
+    {
+     "name": "avgFreeThrowsAttempted",
+     "label": "Average Free Throws Attempted",
+     "value": "22.3"
+    },
+    {
+     "name": "avgPoints",
+     "label": "Points Per Game",
+     "value": "74.6"
+    },
+    {
+     "name": "avgOffensiveRebounds",
+     "label": "Offensive Rebounds Per Game",
+     "value": "8.7"
+    },
+    {
+     "name": "avgAssists",
+     "label": "Assists Per Game",
+     "value": "11.8"
+    },
+    {
+     "name": "avgTurnovers",
+     "label": "Turnovers Per Game",
+     "value": "8.7"
+    },
+    {
+     "name": "twoPointFieldGoalPct",
+     "label": "2-Point Field Goal Percentage",
+     "value": "53.4"
+    },
+    {
+     "name": "scoringEfficiency",
+     "label": "Scoring Efficiency",
+     "value": "1.320"
+    },
+    {
+     "name": "shootingEfficiency",
+     "label": "Shooting Efficiency",
+     "value": "0.53"
+    },
+    {
+     "name": "fieldGoalPct",
+     "label": "Field Goal Percentage",
+     "value": "46.6"
+    },
+    {
+     "name": "twoPointFieldGoalsMade",
+     "label": "2-Point Field Goals Made",
+     "value": "612.0"
+    },
+    {
+     "name": "twoPointFieldGoalsAttempted",
+     "label": "2-Point Field Goals Attempted",
+     "value": "1145.0"
+    },
+    {
+     "name": "points",
+     "label": "Points",
+     "value": "2387"
+    },
+    {
+     "name": "offensiveRebounds",
+     "label": "Offensive Rebounds",
+     "value": "277"
+    },
+    {
+     "name": "assists",
+     "label": "Assists",
+     "value": "379"
+    },
+    {
+     "name": "turnovers",
+     "label": "Turnovers",
+     "value": "279"
+    },
+    {
+     "name": "fieldGoalsMade",
+     "label": "Field Goals Made",
+     "value": "843"
+    },
+    {
+     "name": "fieldGoalsAttempted",
+     "label": "Field Goals Attempted",
+     "value": "1808"
+    },
+    {
+     "name": "freeThrowsMade",
+     "label": "Free Throws Made",
+     "value": "470"
+    },
+    {
+     "name": "freeThrowsAttempted",
+     "label": "Free Throws Attempted",
+     "value": "712"
+    },
+    {
+     "name": "threePointFieldGoalsMade",
+     "label": "3-Point Field Goals Made",
+     "value": "231"
+    },
+    {
+     "name": "threePointFieldGoalsAttempted",
+     "label": "3-Point Field Goals Attempted",
+     "value": "663"
+    },
+    {
+     "name": "threePointFieldGoalPct",
+     "label": "3-Point Field Goal Percentage",
+     "value": "34.8"
+    },
+    {
+     "name": "avgTwoPointFieldGoalsMade",
+     "label": "2-Point Field Goals Made per Game",
+     "value": "19.1"
+    },
+    {
+     "name": "avgTwoPointFieldGoalsAttempted",
+     "label": "2-Point Field Goals Attempted per Game",
+     "value": "35.8"
+    }
+   ]
+  },
+  {
+   "name": "Defensive",
+   "stats": [
+    {
+     "name": "avgDefensiveRebounds",
+     "label": "Defensive Rebounds Per Game",
+     "value": "26.9"
+    },
+    {
+     "name": "avgBlocks",
+     "label": "Blocks Per Game",
+     "value": "2.3"
+    },
+    {
+     "name": "avgSteals",
+     "label": "Steals Per Game",
+     "value": "8.1"
+    },
+    {
+     "name": "defensiveRebounds",
+     "label": "Defensive Rebounds",
+     "value": "860"
+    },
+    {
+     "name": "steals",
+     "label": "Steals",
+     "value": "259"
+    },
+    {
+     "name": "blocks",
+     "label": "Blocks",
+     "value": "72"
+    }
+   ]
+  }
+ ],
  "leaders": [],
- "standings": [],
- "news": []
+ "standings": [
+  {
+   "name": "Sun Belt Conference",
+   "rows": [
+    {
+     "teamId": "2026",
+     "team": "App State",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "2032",
+     "team": "Arkansas St",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "324",
+     "team": "Coastal",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "290",
+     "team": "GA Southern",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "2247",
+     "team": "Georgia St",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "256",
+     "team": "James Madison",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "309",
+     "team": "Louisiana",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "2348",
+     "team": "Louisiana Tech",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "276",
+     "team": "Marshall",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "295",
+     "team": "Old Dominion",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "6",
+     "team": "South Alabama",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "2572",
+     "team": "Southern Miss",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "2653",
+     "team": "Troy",
+     "conf": "0-0",
+     "overall": "0-0"
+    },
+    {
+     "teamId": "2433",
+     "team": "UL Monroe",
+     "conf": "0-0",
+     "overall": "0-0"
+    }
+   ]
+  }
+ ],
+ "news": [
+  {
+   "title": "Law, Langsy Earn Preseason All-Sun Belt Honors; Jags Picked Fourth",
+   "url": "https://usajaguars.com/news/2026/10/19/mens-basketball-law-langsy-earn-preseason-all-sun-belt-honors-jags-picked-fourth.aspx",
+   "date": "2026-10-19T18:01:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "South Alabama to Face Loyola Marymount in Coastal Classic",
+   "url": "https://usajaguars.com/news/2026/8/25/mens-basketball-south-alabama-to-face-loyola-marymount-in-coastal-classic.aspx",
+   "date": "2026-08-25T16:05:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "South Alabama Men’s Basketball to Host LSF Tip-Off Gala Oct. 15",
+   "url": "https://usajaguars.com/news/2026/8/14/mens-basketball-south-alabama-mens-basketball-to-host-lsf-tip-off-gala-oct-15.aspx",
+   "date": "2026-08-14T19:42:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Men's Basketball Signs Russian Forward Alexey Sereda",
+   "url": "https://usajaguars.com/news/2026/8/12/mens-basketball-south-alabama-signs-russian-forward-alexey-sereda.aspx",
+   "date": "2026-08-12T17:25:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Men's Basketball Reveals 2026-27 Sun Belt Conference Schedule",
+   "url": "https://usajaguars.com/news/2026/8/6/mens-basketball-reveals-2026-27-sun-belt-conference-schedule.aspx",
+   "date": "2026-08-06T19:00:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Men's Basketball Draws Ohio in 2026 MAC-SBC Challenge",
+   "url": "https://usajaguars.com/news/2026/7/2/mens-basketball-jaguars-draw-ohio-in-2026-mac-sbc-challenge.aspx",
+   "date": "2026-07-02T18:02:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "Riley Announces Signings of Keyne Costa and Roderick Williams Jr.",
+   "url": "https://usajaguars.com/news/2026/6/2/mens-basketball-riley-announces-signings-of-keyne-costa-and-roderick-williams.aspx",
+   "date": "2026-06-02T18:25:00.000Z",
+   "source": "usajaguars.com"
+  },
+  {
+   "title": "South Alabama Jaguars vs. Auburn Tigers: Game Highlights",
+   "url": "https://www.espn.com/video/clip?id=48239774",
+   "date": "2026-03-19T14:20:49Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0318/af8c6723-4d20-4a64-b5a4-912f1f7775ee/af8c6723-4d20-4a64-b5a4-912f1f7775ee.jpg"
+  },
+  {
+   "title": "Overton, Hall each have 21 in Auburn's 78-67 victory against South Alabama in NIT",
+   "url": "http://www.espn.com/ncb/recap?gameId=401858193",
+   "date": "2026-03-18T05:46:11Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401858193.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Auburn, South Alabama square off in NIT",
+   "url": "http://www.espn.com/ncb/preview?gameId=401858193",
+   "date": "2026-03-17T08:45:07Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401858193.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Southern Miss Golden Eagles vs. South Alabama Jaguars: Game Highlights",
+   "url": "https://www.espn.com/video/clip?id=48058736",
+   "date": "2026-02-28T03:46:18Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0228/c07435ed-2df4-476f-aa95-29f7b5a1f04b/c07435ed-2df4-476f-aa95-29f7b5a1f04b.jpg"
+  },
+  {
+   "title": "Olsen's 29 help South Alabama defeat UL Monroe 89-54",
+   "url": "http://www.espn.com/ncb/recap?gameId=401808693",
+   "date": "2026-02-26T05:05:41Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808693.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "UL Monroe Warhawks vs. South Alabama Jaguars: Game Highlights",
+   "url": "https://www.espn.com/video/clip?id=48038985",
+   "date": "2026-02-26T03:25:03Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0226/a1bdfdb9-7101-4eb7-a997-cdfa15908273/a1bdfdb9-7101-4eb7-a997-cdfa15908273.jpg"
+  },
+  {
+   "title": "The 2026 men's college basketball coaching carousel guide",
+   "url": "https://www.espn.com/mens-college-basketball/story/_/id/48016298/mens-college-basketball-2026-coaching-carousel-hot-seat-guide-candidates",
+   "date": "2026-02-25T13:55:03Z",
+   "source": "ESPN",
+   "image": "https://a.espncdn.com/photo/2026/0224/r1619243_608x342_16-9.jpg"
+  },
+  {
+   "title": "South Alabama defeats Troy 65-54",
+   "url": "http://www.espn.com/ncb/recap?gameId=401808685",
+   "date": "2026-02-23T09:58:57Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808685.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Troy Trojans vs. South Alabama Jaguars: Game Highlights",
+   "url": "https://www.espn.com/video/clip?id=47998968",
+   "date": "2026-02-21T23:01:02Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0221/d2959a26-2f54-4640-9c87-ea7926874b86/d2959a26-2f54-4640-9c87-ea7926874b86.jpg"
+  },
+  {
+   "title": "Texas State Bobcats vs. South Alabama Jaguars: Game Highlights",
+   "url": "https://www.espn.com/video/clip?id=47982588",
+   "date": "2026-02-20T03:22:36Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0220/7a35e06f-b5ea-446e-9560-236dc06d72d9/7a35e06f-b5ea-446e-9560-236dc06d72d9.jpg"
+  },
+  {
+   "title": "South Alabama hosts Hall and Texas State",
+   "url": "http://www.espn.com/ncb/preview?gameId=401808680",
+   "date": "2026-02-18T09:55:53Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808680.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Fricks scores 27 as Marshall tops South Alabama 84-80",
+   "url": "http://www.espn.com/ncb/recap?gameId=401808639",
+   "date": "2026-02-17T02:45:02Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808639.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "South Alabama Jaguars vs. Marshall Thundering Herd: Game Highlights",
+   "url": "https://www.espn.com/video/clip?id=47951436",
+   "date": "2026-02-17T02:03:20Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0217/bcb0a1b4-89df-4cf2-bf88-a79dfe9e9e5f/bcb0a1b4-89df-4cf2-bf88-a79dfe9e9e5f.jpg"
+  },
+  {
+   "title": "South Alabama Jaguars vs. Arkansas St Red Wolves: Game Highlights",
+   "url": "https://www.espn.com/video/clip?id=47932063",
+   "date": "2026-02-14T22:42:03Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0214/1c99f0d4-9bc4-45a5-8010-ffb4d4fe9bf2/1c99f0d4-9bc4-45a5-8010-ffb4d4fe9bf2.jpg"
+  },
+  {
+   "title": "Cooper scores 34, South Alabama defeats Southern Miss 84-78",
+   "url": "http://www.espn.com/ncb/recap?gameId=401808668",
+   "date": "2026-02-13T06:23:28Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808668.png?templateId=espn.applewatch.awayhome.1"
+  }
+ ],
+ "nextOpponent": {
+  "team": {
+   "id": "195",
+   "name": "Ohio Bobcats",
+   "short": "Ohio",
+   "abbr": "OHIO",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png"
+  },
+  "stats": [
+   {
+    "name": "General",
+    "stats": [
+     {
+      "name": "avgRebounds",
+      "label": "Rebounds Per Game",
+      "value": "33.6"
+     },
+     {
+      "name": "assistTurnoverRatio",
+      "label": "Assist To Turnover Ratio",
+      "value": "1.2"
+     },
+     {
+      "name": "avgFouls",
+      "label": "Fouls Per Game",
+      "value": "18.0"
+     },
+     {
+      "name": "gamesPlayed",
+      "label": "Games Played",
+      "value": "32"
+     },
+     {
+      "name": "gamesStarted",
+      "label": "Games Started",
+      "value": "0"
+     },
+     {
+      "name": "minutes",
+      "label": "Minutes",
+      "value": "6450"
+     },
+     {
+      "name": "avgMinutes",
+      "label": "Minutes Per Game",
+      "value": "201.6"
+     },
+     {
+      "name": "totalRebounds",
+      "label": "Rebounds",
+      "value": "1076"
+     },
+     {
+      "name": "rebounds",
+      "label": "Rebounds",
+      "value": "1076"
+     }
+    ]
+   },
+   {
+    "name": "Offensive",
+    "stats": [
+     {
+      "name": "freeThrowPct",
+      "label": "Free Throw Percentage",
+      "value": "70.6"
+     },
+     {
+      "name": "avgFieldGoalsMade",
+      "label": "Average Field Goals Made",
+      "value": "27.6"
+     },
+     {
+      "name": "avgFieldGoalsAttempted",
+      "label": "Average Field Goals Attempted",
+      "value": "59.9"
+     },
+     {
+      "name": "avgThreePointFieldGoalsMade",
+      "label": "Average 3-Point Field Goals Made",
+      "value": "7.0"
+     },
+     {
+      "name": "avgThreePointFieldGoalsAttempted",
+      "label": "Average 3-Point Field Goals Attempted",
+      "value": "22.8"
+     },
+     {
+      "name": "avgFreeThrowsMade",
+      "label": "Average Free Throws Made",
+      "value": "15.6"
+     },
+     {
+      "name": "avgFreeThrowsAttempted",
+      "label": "Average Free Throws Attempted",
+      "value": "22.1"
+     },
+     {
+      "name": "avgPoints",
+      "label": "Points Per Game",
+      "value": "77.9"
+     },
+     {
+      "name": "avgOffensiveRebounds",
+      "label": "Offensive Rebounds Per Game",
+      "value": "10.1"
+     },
+     {
+      "name": "avgAssists",
+      "label": "Assists Per Game",
+      "value": "13.5"
+     },
+     {
+      "name": "avgTurnovers",
+      "label": "Turnovers Per Game",
+      "value": "10.9"
+     },
+     {
+      "name": "twoPointFieldGoalPct",
+      "label": "2-Point Field Goal Percentage",
+      "value": "55.6"
+     },
+     {
+      "name": "scoringEfficiency",
+      "label": "Scoring Efficiency",
+      "value": "1.301"
+     },
+     {
+      "name": "shootingEfficiency",
+      "label": "Shooting Efficiency",
+      "value": "0.52"
+     },
+     {
+      "name": "fieldGoalPct",
+      "label": "Field Goal Percentage",
+      "value": "46.1"
+     },
+     {
+      "name": "twoPointFieldGoalsMade",
+      "label": "2-Point Field Goals Made",
+      "value": "660.0"
+     },
+     {
+      "name": "twoPointFieldGoalsAttempted",
+      "label": "2-Point Field Goals Attempted",
+      "value": "1188.0"
+     },
+     {
+      "name": "points",
+      "label": "Points",
+      "value": "2492"
+     },
+     {
+      "name": "offensiveRebounds",
+      "label": "Offensive Rebounds",
+      "value": "322"
+     },
+     {
+      "name": "assists",
+      "label": "Assists",
+      "value": "432"
+     },
+     {
+      "name": "turnovers",
+      "label": "Turnovers",
+      "value": "348"
+     },
+     {
+      "name": "fieldGoalsMade",
+      "label": "Field Goals Made",
+      "value": "884"
+     },
+     {
+      "name": "fieldGoalsAttempted",
+      "label": "Field Goals Attempted",
+      "value": "1916"
+     },
+     {
+      "name": "freeThrowsMade",
+      "label": "Free Throws Made",
+      "value": "500"
+     },
+     {
+      "name": "freeThrowsAttempted",
+      "label": "Free Throws Attempted",
+      "value": "708"
+     },
+     {
+      "name": "threePointFieldGoalsMade",
+      "label": "3-Point Field Goals Made",
+      "value": "224"
+     },
+     {
+      "name": "threePointFieldGoalsAttempted",
+      "label": "3-Point Field Goals Attempted",
+      "value": "728"
+     },
+     {
+      "name": "threePointFieldGoalPct",
+      "label": "3-Point Field Goal Percentage",
+      "value": "30.8"
+     },
+     {
+      "name": "avgTwoPointFieldGoalsMade",
+      "label": "2-Point Field Goals Made per Game",
+      "value": "20.6"
+     },
+     {
+      "name": "avgTwoPointFieldGoalsAttempted",
+      "label": "2-Point Field Goals Attempted per Game",
+      "value": "37.1"
+     }
+    ]
+   },
+   {
+    "name": "Defensive",
+    "stats": [
+     {
+      "name": "avgDefensiveRebounds",
+      "label": "Defensive Rebounds Per Game",
+      "value": "23.6"
+     },
+     {
+      "name": "avgBlocks",
+      "label": "Blocks Per Game",
+      "value": "3.6"
+     },
+     {
+      "name": "avgSteals",
+      "label": "Steals Per Game",
+      "value": "6.1"
+     },
+     {
+      "name": "defensiveRebounds",
+      "label": "Defensive Rebounds",
+      "value": "754"
+     },
+     {
+      "name": "steals",
+      "label": "Steals",
+      "value": "196"
+     },
+     {
+      "name": "blocks",
+      "label": "Blocks",
+      "value": "114"
+     }
+    ]
+   }
+  ]
+ }
 }

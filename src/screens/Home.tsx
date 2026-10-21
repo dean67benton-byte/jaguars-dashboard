@@ -123,7 +123,7 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
   if (!data) return <Loading team={team} />;
   const next = nextGame(data.events);
   const last = lastResult(data.events);
-  const record = [data.team.record, data.team.confRecord && `${data.team.confRecord} Sun Belt`].filter(Boolean).join(', ');
+  const record = [data.team.record, data.team.confRecord ? `${data.team.confRecord} Sun Belt` : data.team.standingSummary].filter(Boolean).join(', ');
 
   return (
     <>
