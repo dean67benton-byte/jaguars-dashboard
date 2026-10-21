@@ -30,7 +30,7 @@ was more than 4 hours ago as possibly final; confirm on ESPN).
 
 Files: `public/briefs/<YYYY-MM-DD>-<opponent-slug>.json` (shape: `Brief` in
 `src/lib/types.ts`) and the matching entry in `public/briefs/index.json`
-(shape: `BriefIndexEntry`; keep `status`, `pick` and `letter` in sync).
+(shape: `BriefIndexEntry`; keep `status`, `pick`, `letter` and `accuracyPct` in sync).
 `public/briefs/2026-10-20-marshall.json` is the reference example.
 
 Preview content, modeled on Dean's Marshall brief:
@@ -45,12 +45,36 @@ Preview content, modeled on Dean's Marshall brief:
 Game-morning reminder: 2 to 4 notes on injury news, the weather update, and
 anything that changed since the preview.
 
-Postgame grade: final score, `winnerCorrect`, `marginOff` =
-|predicted margin − actual margin|, `totalOff` = |predicted total − actual
-total|, a letter grade (A to F) weighing winner, margin, total and how many
-keys held up, a 2 to 3 sentence summary, every key with hit/miss and one line
+Postgame grade has two separate scores plus a fix list:
+
+1. **Performance** (`grade.performance`): South Alabama's own play, graded
+   `A+` to `F-` (use +/- on every letter, including `F+` and `F-`). Judge the
+   team, not the brief: result and opponent strength, offense (points, yards a
+   play, third downs, red-zone finishing), defense, turnovers, special teams,
+   penalties, and late-game execution. A close road loss to a good team can
+   still be a C; a sloppy win over a weak team can be a C too. Add a 2 to 3
+   sentence `summary` with the numbers behind the grade.
+2. **Brief accuracy** (`grade.accuracyPct`, 0 to 100): how right the preview
+   was. Score it with this rubric and list each part in `grade.accuracy`
+   (`part`, `points`, `max`, one-line `note`); `accuracyPct` is the sum,
+   rounded:
+   - Winner: 25 if right, else 0
+   - Margin: 15 × max(0, 1 − marginOff / 21), rounded
+   - Total points: 10 × max(0, 1 − totalOff / 28), rounded
+   - Keys to the game: 35 × keys that held up / all keys, rounded
+   - Players and storylines: 0 to 15, judged on whether the players to watch,
+     what to watch for and the listed risks turned out to matter
+3. **Fix before the next game** (`grade.fixes`, 3 to 5 items, `title` +
+   `text`): what South Alabama must clean up, each backed by a stat or play
+   from this game, and tied to the next opponent where it fits.
+
+Also keep: final score, `winnerCorrect`, `marginOff` = |predicted margin −
+actual margin|, `totalOff` = |predicted total − actual total|, a 2 to 3
+sentence `summary` of how the brief did, every key with hit/miss and one line
 of evidence, the players to watch with what they did, what the brief missed,
-and sources. Set `status` to `final` in the brief and the index.
+and sources. Do not set the old `grade.letter`. In the index entry set
+`letter` to the performance letter and `accuracyPct` to the accuracy. Set
+`status` to `final` in the brief and the index.
 
 Sources to check every time, besides ESPN and usajaguars.com:
 - AL.com South Alabama coverage: https://www.al.com/usa/ (beat reporting, injuries, depth chart news)

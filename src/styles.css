@@ -220,6 +220,11 @@ tr.us td { background: color-mix(in srgb, var(--red) 10%, transparent); font-wei
 .key { display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; }
 .key .mark { flex: none; width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: 0.8rem; }
 .key .mark.hit { background: color-mix(in srgb, var(--good) 22%, transparent); color: var(--good); }
+.key .mark.fix { background: color-mix(in srgb, var(--red) 22%, transparent); color: var(--red); }
+.grade-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.grade-pair .tile { gap: 6px; }
+.meter { display: block; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.meter > span { display: block; height: 100%; background: var(--red); }
 .key .mark.miss { background: color-mix(in srgb, var(--bad) 22%, transparent); color: var(--bad); }
 .grade-letter { font-family: var(--font-display); font-weight: 700; font-size: 3rem; line-height: 1; color: var(--red); }
 .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }

@@ -1,11 +1,12 @@
 [
- {
-  "id": "2026-10-20-marshall",
-  "sport": "football",
-  "date": "2026-10-20T23:30:00Z",
-  "opponent": "Marshall",
-  "status": "final",
-  "pick": "USA 35, MRSH 28",
-  "letter": "D"
- }
+  {
+    "id": "2026-10-20-marshall",
+    "sport": "football",
+    "date": "2026-10-20T23:30:00Z",
+    "opponent": "Marshall",
+    "status": "final",
+    "pick": "USA 35, MRSH 28",
+    "letter": "C-",
+    "accuracyPct": 41
+  }
 ]

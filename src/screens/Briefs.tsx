@@ -10,8 +10,13 @@ function Scorecard({ graded }: { graded: Brief[] }) {
   const n = graded.length;
   const winners = graded.filter((b) => b.grade!.winnerCorrect).length;
   const avg = (f: (b: Brief) => number) => (graded.reduce((s, b) => s + f(b), 0) / n).toFixed(1);
+  const scored = graded.filter((b) => b.grade!.accuracyPct != null);
+  const accuracy = scored.length
+    ? Math.round(scored.reduce((s, b) => s + b.grade!.accuracyPct!, 0) / scored.length)
+    : null;
   return (
     <div class="tiles">
+      {accuracy != null && <div class="panel tile"><span class="label">Avg brief accuracy</span><span class="v">{accuracy}%</span></div>}
       <div class="panel tile"><span class="label">Winners picked</span><span class="v">{winners}-{n - winners}</span></div>
       <div class="panel tile"><span class="label">Avg margin miss</span><span class="v">{avg((b) => b.grade!.marginOff)} pts</span></div>
       <div class="panel tile"><span class="label">Avg total miss</span><span class="v">{avg((b) => b.grade!.totalOff)} pts</span></div>
@@ -48,7 +53,10 @@ export function Briefs({ index, error }: { index: BriefIndexEntry[] | null; erro
               {b.letter ? <span class="grade-letter" style="font-size:1.6rem;width:2ch">{b.letter}</span> : <IconBrief />}
               <div class="grow">
                 <div class="title">{b.opponent}</div>
-                <div class="small muted">{day(b.date)}. Pick: {b.pick}</div>
+                <div class="small muted">
+                  {day(b.date)}. Pick: {b.pick}
+                  {b.accuracyPct != null && `. Brief ${b.accuracyPct}% accurate`}
+                </div>
               </div>
               <span class={`pill ${b.status === 'final' ? 'good' : 'accent'}`}>{b.status === 'final' ? 'Graded' : 'Preview'}</span>
               <Chevron />
@@ -67,18 +75,58 @@ function Grade({ b }: { b: Brief }) {
   return (
     <section class="section">
       <h2>Postgame grade</h2>
-      <div class="panel pick">
-        <span class="grade-letter">{g.letter}</span>
-        <div style="display:grid;gap:4px">
-          <div class="num" style="font-size:1.3rem">
-            Final: USA {g.final.usa}, {b.opponent} {g.final.opp}
+      <div class="num" style="font-size:1.3rem">
+        Final: USA {g.final.usa}, {b.opponent} {g.final.opp}
+      </div>
+      {g.performance ? (
+        <div class="grade-pair">
+          <div class="panel tile">
+            <span class="label">South Alabama's performance</span>
+            <span class="grade-letter">{g.performance.letter}</span>
           </div>
-          <div class="small muted">
-            Picked USA {p.usa}-{p.opp}. Winner {g.winnerCorrect ? 'right' : 'wrong'}, margin off by {g.marginOff}, total off by {g.totalOff}.
+          <div class="panel tile">
+            <span class="label">Brief accuracy</span>
+            <span class="grade-letter">{g.accuracyPct ?? '?'}%</span>
+            {g.accuracyPct != null && <span class="meter"><span style={{ width: `${g.accuracyPct}%` }} /></span>}
           </div>
         </div>
+      ) : (
+        <div class="panel pick">
+          <span class="grade-letter">{g.letter}</span>
+          <div class="small muted">Older grade: this letter rates the brief's accuracy.</div>
+        </div>
+      )}
+      {g.performance && <p class="prose">{g.performance.summary}</p>}
+
+      {g.fixes && g.fixes.length > 0 && (
+        <>
+          <h3>Fix before the next game</h3>
+          <div class="panel list">
+            {g.fixes.map((f, i) => (
+              <div class="key" key={f.title}>
+                <span class="mark fix">{i + 1}</span>
+                <div><div class="title">{f.title}</div><div class="small muted">{f.text}</div></div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      <h3>How the brief did</h3>
+      <div class="small muted">
+        Picked USA {p.usa}-{p.opp}. Winner {g.winnerCorrect ? 'right' : 'wrong'}, margin off by {g.marginOff}, total off by {g.totalOff}.
       </div>
       <p class="prose">{g.summary}</p>
+      {g.accuracy && g.accuracy.length > 0 && (
+        <div class="panel list">
+          {g.accuracy.map((a) => (
+            <div class="row" key={a.part}>
+              <div class="grow"><div class="title">{a.part}</div><div class="small muted">{a.note}</div></div>
+              <span class="num">{a.points}/{a.max}</span>
+            </div>
+          ))}
+        </div>
+      )}
       <div class="panel list">
         {g.keys.map((k) => (
           <div class="key" key={k.key}>

@@ -142,7 +142,14 @@ export interface Brief {
     winnerCorrect: boolean;
     marginOff: number; // |predicted margin - actual margin|
     totalOff: number; // |predicted total - actual total|
-    letter: string; // overall grade, e.g. B+
+    /** South Alabama's own performance, A+ to F-. */
+    performance?: { letter: string; summary: string };
+    /** How accurate the brief was, 0 to 100, with the rubric parts that add up to it. */
+    accuracyPct?: number;
+    accuracy?: { part: string; points: number; max: number; note: string }[];
+    /** What South Alabama has to fix before the next game. */
+    fixes?: { title: string; text: string }[];
+    letter?: string; // older grades only: one letter for brief accuracy
     summary: string;
     keys: { key: string; hit: boolean; note: string }[];
     players: { name: string; note: string }[];
@@ -158,5 +165,6 @@ export interface BriefIndexEntry {
   opponent: string;
   status: 'preview' | 'final';
   pick: string; // "USA 35, MRSH 28"
-  letter?: string;
+  letter?: string; // performance grade, A+ to F-
+  accuracyPct?: number;
 }

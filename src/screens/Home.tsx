@@ -114,6 +114,7 @@ function LatestBrief({ index, sport }: { index: BriefIndexEntry[] | null; sport:
           </div>
           <div class="small muted">
             {day(latest.date)}. Pick: {latest.pick}
+            {latest.accuracyPct != null && `. Brief ${latest.accuracyPct}% accurate`}
           </div>
         </div>
       </a>
