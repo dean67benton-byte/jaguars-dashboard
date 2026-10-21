@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-21T18:42:45.831Z",
+ "updatedAt": "2026-10-21T22:19:31.180Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2268,6 +2268,13 @@
  ],
  "news": [
   {
+   "title": "South Alabama coach updates health status of star forward Peyton Law",
+   "url": "https://www.al.com/sports/2026/10/south-alabama-coach-richie-riley-updates-health-status-of-star-forward-peyton-law.html",
+   "date": "2026-10-21T20:44:19.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/X7OBJXZEVZGEBIV7UH6IPDDE7Q.jpeg?auth=bee37703a2844e7aae403475fdd45b717442a34a7a1e0f14f226263b1ac14301&smart=true&height=1200"
+  },
+  {
    "title": "The postgame report: Marshall 20, South Alabama 13",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-marshall-postgame-week8-2026",
    "source": "Diehard Sports Network",
@@ -2371,13 +2378,6 @@
    "date": "2026-10-17T20:57:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/17/Game_Week_7_-_Web.png"
-  },
-  {
-   "title": "Versatile running back Keenan Phillips is South Alabama’s ‘Swiss Army knife’",
-   "url": "https://www.al.com/sports/2026/10/versatile-running-back-keenan-phillips-is-south-alabamas-swiss-army-knife.html",
-   "date": "2026-10-14T21:43:23.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/ANOKFRECAFHITHMWXODPODRYF4.jpg?auth=139d141a76f77778ebc5ad628ed08e342ffc03688ce62b5c97d8db611a2421b2&smart=true&height=1200"
   },
   {
    "title": "Keenan Phillips Tabbed Sun Belt Special Teams Player of the Week",
