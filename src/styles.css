@@ -321,3 +321,20 @@ tr.us td.rank { color: var(--fg); }
 .photo-fallback .logo { opacity: 0.5; }
 .headshot { flex: none; border-radius: 50%; object-fit: cover; object-position: top; background: var(--surface-2); display: inline-block; vertical-align: middle; }
 .player-cell { display: inline-flex; align-items: center; gap: 10px; }
+
+/* ---------- power rankings ---------- */
+.rank-list { list-style: none; margin: 0; padding: 0; }
+.rank-row { padding: 14px 2px; display: grid; gap: 8px; }
+.rank-top { display: flex; align-items: center; gap: var(--s3); min-width: 0; }
+.rank-n { font-family: var(--font-display); font-weight: 700; font-size: 1.7rem; line-height: 1; width: 1.4em; text-align: right; font-variant-numeric: tabular-nums; flex: none; }
+.move { flex: none; width: 2.4em; font-size: 0.75rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.move.up { color: var(--good); }
+.move.down { color: var(--bad); }
+.rank-blurb { margin-left: calc(1.4em * 1.7 + 2.4em * 0.75 + 2 * var(--s3)); font-size: 0.9rem; max-width: 60ch; }
+.rank-adjust { margin-left: calc(1.4em * 1.7 + 2.4em * 0.75 + 2 * var(--s3)); }
+.rank-row.us { box-shadow: inset 3px 0 0 var(--red); padding-left: 10px; }
+.rank-row.us .title { font-weight: 700; }
+.result-inline { font-weight: 700; }
+.result-inline.W { color: var(--good); }
+.result-inline.L { color: var(--bad); }
+@media (max-width: 440px) { .rank-blurb, .rank-adjust { margin-left: 0; } }

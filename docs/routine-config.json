@@ -1,1 +1,9 @@
-{ "football": true, "basketball": false }
+{
+  "football": true,
+  "basketball": false,
+  "sunday": {
+    "rankingBlurbs": true,
+    "nflGrades": true,
+    "coachingOutlook": true
+  }
+}

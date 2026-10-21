@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 import { useRoute } from './router';
-import { useBriefIndex, useTeam, SPORT_LABEL } from './lib/data';
+import { useBriefIndex, useRankings, useTeam, SPORT_LABEL } from './lib/data';
 import { useSettings } from './lib/settings';
 import type { GameEvent, SportKey } from './lib/types';
 import { IconCalendar, IconGameDay, IconHome, IconMore, IconRefresh } from './icons';
@@ -13,6 +13,7 @@ import { News } from './screens/News';
 import { SettingsScreen } from './screens/Settings';
 import { GameDay } from './screens/GameDay';
 import { More, MORE_LINKS } from './screens/More';
+import { Rankings } from './screens/Rankings';
 
 const SPORT_KEY = 'jags.sport';
 const readSport = (): SportKey => {
@@ -31,7 +32,7 @@ const TABS = [
 ];
 
 // Which tab a page belongs to.
-const TAB_OF: Record<string, string> = { game: 'schedule', brief: 'gameday', briefs: 'gameday', team: 'more', news: 'more', settings: 'more' };
+const TAB_OF: Record<string, string> = { game: 'schedule', brief: 'gameday', briefs: 'gameday', team: 'more', news: 'more', settings: 'more', rankings: 'more' };
 
 // Game Day gets a red dot from 6 hours before kickoff until the game ends.
 const isGameDay = (events: GameEvent[] = [], now = Date.now()) =>
@@ -44,6 +45,7 @@ export function App() {
   const sport: SportKey = settings.showBasketball ? sportPref : 'football';
   const team = useTeam(sport, settings.autoRefresh ? 10 * 60e3 : 0);
   const briefs = useBriefIndex();
+  const rankings = useRankings();
 
   useEffect(() => {
     try {
@@ -56,6 +58,7 @@ export function App() {
   const refresh = () => {
     team.reload(true);
     briefs.reload(true);
+    rankings.reload(true);
   };
 
   const [page, a, b] = route;
@@ -69,10 +72,11 @@ export function App() {
   else if (page === 'brief') body = <BriefView id={a} />;
   else if (page === 'gameday') body = <GameDay sport={sport} team={team} briefs={briefs.data} />;
   else if (page === 'more') body = <More />;
+  else if (page === 'rankings') body = <Rankings sport={sport} data={rankings.data} error={rankings.error} />;
   else if (page === 'team') body = <Team sport={sport} team={team} initial={a} />;
   else if (page === 'news') body = <News team={team} />;
   else if (page === 'settings') body = <SettingsScreen />;
-  else body = <Home sport={sport} team={team} briefs={briefs.data} />;
+  else body = <Home sport={sport} team={team} briefs={briefs.data} rankings={rankings.data} />;
 
   return (
     <div class="shell">
