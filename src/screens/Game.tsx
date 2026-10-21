@@ -4,7 +4,7 @@ import { hasEspnId, isLiveWindow, useSummary } from '../lib/live';
 import { useSettings } from '../lib/settings';
 import { kickoff, longDay } from '../lib/time';
 import { IconBrief, IconRadio } from '../icons';
-import { Loading, TeamState, vsAt } from './parts';
+import { Loading, Logo, TeamState, vsAt } from './parts';
 
 function sideBySide(us: StatCategory[], them: StatCategory[]) {
   const theirs = new Map(them.flatMap((c) => c.stats.map((s) => [`${c.name}|${s.name}`, s])));
@@ -45,11 +45,13 @@ export function Game({ sport, id, team, briefs }: { sport: SportKey; id: string;
         </div>
         <div class="matchup-line">
           <div class="team-block">
+            <Logo src={data.team.logo} id="6" size={44} />
             <span class="t">South Alabama</span>
             <span class="r">{data.team.record}</span>
           </div>
           <span class="at">{vsAt(e)}</span>
           <div class="team-block right">
+            <Logo src={e.opponent.logo} id={e.opponent.id || undefined} size={44} />
             <span class="t">{e.opponent.short}</span>
             <span class="r">{opp?.team.record ?? e.opponent.record}</span>
           </div>

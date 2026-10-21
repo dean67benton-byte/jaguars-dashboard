@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'preact/hooks';
-import type { BriefIndexEntry, GameEvent, SportKey } from '../lib/types';
+import type { BriefIndexEntry, GameEvent, SportKey, TeamData } from '../lib/types';
 import { briefFor, lastResult, LISTEN_URL, nextGame, SPORT_LABEL } from '../lib/data';
 import { countdown, day, kickoff, longDay, ago } from '../lib/time';
 import { hasEspnId, isLiveWindow, useSummary } from '../lib/live';
 import { useSettings } from '../lib/settings';
 import { IconBrief, IconRadio } from '../icons';
-import { GameRow, Loading, TeamState, Updated, vsAt } from './parts';
+import { GameRow, Loading, Logo, StandingsTable, TeamState, Updated, vsAt } from './parts';
+import { useLiveStandings } from '../lib/standings';
 
 function useNow(ms: number) {
   const [now, setNow] = useState(Date.now());
@@ -16,7 +17,7 @@ function useNow(ms: number) {
   return now;
 }
 
-function NextGame({ sport, e, record, brief }: { sport: SportKey; e: GameEvent; record?: string; brief?: BriefIndexEntry }) {
+function NextGame({ sport, e, record, brief, usLogo }: { sport: SportKey; e: GameEvent; record?: string; brief?: BriefIndexEntry; usLogo?: string }) {
   const settings = useSettings();
   const now = useNow(1000);
   const liveWindow = isLiveWindow(e, now);
@@ -35,11 +36,13 @@ function NextGame({ sport, e, record, brief }: { sport: SportKey; e: GameEvent; 
 
       <div class="matchup-line">
         <div class="team-block">
+          <Logo src={usLogo} id="6" size={44} />
           <span class="t">South Alabama</span>
           <span class="r">{record}</span>
         </div>
         <span class="at">{vsAt(e)}</span>
         <div class="team-block right">
+          <Logo src={e.opponent.logo} id={e.opponent.id || undefined} size={44} />
           <span class="t">{e.opponent.short}</span>
           <span class="r">{e.opponent.record}</span>
         </div>
@@ -118,6 +121,23 @@ function LatestBrief({ index, sport }: { index: BriefIndexEntry[] | null; sport:
   );
 }
 
+function SunBelt({ sport, data }: { sport: SportKey; data: TeamData }) {
+  const settings = useSettings();
+  const { groups, live } = useLiveStandings(sport, data.standings, settings.autoRefresh);
+  const ours = groups.filter((g) => g.rows.some((r) => r.teamId === data.team.id));
+  if (!ours.length) return null;
+  return (
+    <section class="section">
+      <div class="section-head">
+        <h2>{ours[0].name}</h2>
+        <a href="#team">Full standings</a>
+      </div>
+      <StandingsTable groups={ours} usId={data.team.id} compact />
+      <p class="small muted">{live ? 'Live from ESPN.' : 'From the last update.'}</p>
+    </section>
+  );
+}
+
 export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState; briefs: BriefIndexEntry[] | null }) {
   const data = team.data?.sport === sport ? team.data : null;
   if (!data) return <Loading team={team} />;
@@ -128,7 +148,7 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
   return (
     <>
       {next ? (
-        <NextGame sport={sport} e={next} record={record} brief={briefFor(briefs, next)} />
+        <NextGame sport={sport} e={next} record={record} brief={briefFor(briefs, next)} usLogo={data.team.logo} />
       ) : (
         <section class="panel empty">
           <strong>No upcoming {SPORT_LABEL[sport].toLowerCase()} games on the schedule yet.</strong>
@@ -151,6 +171,8 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
             </section>
           )}
         </div>
+        <div style="display:grid;gap:22px;min-width:0">
+        <SunBelt sport={sport} data={data} />
         <section class="section">
           <div class="section-head">
             <h2>Headlines</h2>
@@ -171,6 +193,7 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
             {!data.news.length && <div class="empty small">No headlines yet.</div>}
           </div>
         </section>
+        </div>
       </div>
       <Updated data={data} />
     </>

@@ -250,3 +250,13 @@ tr.us td { background: color-mix(in srgb, var(--red) 10%, transparent); font-wei
   .topbar-inner { gap: 8px; }
   .sport-switch button { padding: 6px 11px; }
 }
+
+.logo { flex: none; object-fit: contain; }
+.team-cell { display: inline-flex; align-items: center; gap: 10px; }
+.team-block .logo { margin-bottom: 6px; }
+.team-block.right .logo { margin-left: auto; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme='light']) .logo { filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.35)); } }
+:root[data-theme='dark'] .logo { filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.35)); }
+@media (max-width: 440px) {
+  .row .pill:not(.live):not(.accent) { display: none; }
+}

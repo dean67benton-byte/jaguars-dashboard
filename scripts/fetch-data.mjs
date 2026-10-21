@@ -152,7 +152,7 @@ function normalizeStandings(json) {
       kids.forEach((k) => walk({ ...k, _all: true }, ''));
       return;
     }
-    const name = [parentName, node.name ?? node.abbreviation].filter(Boolean).join(' · ');
+    const name = [parentName, node.name ?? node.abbreviation].filter(Boolean).join(' ');
     const entries = node.standings?.entries;
     if (entries && (node._all || entries.some((e) => String(e.team?.id) === TEAM_ID))) {
       const stat = (e, ...names) => {
@@ -284,15 +284,16 @@ async function updateSport(sport, now) {
 
   let { roster = [], stats = [], leaders = [], standings = [], nextOpponent } = prev ?? {};
   if (daily) {
-    const [rosterJson, statsJson, standJson] = await Promise.all([
+    const [rosterJson, statsJson] = await Promise.all([
       tryJson(`${base}/teams/${TEAM_ID}/roster`),
       tryJson(`${base}/teams/${TEAM_ID}/statistics`),
-      tryJson(`${STANDINGS}/${cfg.path}/standings?season=${season}`),
     ]);
     if (rosterJson) roster = normalizeRoster(rosterJson);
     if (statsJson) stats = normalizeStats(statsJson);
-    if (standJson) standings = normalizeStandings(standJson);
   }
+  // Standings change after every game, so refresh them on every run.
+  const standJson = await tryJson(`${STANDINGS}/${cfg.path}/standings?season=${season}`);
+  if (standJson) standings = normalizeStandings(standJson).length ? normalizeStandings(standJson) : standings;
   leaders = normalizeLeaders(teamJson).length ? normalizeLeaders(teamJson) : leaders;
 
   // Mark Sun Belt games: the opponent appears in our standings groups.

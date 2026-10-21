@@ -1,18 +1,22 @@
 import { useState } from 'preact/hooks';
 import type { SportKey } from '../lib/types';
 import { SPORT_LABEL } from '../lib/data';
-import { Loading, TeamState, Updated } from './parts';
+import { Loading, Logo, StandingsTable, TeamState, Updated } from './parts';
+import { useLiveStandings } from '../lib/standings';
+import { useSettings } from '../lib/settings';
 
 export function Team({ sport, team }: { sport: SportKey; team: TeamState }) {
   const [view, setView] = useState<'stats' | 'roster' | 'standings'>('stats');
+  const settings = useSettings();
   const data = team.data?.sport === sport ? team.data : null;
+  const standings = useLiveStandings(sport, data?.standings ?? [], view === 'standings' && settings.autoRefresh);
   if (!data) return <Loading team={team} />;
   const pending = <div class="panel empty">This fills in after the first daily update (5 a.m. Central).</div>;
 
   return (
     <>
       <div class="section-head" style="flex-wrap:wrap">
-        <h1>{SPORT_LABEL[sport]}</h1>
+        <h1 class="team-cell"><Logo src={data.team.logo} id="6" size={36} />{SPORT_LABEL[sport]}</h1>
         <span class="small muted">{[data.team.record, data.team.standingSummary].filter(Boolean).join(', ')}</span>
       </div>
       <div class="seg" role="group" aria-label="Team view">
@@ -84,25 +88,12 @@ export function Team({ sport, team }: { sport: SportKey; team: TeamState }) {
         ) : pending)}
 
       {view === 'standings' &&
-        (data.standings.length
-          ? data.standings.map((g) => (
-              <section class="section" key={g.name}>
-                <h2>{g.name}</h2>
-                <div class="panel table-wrap">
-                  <table>
-                    <thead><tr><th>Team</th><th class="n">Conf</th><th class="n">Overall</th></tr></thead>
-                    <tbody>
-                      {g.rows.map((r) => (
-                        <tr key={r.teamId} class={r.teamId === data.team.id ? 'us' : ''}>
-                          <td>{r.team}</td><td class="n">{r.conf}</td><td class="n">{r.overall}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </section>
-            ))
-          : pending)}
+        (standings.groups.length ? (
+          <>
+            <StandingsTable groups={standings.groups} usId={data.team.id} />
+            <p class="small muted">{standings.live ? 'Live from ESPN.' : 'From the last update.'}</p>
+          </>
+        ) : pending)}
       <Updated data={data} />
     </>
   );
