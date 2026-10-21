@@ -1,0 +1,1461 @@
+{
+ "updatedAt": "2026-10-21T18:19:03.800Z",
+ "football": {
+  "season": "2026",
+  "lastSeason": "2025",
+  "rosterSize": 100,
+  "returners": 50,
+  "newcomers": 50,
+  "otherNew": 26,
+  "incoming": [
+   {
+    "id": "5294516",
+    "name": "Jerry Horne",
+    "pos": "QB",
+    "cls": "SO",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5294516.png",
+    "from": "Arkansas State",
+    "level": "G5",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5215189",
+    "name": "Anthony Jeffery",
+    "pos": "RB",
+    "cls": "SO",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5215189.png",
+    "from": "Kent State",
+    "level": "G5",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "4840124",
+    "name": "D.J. Moore",
+    "pos": "S",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4840124.png",
+    "from": "Georgia Tech",
+    "level": "P4",
+    "games": 5,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "6"
+      },
+      {
+       "label": "SOLO",
+       "value": "4"
+      },
+      {
+       "label": "AST",
+       "value": "2"
+      },
+      {
+       "label": "INT",
+       "value": "1"
+      },
+      {
+       "label": "YDS",
+       "value": "13"
+      }
+     ],
+     "last": [
+      {
+       "label": "TOT",
+       "value": "4"
+      },
+      {
+       "label": "SOLO",
+       "value": "2"
+      },
+      {
+       "label": "AST",
+       "value": "2"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5077268",
+    "name": "Jaylen Moson",
+    "pos": "CB",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5077268.png",
+    "from": "Utah",
+    "level": "P4",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "21"
+      },
+      {
+       "label": "SOLO",
+       "value": "18"
+      },
+      {
+       "label": "AST",
+       "value": "3"
+      },
+      {
+       "label": "INT",
+       "value": "1"
+      },
+      {
+       "label": "YDS",
+       "value": "12"
+      }
+     ],
+     "last": []
+    }
+   },
+   {
+    "id": "5154342",
+    "name": "Peyton Argent",
+    "pos": "PK",
+    "cls": "JR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5154342.png",
+    "from": "South Carolina",
+    "level": "P4",
+    "games": 4,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5395327",
+    "name": "Christopher Aikman",
+    "pos": "PK",
+    "cls": "FR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395327.png",
+    "from": "Georgia Tech",
+    "level": "P4",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5220224",
+    "name": "Seidrion Langston",
+    "pos": "LB",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220224.png",
+    "from": "ULM",
+    "level": "G5",
+    "games": 6,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "13"
+      },
+      {
+       "label": "SOLO",
+       "value": "4"
+      },
+      {
+       "label": "AST",
+       "value": "9"
+      }
+     ],
+     "last": [
+      {
+       "label": "TOT",
+       "value": "37"
+      },
+      {
+       "label": "SOLO",
+       "value": "19"
+      },
+      {
+       "label": "AST",
+       "value": "18"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5151082",
+    "name": "Terry Kirksey Jr.",
+    "pos": "LB",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5151082.png",
+    "from": "Arkansas State",
+    "level": "G5",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": [
+      {
+       "label": "TOT",
+       "value": "18"
+      },
+      {
+       "label": "SOLO",
+       "value": "7"
+      },
+      {
+       "label": "AST",
+       "value": "11"
+      },
+      {
+       "label": "SACK",
+       "value": "0.5"
+      },
+      {
+       "label": "FF",
+       "value": "1"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5258469",
+    "name": "Dylan Freebury",
+    "pos": "PK",
+    "cls": "SO",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5258469.png",
+    "from": "Colorado State",
+    "level": "G5",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5085800",
+    "name": "Shalik Hubbard",
+    "pos": "OL",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5085800.png",
+    "from": "Monmouth",
+    "level": "FCS",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5225242",
+    "name": "Diego Camboia",
+    "pos": "OL",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5225242.png",
+    "from": "Mississippi Valley State",
+    "level": "FCS",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5168613",
+    "name": "Miguel Camboia",
+    "pos": "WR",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5168613.png",
+    "from": "Mississippi Valley State",
+    "level": "FCS",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5151609",
+    "name": "Everett Hunter",
+    "pos": "TE",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5151609.png",
+    "from": "Nicholls",
+    "level": "FCS",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "REC",
+       "value": "2"
+      },
+      {
+       "label": "YDS",
+       "value": "13"
+      },
+      {
+       "label": "AVG",
+       "value": "6.5"
+      },
+      {
+       "label": "LNG",
+       "value": "7"
+      }
+     ],
+     "last": [
+      {
+       "label": "REC",
+       "value": "24"
+      },
+      {
+       "label": "YDS",
+       "value": "283"
+      },
+      {
+       "label": "AVG",
+       "value": "11.8"
+      },
+      {
+       "label": "TD",
+       "value": "3"
+      },
+      {
+       "label": "LNG",
+       "value": "36"
+      }
+     ]
+    }
+   },
+   {
+    "id": "4837158",
+    "name": "Dylan Chiedo",
+    "pos": "LB",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4837158.png",
+    "from": "Furman",
+    "level": "FCS",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": [
+      {
+       "label": "FF",
+       "value": "1"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5301748",
+    "name": "Andrew Hines",
+    "pos": "DL",
+    "cls": "SO",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5301748.png",
+    "from": "Eastern Kentucky",
+    "level": "FCS",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "4"
+      },
+      {
+       "label": "AST",
+       "value": "4"
+      }
+     ],
+     "last": []
+    }
+   },
+   {
+    "id": "5084222",
+    "name": "Masey Lewis",
+    "pos": "DL",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5084222.png",
+    "from": "McNeese",
+    "level": "FCS",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "24"
+      },
+      {
+       "label": "SOLO",
+       "value": "11"
+      },
+      {
+       "label": "AST",
+       "value": "13"
+      },
+      {
+       "label": "SACK",
+       "value": "1"
+      },
+      {
+       "label": "FF",
+       "value": "1"
+      }
+     ],
+     "last": [
+      {
+       "label": "FF",
+       "value": "1"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5087083",
+    "name": "Christian Ross",
+    "pos": "LB",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5087083.png",
+    "from": "Holy Cross",
+    "level": "FCS",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "6"
+      },
+      {
+       "label": "SOLO",
+       "value": "1"
+      },
+      {
+       "label": "AST",
+       "value": "5"
+      },
+      {
+       "label": "SACK",
+       "value": "1"
+      },
+      {
+       "label": "FR",
+       "value": "2"
+      }
+     ],
+     "last": [
+      {
+       "label": "FR",
+       "value": "1"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5395313",
+    "name": "Cam McFarlin",
+    "pos": "TE",
+    "cls": "JR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395313.png",
+    "from": "Arkansas Tech",
+    "level": "D2",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5395324",
+    "name": "Jordan Morris",
+    "pos": "TE",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395324.png",
+    "from": "Butler CC",
+    "level": "JUCO",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5261322",
+    "name": "Naol Andarge",
+    "pos": "OL",
+    "cls": "JR",
+    "from": "Garden City CC",
+    "level": "JUCO",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5395323",
+    "name": "Brian Barnes",
+    "pos": "WR",
+    "cls": "JR",
+    "from": "Southwest Mississippi CC",
+    "level": "JUCO",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5227211",
+    "name": "Kaydon Degraffenreid",
+    "pos": "LB",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5227211.png",
+    "from": "Garden City CC",
+    "level": "JUCO",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5395316",
+    "name": "Rodney Hunter",
+    "pos": "DL",
+    "cls": "JR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395316.png",
+    "from": "Mississippi Gulf Coast CC",
+    "level": "JUCO",
+    "games": 3,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "1"
+      },
+      {
+       "label": "AST",
+       "value": "1"
+      }
+     ],
+     "last": []
+    }
+   },
+   {
+    "id": "5395309",
+    "name": "Kam Robinson",
+    "pos": "S",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395309.png",
+    "from": "Holmes CC",
+    "level": "JUCO",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "14"
+      },
+      {
+       "label": "SOLO",
+       "value": "9"
+      },
+      {
+       "label": "AST",
+       "value": "5"
+      },
+      {
+       "label": "FR",
+       "value": "1"
+      },
+      {
+       "label": "PD",
+       "value": "3"
+      }
+     ],
+     "last": []
+    }
+   }
+  ],
+  "starters": [
+   {
+    "id": "4869553",
+    "name": "Bishop Davenport",
+    "pos": "QB",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4869553.png",
+    "games": 2,
+    "stats": {
+     "season": [
+      {
+       "label": "CMP",
+       "value": "40"
+      },
+      {
+       "label": "ATT",
+       "value": "59"
+      },
+      {
+       "label": "CMP%",
+       "value": "67.8"
+      },
+      {
+       "label": "YDS",
+       "value": "450"
+      },
+      {
+       "label": "AVG",
+       "value": "7.6"
+      }
+     ],
+     "last": [
+      {
+       "label": "CMP",
+       "value": "200"
+      },
+      {
+       "label": "ATT",
+       "value": "294"
+      },
+      {
+       "label": "CMP%",
+       "value": "68.0"
+      },
+      {
+       "label": "YDS",
+       "value": "2,073"
+      },
+      {
+       "label": "AVG",
+       "value": "7.1"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5075529",
+    "name": "Anthony Eager",
+    "pos": "WR",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5075529.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "REC",
+       "value": "13"
+      },
+      {
+       "label": "YDS",
+       "value": "348"
+      },
+      {
+       "label": "AVG",
+       "value": "26.8"
+      },
+      {
+       "label": "TD",
+       "value": "4"
+      },
+      {
+       "label": "LNG",
+       "value": "69"
+      }
+     ],
+     "last": [
+      {
+       "label": "REC",
+       "value": "40"
+      },
+      {
+       "label": "YDS",
+       "value": "339"
+      },
+      {
+       "label": "AVG",
+       "value": "8.5"
+      },
+      {
+       "label": "TD",
+       "value": "1"
+      },
+      {
+       "label": "LNG",
+       "value": "48"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5220195",
+    "name": "Rod Gibbs",
+    "pos": "TE",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220195.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "REC",
+       "value": "12"
+      },
+      {
+       "label": "YDS",
+       "value": "98"
+      },
+      {
+       "label": "AVG",
+       "value": "8.2"
+      },
+      {
+       "label": "TD",
+       "value": "2"
+      },
+      {
+       "label": "LNG",
+       "value": "34"
+      }
+     ],
+     "last": [
+      {
+       "label": "REC",
+       "value": "6"
+      },
+      {
+       "label": "YDS",
+       "value": "52"
+      },
+      {
+       "label": "AVG",
+       "value": "8.7"
+      },
+      {
+       "label": "TD",
+       "value": "1"
+      },
+      {
+       "label": "LNG",
+       "value": "15"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5078273",
+    "name": "Ethan Hubbard",
+    "pos": "OL",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5078273.png",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5156183",
+    "name": "Brendan Jenkins",
+    "pos": "WR",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5156183.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "REC",
+       "value": "25"
+      },
+      {
+       "label": "YDS",
+       "value": "430"
+      },
+      {
+       "label": "AVG",
+       "value": "17.2"
+      },
+      {
+       "label": "TD",
+       "value": "3"
+      },
+      {
+       "label": "LNG",
+       "value": "72"
+      }
+     ],
+     "last": [
+      {
+       "label": "REC",
+       "value": "9"
+      },
+      {
+       "label": "YDS",
+       "value": "117"
+      },
+      {
+       "label": "AVG",
+       "value": "13.0"
+      },
+      {
+       "label": "TD",
+       "value": "1"
+      },
+      {
+       "label": "LNG",
+       "value": "30"
+      }
+     ]
+    }
+   },
+   {
+    "id": "4879603",
+    "name": "Kenton Jerido",
+    "pos": "OL",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4879603.png",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5154941",
+    "name": "Reese Osei-Wusu",
+    "pos": "OL",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5154941.png",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5295070",
+    "name": "Keenan Phillips",
+    "pos": "RB",
+    "cls": "JR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5295070.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "CAR",
+       "value": "96"
+      },
+      {
+       "label": "YDS",
+       "value": "514"
+      },
+      {
+       "label": "AVG",
+       "value": "5.4"
+      },
+      {
+       "label": "TD",
+       "value": "5"
+      },
+      {
+       "label": "LNG",
+       "value": "42"
+      }
+     ],
+     "last": [
+      {
+       "label": "CAR",
+       "value": "126"
+      },
+      {
+       "label": "YDS",
+       "value": "605"
+      },
+      {
+       "label": "AVG",
+       "value": "4.8"
+      },
+      {
+       "label": "TD",
+       "value": "3"
+      },
+      {
+       "label": "LNG",
+       "value": "54"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5097969",
+    "name": "Cole Blaylock",
+    "pos": "S",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5097969.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "46"
+      },
+      {
+       "label": "SOLO",
+       "value": "26"
+      },
+      {
+       "label": "AST",
+       "value": "20"
+      },
+      {
+       "label": "PD",
+       "value": "1"
+      }
+     ],
+     "last": [
+      {
+       "label": "TOT",
+       "value": "12"
+      },
+      {
+       "label": "SOLO",
+       "value": "5"
+      },
+      {
+       "label": "AST",
+       "value": "7"
+      },
+      {
+       "label": "FR",
+       "value": "1"
+      },
+      {
+       "label": "INT",
+       "value": "1"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5146853",
+    "name": "Tyler Carter",
+    "pos": "DL",
+    "cls": "JR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5146853.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "13"
+      },
+      {
+       "label": "SOLO",
+       "value": "1"
+      },
+      {
+       "label": "AST",
+       "value": "12"
+      }
+     ],
+     "last": []
+    }
+   },
+   {
+    "id": "5192954",
+    "name": "Damyrion Darby",
+    "pos": "CB",
+    "cls": "JR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5192954.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "18"
+      },
+      {
+       "label": "SOLO",
+       "value": "7"
+      },
+      {
+       "label": "AST",
+       "value": "11"
+      },
+      {
+       "label": "SACK",
+       "value": "1.5"
+      },
+      {
+       "label": "FF",
+       "value": "1"
+      }
+     ],
+     "last": [
+      {
+       "label": "TOT",
+       "value": "10"
+      },
+      {
+       "label": "SOLO",
+       "value": "6"
+      },
+      {
+       "label": "AST",
+       "value": "4"
+      },
+      {
+       "label": "PD",
+       "value": "1"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5140721",
+    "name": "Caleb Dozier",
+    "pos": "LB",
+    "cls": "JR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5140721.png",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": [
+      {
+       "label": "TOT",
+       "value": "40"
+      },
+      {
+       "label": "SOLO",
+       "value": "13"
+      },
+      {
+       "label": "AST",
+       "value": "27"
+      },
+      {
+       "label": "PD",
+       "value": "1"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5084551",
+    "name": "Jayvon Henderson",
+    "pos": "S",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5084551.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "TOT",
+       "value": "30"
+      },
+      {
+       "label": "SOLO",
+       "value": "16"
+      },
+      {
+       "label": "AST",
+       "value": "14"
+      },
+      {
+       "label": "PD",
+       "value": "3"
+      }
+     ],
+     "last": [
+      {
+       "label": "TOT",
+       "value": "26"
+      },
+      {
+       "label": "SOLO",
+       "value": "12"
+      },
+      {
+       "label": "AST",
+       "value": "14"
+      },
+      {
+       "label": "FR",
+       "value": "2"
+      },
+      {
+       "label": "PD",
+       "value": "5"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5192749",
+    "name": "Tirrell Johnson",
+    "pos": "LB",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5192749.png",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": [
+      {
+       "label": "TOT",
+       "value": "54"
+      },
+      {
+       "label": "SOLO",
+       "value": "25"
+      },
+      {
+       "label": "AST",
+       "value": "29"
+      },
+      {
+       "label": "SACK",
+       "value": "1"
+      },
+      {
+       "label": "FF",
+       "value": "2"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5185701",
+    "name": "Davis Little",
+    "pos": "PK",
+    "cls": "JR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5185701.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "FG%",
+       "value": "75.0"
+      },
+      {
+       "label": "FG",
+       "value": "9-12"
+      },
+      {
+       "label": "1-19\t",
+       "value": "0-0"
+      },
+      {
+       "label": "20-29\t",
+       "value": "3-3"
+      },
+      {
+       "label": "30-39",
+       "value": "4-5"
+      }
+     ],
+     "last": [
+      {
+       "label": "FG%",
+       "value": "100.0"
+      },
+      {
+       "label": "FG",
+       "value": "1-1"
+      },
+      {
+       "label": "1-19\t",
+       "value": "0-0"
+      },
+      {
+       "label": "20-29\t",
+       "value": "1-1"
+      },
+      {
+       "label": "30-39",
+       "value": "0-0"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5160230",
+    "name": "Aleksi Pulkkinen",
+    "pos": "P",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5160230.png",
+    "games": 7,
+    "stats": {
+     "season": [
+      {
+       "label": "PUNTS",
+       "value": "21"
+      },
+      {
+       "label": "AVG",
+       "value": "37.9"
+      },
+      {
+       "label": "LNG",
+       "value": "53"
+      },
+      {
+       "label": "YDS",
+       "value": "796"
+      },
+      {
+       "label": "TB%",
+       "value": "0.00"
+      }
+     ],
+     "last": [
+      {
+       "label": "PUNTS",
+       "value": "49"
+      },
+      {
+       "label": "AVG",
+       "value": "40.4"
+      },
+      {
+       "label": "LNG",
+       "value": "59"
+      },
+      {
+       "label": "YDS",
+       "value": "1,979"
+      },
+      {
+       "label": "TB",
+       "value": "3"
+      }
+     ]
+    }
+   }
+  ],
+  "startersNote": "Back from the 2025 team and projected to start in 2026 (HERO Sports preseason depth chart).",
+  "departures": [
+   {
+    "name": "Nehemiah Chandler",
+    "pos": "CB",
+    "to": "Florida State"
+   },
+   {
+    "name": "Jordan Davis",
+    "pos": "OT",
+    "to": "UCLA"
+   },
+   {
+    "name": "Ed Smith IV",
+    "pos": "DL",
+    "to": "Tulane"
+   },
+   {
+    "name": "Dalton Hughes",
+    "pos": "LB",
+    "to": "Tulane"
+   }
+  ],
+  "sources": [
+   "https://usajaguars.com/sports/football/roster",
+   "https://en.wikipedia.org/wiki/2026_South_Alabama_Jaguars_football_team",
+   "https://herosports.com/fbs-2026-south-alabama-depth-chart-projections-rmrm/"
+  ]
+ },
+ "mbb": {
+  "season": "2026-27",
+  "lastSeason": "2025-26",
+  "rosterSize": 14,
+  "returners": 4,
+  "newcomers": 10,
+  "otherNew": 0,
+  "incoming": [
+   {
+    "id": "5461611",
+    "name": "Aaron Goldstein",
+    "pos": "G",
+    "cls": "SR",
+    "from": "College of Staten Island",
+    "level": "D3",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5250439",
+    "name": "Aedan Lewis",
+    "pos": "G",
+    "cls": "JR",
+    "from": "Southwestern (Texas)",
+    "level": "D3",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5316281",
+    "name": "Roderick Williams Jr.",
+    "pos": "F",
+    "cls": "SO",
+    "from": "Southern Arkansas",
+    "level": "D2",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": [
+      {
+       "label": "PTS",
+       "value": "9.0"
+      },
+      {
+       "label": "REB",
+       "value": "5.0"
+      },
+      {
+       "label": "MIN",
+       "value": "21.0"
+      },
+      {
+       "label": "GP",
+       "value": "1"
+      }
+     ]
+    }
+   },
+   {
+    "id": "5461606",
+    "name": "Jalen Langsy",
+    "pos": "G",
+    "cls": "JR",
+    "from": "Northwestern College (Iowa)",
+    "level": "NAIA",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5325144",
+    "name": "Davaughn Hueitt",
+    "pos": "F",
+    "cls": "SO",
+    "from": "Hannibal-LaGrange",
+    "level": "NAIA",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5461610",
+    "name": "Keyne Costa",
+    "pos": "F",
+    "cls": "SO",
+    "from": "Northeastern Oklahoma A&M",
+    "level": "JUCO",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5461607",
+    "name": "Lenni Kunzewitsch",
+    "pos": "F",
+    "cls": "JR",
+    "from": "Ratiopharm Ulm (Germany)",
+    "level": "Intl",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5461608",
+    "name": "Owen Kenney",
+    "pos": "F",
+    "cls": "JR",
+    "from": "Ottawa (Canada)",
+    "level": "Intl",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5461609",
+    "name": "Diego Roman",
+    "pos": "G",
+    "cls": "FR",
+    "from": "Starwings Basel (Switzerland)",
+    "level": "Intl",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   },
+   {
+    "id": "5461612",
+    "name": "Alexey Sereda",
+    "pos": "F",
+    "cls": "FR",
+    "from": "Enisey Krasnoyarsk (Russia)",
+    "level": "Intl",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": []
+    }
+   }
+  ],
+  "starters": [
+   {
+    "id": "5313205",
+    "name": "Peyton Law",
+    "pos": "F",
+    "cls": "SR",
+    "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313205.png",
+    "games": 0,
+    "stats": {
+     "season": [],
+     "last": [
+      {
+       "label": "PTS",
+       "value": "12.8"
+      },
+      {
+       "label": "REB",
+       "value": "5.9"
+      },
+      {
+       "label": "AST",
+       "value": "1.0"
+      },
+      {
+       "label": "MIN",
+       "value": "25.6"
+      },
+      {
+       "label": "GP",
+       "value": "10"
+      }
+     ]
+    }
+   }
+  ],
+  "startersNote": "Back from 2025-26 with at least 10 starts there (ESPN).",
+  "departures": [],
+  "sources": [
+   "https://usajaguars.com/sports/mens-basketball/roster"
+  ]
+ }
+}

@@ -28,7 +28,8 @@ Prompt:
 > You maintain Dean's South Alabama Jaguars dashboard. Attach the GitHub repo
 > dean67benton-byte/jaguars-dashboard with push access, clone it with --depth 1,
 > and follow docs/SUNDAY_ROUTINE.md exactly. Work cheaply: read
-> docs/routine-config.json and public/data/rankings.json first, and skip any
+> docs/routine-config.json, public/data/rankings.json, public/data/nfl.json
+> and public/data/outlook.json first, and skip any
 > section that is switched off or has nothing new. If nothing is due, stop with
 > no commit and no web research. No betting lines. Use only sourced facts.
 > Never change files other than the ones the routine names.
