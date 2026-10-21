@@ -1,12 +1,17 @@
-import { useState } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
 import type { SportKey } from '../lib/types';
 import { SPORT_LABEL } from '../lib/data';
 import { Loading, Logo, StandingsTable, TeamState, Updated } from './parts';
 import { useLiveStandings } from '../lib/standings';
 import { useSettings } from '../lib/settings';
 
-export function Team({ sport, team }: { sport: SportKey; team: TeamState }) {
-  const [view, setView] = useState<'stats' | 'roster' | 'standings'>('stats');
+type View = 'stats' | 'roster' | 'standings';
+const VIEWS: View[] = ['stats', 'roster', 'standings'];
+
+export function Team({ sport, team, initial }: { sport: SportKey; team: TeamState; initial?: string }) {
+  const start = VIEWS.find((v) => v === initial) ?? 'stats';
+  const [view, setView] = useState<View>(start);
+  useEffect(() => setView(start), [start]);
   const settings = useSettings();
   const data = team.data?.sport === sport ? team.data : null;
   const standings = useLiveStandings(sport, data?.standings ?? [], view === 'standings' && settings.autoRefresh);
@@ -20,7 +25,7 @@ export function Team({ sport, team }: { sport: SportKey; team: TeamState }) {
         <span class="small muted">{[data.team.record, data.team.standingSummary].filter(Boolean).join(', ')}</span>
       </div>
       <div class="seg" role="group" aria-label="Team view">
-        {(['stats', 'roster', 'standings'] as const).map((v) => (
+        {VIEWS.map((v) => (
           <button key={v} aria-pressed={view === v} onClick={() => setView(v)}>
             {v === 'stats' ? 'Stats' : v === 'roster' ? 'Roster' : 'Sun Belt'}
           </button>

@@ -2,9 +2,8 @@ import type { BriefIndexEntry, SportKey, StatCategory } from '../lib/types';
 import { briefFor, LISTEN_URL } from '../lib/data';
 import { hasEspnId, isLiveWindow, useSummary } from '../lib/live';
 import { useSettings } from '../lib/settings';
-import { kickoff, longDay } from '../lib/time';
 import { IconBrief, IconRadio } from '../icons';
-import { Loading, Logo, TeamState, vsAt } from './parts';
+import { GameCard, Loading, TeamState } from './parts';
 
 function sideBySide(us: StatCategory[], them: StatCategory[]) {
   const theirs = new Map(them.flatMap((c) => c.stats.map((s) => [`${c.name}|${s.name}`, s])));
@@ -20,7 +19,7 @@ function sideBySide(us: StatCategory[], them: StatCategory[]) {
   return (rate.length >= 6 ? rate : unique).slice(0, 14);
 }
 
-export function Game({ sport, id, team, briefs }: { sport: SportKey; id: string; team: TeamState; briefs: BriefIndexEntry[] | null }) {
+export function Game({ sport, id, team, briefs, label }: { sport: SportKey; id: string; team: TeamState; briefs: BriefIndexEntry[] | null; label?: string }) {
   const settings = useSettings();
   const data = team.data?.sport === sport ? team.data : null;
   const e = data?.events.find((x) => x.id === id);
@@ -38,47 +37,25 @@ export function Game({ sport, id, team, briefs }: { sport: SportKey; id: string;
 
   return (
     <>
-      <section class="panel hero">
-        <div class="section-head">
-          {state === 'in' ? <span class="pill live">Live</span> : <span class="label">{state === 'post' ? 'Final' : 'Matchup'}</span>}
-          {e.conference && <span class="pill">Sun Belt</span>}
-        </div>
-        <div class="matchup-line">
-          <div class="team-block">
-            <Logo src={data.team.logo} id="6" size={44} />
-            <span class="t">South Alabama</span>
-            <span class="r">{data.team.record}</span>
-          </div>
-          <span class="at">{vsAt(e)}</span>
-          <div class="team-block right">
-            <Logo src={e.opponent.logo} id={e.opponent.id || undefined} size={44} />
-            <span class="t">{e.opponent.short}</span>
-            <span class="r">{opp?.team.record ?? e.opponent.record}</span>
-          </div>
-        </div>
-        {state !== 'pre' && usScore !== undefined && (
-          <div class="score-big">
-            <span class="v">{usScore}</span>
-            <span class="small muted" style="text-align:center">{summary?.detail ?? e.statusDetail}</span>
-            <span class="v" style="text-align:right">{oppScore}</span>
-          </div>
+      <GameCard
+        e={e}
+        label={label ?? (state === 'post' ? 'Final' : 'Matchup')}
+        usLogo={data.team.logo}
+        usRecord={data.team.record}
+        oppRecord={opp?.team.record ?? e.opponent.record}
+        usScore={usScore}
+        oppScore={oppScore}
+        state={state}
+        detail={summary?.detail ?? e.statusDetail}
+      >
+        {brief && (
+          <a class="btn primary" href={`#brief/${brief.id}`}>
+            <IconBrief /> {brief.status === 'final' ? 'Postgame grade' : 'Game Day brief'}
+          </a>
         )}
-        <div class="meta">
-          <span><strong>{longDay(e.date)}</strong></span>
-          <span>{kickoff(e.date, e.timeTbd)}</span>
-          {e.tv && <span>TV <strong>{e.tv}</strong></span>}
-          {(e.venue || e.city) && <span>{[e.venue, e.city].filter(Boolean).join(', ')}</span>}
-        </div>
-        <div class="actions">
-          {brief && (
-            <a class="btn primary" href={`#brief/${brief.id}`}>
-              <IconBrief /> {brief.status === 'final' ? 'Postgame grade' : 'Game Day brief'}
-            </a>
-          )}
-          <a class="btn" href={LISTEN_URL} target="_blank" rel="noopener"><IconRadio /> Listen live</a>
-          {hasEspnId(e) && <button class="btn" onClick={() => reload()}>Refresh</button>}
-        </div>
-      </section>
+        <a class="btn" href={LISTEN_URL} target="_blank" rel="noopener"><IconRadio /> Listen live</a>
+        {hasEspnId(e) && state !== 'pre' && <button class="btn" onClick={() => reload()}>Refresh</button>}
+      </GameCard>
 
       {!hasEspnId(e) && <p class="note">Win probability, injuries, weather and recent form load from ESPN once the first data update has run.</p>}
       {error && <p class="note">{error}</p>}
@@ -86,12 +63,12 @@ export function Game({ sport, id, team, briefs }: { sport: SportKey; id: string;
       {summary?.winProb && (
         <section class="section">
           <h2>ESPN win probability{state === 'pre' ? '' : state === 'in' ? ', live' : ', final'}</h2>
-          <div class="panel" style="padding:14px;display:grid;gap:8px">
+          <div style="display:grid;gap:8px">
             <div style="display:flex;justify-content:space-between" class="num">
               <span>USA {summary.winProb.us.toFixed(1)}%</span>
               <span>{e.opponent.abbr || e.opponent.short} {summary.winProb.opp.toFixed(1)}%</span>
             </div>
-            <div style="height:10px;border-radius:999px;background:var(--surface-2);overflow:hidden">
+            <div style="height:8px;border-radius:999px;background:var(--surface-2);overflow:hidden">
               <div style={`height:100%;width:${summary.winProb.us}%;background:var(--red)`} />
             </div>
           </div>

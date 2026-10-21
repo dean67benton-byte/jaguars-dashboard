@@ -10,3 +10,6 @@ export const IconGear = () => (<svg {...base}><circle cx="12" cy="12" r="3" /><p
 export const IconRefresh = () => (<svg {...base}><path d="M20 11a8 8 0 1 0-2.3 5.7" /><path d="M20 4.5V11h-6.5" /></svg>);
 export const IconRadio = () => (<svg {...base}><circle cx="12" cy="12" r="2" /><path d="M8.2 8.2a5.4 5.4 0 0 0 0 7.6M15.8 8.2a5.4 5.4 0 0 1 0 7.6M5.3 5.3a9.5 9.5 0 0 0 0 13.4M18.7 5.3a9.5 9.5 0 0 1 0 13.4" /></svg>);
 export const Chevron = () => (<svg {...base} class="chev" width="18" height="18"><path d="m9 6 6 6-6 6" /></svg>);
+export const IconGameDay = () => (<svg {...base}><ellipse cx="12" cy="12" rx="8.5" ry="5.5" transform="rotate(-35 12 12)" /><path d="m9.5 14.5 5-5M10.6 11.1l2.3 2.3M12.4 9.3l2.3 2.3" /></svg>);
+export const IconMore = () => (<svg {...base}><rect x="4" y="4" width="6.5" height="6.5" rx="1.6" /><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6" /><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6" /><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6" /></svg>);
+export const IconTrophy = () => (<svg {...base}><path d="M8 4.5h8v5a4 4 0 0 1-8 0z" /><path d="M8 6.5H5a3 3 0 0 0 3 3.5M16 6.5h3a3 3 0 0 1-3 3.5M12 13.5v3.5M8.5 20h7M9.5 17h5" /></svg>);
