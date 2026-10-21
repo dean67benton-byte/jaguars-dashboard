@@ -1,0 +1,52 @@
+{
+  "_note": "Hand-kept facts for South Alabama alumni in the NFL, keyed by ESPN athlete id. scripts/nfl.mjs also finds any alum on a current NFL roster automatically; list free agents here to keep showing them. The Sunday routine may add facts and contracts (with sources).",
+  "players": {
+    "4249417": {
+      "name": "Jalen Tolbert",
+      "facts": ["Third-round pick (No. 88) by Dallas in 2022.", "Signed a one-year deal with Miami in March 2026."],
+      "contract": { "summary": "1 year, $1.40M ($1.26M guaranteed)", "capHit": "$1.26M 2026 cap hit", "source": "https://www.spotrac.com/nfl/player/76964" },
+      "sources": ["https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft", "https://profootballrumors.com/2026/03/dolphins-wr-jalen-tolbert-agree-to-deal"]
+    },
+    "3125248": {
+      "name": "Jeremy Reaves",
+      "facts": ["Undrafted; made his NFL debut with Philadelphia in 2018.", "Pro Bowl and first-team All-Pro in 2022.", "Signed a one-year extension with Washington in March 2026."],
+      "contract": { "summary": "1-year extension (2026)", "capHit": "$3.65M 2026 cap hit (est.)", "career": "$14.27M career earnings incl. 2026", "source": "https://www.spotrac.com/nfl/player/_/id/25572/jeremy-reaves" },
+      "sources": ["https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft", "https://www.hogshaven.com/daily-slop/406710/daily-slop-19-mar-26-defense-special-teams-fan-favorite-jeremy-reaves-has-signed-a-1-year-extension-with-the-commanders"]
+    },
+    "4685978": {
+      "name": "Darrell Luter Jr.",
+      "facts": ["Fifth-round pick (No. 155) by San Francisco in 2023."],
+      "sources": ["https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"]
+    },
+    "3125280": {
+      "name": "Corliss Waitman",
+      "facts": ["Undrafted punter; NFL debut with Pittsburgh in 2020."],
+      "sources": ["https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"]
+    },
+    "4892576": {
+      "name": "Jamaal Pritchett",
+      "facts": ["NFL debut with the Jets in 2025."],
+      "sources": ["https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"]
+    },
+    "4430992": {
+      "name": "Kentrel Bullock",
+      "facts": ["NFL debut with Cincinnati in 2026."],
+      "sources": ["https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"]
+    },
+    "3918639": {
+      "name": "Gerald Everett",
+      "facts": ["Second-round pick (No. 44) by the Rams in 2017, the highest-drafted Jaguar."],
+      "sources": ["https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"]
+    },
+    "4685984": {
+      "name": "Jamie Sheriff",
+      "facts": ["On the Rams' practice squad to start the 2026 season."],
+      "sources": ["https://sunbeltsports.org/news/2026/9/8/football-sun-belt-maintains-strong-nfl-active-roster-presence-ahead-of-2026-season-kickoff.aspx"]
+    },
+    "4572655": {
+      "name": "Jeremiah Webb",
+      "facts": ["With New England on reserve to start the 2026 season."],
+      "sources": ["https://sunbeltsports.org/news/2026/9/8/football-sun-belt-maintains-strong-nfl-active-roster-presence-ahead-of-2026-season-kickoff.aspx"]
+    }
+  }
+}

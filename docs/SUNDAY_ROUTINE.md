@@ -10,7 +10,7 @@ commit.
 Sections, in order:
 
 1. Sun Belt power rankings (`rankingBlurbs`), below.
-2. Jaguars in the NFL grades (`nflGrades`): not built yet, skip.
+2. Jaguars in the NFL grades (`nflGrades`), below.
 3. Coaching outlook (`coachingOutlook`): not built yet, skip.
 
 ## 1. Sun Belt power rankings
@@ -38,9 +38,33 @@ shape: `Rankings` in `src/lib/types.ts`). For each sport (`football`, `mbb`):
 Validate the JSON (`node -e "JSON.parse(require('fs').readFileSync('public/data/rankings.json'))"`)
 and run `npm ci && npm run build`.
 
+## 2. Jaguars in the NFL grades
+
+`public/data/nfl.json` (written daily by `scripts/nfl.mjs`; shape: `NflData`
+in `src/lib/types.ts`) lists every South Alabama alum in the league. Grade the
+NFL week that ended last Monday:
+
+- For each player whose `lastGame` is in the current season and whose
+  `lastGame.week` is newer than his `grade.week` (or who has no grade), look
+  at that game: the ESPN box score for his line, plus snap counts if a free
+  source shows them (say so if not found).
+- Set `grade` to `{ "letter", "note", "week", "gradedAt" }`: `letter` from
+  `A+` to `F-` judged against his role (a punter by net average and
+  placement, a special teamer by coverage snaps and tackles, a starter by
+  his full line); `note` is one sentence under 30 words with the numbers
+  behind it; `week` is `lastGame.week`; `gradedAt` is now.
+- Players who did not play keep their old grade. Do not change any other
+  field: the daily script overwrites everything but `grade`.
+- Occasionally (once a month is enough) check Spotrac for a missing or
+  changed contract and add it, with a source URL, to
+  `scripts/nfl-alumni.json`. Add a sourced fact there when something notable
+  happens (first TD, signing, Pro Bowl). Add a newly signed alum's ESPN id
+  there if he is a free agent the roster scan cannot see.
+
 ## Commit
 
-Commit to `main` with a message like `Sunday: power ranking blurbs` and push.
+Commit to `main` with a message like `Sunday: power ranking blurbs, NFL week 7 grades` and push.
 The push triggers the Update data workflow, which refreshes records in place
-(it keeps Claude's order and blurbs) and redeploys the site. Never change any
-other files.
+(it keeps Claude's order, blurbs and NFL grades) and redeploys the site.
+Only change `public/data/rankings.json`, `public/data/nfl.json` and
+`scripts/nfl-alumni.json`.

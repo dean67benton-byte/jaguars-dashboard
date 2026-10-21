@@ -3,7 +3,7 @@
 import { chromium } from 'playwright-core';
 
 const BASE = 'http://localhost:4173/';
-const PAGES = ['rankings', 'home', 'more', 'settings'];
+const PAGES = ['nfl', 'more'];
 const browser = await chromium.launch({ channel: 'chrome' });
 
 const iphone = await browser.newContext({
@@ -16,7 +16,7 @@ const iphone = await browser.newContext({
 });
 const desktop = await browser.newContext({ viewport: { width: 1280, height: 900 }, colorScheme: 'dark' });
 
-for (const [ctx, prefix, pages] of [[iphone, 'iphone', PAGES], [desktop, 'desktop', ['rankings']]]) {
+for (const [ctx, prefix, pages] of [[iphone, 'iphone', PAGES], [desktop, 'desktop', ['nfl']]]) {
   const page = await ctx.newPage();
   for (const p of pages) {
     await page.goto(BASE + '#' + p, { waitUntil: 'networkidle' });

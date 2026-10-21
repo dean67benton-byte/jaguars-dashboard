@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 import { useRoute } from './router';
-import { useBriefIndex, useRankings, useTeam, SPORT_LABEL } from './lib/data';
+import { useBriefIndex, useNfl, useRankings, useTeam, SPORT_LABEL } from './lib/data';
 import { useSettings } from './lib/settings';
 import type { GameEvent, SportKey } from './lib/types';
 import { IconCalendar, IconGameDay, IconHome, IconMore, IconRefresh } from './icons';
@@ -14,6 +14,7 @@ import { SettingsScreen } from './screens/Settings';
 import { GameDay } from './screens/GameDay';
 import { More, MORE_LINKS } from './screens/More';
 import { Rankings } from './screens/Rankings';
+import { Nfl } from './screens/Nfl';
 
 const SPORT_KEY = 'jags.sport';
 const readSport = (): SportKey => {
@@ -32,7 +33,7 @@ const TABS = [
 ];
 
 // Which tab a page belongs to.
-const TAB_OF: Record<string, string> = { game: 'schedule', brief: 'gameday', briefs: 'gameday', team: 'more', news: 'more', settings: 'more', rankings: 'more' };
+const TAB_OF: Record<string, string> = { game: 'schedule', brief: 'gameday', briefs: 'gameday', team: 'more', news: 'more', settings: 'more', rankings: 'more', nfl: 'more' };
 
 // Game Day gets a red dot from 6 hours before kickoff until the game ends.
 const isGameDay = (events: GameEvent[] = [], now = Date.now()) =>
@@ -46,6 +47,7 @@ export function App() {
   const team = useTeam(sport, settings.autoRefresh ? 10 * 60e3 : 0);
   const briefs = useBriefIndex();
   const rankings = useRankings();
+  const nfl = useNfl(route[0] === 'nfl');
 
   useEffect(() => {
     try {
@@ -72,6 +74,7 @@ export function App() {
   else if (page === 'brief') body = <BriefView id={a} />;
   else if (page === 'gameday') body = <GameDay sport={sport} team={team} briefs={briefs.data} />;
   else if (page === 'more') body = <More />;
+  else if (page === 'nfl') body = <Nfl data={nfl.data} error={nfl.error} />;
   else if (page === 'rankings') body = <Rankings sport={sport} data={rankings.data} error={rankings.error} />;
   else if (page === 'team') body = <Team sport={sport} team={team} initial={a} />;
   else if (page === 'news') body = <News team={team} />;

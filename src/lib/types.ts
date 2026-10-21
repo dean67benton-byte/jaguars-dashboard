@@ -197,3 +197,39 @@ export interface RankingWeek {
 }
 
 export type Rankings = { updatedAt?: string } & Partial<Record<SportKey, { weeks: RankingWeek[] }>>;
+
+// ---- Jaguars in the NFL (public/data/nfl.json, scripts/nfl.mjs) ----
+
+export interface NflStat {
+  label: string;
+  value: string;
+}
+
+export interface NflPlayer {
+  id: string;
+  name: string;
+  pos?: string;
+  jersey?: string;
+  age?: number;
+  years?: number;
+  headshot?: string;
+  group: 'active' | 'practice' | 'reserve' | 'free';
+  status?: string;
+  team?: { abbr: string; name: string; logo?: string };
+  lastTeam?: string;
+  statsSeason?: string; // e.g. "2026 Regular Season"
+  games: number;
+  lastGame?: { date: string; opp?: string; at?: string; result?: string; score?: string; week?: number };
+  stats: { season: NflStat[]; career: NflStat[] };
+  facts: string[];
+  contract?: { summary: string; capHit?: string; career?: string; source?: string };
+  sources: string[];
+  /** Written by the Sunday Claude routine for the NFL week just finished. */
+  grade?: { letter: string; note: string; week: number; gradedAt: string };
+  espn: string;
+}
+
+export interface NflData {
+  updatedAt: string;
+  players: NflPlayer[];
+}
