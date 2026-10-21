@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-21T01:42:51.132Z",
+ "updatedAt": "2026-10-21T01:45:54.548Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -174,7 +174,7 @@
    "city": "Huntington, WV",
    "tv": "ESPN2",
    "status": "in",
-   "statusDetail": "9:34 - 3rd"
+   "statusDetail": "7:45 - 3rd"
   },
   {
    "id": "401871097",
