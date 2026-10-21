@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-21T13:25:49.690Z",
+ "updatedAt": "2026-10-21T16:46:45.802Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2171,6 +2171,12 @@
  ],
  "news": [
   {
+   "title": "Rapid Reaction: What we learned from the Marshall game",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-marshall-rapid-reaction-week8",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-21T12:00:00.000Z"
+  },
+  {
    "title": "Herd Score Late as Jags Fall in Huntington.",
    "url": "https://usajaguars.com/news/2026/10/20/football-herd-score-late-as-jags-fall-in-huntington.aspx",
    "date": "2026-10-21T05:00:00.000Z",
@@ -2274,12 +2280,6 @@
    "url": "https://usajaguars.com/news/2026/10/8/football-keenan-phillips-powers-south-alabama-past-arkansas-state-in-road-win.aspx",
    "date": "2026-10-09T05:26:00.000Z",
    "source": "usajaguars.com"
-  },
-  {
-   "title": "Rapid Reaction: What we learned from the Arkansas State game",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-arkansasstate-rapid-reaction-week6",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-09T05:00:00.000Z"
   },
   {
    "title": "South Alabama beats Arkansas State 56-49 in the highest scoring FBS game this season",
