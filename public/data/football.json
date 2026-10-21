@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-21T02:01:52.888Z",
+ "updatedAt": "2026-10-21T02:13:03.793Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -174,7 +174,7 @@
    "city": "Huntington, WV",
    "tv": "ESPN2",
    "status": "in",
-   "statusDetail": "3:25 - 3rd"
+   "statusDetail": "15:00 - 4th"
   },
   {
    "id": "401871097",
@@ -2167,10 +2167,28 @@
  ],
  "news": [
   {
+   "title": "Scouting report: What you need to know for South Alabama’s game at Marshall",
+   "url": "https://www.al.com/sports/2026/10/scouting-report-what-you-need-to-know-for-south-alabamas-game-at-marshall.html",
+   "date": "2026-10-19T21:10:45.000Z",
+   "source": "AL.com"
+  },
+  {
    "title": "Kickoff Time Set for Halloween Game Versus Louisiana Tech",
    "url": "https://usajaguars.com/news/2026/10/19/football-kickoff-time-set-for-halloween-game-versus-louisiana-tech.aspx",
    "date": "2026-10-19T20:00:00.000Z",
    "source": "usajaguars.com"
+  },
+  {
+   "title": "Check out the statewide Alabama college football schedule for Week 8",
+   "url": "https://www.al.com/sports/2026/10/check-out-the-statewide-alabama-college-football-schedule-for-week-8.html",
+   "date": "2026-10-19T10:00:00.000Z",
+   "source": "AL.com"
+  },
+  {
+   "title": "College football TV schedule for Week 8 of 2026 season",
+   "url": "https://www.al.com/sports/2026/10/college-football-tv-schedule-for-week-8-of-2026-season.html",
+   "date": "2026-10-19T10:00:00.000Z",
+   "source": "AL.com"
   },
   {
    "title": "Sun Belt matchup features South Alabama playing Marshall",
@@ -2184,6 +2202,24 @@
    "url": "https://usajaguars.com/news/2026/10/17/football-jags-head-to-marshall-for-tuesday-night-game.aspx",
    "date": "2026-10-17T20:57:00.000Z",
    "source": "usajaguars.com"
+  },
+  {
+   "title": "College Football Playoff set to expand again next year, report says",
+   "url": "https://www.al.com/sports/2026/10/college-football-playoff-set-to-expand-again-next-year-report-says.html",
+   "date": "2026-10-15T18:07:54.000Z",
+   "source": "AL.com"
+  },
+  {
+   "title": "AL.com’s college football staff picks for Week 7 of 2026 season",
+   "url": "https://www.al.com/sports/2026/10/alcoms-college-football-staff-picks-for-week-7-of-2026-season.html",
+   "date": "2026-10-15T10:00:00.000Z",
+   "source": "AL.com"
+  },
+  {
+   "title": "Versatile running back Keenan Phillips is South Alabama’s ‘Swiss Army knife’",
+   "url": "https://www.al.com/sports/2026/10/versatile-running-back-keenan-phillips-is-south-alabamas-swiss-army-knife.html",
+   "date": "2026-10-14T21:43:23.000Z",
+   "source": "AL.com"
   },
   {
    "title": "Keenan Phillips Tabbed Sun Belt Special Teams Player of the Week",
@@ -2323,13 +2359,6 @@
    "date": "2026-09-13T19:45:31Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401866423.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Jaylin Lucas runs for 214 yards, Tulane scores late in fourth quarter to top South Alabama 28-24",
-   "url": "http://www.espn.com/ncf/recap?gameId=401864575",
-   "date": "2026-09-13T02:58:29Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401864575.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {
