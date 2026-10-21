@@ -37,7 +37,7 @@ export function Briefs({ index, error }: { index: BriefIndexEntry[] | null; erro
 
   return (
     <>
-      <h1>Game Day</h1>
+      <h1>Game Day briefs</h1>
       <p class="muted prose">
         A Claude brief lands two days before each football game, gets a game-morning update, and is graded the night of the game.
       </p>

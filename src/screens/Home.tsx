@@ -1,123 +1,99 @@
-import { useEffect, useState } from 'preact/hooks';
 import type { BriefIndexEntry, GameEvent, SportKey, TeamData } from '../lib/types';
 import { briefFor, lastResult, LISTEN_URL, nextGame, SPORT_LABEL } from '../lib/data';
-import { countdown, day, kickoff, longDay, ago } from '../lib/time';
+import { day, ago } from '../lib/time';
 import { hasEspnId, isLiveWindow, useSummary } from '../lib/live';
 import { useSettings } from '../lib/settings';
-import { IconBrief, IconRadio } from '../icons';
-import { GameRow, Loading, Logo, StandingsTable, TeamState, Updated, vsAt } from './parts';
+import { IconGameDay, IconRadio } from '../icons';
+import { GameCard, GameRow, Loading, StandingsTable, TeamState, Updated, useNow } from './parts';
 import { useLiveStandings } from '../lib/standings';
 
-function useNow(ms: number) {
-  const [now, setNow] = useState(Date.now());
-  useEffect(() => {
-    const t = setInterval(() => setNow(Date.now()), ms);
-    return () => clearInterval(t);
-  }, [ms]);
-  return now;
-}
-
-function NextGame({ sport, e, record, brief, usLogo }: { sport: SportKey; e: GameEvent; record?: string; brief?: BriefIndexEntry; usLogo?: string }) {
+function NextGame({ sport, e, record, usLogo }: { sport: SportKey; e: GameEvent; record?: string; usLogo?: string }) {
   const settings = useSettings();
-  const now = useNow(1000);
+  const now = useNow(30e3);
   const liveWindow = isLiveWindow(e, now);
   const { summary, updatedAt } = useSummary(sport, e, liveWindow && settings.liveScores);
   const state = summary?.state ?? e.status;
-  const live = state === 'in';
-  const c = countdown(e.date, now);
-  const started = c.done || live;
 
   return (
-    <section class="panel hero" aria-label="Next game">
-      <div class="section-head">
-        {live ? <span class="pill live">Live</span> : <span class="label">{started ? 'Game time' : 'Next game'}</span>}
-        <span class="small muted">{SPORT_LABEL[sport]}{e.conference ? ', Sun Belt game' : ''}</span>
-      </div>
-
-      <div class="matchup-line">
-        <div class="team-block">
-          <Logo src={usLogo} id="6" size={44} />
-          <span class="t">South Alabama</span>
-          <span class="r">{record}</span>
-        </div>
-        <span class="at">{vsAt(e)}</span>
-        <div class="team-block right">
-          <Logo src={e.opponent.logo} id={e.opponent.id || undefined} size={44} />
-          <span class="t">{e.opponent.short}</span>
-          <span class="r">{e.opponent.record}</span>
-        </div>
-      </div>
-
-      {started && summary && summary.usScore !== undefined ? (
-        <div>
-          <div class="score-big">
-            <span class="v">{summary.usScore}</span>
-            <span class="small muted" style="text-align:center">{summary.detail}</span>
-            <span class="v" style="text-align:right">{summary.oppScore}</span>
-          </div>
-          {summary.situation && <p class="small muted" style="text-align:center">{summary.situation}</p>}
-          {updatedAt && <p class="updated">Score updated {ago(new Date(updatedAt).toISOString(), now)}{settings.liveScores ? '. Refreshes every 30 seconds.' : '. Live updates are off.'}</p>}
-        </div>
-      ) : started ? (
-        <p class="note">
-          {hasEspnId(e)
-            ? settings.liveScores
-              ? 'Loading the live score from ESPN…'
-              : 'Live scores are off in Settings. Tap Matchup for the latest.'
-            : 'Live scores start once the first ESPN update has run.'}
-        </p>
-      ) : (
-        <div class="clock" role="timer" aria-label="Time until kickoff">
-          <div><div class="v">{c.d}</div><div class="u">days</div></div>
-          <div><div class="v">{c.h}</div><div class="u">hrs</div></div>
-          <div><div class="v">{String(c.m).padStart(2, '0')}</div><div class="u">min</div></div>
-          <div><div class="v">{String(c.s).padStart(2, '0')}</div><div class="u">sec</div></div>
-        </div>
+    <div class="section">
+      <GameCard
+        e={e}
+        label="Next game"
+        usLogo={usLogo}
+        usRecord={record}
+        oppRecord={e.opponent.record}
+        usScore={summary?.usScore}
+        oppScore={summary?.oppScore}
+        state={state}
+        detail={summary?.detail}
+      >
+        <a class="btn primary" href="#gameday"><IconGameDay /> Game Day</a>
+        <a class="btn" href={LISTEN_URL} target="_blank" rel="noopener"><IconRadio /> Listen live</a>
+      </GameCard>
+      {state === 'in' && updatedAt && (
+        <p class="updated">Score updated {ago(new Date(updatedAt).toISOString(), now)}{settings.liveScores ? '. Refreshes every 30 seconds.' : '. Live updates are off.'}</p>
       )}
-
-      <div class="meta">
-        <span><strong>{longDay(e.date)}</strong></span>
-        <span>{kickoff(e.date, e.timeTbd)}</span>
-        {e.tv && <span>TV <strong>{e.tv}</strong></span>}
-        {(e.venue || e.city) && <span>{[e.venue, e.city].filter(Boolean).join(', ')}</span>}
-      </div>
-
-      <div class="actions">
-        {brief && (
-          <a class="btn primary" href={`#brief/${brief.id}`}>
-            <IconBrief /> {brief.status === 'final' ? 'Postgame grade' : 'Game Day brief'}
-          </a>
-        )}
-        <a class="btn" href={`#game/${sport}/${e.id}`}>Matchup</a>
-        <a class="btn" href={LISTEN_URL} target="_blank" rel="noopener">
-          <IconRadio /> Listen live
-        </a>
-      </div>
-    </section>
+      {state === 'in' && !summary && !hasEspnId(e) && <p class="note">Live scores start once the first ESPN update has run.</p>}
+    </div>
   );
 }
 
 function LatestBrief({ index, sport }: { index: BriefIndexEntry[] | null; sport: SportKey }) {
   const latest = index?.filter((b) => b.sport === sport).sort((a, b) => Date.parse(b.date) - Date.parse(a.date))[0];
   if (!latest) return null;
+  const graded = latest.status === 'final';
   return (
     <section class="section">
       <div class="section-head">
         <h2>Latest analysis</h2>
         <a href="#briefs">All briefs</a>
       </div>
-      <a class="panel row" href={`#brief/${latest.id}`}>
-        {latest.letter ? <span class="grade-letter" style="font-size:2rem">{latest.letter}</span> : <IconBrief />}
-        <div class="grow">
-          <div class="title">
-            {latest.status === 'final' ? 'Postgame grade' : 'Game Day brief'}: {latest.opponent}
+      <div class="panel list">
+        <a class="row" href={`#brief/${latest.id}`}>
+          {latest.letter && <span class="grade-letter" style="font-size:2.2rem;min-width:1.6ch">{latest.letter}</span>}
+          <div class="grow">
+            <div class="title">{graded ? 'Postgame grade' : 'Game Day brief'}: {latest.opponent}</div>
+            <div class="small muted">
+              {day(latest.date)}. Pick {latest.pick}
+              {latest.accuracyPct != null && `. Brief ${latest.accuracyPct}% accurate`}
+            </div>
           </div>
-          <div class="small muted">
-            {day(latest.date)}. Pick: {latest.pick}
-            {latest.accuracyPct != null && `. Brief ${latest.accuracyPct}% accurate`}
+        </a>
+      </div>
+    </section>
+  );
+}
+
+function Snapshot({ data }: { data: TeamData }) {
+  const done = data.events.filter((e) => e.status === 'post');
+  const conf = done.filter((e) => e.conference);
+  const rec = (list: GameEvent[]) => `${list.filter((e) => e.result === 'W').length}-${list.filter((e) => e.result === 'L').length}`;
+  // Current streak from the most recent result backwards.
+  let streak = '';
+  for (let i = done.length - 1, n = 0; i >= 0; i--) {
+    if (done[i].result !== done[done.length - 1].result) break;
+    streak = `${done[i].result}${++n}`;
+  }
+  const cells = [
+    { k: 'Overall', v: data.team.record ?? rec(done) },
+    { k: 'Sun Belt', v: data.team.confRecord ?? rec(conf) },
+    { k: 'Streak', v: streak || '-' },
+  ];
+  return (
+    <section class="section">
+      <div class="section-head">
+        <h2>Jaguars at a glance</h2>
+        <a href="#team">Team</a>
+      </div>
+      <div class="strip">
+        {cells.map((c) => (
+          <div key={c.k}>
+            <span class="label">{c.k}</span>
+            <span class="v">{c.v}</span>
           </div>
-        </div>
-      </a>
+        ))}
+      </div>
+      {data.team.standingSummary && <p class="small muted">{data.team.standingSummary}</p>}
     </section>
   );
 }
@@ -131,7 +107,7 @@ function SunBelt({ sport, data }: { sport: SportKey; data: TeamData }) {
     <section class="section">
       <div class="section-head">
         <h2>{ours[0].name}</h2>
-        <a href="#team">Full standings</a>
+        <a href="#team/standings">Full standings</a>
       </div>
       <StandingsTable groups={ours} usId={data.team.id} compact />
       <p class="small muted">{live ? 'Live from ESPN.' : 'From the last update.'}</p>
@@ -144,22 +120,21 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
   if (!data) return <Loading team={team} />;
   const next = nextGame(data.events);
   const last = lastResult(data.events);
-  const record = [data.team.record, data.team.confRecord ? `${data.team.confRecord} Sun Belt` : data.team.standingSummary].filter(Boolean).join(', ');
+  const record = data.team.record;
 
   return (
     <>
       {next ? (
-        <NextGame sport={sport} e={next} record={record} brief={briefFor(briefs, next)} usLogo={data.team.logo} />
+        <NextGame sport={sport} e={next} record={record} usLogo={data.team.logo} />
       ) : (
-        <section class="panel empty">
+        <section class="card empty">
           <strong>No upcoming {SPORT_LABEL[sport].toLowerCase()} games on the schedule yet.</strong>
           <span class="small">The schedule fills in automatically once it is published.</span>
         </section>
       )}
 
       <div class="grid-2">
-        <div style="display:grid;gap:22px;min-width:0">
-          <LatestBrief index={briefs} sport={sport} />
+        <div class="stack">
           {last && (
             <section class="section">
               <div class="section-head">
@@ -171,29 +146,31 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
               </div>
             </section>
           )}
-        </div>
-        <div style="display:grid;gap:22px;min-width:0">
-        <SunBelt sport={sport} data={data} />
-        <section class="section">
-          <div class="section-head">
-            <h2>Headlines</h2>
-            <a href="#news">All news</a>
-          </div>
-          <div class="panel list">
-            {data.news.slice(0, 3).map((n) => (
-              <a class="row" href={n.url} target="_blank" rel="noopener" key={n.url}>
-                <div class="grow">
-                  <div class="title">{n.title}</div>
-                  <div class="small muted">
-                    {n.source}
-                    {n.date ? `, ${day(n.date)}` : ''}
+          <LatestBrief index={briefs} sport={sport} />
+          <section class="section">
+            <div class="section-head">
+              <h2>Headlines</h2>
+              <a href="#news">All news</a>
+            </div>
+            <div class="panel list">
+              {data.news.slice(0, 4).map((n) => (
+                <a class="row" href={n.url} target="_blank" rel="noopener" key={n.url}>
+                  <div class="grow">
+                    <div class="title">{n.title}</div>
+                    <div class="small muted">
+                      {n.source}
+                      {n.date ? `, ${day(n.date)}` : ''}
+                    </div>
                   </div>
-                </div>
-              </a>
-            ))}
-            {!data.news.length && <div class="empty small">No headlines yet.</div>}
-          </div>
-        </section>
+                </a>
+              ))}
+              {!data.news.length && <div class="empty small">No headlines yet.</div>}
+            </div>
+          </section>
+        </div>
+        <div class="stack">
+          <Snapshot data={data} />
+          <SunBelt sport={sport} data={data} />
         </div>
       </div>
       <Updated data={data} />
