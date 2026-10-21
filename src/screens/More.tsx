@@ -2,6 +2,7 @@ import { Chevron, IconBrief, IconCalendar, IconGear, IconNews, IconTeam, IconTro
 
 export const MORE_LINKS: { href: string; title: string; text: string; Icon: typeof IconTeam }[] = [
   { href: '#rankings', title: 'Power rankings', text: 'Our weekly Sun Belt 1 to 14, posted Sundays', Icon: IconTrophy },
+  { href: '#nfl', title: 'Jaguars in the NFL', text: 'Every alum in the league, stats, pay and weekly grades', Icon: IconTeam },
   { href: '#team/roster', title: 'Roster', text: 'Players, positions and hometowns', Icon: IconTeam },
   { href: '#team/stats', title: 'Season stats', text: 'Team leaders and stat ranks', Icon: IconCalendar },
   { href: '#team/standings', title: 'Sun Belt standings', text: 'Both divisions, live on game days', Icon: IconCalendar },

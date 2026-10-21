@@ -338,3 +338,15 @@ tr.us td.rank { color: var(--fg); }
 .result-inline.W { color: var(--good); }
 .result-inline.L { color: var(--bad); }
 @media (max-width: 440px) { .rank-blurb, .rank-adjust { margin-left: 0; } }
+
+/* ---------- Jaguars in the NFL ---------- */
+.nfl-list { list-style: none; margin: 0; padding: 0; }
+.nfl-card { padding: 16px 2px; display: grid; gap: 8px; }
+.nfl-top { display: flex; align-items: center; gap: var(--s3); }
+.nfl-team { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.nfl-grade { display: grid; justify-items: center; gap: 2px; flex: none; }
+.nfl-grade .grade-letter { font-size: 2.2rem; }
+.nfl-stats { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.88rem; }
+.nfl-stats b { font-family: var(--font-display); font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+.nfl-card .bullets { gap: 4px; color: var(--muted); }
+.nfl-card a.small { text-decoration: none; }
