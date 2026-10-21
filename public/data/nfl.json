@@ -1,0 +1,488 @@
+{
+ "updatedAt": "2026-10-21T18:12:27.015Z",
+ "players": [
+  {
+   "id": "3125280",
+   "name": "Corliss Waitman",
+   "pos": "P",
+   "jersey": "15",
+   "age": 31,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3125280.png",
+   "group": "active",
+   "status": "Active",
+   "team": {
+    "abbr": "SF",
+    "name": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png"
+   },
+   "statsSeason": "2026 Regular Season",
+   "games": 6,
+   "lastGame": {
+    "date": "2026-10-20T00:15:00.000+00:00",
+    "opp": "WSH",
+    "at": "vs",
+    "result": "W",
+    "score": "23-17",
+    "week": 6
+   },
+   "stats": {
+    "season": [
+     {
+      "label": "PUNTS",
+      "value": "20"
+     },
+     {
+      "label": "AVG",
+      "value": "47.3"
+     },
+     {
+      "label": "LNG",
+      "value": "61"
+     },
+     {
+      "label": "YDS",
+      "value": "947"
+     },
+     {
+      "label": "TB",
+      "value": "1"
+     }
+    ],
+    "career": [
+     {
+      "label": "PUNTS",
+      "value": "250"
+     },
+     {
+      "label": "AVG",
+      "value": "46.5"
+     },
+     {
+      "label": "LNG",
+      "value": "71"
+     },
+     {
+      "label": "YDS",
+      "value": "11,620"
+     }
+    ]
+   },
+   "facts": [
+    "Undrafted punter; NFL debut with Pittsburgh in 2020."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/3125280"
+  },
+  {
+   "id": "3125248",
+   "name": "Jeremy Reaves",
+   "pos": "S",
+   "jersey": "39",
+   "age": 30,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3125248.png",
+   "group": "active",
+   "status": "Active",
+   "team": {
+    "abbr": "WSH",
+    "name": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
+   },
+   "statsSeason": "2026 Regular Season",
+   "games": 6,
+   "lastGame": {
+    "date": "2026-10-20T00:15:00.000+00:00",
+    "opp": "SF",
+    "at": "@",
+    "result": "L",
+    "score": "23-17",
+    "week": 6
+   },
+   "stats": {
+    "season": [
+     {
+      "label": "TOT",
+      "value": "40"
+     },
+     {
+      "label": "SOLO",
+      "value": "23"
+     },
+     {
+      "label": "AST",
+      "value": "17"
+     },
+     {
+      "label": "PD",
+      "value": "3"
+     }
+    ],
+    "career": [
+     {
+      "label": "TOT",
+      "value": "259"
+     },
+     {
+      "label": "SOLO",
+      "value": "158"
+     },
+     {
+      "label": "AST",
+      "value": "101"
+     },
+     {
+      "label": "SACK",
+      "value": "2"
+     }
+    ]
+   },
+   "facts": [
+    "Undrafted; made his NFL debut with Philadelphia in 2018.",
+    "Pro Bowl and first-team All-Pro in 2022.",
+    "Signed a one-year extension with Washington in March 2026."
+   ],
+   "contract": {
+    "summary": "1-year extension (2026)",
+    "capHit": "$3.65M 2026 cap hit (est.)",
+    "career": "$14.27M career earnings incl. 2026",
+    "source": "https://www.spotrac.com/nfl/player/_/id/25572/jeremy-reaves"
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft",
+    "https://www.hogshaven.com/daily-slop/406710/daily-slop-19-mar-26-defense-special-teams-fan-favorite-jeremy-reaves-has-signed-a-1-year-extension-with-the-commanders"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/3125248"
+  },
+  {
+   "id": "4685978",
+   "name": "Darrell Luter Jr.",
+   "pos": "CB",
+   "jersey": "25",
+   "age": 26,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685978.png",
+   "group": "active",
+   "status": "Active",
+   "team": {
+    "abbr": "LV",
+    "name": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png"
+   },
+   "statsSeason": "2026 Regular Season",
+   "games": 3,
+   "lastGame": {
+    "date": "2026-10-18T20:25:00.000+00:00",
+    "opp": "BUF",
+    "at": "vs",
+    "result": "L",
+    "score": "33-30",
+    "week": 6
+   },
+   "stats": {
+    "season": [
+     {
+      "label": "TOT",
+      "value": "2"
+     },
+     {
+      "label": "AST",
+      "value": "2"
+     }
+    ],
+    "career": [
+     {
+      "label": "TOT",
+      "value": "40"
+     },
+     {
+      "label": "SOLO",
+      "value": "22"
+     },
+     {
+      "label": "AST",
+      "value": "18"
+     },
+     {
+      "label": "FF",
+      "value": "1"
+     }
+    ]
+   },
+   "facts": [
+    "Fifth-round pick (No. 155) by San Francisco in 2023."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/4685978"
+  },
+  {
+   "id": "4249417",
+   "name": "Jalen Tolbert",
+   "pos": "WR",
+   "jersey": "1",
+   "age": 27,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4249417.png",
+   "group": "active",
+   "status": "Active",
+   "team": {
+    "abbr": "MIA",
+    "name": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png"
+   },
+   "statsSeason": "2026 Regular Season",
+   "games": 3,
+   "lastGame": {
+    "date": "2026-10-11T17:00:00.000+00:00",
+    "opp": "CIN",
+    "at": "vs",
+    "result": "L",
+    "score": "31-24",
+    "week": 5
+   },
+   "stats": {
+    "season": [
+     {
+      "label": "REC",
+      "value": "1"
+     },
+     {
+      "label": "TGTS",
+      "value": "3"
+     },
+     {
+      "label": "YDS",
+      "value": "22"
+     },
+     {
+      "label": "AVG",
+      "value": "22.0"
+     },
+     {
+      "label": "LNG",
+      "value": "22"
+     }
+    ],
+    "career": [
+     {
+      "label": "REC",
+      "value": "92"
+     },
+     {
+      "label": "TGTS",
+      "value": "155"
+     },
+     {
+      "label": "YDS",
+      "value": "1,115"
+     },
+     {
+      "label": "AVG",
+      "value": "12.1"
+     }
+    ]
+   },
+   "facts": [
+    "Third-round pick (No. 88) by Dallas in 2022.",
+    "Signed a one-year deal with Miami in March 2026."
+   ],
+   "contract": {
+    "summary": "1 year, $1.40M ($1.26M guaranteed)",
+    "capHit": "$1.26M 2026 cap hit",
+    "source": "https://www.spotrac.com/nfl/player/76964"
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft",
+    "https://profootballrumors.com/2026/03/dolphins-wr-jalen-tolbert-agree-to-deal"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/4249417"
+  },
+  {
+   "id": "4892576",
+   "name": "Jamaal Pritchett",
+   "pos": "WR",
+   "jersey": "81",
+   "age": 23,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4892576.png",
+   "group": "practice",
+   "status": "Practice Squad",
+   "team": {
+    "abbr": "NYJ",
+    "name": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png"
+   },
+   "statsSeason": "2026 Regular Season",
+   "games": 2,
+   "lastGame": {
+    "date": "2026-10-04T17:00:00.000+00:00",
+    "opp": "CHI",
+    "at": "@",
+    "result": "L",
+    "score": "23-12",
+    "week": 4
+   },
+   "stats": {
+    "season": [],
+    "career": []
+   },
+   "facts": [
+    "NFL debut with the Jets in 2025."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/4892576"
+  },
+  {
+   "id": "4430992",
+   "name": "Kentrel Bullock",
+   "pos": "RB",
+   "jersey": "31",
+   "age": 24,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430992.png",
+   "group": "practice",
+   "status": "Practice Squad",
+   "team": {
+    "abbr": "CIN",
+    "name": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png"
+   },
+   "games": 0,
+   "stats": {
+    "season": [],
+    "career": []
+   },
+   "facts": [
+    "NFL debut with Cincinnati in 2026."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/4430992"
+  },
+  {
+   "id": "3918639",
+   "name": "Gerald Everett",
+   "pos": "TE",
+   "jersey": "14",
+   "age": 32,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3918639.png",
+   "group": "free",
+   "status": "Free Agent",
+   "lastTeam": "Chicago Bears",
+   "statsSeason": "2024 Regular Season",
+   "games": 17,
+   "lastGame": {
+    "date": "2025-01-05T18:00:00.000+00:00",
+    "opp": "GB",
+    "at": "@",
+    "result": "W",
+    "score": "24-22",
+    "week": 18
+   },
+   "stats": {
+    "season": [
+     {
+      "label": "REC",
+      "value": "8"
+     },
+     {
+      "label": "TGTS",
+      "value": "13"
+     },
+     {
+      "label": "YDS",
+      "value": "36"
+     },
+     {
+      "label": "AVG",
+      "value": "4.5"
+     },
+     {
+      "label": "LNG",
+      "value": "17"
+     }
+    ],
+    "career": [
+     {
+      "label": "REC",
+      "value": "292"
+     },
+     {
+      "label": "TGTS",
+      "value": "437"
+     },
+     {
+      "label": "YDS",
+      "value": "2,869"
+     },
+     {
+      "label": "AVG",
+      "value": "9.8"
+     }
+    ]
+   },
+   "facts": [
+    "Second-round pick (No. 44) by the Rams in 2017, the highest-drafted Jaguar."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/3918639"
+  },
+  {
+   "id": "4685984",
+   "name": "Jamie Sheriff",
+   "pos": "LB",
+   "age": 26,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685984.png",
+   "group": "free",
+   "status": "Free Agent",
+   "lastTeam": "Los Angeles Rams",
+   "games": 0,
+   "stats": {
+    "season": [],
+    "career": [
+     {
+      "label": "TOT",
+      "value": "1"
+     },
+     {
+      "label": "SOLO",
+      "value": "1"
+     }
+    ]
+   },
+   "facts": [
+    "On the Rams' practice squad to start the 2026 season."
+   ],
+   "sources": [
+    "https://sunbeltsports.org/news/2026/9/8/football-sun-belt-maintains-strong-nfl-active-roster-presence-ahead-of-2026-season-kickoff.aspx"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/4685984"
+  },
+  {
+   "id": "4572655",
+   "name": "Jeremiah Webb",
+   "pos": "WR",
+   "jersey": "29",
+   "age": 25,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4572655.png",
+   "group": "free",
+   "status": "Free Agent",
+   "lastTeam": "New England Patriots",
+   "games": 0,
+   "stats": {
+    "season": [],
+    "career": []
+   },
+   "facts": [
+    "With New England on reserve to start the 2026 season."
+   ],
+   "sources": [
+    "https://sunbeltsports.org/news/2026/9/8/football-sun-belt-maintains-strong-nfl-active-roster-presence-ahead-of-2026-season-kickoff.aspx"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/4572655"
+  }
+ ]
+}
