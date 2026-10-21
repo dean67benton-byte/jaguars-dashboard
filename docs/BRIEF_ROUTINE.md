@@ -5,7 +5,7 @@ Instructions for the scheduled Claude routine that writes South Alabama
 has `"basketball": true` (Dean turns this on by asking Claude).
 
 The routine runs three times a day (times Central):
-8:00 AM (preview / game-morning update), 10:30 PM and 12:30 AM (postgame grade).
+8:27 AM (preview / game-morning update), 10:27 PM and 12:27 AM (postgame grade).
 Most runs find nothing to do. Check cheaply first and stop as soon as you know
 nothing is due: read `public/data/football.json` and `public/briefs/index.json`
 before doing any web research.
