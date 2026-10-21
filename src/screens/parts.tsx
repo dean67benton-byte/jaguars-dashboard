@@ -146,7 +146,7 @@ export function GameCard({
   children?: ComponentChildren;
 }) {
   const now = useNow(state === 'pre' ? 1000 : 60e3);
-  const scored = state !== 'pre' && usScore !== undefined;
+  const scored = state !== 'pre' && usScore !== undefined && oppScore !== undefined;
   const usLine = (
     <div class={`team-line us${scored && usScore! > (oppScore ?? 0) ? ' ahead' : ''}`} key="us">
       <Logo src={usLogo} id="6" size={40} />
@@ -176,15 +176,24 @@ export function GameCard({
             {started ? 'Kickoff' : countdownText(e.date, now)}
             <small>{started ? 'waiting on first update' : 'until kickoff'}</small>
           </span>
+        ) : scored || state === 'in' ? (
+          <span class="cd">
+            {state === 'post'
+              ? `${usScore! > oppScore! ? 'Win' : usScore! < oppScore! ? 'Loss' : 'Tie'}, ${usScore}-${oppScore}`
+              : detail ?? 'In progress'}
+            {state === 'post' && detail && !/^final$/i.test(detail) && <small>{detail}</small>}
+          </span>
         ) : (
-          <span class="cd">{state === 'post' ? 'Final' : detail ?? 'In progress'}{state === 'post' && detail && detail !== 'Final' && <small>{detail}</small>}</span>
+          <span class="cd">Final</span>
         )}
       </div>
-      <div class="meta">
-        <span><strong>{day(e.date)}</strong></span>
-        <span>{kickoff(e.date, e.timeTbd)}</span>
-        {e.tv && <span>{e.tv}</span>}
-        {(e.venue || e.city) && <span>{[e.venue, e.city].filter(Boolean).join(', ')}</span>}
+      <div style="display:grid;gap:2px">
+        <div class="meta">
+          <span><strong>{day(e.date)}</strong></span>
+          <span>{kickoff(e.date, e.timeTbd)}</span>
+          {e.tv && <span>{e.tv}</span>}
+        </div>
+        {(e.venue || e.city) && <div class="small muted">{[e.venue, e.city].filter(Boolean).join(', ')}</div>}
       </div>
       {children && <div class="actions">{children}</div>}
     </section>

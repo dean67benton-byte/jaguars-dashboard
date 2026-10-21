@@ -21,7 +21,13 @@ for (const [ctx, prefix, pages] of [[iphone, 'iphone', PAGES], [desktop, 'deskto
   for (const p of pages) {
     await page.goto(BASE + '#' + p, { waitUntil: 'networkidle' });
     await page.waitForTimeout(2500);
-    await page.screenshot({ path: `shots/${prefix}-${p.replace('/', '-')}.png`, fullPage: true });
+    // Grow the viewport to the page height so the fixed tab bar lands at the bottom.
+    const vp = page.viewportSize();
+    const h = await page.evaluate(() => document.documentElement.scrollHeight);
+    await page.setViewportSize({ width: vp.width, height: Math.max(h, vp.height) });
+    await page.waitForTimeout(300);
+    await page.screenshot({ path: `shots/${prefix}-${p.replace('/', '-')}.png` });
+    await page.setViewportSize(vp);
   }
 }
 await browser.close();

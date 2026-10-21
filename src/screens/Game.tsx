@@ -54,13 +54,13 @@ export function Game({ sport, id, team, briefs, label }: { sport: SportKey; id: 
           </a>
         )}
         <a class="btn" href={LISTEN_URL} target="_blank" rel="noopener"><IconRadio /> Listen live</a>
-        {hasEspnId(e) && state !== 'pre' && <button class="btn" onClick={() => reload()}>Refresh</button>}
+        {hasEspnId(e) && state === 'in' && <button class="btn" onClick={() => reload()}>Refresh</button>}
       </GameCard>
 
       {!hasEspnId(e) && <p class="note">Win probability, injuries, weather and recent form load from ESPN once the first data update has run.</p>}
       {error && <p class="note">{error}</p>}
 
-      {summary?.winProb && (
+      {summary?.winProb && state !== 'post' && (
         <section class="section">
           <h2>ESPN win probability{state === 'pre' ? '' : state === 'in' ? ', live' : ', final'}</h2>
           <div style="display:grid;gap:8px">

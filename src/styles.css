@@ -230,7 +230,7 @@ a.row:hover .title { text-decoration: underline; text-decoration-color: var(--li
 .meta > span + span::before { content: '·'; margin: 0 8px; color: var(--line-strong); }
 .meta strong { color: var(--fg); font-weight: 600; }
 .actions { display: flex; flex-wrap: wrap; gap: var(--s2); }
-.actions .btn { flex: 1 1 0; }
+.actions .btn { flex: 1 1 0; white-space: nowrap; padding-inline: 12px; }
 @media (min-width: 900px) { .actions .btn { flex: 0 0 auto; } }
 
 /* ---------- stat strip ---------- */
