@@ -250,7 +250,25 @@ async function fetchDiehard() {
         if (title.length > 12 && !found.has(url)) found.set(url, { title, url, source: 'Diehard Sports Network' });
       }
     }
-    return [...found.values()].slice(0, 12);
+    // The section page carries no dates and prefixes titles with categories,
+    // so read the title and publish date from each article's own page.
+    const items = [...found.values()].slice(0, 8);
+    await Promise.all(
+      items.map(async (n) => {
+        try {
+          const page = await (await fetch(n.url, { headers: { 'user-agent': 'Mozilla/5.0 (jaguars-dashboard)' } })).text();
+          const meta = (re) => page.match(re)?.[1];
+          const title = meta(/<meta[^>]+property="og:title"[^>]+content="([^"]+)"/) ?? meta(/<title>([^<]+)<\/title>/);
+          const date =
+            meta(/<meta[^>]+property="article:published_time"[^>]+content="([^"]+)"/) ?? meta(/"datePublished"\s*:\s*"([^"]+)"/);
+          if (title) n.title = decode(title.replace(/\s*[|–-]\s*Diehard Sports Network.*$/i, '').trim());
+          if (date && !Number.isNaN(Date.parse(date))) n.date = new Date(date).toISOString();
+        } catch {
+          /* keep what the section page gave us */
+        }
+      }),
+    );
+    return items;
   } catch (err) {
     console.warn(`  skip diehard: ${err.message}`);
     return [];
@@ -259,7 +277,10 @@ async function fetchDiehard() {
 
 // AL.com's South Alabama section covers every sport; keep stories that fit this sport.
 const OTHER_SPORTS = /baseball|softball|volleyball|soccer|golf|tennis|track|cross country|women's basketball/i;
-const fitsSport = (sport, title) => {
+const ABOUT_USA = /south alabama|jaguars|\bjags\b/i;
+const fitsSport = (sport, n) => {
+  const title = n.title;
+  if (n.source === 'AL.com' && !ABOUT_USA.test(title) && !/south-alabama/.test(n.url)) return false;
   if (OTHER_SPORTS.test(title)) return false;
   return sport === 'football' ? !/basketball|hoops/i.test(title) : !/football|bowl|kickoff/i.test(title);
 };
@@ -342,8 +363,8 @@ async function updateSport(sport, now) {
 
   // The athletics site's feed mixes sports; keep this sport's stories only.
   const rss = (await Promise.all(cfg.rss.map((u) => fetchRss(u)))).flat().filter((n) => cfg.slug.test(n.url));
-  const local = (await fetchSharedNews()).filter((n) => fitsSport(sport, n.title));
-  const news = [...rss, ...local, ...normalizeEspnNews(newsJson)]
+  const local = (await fetchSharedNews()).filter((n) => fitsSport(sport, n));
+  const news = [...rss, ...local, ...normalizeEspnNews(newsJson).slice(0, 8)]
     .filter((n, i, all) => all.findIndex((m) => m.title === n.title) === i)
     .sort((a, b) => (b.date ? Date.parse(b.date) : 0) - (a.date ? Date.parse(a.date) : 0))
     .slice(0, 30);
