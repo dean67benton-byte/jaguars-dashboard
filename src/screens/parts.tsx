@@ -32,15 +32,15 @@ export const vsAt = (e: GameEvent) => (e.neutral ? 'vs' : e.home ? 'vs' : 'at');
 export function GameRow({ e, sport, brief }: { e: GameEvent; sport: SportKey; brief?: BriefIndexEntry }) {
   return (
     <a class="row" href={`#game/${sport}/${e.id}`}>
-      {e.status === 'post' ? <span class={`result ${e.result ?? ''}`}>{e.result}</span> : <span class="result muted">·</span>}
+      {e.status === 'post' ? <span class={`result ${e.result ?? ''}`}>{e.result}</span> : <span class="result muted" aria-hidden="true"></span>}
       <div class="grow">
         <div class="title">
           <span class="muted">{vsAt(e)}</span> {e.opponent.short}
         </div>
         <div class="small muted">
           {day(e.date)}
-          {e.status === 'post' ? '' : ` · ${kickoff(e.date, e.timeTbd)}`}
-          {e.tv ? ` · ${e.tv}` : ''}
+          {e.status === 'post' ? '' : `, ${kickoff(e.date, e.timeTbd)}`}
+          {e.tv ? `, ${e.tv}` : ''}
         </div>
       </div>
       {e.conference && <span class="pill">Sun Belt</span>}

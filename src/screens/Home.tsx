@@ -30,7 +30,7 @@ function NextGame({ sport, e, record, brief }: { sport: SportKey; e: GameEvent; 
     <section class="panel hero" aria-label="Next game">
       <div class="section-head">
         {live ? <span class="pill live">Live</span> : <span class="label">{started ? 'Game time' : 'Next game'}</span>}
-        <span class="small muted">{SPORT_LABEL[sport]}{e.conference ? ' · Sun Belt' : ''}</span>
+        <span class="small muted">{SPORT_LABEL[sport]}{e.conference ? ', Sun Belt game' : ''}</span>
       </div>
 
       <div class="matchup-line">
@@ -53,7 +53,7 @@ function NextGame({ sport, e, record, brief }: { sport: SportKey; e: GameEvent; 
             <span class="v" style="text-align:right">{summary.oppScore}</span>
           </div>
           {summary.situation && <p class="small muted" style="text-align:center">{summary.situation}</p>}
-          {updatedAt && <p class="updated">Score updated {ago(new Date(updatedAt).toISOString(), now)}{settings.liveScores ? ' · refreshes every 30 sec' : ' · live updates are off'}</p>}
+          {updatedAt && <p class="updated">Score updated {ago(new Date(updatedAt).toISOString(), now)}{settings.liveScores ? '. Refreshes every 30 seconds.' : '. Live updates are off.'}</p>}
         </div>
       ) : started ? (
         <p class="note">
@@ -110,7 +110,7 @@ function LatestBrief({ index, sport }: { index: BriefIndexEntry[] | null; sport:
             {latest.status === 'final' ? 'Postgame grade' : 'Game Day brief'}: {latest.opponent}
           </div>
           <div class="small muted">
-            {day(latest.date)} · Pick {latest.pick}
+            {day(latest.date)}. Pick: {latest.pick}
           </div>
         </div>
       </a>
@@ -123,7 +123,7 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
   if (!data) return <Loading team={team} />;
   const next = nextGame(data.events);
   const last = lastResult(data.events);
-  const record = [data.team.record, data.team.confRecord && `${data.team.confRecord} Sun Belt`].filter(Boolean).join(' · ');
+  const record = [data.team.record, data.team.confRecord && `${data.team.confRecord} Sun Belt`].filter(Boolean).join(', ');
 
   return (
     <>
@@ -163,7 +163,7 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
                   <div class="title">{n.title}</div>
                   <div class="small muted">
                     {n.source}
-                    {n.date ? ` · ${day(n.date)}` : ''}
+                    {n.date ? `, ${day(n.date)}` : ''}
                   </div>
                 </div>
               </a>

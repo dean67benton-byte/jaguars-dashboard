@@ -48,7 +48,7 @@ export function Briefs({ index, error }: { index: BriefIndexEntry[] | null; erro
               {b.letter ? <span class="grade-letter" style="font-size:1.6rem;width:2ch">{b.letter}</span> : <IconBrief />}
               <div class="grow">
                 <div class="title">{b.opponent}</div>
-                <div class="small muted">{day(b.date)} · Pick {b.pick}</div>
+                <div class="small muted">{day(b.date)}. Pick: {b.pick}</div>
               </div>
               <span class={`pill ${b.status === 'final' ? 'good' : 'accent'}`}>{b.status === 'final' ? 'Graded' : 'Preview'}</span>
               <Chevron />
@@ -74,7 +74,7 @@ function Grade({ b }: { b: Brief }) {
             Final: USA {g.final.usa}, {b.opponent} {g.final.opp}
           </div>
           <div class="small muted">
-            Picked USA {p.usa}-{p.opp} · winner {g.winnerCorrect ? 'right' : 'wrong'} · margin off {g.marginOff} · total off {g.totalOff}
+            Picked USA {p.usa}-{p.opp}. Winner {g.winnerCorrect ? 'right' : 'wrong'}, margin off by {g.marginOff}, total off by {g.totalOff}.
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@ function Sources({ list, stampIso }: { list: { title: string; url?: string }[]; 
       Written {stamp(stampIso)} CT. Sources:{' '}
       {list.map((s, i) => (
         <span key={i}>
-          {i > 0 && ' · '}
+          {i > 0 && '; '}
           {s.url ? <a href={s.url} target="_blank" rel="noopener">{s.title}</a> : s.title}
         </span>
       ))}
@@ -125,10 +125,10 @@ export function BriefView({ id }: { id: string }) {
     <>
       <a href="#briefs" class="small" style="color:var(--muted);text-decoration:none">‹ All briefs</a>
       <section class="panel hero brief-hero">
-        <span class="label">{b.home ? 'vs' : 'at'} {opp} · {longDay(b.date)} · {kickoff(b.date)}{b.tv ? ` · ${b.tv}` : ''}</span>
+        <span class="label">{b.home ? 'vs.' : 'At'} {opp}, {longDay(b.date)}, {kickoff(b.date)}{b.tv ? ` on ${b.tv}` : ''}</span>
         <h1>{p.headline}</h1>
         <p class="muted">{p.summary}</p>
-        {p.records && <p class="small">USA {p.records.usa} · {opp} {p.records.opp}</p>}
+        {p.records && <p class="small">USA {p.records.usa}, {opp} {p.records.opp}</p>}
       </section>
 
       {b.grade && <Grade b={b} />}

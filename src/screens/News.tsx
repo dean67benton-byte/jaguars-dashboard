@@ -12,7 +12,7 @@ export function News({ team }: { team: TeamState }) {
           <a class="row" href={n.url} target="_blank" rel="noopener" key={n.url} style="align-items:flex-start">
             <div class="grow">
               <div class="title">{n.title}</div>
-              <div class="small muted">{n.source}{n.date ? ` · ${day(n.date)}` : ''}</div>
+              <div class="small muted">{n.source}{n.date ? `, ${day(n.date)}` : ''}</div>
             </div>
           </a>
         ))}

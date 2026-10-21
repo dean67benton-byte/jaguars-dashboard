@@ -19,7 +19,7 @@ export function Schedule({ sport, team, briefs }: { sport: SportKey; team: TeamS
       {!data.events.length && <div class="panel empty">The schedule hasn't been published yet.</div>}
       {ahead.length > 0 && (
         <section class="section">
-          <span class="label">Upcoming · {ahead.length}</span>
+          <span class="label">Upcoming ({ahead.length})</span>
           <div class="panel list">
             {ahead.map((e) => <GameRow key={e.id} e={e} sport={sport} brief={briefFor(briefs, e)} />)}
           </div>
@@ -27,7 +27,7 @@ export function Schedule({ sport, team, briefs }: { sport: SportKey; team: TeamS
       )}
       {done.length > 0 && (
         <section class="section">
-          <span class="label">Results · {w}-{l}</span>
+          <span class="label">Results, {w}-{l}</span>
           <div class="panel list">
             {[...done].reverse().map((e) => <GameRow key={e.id} e={e} sport={sport} brief={briefFor(briefs, e)} />)}
           </div>

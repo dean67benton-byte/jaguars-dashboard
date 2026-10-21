@@ -13,7 +13,7 @@ export function Team({ sport, team }: { sport: SportKey; team: TeamState }) {
     <>
       <div class="section-head" style="flex-wrap:wrap">
         <h1>{SPORT_LABEL[sport]}</h1>
-        <span class="small muted">{[data.team.record, data.team.standingSummary].filter(Boolean).join(' · ')}</span>
+        <span class="small muted">{[data.team.record, data.team.standingSummary].filter(Boolean).join(', ')}</span>
       </div>
       <div class="seg" role="group" aria-label="Team view">
         {(['stats', 'roster', 'standings'] as const).map((v) => (

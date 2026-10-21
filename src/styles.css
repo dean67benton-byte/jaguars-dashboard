@@ -67,7 +67,7 @@ p { margin: 0; }
 .num { font-family: var(--font-display); font-variant-numeric: tabular-nums; }
 .muted { color: var(--muted); }
 .small { font-size: 0.86rem; }
-.label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); }
+.label { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
 :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 6px; }
 
 /* ---------- shell ---------- */
@@ -153,7 +153,8 @@ body::before {
 .section { display: grid; gap: 12px; min-width: 0; }
 .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .section-head a { font-size: 0.88rem; font-weight: 600; color: var(--red); text-decoration: none; }
-.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); min-width: 0; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; min-width: 0; }
+.hero { border-radius: 18px; }
 .list { display: grid; }
 .list > * + * { border-top: 1px solid var(--line); }
 .row { display: flex; align-items: center; gap: 12px; padding: 12px 14px; text-decoration: none; min-width: 0; }
@@ -163,7 +164,7 @@ body::before {
 .grid-2 { display: grid; gap: 22px; }
 @media (min-width: 760px) { .grid-2 { grid-template-columns: 1fr 1fr; align-items: start; } }
 
-.pill { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px; border-radius: 999px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px; border-radius: 999px; font-size: 0.78rem; font-weight: 600; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
 .pill.live { background: var(--red); border-color: var(--red); color: var(--red-ink); }
 .pill.live::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pulse 1.4s ease-in-out infinite; }
 .pill.good { color: var(--good); border-color: color-mix(in srgb, var(--good) 45%, transparent); }
@@ -191,7 +192,7 @@ body::before {
 .clock { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
 .clock div { background: color-mix(in srgb, var(--bg) 55%, transparent); border: 1px solid var(--line); border-radius: 10px; padding: 8px 4px 6px; text-align: center; }
 .clock .v { font-family: var(--font-display); font-weight: 700; font-size: 2rem; line-height: 1; font-variant-numeric: tabular-nums; }
-.clock .u { font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.clock .u { font-size: 0.75rem; color: var(--muted); }
 .score-big { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; }
 .score-big .v { font-family: var(--font-display); font-weight: 700; font-size: 3.2rem; line-height: 1; font-variant-numeric: tabular-nums; }
 .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.9rem; color: var(--muted); }
@@ -202,7 +203,7 @@ body::before {
 .table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
 th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
-th { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+th { font-size: 0.8rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
 tr:last-child td { border-bottom: 0; }
 td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 tr.us td { background: color-mix(in srgb, var(--red) 10%, transparent); font-weight: 600; }
@@ -211,7 +212,7 @@ tr.us td { background: color-mix(in srgb, var(--red) 10%, transparent); font-wei
 .brief-hero { padding: 18px; display: grid; gap: 10px; }
 .pick { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: center; padding: 16px; }
 .pick .score { font-family: var(--font-display); font-weight: 700; font-size: 2.3rem; line-height: 1; white-space: nowrap; }
-.edge { font-weight: 700; font-size: 0.78rem; letter-spacing: 0.06em; }
+.edge { font-weight: 700; font-size: 0.85rem; }
 .edge.USA { color: var(--red); }
 .edge.OPP { color: var(--muted); }
 .bullets { margin: 0; padding-left: 1.1em; display: grid; gap: 8px; }
