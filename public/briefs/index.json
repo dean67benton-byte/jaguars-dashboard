@@ -4,7 +4,8 @@
   "sport": "football",
   "date": "2026-10-20T23:30:00Z",
   "opponent": "Marshall",
-  "status": "preview",
-  "pick": "USA 35, MRSH 28"
+  "status": "final",
+  "pick": "USA 35, MRSH 28",
+  "letter": "D"
  }
 ]

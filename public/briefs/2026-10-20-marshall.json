@@ -7,7 +7,7 @@
  "home": false,
  "venue": "Joan C. Edwards Stadium, Huntington, W.Va.",
  "tv": "ESPN2",
- "status": "preview",
+ "status": "final",
  "preview": {
   "generatedAt": "2026-10-17T20:00:00-04:00",
   "headline": "Two leaky defenses, one fragile quarterback room.",
@@ -123,6 +123,74 @@
   "sources": [
    {
     "title": "Dean's Game Day Brief (PDF), checked Oct 17, 2026"
+   }
+  ]
+ },
+ "grade": {
+  "generatedAt": "2026-10-20T22:45:00-05:00",
+  "final": {
+   "usa": 13,
+   "opp": 20
+  },
+  "winnerCorrect": false,
+  "marginOff": 14,
+  "totalOff": 30,
+  "letter": "D",
+  "summary": "The brief called a 35-28 USA win in a shootout; Marshall won a 20-13 defensive game instead. The biggest miss was Marshall’s turnover problem: the Herd committed none while Hollins threw an interception, and USA’s offense managed 326 yards and went 4-of-18 on third down. The run-heavy plan and limiting big plays held up, but not enough to win.",
+  "keys": [
+   {
+    "key": "USA: Win the turnover battle.",
+    "hit": false,
+    "note": "Lost it 1-0. Hollins was intercepted by Cole Funderburk at the Marshall 45 in the third quarter; Marshall scored a TD on its next drive."
+   },
+   {
+    "key": "USA: Run early and often.",
+    "hit": true,
+    "note": "42 carries for 178 yards and PJ Martin’s 19-yard TD run, but only 4.2 a carry against a defense that had allowed 5.54."
+   },
+   {
+    "key": "USA: Stop the explosive run.",
+    "hit": true,
+    "note": "Held Marshall to 147 rushing yards (4.5 a carry), though Turner’s 27-yard run and Wilkins’ 22-yard run came on fourth-quarter scoring threats."
+   },
+   {
+    "key": "Marshall: Play a clean game.",
+    "hit": true,
+    "note": "Zero turnovers after six the week before; this is the key that decided the game."
+   },
+   {
+    "key": "Marshall: Keep USA’s big plays in check.",
+    "hit": true,
+    "note": "USA had three plays of 20+ yards (47 and 41-yard catches, 26-yard run) and no touchdown longer than 19 yards."
+   }
+  ],
+  "players": [
+   {
+    "name": "Keenan Phillips",
+    "note": "16 carries, 70 yards (4.4 a carry), long of 15; also 2 kick returns for 30 yards."
+   },
+   {
+    "name": "Jared Hollins",
+    "note": "12-of-33, 148 yards, 0 TD, 1 INT; sacked once (fumble recovered by Phillips). Brendan Jenkins caught a 47-yarder."
+   },
+   {
+    "name": "Carlos Del Rio-Wilson / Zion Turner",
+    "note": "Turner played QB: 21-of-33, 181 yards, no INTs, plus 45 rushing yards and the 3-yard TD run that gave Marshall its first lead."
+   },
+   {
+    "name": "Judah Price",
+    "note": "13 carries, 30 yards (2.3 a carry), but scored the winning 5-yard TD with 1:49 left."
+   }
+  ],
+  "missed": "It expected two leaky defenses; the game had 33 points and six field-goal attempts (four made). It assumed Marshall would keep turning the ball over and that USA’s offense (451 yards a game) would roll; Marshall held it to 326 yards and USA converted 4 of 18 third downs. Hollins completed 36% of his passes.",
+  "sources": [
+   {
+    "title": "ESPN box score and play-by-play: South Alabama at Marshall, Oct 20, 2026",
+    "url": "https://www.espn.com/college-football/game/_/gameId/401871092"
+   },
+   {
+    "title": "ESPN/AP recap: Judah Price’s late TD helps Marshall edge South Alabama 20-13",
+    "url": "https://www.espn.com/college-football/recap/_/gameId/401871092"
    }
   ]
  }
