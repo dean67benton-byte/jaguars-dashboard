@@ -96,8 +96,8 @@ function Snapshot({ data, rank }: { data: TeamData; rank?: RankingRow }) {
         ))}
       </div>
       <p class="small muted">
-        {[data.team.standingSummary, rank && `#${rank.rank} in our Sun Belt power rankings`].filter(Boolean).join('. ')}
-        {rank && <> <a href="#rankings" style="color:var(--fg)">See rankings</a></>}
+        {data.team.standingSummary && `${data.team.standingSummary} standings. `}
+        {rank && <a href="#rankings" style="color:var(--fg)">#{rank.rank} in our power rankings</a>}
       </p>
     </section>
   );
