@@ -17,6 +17,7 @@ const LEVELS: { key: Level; label: string }[] = [
 const RISK_CLASS: Record<Risk, string> = { low: 'good', medium: 'warn', high: 'bad' };
 
 type View = 'players' | 'coaches';
+const LINE = /^(OL|OT|OG|C|IOL|LS)$/;
 
 function Stats({ list }: { list: PortalPlayer['stats']['season'] }) {
   return (
@@ -51,7 +52,7 @@ function PlayerRow({ p, season, lastSeason, transfer }: { p: PortalPlayer; seaso
           <Stats list={p.stats.season} />
         </>
       ) : (
-        <div class="small muted">{p.games > 0 ? `${p.games} game${p.games === 1 ? '' : 's'} in ${season}, no stats yet` : `No ${season} stats yet`}</div>
+        <div class="small muted">{LINE.test(p.pos ?? '') ? 'Linemen and snappers get no box-score stats' : `No ${season} stats yet`}</div>
       )}
       {p.stats.last.length > 0 && (
         <div class="small muted">
@@ -68,8 +69,9 @@ function Players({ sport, data }: { sport: SportKey; data: PortalData }) {
   if (!d) return <div class="card empty">No {SPORT_LABEL[sport].toLowerCase()} portal data yet.</div>;
   const counts = LEVELS.map((l) => ({ ...l, n: d.incoming.filter((p) => p.level === l.key).length })).filter((l) => l.n);
   const max = Math.max(...counts.map((c) => c.n), 1);
-  // Most-used first, so the ones playing a role lead.
-  const incoming = [...d.incoming].sort((a, b) => b.games - a.games || b.stats.season.length - a.stats.season.length);
+  // Transfers with box-score numbers lead, most-used first; the rest are listed compactly.
+  const incoming = d.incoming.filter((p) => p.stats.season.length).sort((a, b) => b.games - a.games);
+  const quiet = d.incoming.filter((p) => !p.stats.season.length);
   const cells = [
     { k: 'Transfers in', v: d.incoming.length },
     { k: 'Starters back', v: d.starters.length },
@@ -106,13 +108,38 @@ function Players({ sport, data }: { sport: SportKey; data: PortalData }) {
       </section>
 
       <section class="section">
-        <h2>Transfers in</h2>
+        <h2>Transfers making a mark</h2>
         <ul class="panel list nfl-list">
           {incoming.map((p) => (
             <PlayerRow key={p.name} p={p} season={d.season} lastSeason={d.lastSeason} transfer />
           ))}
         </ul>
+        {!incoming.length && <div class="panel empty small">No {d.season} stats for the transfers yet.</div>}
       </section>
+
+      {quiet.length > 0 && (
+        <section class="section">
+          <h2>Not in the box score yet</h2>
+          <p class="small muted">Transfers with no {d.season} stats. Linemen never get box-score stats.</p>
+          <ul class="panel list">
+            {quiet.map((p) => (
+              <li class="row" key={p.name}>
+                <Headshot src={p.headshot} size={36} />
+                <div class="grow">
+                  <div class="title">{p.name}</div>
+                  <div class="small muted">{[p.pos, p.cls, p.from && `from ${p.from}`].filter(Boolean).join(' · ')}</div>
+                  {p.stats.last.length > 0 && (
+                    <div class="small muted">
+                      {d.lastSeason}: {p.stats.last.map((s) => `${s.value} ${s.label}`).join(', ')}
+                    </div>
+                  )}
+                </div>
+                {p.level && <span class="pill">{p.level}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="section">
         <h2>Returning starters</h2>
@@ -180,12 +207,12 @@ function CoachCard({ c, team }: { c: Coach; team?: TeamData | null }) {
         <span class={`pill ${RISK_CLASS[c.hotSeat]}`}>Hot seat: {c.hotSeat}</span>
         <span class={`pill ${RISK_CLASS[c.poach]}`}>Poach risk: {c.poach}</span>
       </div>
-      <span class="meter" aria-hidden="true">
+      <span class={`meter ${c.stayPct >= 75 ? 'good' : c.stayPct >= 50 ? 'warn' : 'bad'}`} aria-hidden="true">
         <span style={`width:${c.stayPct}%`} />
       </span>
       <p class="small">{c.note}</p>
       {live && <div class="small">{live}</div>}
-      <div class="small muted">{[c.since, c.record].filter(Boolean).join(' ')}</div>
+      <div class="small muted">{[c.since, c.record].filter(Boolean).map((t) => t!.replace(/\.?$/, '.')).join(' ')}</div>
     </li>
   );
 }
@@ -230,14 +257,13 @@ function Coaches({ sport, data, team }: { sport: SportKey; data: OutlookData; te
         <ul class="panel list">
           {data.history.items.map((i) => (
             <li class="row" key={`${i.year}${i.school}${i.coach}`}>
-              <span class="rank-n small muted">{i.year}</span>
+              <span class="hist-year">{i.year}</span>
               <div class="grow">
                 <div class="title">
                   {i.coach}, {i.school}
                 </div>
                 <div class="small muted">{[i.outcome === 'hired' ? `Left for ${i.to}` : 'Fired', i.note].filter(Boolean).join('. ')}</div>
               </div>
-              <span class={`pill ${i.outcome === 'hired' ? 'good' : 'bad'}`}>{i.outcome === 'hired' ? 'Hired away' : 'Fired'}</span>
             </li>
           ))}
         </ul>

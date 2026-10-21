@@ -362,3 +362,8 @@ tr.us td.rank { color: var(--fg); }
 .coach-stay .grade-letter { font-size: 2rem; }
 .coach-pills { display: flex; flex-wrap: wrap; gap: 6px; }
 .coach-card p { margin: 0; }
+.nfl-top .pill, .row > .pill { margin-left: auto; }
+.meter.good > span { background: var(--good); }
+.meter.warn > span { background: var(--warn); }
+.meter.bad > span { background: var(--bad); }
+.hist-year { flex: none; width: 3.2em; font-size: 0.8rem; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
