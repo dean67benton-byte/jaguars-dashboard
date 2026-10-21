@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T18:19:03.800Z",
+ "updatedAt": "2026-10-21T18:32:15.720Z",
  "football": {
   "season": "2026",
   "lastSeason": "2025",
@@ -1348,7 +1348,24 @@
     "games": 0,
     "stats": {
      "season": [],
-     "last": []
+     "last": [
+      {
+       "label": "PTS",
+       "value": "2.0"
+      },
+      {
+       "label": "REB",
+       "value": "2.0"
+      },
+      {
+       "label": "MIN",
+       "value": "13.0"
+      },
+      {
+       "label": "GP",
+       "value": "1"
+      }
+     ]
     }
    },
    {
