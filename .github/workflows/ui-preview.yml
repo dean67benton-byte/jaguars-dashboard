@@ -32,13 +32,8 @@ jobs:
           npx vite preview --port 4173 --strictPort &
           npx -y wait-on@8.0.1 -t 60000 http://localhost:4173/
           mkdir -p shots
-          shot() { npx -y playwright@1.48.2 screenshot --channel chrome --color-scheme dark --full-page --wait-for-timeout 4000 "$@"; }
-          for page in home schedule gameday more team/standings; do
-            name=$(echo "$page" | tr '/' '-')
-            shot --device "iPhone 14 Pro" "http://localhost:4173/#$page" "shots/iphone-$name.png"
-          done
-          shot --viewport-size "1280,900" "http://localhost:4173/#home" shots/desktop-home.png
-          shot --viewport-size "1280,900" "http://localhost:4173/#gameday" shots/desktop-gameday.png
+          npm i --no-save playwright-core@1.48.2
+          node scripts/ui-shots.mjs
 
       - name: Publish to ui-previews branch
         run: |
