@@ -4,7 +4,7 @@ import { day, ago } from '../lib/time';
 import { hasEspnId, isLiveWindow, useSummary } from '../lib/live';
 import { useSettings } from '../lib/settings';
 import { IconGameDay, IconRadio } from '../icons';
-import { GameCard, GameRow, Loading, StandingsTable, TeamState, Updated, useNow } from './parts';
+import { GameCard, GameRow, Loading, NewsList, StandingsTable, TeamState, Updated, useNow } from './parts';
 import { useLiveStandings } from '../lib/standings';
 
 function NextGame({ sport, e, record, usLogo }: { sport: SportKey; e: GameEvent; record?: string; usLogo?: string }) {
@@ -152,20 +152,7 @@ export function Home({ sport, team, briefs }: { sport: SportKey; team: TeamState
               <h2>Headlines</h2>
               <a href="#news">All news</a>
             </div>
-            <div class="panel list">
-              {data.news.slice(0, 4).map((n) => (
-                <a class="row" href={n.url} target="_blank" rel="noopener" key={n.url}>
-                  <div class="grow">
-                    <div class="title">{n.title}</div>
-                    <div class="small muted">
-                      {n.source}
-                      {n.date ? `, ${day(n.date)}` : ''}
-                    </div>
-                  </div>
-                </a>
-              ))}
-              {!data.news.length && <div class="empty small">No headlines yet.</div>}
-            </div>
+            <NewsList items={data.news.slice(0, 4)} />
           </section>
         </div>
         <div class="stack">

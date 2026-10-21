@@ -38,6 +38,7 @@ export interface Player {
   ht?: string;
   wt?: string;
   hometown?: string;
+  headshot?: string;
 }
 
 export interface Stat {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import type { SportKey } from '../lib/types';
 import { SPORT_LABEL } from '../lib/data';
-import { Loading, Logo, StandingsTable, TeamState, Updated } from './parts';
+import { Headshot, Loading, Logo, StandingsTable, TeamState, Updated } from './parts';
 import { useLiveStandings } from '../lib/standings';
 import { useSettings } from '../lib/settings';
 
@@ -80,7 +80,7 @@ export function Team({ sport, team, initial }: { sport: SportKey; team: TeamStat
                 {data.roster.map((p) => (
                   <tr key={p.name + p.number}>
                     <td class="n">{p.number}</td>
-                    <td style="font-weight:600;white-space:nowrap">{p.name}</td>
+                    <td style="font-weight:600;white-space:nowrap"><span class="player-cell"><Headshot src={p.headshot} size={34} />{p.name}</span></td>
                     <td>{p.pos}</td>
                     <td>{p.cls}</td>
                     <td style="white-space:nowrap">{[p.ht, p.wt].filter(Boolean).join(', ')}</td>

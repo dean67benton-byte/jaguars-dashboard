@@ -14,7 +14,7 @@ export interface Summary {
   weather?: string;
   injuries: { team: 'USA' | 'OPP'; name: string; status: string }[];
   lastFive: { team: 'USA' | 'OPP'; games: { result: string; label: string }[] }[];
-  leaders: { team: 'USA' | 'OPP'; category: string; name: string; value: string }[];
+  leaders: { team: 'USA' | 'OPP'; category: string; name: string; value: string; headshot?: string }[];
 }
 
 const side = (id: unknown): 'USA' | 'OPP' => (String(id) === TEAM_ID ? 'USA' : 'OPP');
@@ -70,6 +70,7 @@ export function parseSummary(s: any): Summary {
         category: l.displayName ?? l.name,
         name: l.leaders?.[0]?.athlete?.displayName ?? '',
         value: l.leaders?.[0]?.displayValue ?? '',
+        headshot: ((h: any) => (typeof h === 'string' ? h : h?.href))(l.leaders?.[0]?.athlete?.headshot),
       })),
     ),
   };

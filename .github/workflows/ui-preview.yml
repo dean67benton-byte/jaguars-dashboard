@@ -25,6 +25,9 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      # Fresh data so previews show what the next data run will produce (not committed).
+      - run: node scripts/fetch-data.mjs --force
+        continue-on-error: true
       - run: npm run build
 
       - name: Screenshots
