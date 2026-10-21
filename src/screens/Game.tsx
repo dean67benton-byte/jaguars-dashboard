@@ -3,7 +3,7 @@ import { briefFor, LISTEN_URL } from '../lib/data';
 import { hasEspnId, isLiveWindow, useSummary } from '../lib/live';
 import { useSettings } from '../lib/settings';
 import { IconBrief, IconRadio } from '../icons';
-import { GameCard, Loading, TeamState } from './parts';
+import { GameCard, Headshot, Loading, TeamState } from './parts';
 
 function sideBySide(us: StatCategory[], them: StatCategory[]) {
   const theirs = new Map(them.flatMap((c) => c.stats.map((s) => [`${c.name}|${s.name}`, s])));
@@ -134,7 +134,8 @@ export function Game({ sport, id, team, briefs, label }: { sport: SportKey; id: 
             <div class="panel list">
               {summary.leaders.map((l, i) => (
                 <div class="row" key={i}>
-                  <span class="label" style="width:52px">{l.team === 'USA' ? 'USA' : e.opponent.abbr || 'OPP'}</span>
+                  <Headshot src={l.headshot} size={40} />
+                  <span class="label" style="width:44px">{l.team === 'USA' ? 'USA' : e.opponent.abbr || 'OPP'}</span>
                   <div class="grow"><div class="title">{l.name}</div><div class="small muted">{l.category}</div></div>
                   <span class="small">{l.value}</span>
                 </div>

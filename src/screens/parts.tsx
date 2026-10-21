@@ -1,4 +1,4 @@
-import type { BriefIndexEntry, GameEvent, SportKey, StandingGroup, TeamData } from '../lib/types';
+import type { BriefIndexEntry, GameEvent, NewsItem, SportKey, StandingGroup, TeamData } from '../lib/types';
 import { useTeam } from '../lib/data';
 import type { ComponentChildren } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
@@ -197,5 +197,47 @@ export function GameCard({
       </div>
       {children && <div class="actions">{children}</div>}
     </section>
+  );
+}
+
+// Hotlinked photos: never re-hosted. no-referrer keeps news sites from
+// blocking them; a broken one hides and the fallback shows instead.
+export function Photo({ src, class: cls, alt = '' }: { src?: string; class?: string; alt?: string }) {
+  const [broken, setBroken] = useState(false);
+  if (!src || broken) return <span class={`${cls ?? ''} photo-fallback`} aria-hidden="true"><Logo id="6" size={32} /></span>;
+  return <img class={cls} src={src} alt={alt} loading="lazy" decoding="async" referrerpolicy="no-referrer" onError={() => setBroken(true)} />;
+}
+
+export function Headshot({ src, size = 36 }: { src?: string; size?: number }) {
+  const [broken, setBroken] = useState(false);
+  if (!src || broken) return <span class="headshot" style={`width:${size}px;height:${size}px`} aria-hidden="true" />;
+  return <img class="headshot" src={src} width={size} height={size} alt="" loading="lazy" onError={() => setBroken(true)} />;
+}
+
+// First story as a photo card, the rest as rows with a thumbnail.
+export function NewsList({ items, lead = true }: { items: NewsItem[]; lead?: boolean }) {
+  if (!items.length) return <div class="panel empty small">No headlines yet.</div>;
+  const [first, ...rest] = lead ? items : [undefined, ...items];
+  return (
+    <div class="news">
+      {first && (
+        <a class="news-lead" href={first.url} target="_blank" rel="noopener">
+          <Photo src={first.image} class="news-lead-img" />
+          <div class="title">{first.title}</div>
+          <div class="small muted">{first.source}{first.date ? `, ${day(first.date)}` : ''}</div>
+        </a>
+      )}
+      <div class="panel list">
+        {rest.map((n) => n && (
+          <a class="row news-row" href={n.url} target="_blank" rel="noopener" key={n.url}>
+            <div class="grow">
+              <div class="title">{n.title}</div>
+              <div class="small muted">{n.source}{n.date ? `, ${day(n.date)}` : ''}</div>
+            </div>
+            <Photo src={n.image} class="thumb" />
+          </a>
+        ))}
+      </div>
+    </div>
   );
 }

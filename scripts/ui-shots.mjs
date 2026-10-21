@@ -3,7 +3,7 @@
 import { chromium } from 'playwright-core';
 
 const BASE = 'http://localhost:4173/';
-const PAGES = ['home', 'schedule', 'gameday', 'more', 'team/standings'];
+const PAGES = ['home', 'gameday', 'news', 'team/roster', 'schedule', 'more'];
 const browser = await chromium.launch({ channel: 'chrome' });
 
 const iphone = await browser.newContext({

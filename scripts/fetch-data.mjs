@@ -113,6 +113,7 @@ function normalizeRoster(json) {
     ht: a.displayHeight,
     wt: a.displayWeight,
     hometown: [a.birthPlace?.city, a.birthPlace?.state].filter(Boolean).join(', ') || undefined,
+    headshot: a.headshot?.href,
   }));
 }
 
@@ -199,16 +200,41 @@ async function fetchRss(url, source = 'usajaguars.com') {
       const m = s.match(new RegExp(`<${t}>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?</${t}>`));
       return m ? m[1].trim() : undefined;
     };
+    // Story photo: RSS enclosure or Media RSS, whichever the feed uses.
+    const image = (s) => s.match(/<(?:enclosure|media:content|media:thumbnail)[^>]+url="([^"]+)"[^>]*>/)?.[1]?.replace(/&amp;/g, '&');
     return items.map(([, s]) => ({
       title: tag(s, 'title'),
       url: tag(s, 'link'),
       date: tag(s, 'pubDate') ? new Date(tag(s, 'pubDate')).toISOString() : undefined,
       source,
+      image: image(s),
     })).filter((n) => n.title && n.url).map((n) => ({ ...n, title: decode(n.title) }));
   } catch (err) {
     console.warn(`  skip rss ${url}: ${err.message}`);
     return [];
   }
+}
+
+const ogImage = (html) =>
+  (html.match(/<meta[^>]+(?:property|name)="(?:og:image|twitter:image)"[^>]+content="([^"]+)"/) ??
+    html.match(/<meta[^>]+content="([^"]+)"[^>]+(?:property|name)="(?:og:image|twitter:image)"/))?.[1]?.replace(/&amp;/g, '&');
+
+// Stories without a feed photo: read og:image from the article page. Only the
+// newest few, and the previous run's image is reused so each page is read once.
+async function addImages(news, prevNews = []) {
+  const known = new Map(prevNews.filter((n) => n.image).map((n) => [n.url, n.image]));
+  const missing = news.filter((n) => !n.image && !(n.image = known.get(n.url))).slice(0, 10);
+  await Promise.all(
+    missing.map(async (n) => {
+      try {
+        const res = await fetch(n.url, { headers: { 'user-agent': 'Mozilla/5.0 (jaguars-dashboard)' }, signal: AbortSignal.timeout(10e3) });
+        if (res.ok) n.image = ogImage(await res.text());
+      } catch {
+        /* no photo; the app falls back to team logos */
+      }
+    }),
+  );
+  return news;
 }
 
 const decode = (t) =>
@@ -263,6 +289,7 @@ async function fetchDiehard() {
             meta(/<meta[^>]+property="article:published_time"[^>]+content="([^"]+)"/) ?? meta(/"datePublished"\s*:\s*"([^"]+)"/);
           if (title) n.title = decode(title.replace(/\s*[|–-]\s*Diehard Sports Network.*$/i, '').trim());
           if (date && !Number.isNaN(Date.parse(date))) n.date = new Date(date).toISOString();
+          n.image ??= ogImage(page);
         } catch {
           /* keep what the section page gave us */
         }
@@ -369,6 +396,7 @@ async function updateSport(sport, now) {
     .filter((n, i, all) => all.findIndex((m) => m.title === n.title) === i)
     .sort((a, b) => (b.date ? Date.parse(b.date) : 0) - (a.date ? Date.parse(a.date) : 0))
     .slice(0, 30);
+  await addImages(news, prev?.news);
 
   let { roster = [], stats = [], leaders = [], standings = [], nextOpponent } = prev ?? {};
   if (daily) {

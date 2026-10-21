@@ -1,5 +1,4 @@
-import { day } from '../lib/time';
-import { Loading, TeamState, Updated } from './parts';
+import { Loading, NewsList, TeamState, Updated } from './parts';
 
 const SOURCES = [
   { name: 'usajaguars.com', note: 'Official athletics site', url: 'https://usajaguars.com' },
@@ -14,17 +13,8 @@ export function News({ team }: { team: TeamState }) {
   return (
     <>
       <h1>News</h1>
-      <div class="panel list">
-        {data.news.map((n) => (
-          <a class="row" href={n.url} target="_blank" rel="noopener" key={n.url} style="align-items:flex-start">
-            <div class="grow">
-              <div class="title">{n.title}</div>
-              <div class="small muted">{n.source}{n.date ? `, ${day(n.date)}` : ''}</div>
-            </div>
-          </a>
-        ))}
-        {!data.news.length && <div class="empty">No headlines yet.</div>}
-      </div>
+      <NewsList items={data.news} />
+      <p class="small muted">Photos belong to each outlet and link to the original story.</p>
       <section class="section">
         <h2>Sources</h2>
         <div class="panel list">
