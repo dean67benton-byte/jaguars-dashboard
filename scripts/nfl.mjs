@@ -137,7 +137,7 @@ async function main() {
   players.sort((x, y) => order[x.group] - order[y.group] || (y.games ?? 0) - (x.games ?? 0) || x.name.localeCompare(y.name));
   await writeFile(OUT, JSON.stringify({ updatedAt: new Date().toISOString(), players }, null, 1) + '\n');
   console.log(`nfl: ${players.length} alumni (${players.filter((p) => p.group === 'active').length} active)`);
-  if (process.env.GITHUB_OUTPUT) await writeFile(process.env.GITHUB_OUTPUT, 'nfl=true\n', { flag: 'a' });
+  if (process.env.GITHUB_OUTPUT) await writeFile(process.env.GITHUB_OUTPUT, 'daily=true\n', { flag: 'a' });
 }
 
 main();

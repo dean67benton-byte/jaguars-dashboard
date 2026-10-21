@@ -233,3 +233,68 @@ export interface NflData {
   updatedAt: string;
   players: NflPlayer[];
 }
+
+// ---- Transfer portal (public/data/portal.json, scripts/portal.mjs) ----
+
+export type Level = 'P4' | 'G5' | 'FCS' | 'D2' | 'D3' | 'NAIA' | 'JUCO' | 'Intl';
+
+export interface PortalPlayer {
+  id?: string;
+  name: string;
+  pos?: string;
+  cls?: string;
+  headshot?: string;
+  from?: string;
+  level?: Level;
+  games: number;
+  starts?: number;
+  stats: { season: NflStat[]; last: NflStat[] };
+}
+
+export interface PortalSport {
+  season: string;
+  lastSeason: string;
+  rosterSize: number;
+  returners: number;
+  newcomers: number;
+  otherNew: number;
+  incoming: PortalPlayer[];
+  starters: PortalPlayer[];
+  startersNote?: string;
+  departures: { name: string; pos?: string; to?: string }[];
+  sources: string[];
+}
+
+export interface PortalData {
+  updatedAt: string;
+  football?: PortalSport;
+  mbb?: PortalSport;
+}
+
+// ---- Coaching outlook (public/data/outlook.json, Sunday routine) ----
+
+export type Risk = 'low' | 'medium' | 'high';
+
+export interface Coach {
+  name: string;
+  role: string;
+  unit: 'hc' | 'oc' | 'dc';
+  since?: string;
+  record?: string;
+  stayPct: number;
+  hotSeat: Risk;
+  poach: Risk;
+  note: string;
+}
+
+export interface OutlookData {
+  updatedAt: string;
+  source: 'seed' | 'claude';
+  football?: { asOf?: string; staff: Coach[] };
+  mbb?: { asOf?: string; staff: Coach[] };
+  history: {
+    summary: string;
+    items: { year: number; school: string; coach: string; outcome: 'fired' | 'hired'; to?: string; note?: string }[];
+    sources: string[];
+  };
+}

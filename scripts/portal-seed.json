@@ -1,0 +1,69 @@
+{
+  "_note": "Hand-kept. Incoming transfers this season (name as ESPN spells it, previous school, level), football returning starters, and notable departures. scripts/portal.mjs adds ESPN ids, headshots and stats. Levels: P4, G5, FCS, D2, D3, NAIA, JUCO, Intl.",
+  "football": {
+    "season": "2026",
+    "incoming": [
+      { "name": "Jerry Horne", "from": "Arkansas State", "level": "G5" },
+      { "name": "Anthony Jeffery", "from": "Kent State", "level": "G5" },
+      { "name": "D.J. Moore", "from": "Georgia Tech", "level": "P4" },
+      { "name": "Jaylen Moson", "from": "Utah", "level": "P4" },
+      { "name": "Peyton Argent", "from": "South Carolina", "level": "P4" },
+      { "name": "Christopher Aikman", "from": "Georgia Tech", "level": "P4" },
+      { "name": "Seidrion Langston", "from": "ULM", "level": "G5" },
+      { "name": "Terry Kirksey Jr.", "from": "Arkansas State", "level": "G5" },
+      { "name": "Dylan Freebury", "from": "Colorado State", "level": "G5" },
+      { "name": "Shalik Hubbard", "from": "Monmouth", "level": "FCS" },
+      { "name": "Diego Camboia", "from": "Mississippi Valley State", "level": "FCS" },
+      { "name": "Miguel Camboia", "from": "Mississippi Valley State", "level": "FCS" },
+      { "name": "Everett Hunter", "from": "Nicholls", "level": "FCS" },
+      { "name": "Dylan Chiedo", "from": "Furman", "level": "FCS" },
+      { "name": "Andrew Hines", "from": "Eastern Kentucky", "level": "FCS" },
+      { "name": "Masey Lewis", "from": "McNeese", "level": "FCS" },
+      { "name": "Christian Ross", "from": "Holy Cross", "level": "FCS" },
+      { "name": "Cam McFarlin", "from": "Arkansas Tech", "level": "D2" },
+      { "name": "Jordan Morris", "from": "Butler CC", "level": "JUCO" },
+      { "name": "Naol Andarge", "from": "Garden City CC", "level": "JUCO" },
+      { "name": "Brian Barnes", "from": "Southwest Mississippi CC", "level": "JUCO" },
+      { "name": "Kaydon Degraffenreid", "from": "Garden City CC", "level": "JUCO" },
+      { "name": "Rodney Hunter", "from": "Mississippi Gulf Coast CC", "level": "JUCO" },
+      { "name": "Kam Robinson", "from": "Holmes CC", "level": "JUCO" }
+    ],
+    "starters": [
+      "Bishop Davenport", "Keenan Phillips", "Anthony Eager", "Brendan Jenkins", "Rod Gibbs",
+      "Kenton Jerido", "Ethan Hubbard", "Reese Osei-Wusu",
+      "Tirrell Johnson", "Caleb Dozier", "Tyler Carter", "Damyrion Darby", "Jayvon Henderson", "Cole Blaylock",
+      "Davis Little", "Aleksi Pulkkinen"
+    ],
+    "startersNote": "Back from the 2025 team and projected to start in 2026 (HERO Sports preseason depth chart).",
+    "departures": [
+      { "name": "Nehemiah Chandler", "pos": "CB", "to": "Florida State" },
+      { "name": "Jordan Davis", "pos": "OT", "to": "UCLA" },
+      { "name": "Ed Smith IV", "pos": "DL", "to": "Tulane" },
+      { "name": "Dalton Hughes", "pos": "LB", "to": "Tulane" }
+    ],
+    "sources": [
+      "https://usajaguars.com/sports/football/roster",
+      "https://en.wikipedia.org/wiki/2026_South_Alabama_Jaguars_football_team",
+      "https://herosports.com/fbs-2026-south-alabama-depth-chart-projections-rmrm/"
+    ]
+  },
+  "mbb": {
+    "season": "2026-27",
+    "incoming": [
+      { "name": "Aaron Goldstein", "from": "College of Staten Island", "level": "D3" },
+      { "name": "Aedan Lewis", "from": "Southwestern (Texas)", "level": "D3" },
+      { "name": "Roderick Williams Jr.", "from": "Southern Arkansas", "level": "D2" },
+      { "name": "Jalen Langsy", "from": "Northwestern College (Iowa)", "level": "NAIA" },
+      { "name": "Davaughn Hueitt", "from": "Hannibal-LaGrange", "level": "NAIA" },
+      { "name": "Keyne Costa", "from": "Northeastern Oklahoma A&M", "level": "JUCO" },
+      { "name": "Lenni Kunzewitsch", "from": "Ratiopharm Ulm (Germany)", "level": "Intl" },
+      { "name": "Owen Kenney", "from": "Ottawa (Canada)", "level": "Intl" },
+      { "name": "Diego Roman", "from": "Starwings Basel (Switzerland)", "level": "Intl" },
+      { "name": "Alexey Sereda", "from": "Enisey Krasnoyarsk (Russia)", "level": "Intl" }
+    ],
+    "starters": [],
+    "startersNote": "Back from 2025-26 with at least 10 starts there (ESPN).",
+    "departures": [],
+    "sources": ["https://usajaguars.com/sports/mens-basketball/roster"]
+  }
+}

@@ -1,0 +1,81 @@
+{
+ "updatedAt": "2026-10-21T19:00:00Z",
+ "source": "seed",
+ "football": {
+  "asOf": "After week 8 (4-3, 2-1 Sun Belt)",
+  "staff": [
+   {
+    "name": "Major Applewhite",
+    "role": "Head coach and offensive coordinator",
+    "unit": "hc",
+    "since": "Head coach since January 2024 (offensive coordinator 2022-23)",
+    "record": "2024: 7-6 with a Salute to Veterans Bowl win. 2025: 4-8.",
+    "stayPct": 80,
+    "hotSeat": "medium",
+    "poach": "low",
+    "note": "Year three after a 4-8 season, the point where Sun Belt schools have made changes (Bowden at ULM after three years, Clark at App State after a 5-6 year). At 4-3 with five left, two more wins means a bowl and should settle it. He calls plays himself, so the offense is his too. A P4 coordinator job is the only realistic way out, and that is unlikely after 2025."
+   },
+   {
+    "name": "Todd Orlando",
+    "role": "Defensive coordinator",
+    "unit": "dc",
+    "since": "Hired January 2026 from South Florida",
+    "record": "FBS coordinator since 2005 (Texas, USC, Houston, USF).",
+    "stayPct": 75,
+    "hotSeat": "medium",
+    "poach": "low",
+    "note": "First year, and the defense is giving up over 30 points a game, so wins have come in shootouts (52-35 over ULM, 56-49 at Arkansas State). That makes a move up unlikely this winter. His future is tied to Applewhite's: a head coaching change usually turns over the staff."
+   },
+   {
+    "name": "Jason Washington",
+    "role": "Co-defensive coordinator and cornerbacks",
+    "unit": "dc",
+    "since": "Since 2025 (from Texas State)",
+    "stayPct": 85,
+    "hotSeat": "low",
+    "poach": "low",
+    "note": "Kept through the 2026 staff overhaul and given the co-coordinator title, which signals the head coach wants him in place."
+   }
+  ]
+ },
+ "mbb": {
+  "asOf": "Preseason 2026-27",
+  "staff": [
+   {
+    "name": "Richie Riley",
+    "role": "Head coach",
+    "unit": "hc",
+    "since": "Since 2018. Extended through 2030 in April 2026.",
+    "record": "152-106. 2024-25 Sun Belt regular-season title and NIT. 2025-26: 21-11.",
+    "stayPct": 85,
+    "hotSeat": "low",
+    "poach": "medium",
+    "note": "Eight straight seasons at .500 or better and two 20-win years in a row. The new extension makes him hard to pry loose, but a title-winning mid-major coach draws calls every March. A rebuilt roster (10 newcomers) is this season's test."
+   }
+  ]
+ },
+ "history": {
+  "summary": "Since the 2022 season, 13 Sun Belt football head coaching jobs have opened: 8 when a coach was hired away and 5 when a coach was fired or pushed out. Winners leave (Cignetti, Sumrall, Chadwell, Chesney); coaches who are fired had at least three seasons first.",
+  "items": [
+   { "year": 2022, "school": "Coastal Carolina", "coach": "Jamey Chadwell", "outcome": "hired", "to": "Liberty" },
+   { "year": 2022, "school": "Texas State", "coach": "Jake Spavital", "outcome": "fired", "note": "After four seasons" },
+   { "year": 2023, "school": "ULM", "coach": "Terry Bowden", "outcome": "fired", "note": "After three seasons" },
+   { "year": 2023, "school": "James Madison", "coach": "Curt Cignetti", "outcome": "hired", "to": "Indiana" },
+   { "year": 2023, "school": "Troy", "coach": "Jon Sumrall", "outcome": "hired", "to": "Tulane" },
+   { "year": 2024, "school": "South Alabama", "coach": "Kane Wommack", "outcome": "hired", "to": "Alabama (defensive coordinator)" },
+   { "year": 2024, "school": "Georgia State", "coach": "Shawn Elliott", "outcome": "hired", "to": "South Carolina (assistant)", "note": "Resigned in August" },
+   { "year": 2024, "school": "Southern Miss", "coach": "Will Hall", "outcome": "fired", "note": "Midseason, after a 1-6 start" },
+   { "year": 2024, "school": "App State", "coach": "Shawn Clark", "outcome": "fired", "note": "After a 5-6 season, his fifth" },
+   { "year": 2024, "school": "Marshall", "coach": "Charles Huff", "outcome": "hired", "to": "Southern Miss" },
+   { "year": 2025, "school": "Coastal Carolina", "coach": "Tim Beck", "outcome": "fired", "note": "In November, his third season" },
+   { "year": 2025, "school": "James Madison", "coach": "Bob Chesney", "outcome": "hired", "to": "UCLA", "note": "After a College Football Playoff run" },
+   { "year": 2025, "school": "Southern Miss", "coach": "Charles Huff", "outcome": "hired", "to": "Memphis" }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/2023_Sun_Belt_Conference_football_season",
+   "https://en.wikipedia.org/wiki/2024_Sun_Belt_Conference_football_season",
+   "https://en.wikipedia.org/wiki/2025_Sun_Belt_Conference_football_season",
+   "https://www.herald-dispatch.com/sports/marshall_sports/sun-belt-football-a-look-at-the-three-new-coaches-joining-the-sbc-fold/article_591ade56-504a-4e18-9db4-4799f36b4f0d.html"
+  ]
+ }
+}

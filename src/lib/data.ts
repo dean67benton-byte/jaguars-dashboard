@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'preact/hooks';
-import type { Brief, BriefIndexEntry, GameEvent, NflData, Rankings, SportKey, TeamData } from './types';
+import type { Brief, BriefIndexEntry, GameEvent, NflData, OutlookData, PortalData, Rankings, SportKey, TeamData } from './types';
 
 const cache = new Map<string, unknown>();
 
@@ -65,3 +65,5 @@ export const ESPN_PATH: Record<SportKey, string> = {
 export const LISTEN_URL = 'https://apps.apple.com/app/id1574519982'; // Varsity Network app
 export const useRankings = () => useJson<Rankings>('./data/rankings.json', 30 * 60e3);
 export const useNfl = (on: boolean) => useJson<NflData>(on ? './data/nfl.json' : null);
+export const usePortal = (on: boolean) => useJson<PortalData>(on ? './data/portal.json' : null);
+export const useOutlook = (on: boolean) => useJson<OutlookData>(on ? './data/outlook.json' : null);

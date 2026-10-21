@@ -350,3 +350,20 @@ tr.us td.rank { color: var(--fg); }
 .nfl-stats b { font-family: var(--font-display); font-size: 1.05rem; font-variant-numeric: tabular-nums; }
 .nfl-card .bullets { gap: 4px; color: var(--muted); }
 .nfl-card a.small { text-decoration: none; }
+
+/* ---------- Portal and coaching outlook ---------- */
+.pill.warn { color: var(--warn); background: color-mix(in srgb, var(--warn) 14%, transparent); }
+.level-bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.level-bars li { display: grid; grid-template-columns: 9.5em 1fr 2ch; align-items: center; gap: var(--s3); }
+.level-bars b { font-family: var(--font-display); font-size: 1.05rem; text-align: right; font-variant-numeric: tabular-nums; }
+.coach-card { padding: 16px 2px; display: grid; gap: 10px; }
+.coach-top { display: flex; align-items: center; gap: var(--s3); }
+.coach-stay { display: grid; justify-items: end; gap: 2px; flex: none; }
+.coach-stay .grade-letter { font-size: 2rem; }
+.coach-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.coach-card p { margin: 0; }
+.nfl-top .pill, .row > .pill { margin-left: auto; }
+.meter.good > span { background: var(--good); }
+.meter.warn > span { background: var(--warn); }
+.meter.bad > span { background: var(--bad); }
+.hist-year { flex: none; width: 3.2em; font-size: 0.8rem; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
