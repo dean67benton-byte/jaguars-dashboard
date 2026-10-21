@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-10-21T02:13:03.793Z",
+ "updatedAt": "2026-10-21T02:15:03.847Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1062,10 +1062,28 @@
  ],
  "news": [
   {
+   "title": "10 things you didn’t know about South Alabama and Marshall",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/10-things-southalabama-marshall-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-20T04:08:22.000Z"
+  },
+  {
+   "title": "The Really Big Preview: South Alabama at Marshall",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/really-big-preview-southalabama-marshall-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-19T23:51:24.000Z"
+  },
+  {
    "title": "Scouting report: What you need to know for South Alabama’s game at Marshall",
    "url": "https://www.al.com/sports/2026/10/scouting-report-what-you-need-to-know-for-south-alabamas-game-at-marshall.html",
    "date": "2026-10-19T21:10:45.000Z",
    "source": "AL.com"
+  },
+  {
+   "title": "Five with a foe: The Thundering Herd",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/five-with-a-foe-southalabama-marshall-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-19T21:00:00.000Z"
   },
   {
    "title": "Where are South Alabama men, women picked in SBC preseason basketball poll?",
@@ -1080,6 +1098,12 @@
    "source": "usajaguars.com"
   },
   {
+   "title": "Jags Jungle picks: South Alabama at Marshall",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jags-jungle-picks-marshall-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-19T16:00:00.000Z"
+  },
+  {
    "title": "South Alabama announces full men’s basketball schedule for 2026-27",
    "url": "https://www.al.com/sports/2026/10/south-alabama-announces-full-mens-basketball-schedule-for-2026-27.html",
    "date": "2026-10-18T14:00:00.000Z",
@@ -1090,6 +1114,24 @@
    "url": "https://www.al.com/sports/2026/10/versatile-running-back-keenan-phillips-is-south-alabamas-swiss-army-knife.html",
    "date": "2026-10-14T21:43:23.000Z",
    "source": "AL.com"
+  },
+  {
+   "title": "South Alabama basketball stays comfortable with change",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-basketball-preview-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-12T16:00:00.000Z"
+  },
+  {
+   "title": "The postgame report: South Alabama 56, Arkansas State 49",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-arkansasstate-postgame-week6-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-09T06:00:00.000Z"
+  },
+  {
+   "title": "Rapid Reaction: What we learned from the Arkansas State game",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-arkansasstate-rapid-reaction-week6",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-09T05:00:00.000Z"
   },
   {
    "title": "South Alabama to Face Loyola Marymount in Coastal Classic",
@@ -1182,75 +1224,6 @@
    "date": "2026-02-23T09:58:57Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808685.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Troy Trojans vs. South Alabama Jaguars: Game Highlights",
-   "url": "https://www.espn.com/video/clip?id=47998968",
-   "date": "2026-02-21T23:01:02Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0221/d2959a26-2f54-4640-9c87-ea7926874b86/d2959a26-2f54-4640-9c87-ea7926874b86.jpg"
-  },
-  {
-   "title": "Texas State Bobcats vs. South Alabama Jaguars: Game Highlights",
-   "url": "https://www.espn.com/video/clip?id=47982588",
-   "date": "2026-02-20T03:22:36Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0220/7a35e06f-b5ea-446e-9560-236dc06d72d9/7a35e06f-b5ea-446e-9560-236dc06d72d9.jpg"
-  },
-  {
-   "title": "South Alabama hosts Hall and Texas State",
-   "url": "http://www.espn.com/ncb/preview?gameId=401808680",
-   "date": "2026-02-18T09:55:53Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808680.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Fricks scores 27 as Marshall tops South Alabama 84-80",
-   "url": "http://www.espn.com/ncb/recap?gameId=401808639",
-   "date": "2026-02-17T02:45:02Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808639.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "South Alabama Jaguars vs. Marshall Thundering Herd: Game Highlights",
-   "url": "https://www.espn.com/video/clip?id=47951436",
-   "date": "2026-02-17T02:03:20Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0217/bcb0a1b4-89df-4cf2-bf88-a79dfe9e9e5f/bcb0a1b4-89df-4cf2-bf88-a79dfe9e9e5f.jpg"
-  },
-  {
-   "title": "South Alabama Jaguars vs. Arkansas St Red Wolves: Game Highlights",
-   "url": "https://www.espn.com/video/clip?id=47932063",
-   "date": "2026-02-14T22:42:03Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0214/1c99f0d4-9bc4-45a5-8010-ffb4d4fe9bf2/1c99f0d4-9bc4-45a5-8010-ffb4d4fe9bf2.jpg"
-  },
-  {
-   "title": "Cooper scores 34, South Alabama defeats Southern Miss 84-78",
-   "url": "http://www.espn.com/ncb/recap?gameId=401808668",
-   "date": "2026-02-13T06:23:28Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808668.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Top Stories South Alabama 10 things you didn’t know about South Alabama and Marshall We read through both press kits so you don’t have to. Here are the best nuggets from Tuesday night’s game in Huntington. Tim Stephens · Oct 20, 2026",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/10-things-southalabama-marshall-week8-2026",
-   "source": "Diehard Sports Network"
-  },
-  {
-   "title": "Game Preview South Alabama The Really Big Preview: South Alabama at Marshall Week 8 — Tuesday, October 20, 2026 Tim Stephens · Oct 19, 2026",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/really-big-preview-southalabama-marshall-week8-2026",
-   "source": "Diehard Sports Network"
-  },
-  {
-   "title": "Game Preview South Alabama Five with a foe: The Thundering Herd Marshall’s 247Sports publisher on what scares him about South Alabama and whether the Herd can fix its problems before Tuesday Doug Konkel · Oct 19, 2026",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/five-with-a-foe-southalabama-marshall-week8-2026",
-   "source": "Diehard Sports Network"
-  },
-  {
-   "title": "Commentary South Alabama Jags Jungle picks: South Alabama at Marshall Our panel weighs in on Tuesday night’s Sun Belt clash in Huntington Doug Konkel · Oct 19, 2026",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jags-jungle-picks-marshall-week8-2026",
-   "source": "Diehard Sports Network"
   }
  ],
  "nextOpponent": {

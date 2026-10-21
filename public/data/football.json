@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-21T02:13:03.793Z",
+ "updatedAt": "2026-10-21T02:15:03.847Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -174,7 +174,7 @@
    "city": "Huntington, WV",
    "tv": "ESPN2",
    "status": "in",
-   "statusDetail": "15:00 - 4th"
+   "statusDetail": "14:40 - 4th"
   },
   {
    "id": "401871097",
@@ -2167,10 +2167,28 @@
  ],
  "news": [
   {
+   "title": "10 things you didn’t know about South Alabama and Marshall",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/10-things-southalabama-marshall-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-20T04:08:22.000Z"
+  },
+  {
+   "title": "The Really Big Preview: South Alabama at Marshall",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/really-big-preview-southalabama-marshall-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-19T23:51:24.000Z"
+  },
+  {
    "title": "Scouting report: What you need to know for South Alabama’s game at Marshall",
    "url": "https://www.al.com/sports/2026/10/scouting-report-what-you-need-to-know-for-south-alabamas-game-at-marshall.html",
    "date": "2026-10-19T21:10:45.000Z",
    "source": "AL.com"
+  },
+  {
+   "title": "Five with a foe: The Thundering Herd",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/five-with-a-foe-southalabama-marshall-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-19T21:00:00.000Z"
   },
   {
    "title": "Kickoff Time Set for Halloween Game Versus Louisiana Tech",
@@ -2179,16 +2197,16 @@
    "source": "usajaguars.com"
   },
   {
-   "title": "Check out the statewide Alabama college football schedule for Week 8",
-   "url": "https://www.al.com/sports/2026/10/check-out-the-statewide-alabama-college-football-schedule-for-week-8.html",
-   "date": "2026-10-19T10:00:00.000Z",
-   "source": "AL.com"
+   "title": "Bowl projections: South Alabama is a unanimous pick, but nobody agrees on the destination",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/bowl-projection-southalabama-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-19T18:30:00.000Z"
   },
   {
-   "title": "College football TV schedule for Week 8 of 2026 season",
-   "url": "https://www.al.com/sports/2026/10/college-football-tv-schedule-for-week-8-of-2026-season.html",
-   "date": "2026-10-19T10:00:00.000Z",
-   "source": "AL.com"
+   "title": "Jags Jungle picks: South Alabama at Marshall",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jags-jungle-picks-marshall-week8-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-19T16:00:00.000Z"
   },
   {
    "title": "Sun Belt matchup features South Alabama playing Marshall",
@@ -2204,18 +2222,6 @@
    "source": "usajaguars.com"
   },
   {
-   "title": "College Football Playoff set to expand again next year, report says",
-   "url": "https://www.al.com/sports/2026/10/college-football-playoff-set-to-expand-again-next-year-report-says.html",
-   "date": "2026-10-15T18:07:54.000Z",
-   "source": "AL.com"
-  },
-  {
-   "title": "AL.com’s college football staff picks for Week 7 of 2026 season",
-   "url": "https://www.al.com/sports/2026/10/alcoms-college-football-staff-picks-for-week-7-of-2026-season.html",
-   "date": "2026-10-15T10:00:00.000Z",
-   "source": "AL.com"
-  },
-  {
    "title": "Versatile running back Keenan Phillips is South Alabama’s ‘Swiss Army knife’",
    "url": "https://www.al.com/sports/2026/10/versatile-running-back-keenan-phillips-is-south-alabamas-swiss-army-knife.html",
    "date": "2026-10-14T21:43:23.000Z",
@@ -2228,10 +2234,22 @@
    "source": "usajaguars.com"
   },
   {
+   "title": "The postgame report: South Alabama 56, Arkansas State 49",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-arkansasstate-postgame-week6-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-09T06:00:00.000Z"
+  },
+  {
    "title": "Keenan Phillips Powers South Alabama Past Arkansas State in Road Win",
    "url": "https://usajaguars.com/news/2026/10/8/football-keenan-phillips-powers-south-alabama-past-arkansas-state-in-road-win.aspx",
    "date": "2026-10-09T05:26:00.000Z",
    "source": "usajaguars.com"
+  },
+  {
+   "title": "Rapid Reaction: What we learned from the Arkansas State game",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-arkansasstate-rapid-reaction-week6",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-09T05:00:00.000Z"
   },
   {
    "title": "South Alabama beats Arkansas State 56-49 in the highest scoring FBS game this season",
@@ -2317,48 +2335,6 @@
    "url": "https://usajaguars.com/news/2026/9/26/football-south-alabama-falls-at-kentucky-45-21.aspx",
    "date": "2026-09-26T22:45:00.000Z",
    "source": "usajaguars.com"
-  },
-  {
-   "title": "Baxter, Patterson and Barnes rush for 100 yards, Kentucky rolls over South Alabama 45-21",
-   "url": "http://www.espn.com/ncf/recap?gameId=401864576",
-   "date": "2026-09-26T21:14:29Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401864576.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "South Alabama Jaguars vs. Kentucky Wildcats: Full Highlights",
-   "url": "https://www.espn.com/video/clip/_/id/50035703/full-highlights",
-   "date": "2026-09-26T20:16:23Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/3b3689a9-a5e1-4dcd-aa61-0c235f04df2a/3b3689a9-a5e1-4dcd-aa61-0c235f04df2a.jpg"
-  },
-  {
-   "title": "Kentucky squares off against South Alabama",
-   "url": "http://www.espn.com/ncf/preview?gameId=401864576",
-   "date": "2026-09-20T19:45:09Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401864576.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Phillips, South Alabama ground game helps churn 41-36 win over Ohio",
-   "url": "http://www.espn.com/ncf/recap?gameId=401866423",
-   "date": "2026-09-20T04:38:29Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401866423.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Ohio Bobcats vs. South Alabama Jaguars: Full Highlights",
-   "url": "https://www.espn.com/video/clip/_/id/49985413/full-highlights",
-   "date": "2026-09-20T02:47:58Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/0a2fcc47-7704-4813-983a-7b977413fd7b/0a2fcc47-7704-4813-983a-7b977413fd7b.jpg"
-  },
-  {
-   "title": "South Alabama matches up against Ohio",
-   "url": "http://www.espn.com/ncf/preview?gameId=401866423",
-   "date": "2026-09-13T19:45:31Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401866423.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {
