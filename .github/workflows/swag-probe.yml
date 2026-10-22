@@ -21,19 +21,16 @@ jobs:
           while read -r name u; do
             curl -sL -o "$name" -m 25 -A "$UA" -w "%{http_code} $name\n" "$u" | tee -a index.txt
           done <<'LIST'
-          sg.json https://scarletandgoldshop.com/collections/south-alabama-adult-apparel/products.json?limit=250
-          foco.json https://www.foco.com/collections/south-alabama-jaguars/products.json?limit=250
-          at.html https://athletesthread.com/collections/university-of-south-alabama
-          at-all.json https://athletesthread.com/products.json?limit=250
-          at-search.json https://athletesthread.com/search/suggest.json?q=south+alabama&resources[type]=product&resources[limit]=10
-          jt.html https://www.jagthreadsco.com/
-          jt-shop.html https://www.jagthreadsco.com/shop
-          jt-shopall.html https://www.jagthreadsco.com/shop-all
-          js.html https://jagswag.com/
-          js-pj.json https://jagswag.com/products.json
-          rh.html https://www.rallyhouse.com/college/south-alabama-jaguars
-          wm.html https://www.walmart.com/tp/south-alabama-jaguars-fan-shop
-          wm-search.html https://www.walmart.com/search?q=south+alabama+jaguars+shirt
+          rh-browse.json https://ac.cnstrc.com/browse/group_id/college_south-alabama-jaguars?key=key_vEmtX5xxkx8IfLkr&num_results_per_page=100
+          rh-search.json https://ac.cnstrc.com/search/south%20alabama%20jaguars?key=key_vEmtX5xxkx8IfLkr&num_results_per_page=100
+          jt-sitemap.xml https://www.jagthreadsco.com/sitemap.xml
+          jt-api1.json https://www.jagthreadsco.com/app/store/api/v28/editor/users/-/sites/410866993550648244/products?per_page=100
+          jt-api2.json https://cdn5.editmysite.com/app/store/api/v28/editor/sites/410866993550648244/products?per_page=100
+          jt-api3.json https://www.jagthreadsco.com/app/store/api/v28/editor/sites/410866993550648244/products?per_page=100
+          js-main.js https://jagswag.com/main.89f5daa9fb4b641754dc.js
+          js-sitemap.xml https://jagswag.com/sitemap.xml
+          at-suggest.json https://athletesthread.com/search/suggest.json?q=south+alabama&resources%5Btype%5D=product&resources%5Blimit%5D=10
+          at-sitemap.xml https://athletesthread.com/sitemap.xml
           LIST
           git init -q && git checkout -q -b swag-samples && git add -A
           git -c user.name=bot -c user.email=bot@example.com commit -qm samples
