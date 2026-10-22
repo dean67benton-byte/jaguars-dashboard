@@ -367,3 +367,32 @@ tr.us td.rank { color: var(--fg); }
 .meter.warn > span { background: var(--warn); }
 .meter.bad > span { background: var(--bad); }
 .hist-year { flex: none; width: 3.2em; font-size: 0.8rem; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* ---------- Jag Swag ---------- */
+.swag-controls { display: grid; gap: var(--s3); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; align-items: center; min-height: 34px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: none; font-size: 0.85rem; font-weight: 600; color: var(--muted); text-decoration: none; cursor: pointer; white-space: nowrap; }
+.chip[aria-pressed='true'] { color: var(--fg); background: var(--surface-2); border-color: var(--surface-2); box-shadow: inset 0 -2px 0 var(--red); }
+a.chip:hover { color: var(--fg); }
+.swag-search { display: flex; gap: var(--s2); }
+.swag-search input { flex: 1; min-width: 0; min-height: 44px; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--fg); font: inherit; font-size: 16px; }
+.swag-search input::placeholder { color: var(--muted); }
+.swag-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s4) var(--s3); }
+@media (min-width: 700px) { .swag-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1000px) { .swag-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.swag-card { display: grid; gap: var(--s2); align-content: start; min-width: 0; }
+.swag-img { position: relative; display: block; aspect-ratio: 1; border-radius: 12px; overflow: hidden; background: #fff; }
+.swag-photo { width: 100%; height: 100%; object-fit: contain; display: grid; place-items: center; background: var(--surface); }
+img.swag-photo { background: #fff; }
+.swag-badges { position: absolute; left: 6px; top: 6px; display: flex; flex-wrap: wrap; gap: 4px; }
+.swag-badges .pill { background: var(--bg); color: var(--fg); }
+.swag-badges .pill.accent { background: var(--red); color: var(--red-ink); }
+.swag-badges .pill.good { background: var(--good); color: #06281a; }
+.swag-body { display: grid; gap: 3px; min-width: 0; }
+.swag-title { font-weight: 600; font-size: 0.9rem; line-height: 1.3; text-decoration: none; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.swag-price { display: flex; align-items: baseline; gap: 8px; }
+.swag-price .num { font-size: 1.35rem; }
+.swag-bought { min-height: 36px; padding: 6px 10px; font-size: 0.8rem; margin-top: 4px; justify-self: start; }
+.swag-bought.on { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); }
+.swag-bought-list .title { text-decoration: none; }
+.swag-bought-list .thumb { width: 56px; height: 56px; object-fit: contain; background: #fff; }

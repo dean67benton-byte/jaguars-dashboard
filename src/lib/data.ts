@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'preact/hooks';
-import type { Brief, BriefIndexEntry, GameEvent, NflData, OutlookData, PortalData, Rankings, SportKey, TeamData } from './types';
+import type { Brief, BriefIndexEntry, GameEvent, NflData, OutlookData, PortalData, Rankings, SwagData, SportKey, TeamData } from './types';
 
 const cache = new Map<string, unknown>();
 
@@ -67,3 +67,4 @@ export const useRankings = () => useJson<Rankings>('./data/rankings.json', 30 * 
 export const useNfl = (on: boolean) => useJson<NflData>(on ? './data/nfl.json' : null);
 export const usePortal = (on: boolean) => useJson<PortalData>(on ? './data/portal.json' : null);
 export const useOutlook = (on: boolean) => useJson<OutlookData>(on ? './data/outlook.json' : null);
+export const useSwag = (on: boolean) => useJson<SwagData>(on ? './data/swag.json' : null);

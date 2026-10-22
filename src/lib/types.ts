@@ -298,3 +298,34 @@ export interface OutlookData {
     sources: string[];
   };
 }
+
+// ---- Jag Swag (public/data/swag.json, scripts/swag.mjs) ----
+
+export type SwagType = 'tee' | 'hoodie' | 'polo' | 'coach' | 'hat' | 'other';
+
+export interface SwagItem {
+  id: string;
+  store: string;
+  title: string;
+  url: string;
+  img?: string;
+  price: number;
+  was?: number; // regular price when on sale
+  off?: number; // percent off
+  type: SwagType;
+  who: 'men' | 'women' | 'unisex';
+  sizes?: string[]; // which of M, L, XL are in stock; missing = store doesn't say
+  created?: string;
+  seen?: string;
+  isNew?: boolean;
+  low: number; // lowest price seen
+  lowAt: string;
+  dropFrom?: number; // price before a drop in the last week
+  dropAt?: string;
+}
+
+export interface SwagData {
+  updatedAt: string;
+  stores: Record<string, { name: string; count: number; ok: boolean; checkedAt: string; okAt?: string }>;
+  items: SwagItem[];
+}

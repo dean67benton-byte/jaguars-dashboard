@@ -13,3 +13,4 @@ export const Chevron = () => (<svg {...base} class="chev" width="18" height="18"
 export const IconGameDay = () => (<svg {...base}><ellipse cx="12" cy="12" rx="8.5" ry="5.5" transform="rotate(-35 12 12)" /><path d="m9.5 14.5 5-5M10.6 11.1l2.3 2.3M12.4 9.3l2.3 2.3" /></svg>);
 export const IconMore = () => (<svg {...base}><rect x="4" y="4" width="6.5" height="6.5" rx="1.6" /><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6" /><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6" /><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6" /></svg>);
 export const IconTrophy = () => (<svg {...base}><path d="M8 4.5h8v5a4 4 0 0 1-8 0z" /><path d="M8 6.5H5a3 3 0 0 0 3 3.5M16 6.5h3a3 3 0 0 1-3 3.5M12 13.5v3.5M8.5 20h7M9.5 17h5" /></svg>);
+export const IconShirt = () => (<svg {...base}><path d="M9 3.5 4 6l-1.5 4.5L6 12v8.5h12V12l3.5-1.5L20 6l-5-2.5a3 3 0 0 1-6 0z" /></svg>);

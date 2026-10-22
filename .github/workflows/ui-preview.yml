@@ -28,6 +28,8 @@ jobs:
       # Fresh data so previews show what the next data run will produce (not committed).
       - run: node scripts/fetch-data.mjs --force && node scripts/rankings.mjs --force && node scripts/nfl.mjs --force && node scripts/portal.mjs --force
         continue-on-error: true
+      - run: node scripts/swag.mjs --force
+        continue-on-error: true
       - run: npm run build
 
       - name: Screenshots

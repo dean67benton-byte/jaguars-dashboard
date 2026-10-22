@@ -4,6 +4,7 @@ const ROWS: { key: keyof Settings; title: string; text: string }[] = [
   { key: 'liveScores', title: 'Live scores', text: 'During a game, refresh the score from ESPN every 30 seconds while the app is open.' },
   { key: 'autoRefresh', title: 'Auto-refresh while open', text: 'Reload schedules, stats and news every 10 minutes while the app is open. Off means only when you tap refresh.' },
   { key: 'showBasketball', title: 'Show basketball', text: "Adds the Football / Basketball switch at the top." },
+  { key: 'showSwag', title: 'Show Jag Swag', text: 'The shopping and deals page in More. Your wishlist and bought list stay saved either way.' },
 ];
 
 export function SettingsScreen() {
@@ -31,6 +32,7 @@ export function SettingsScreen() {
           <p><strong>Data refresh</strong> runs on GitHub, hourly on game days and every 2 hours otherwise. To stop it, open the repo's Actions tab, pick “Update data”, and choose Disable workflow.</p>
           <p><strong>Game Day briefs</strong> are written by a scheduled Claude routine for football only. Basketball briefs are off until you ask Claude to turn them on. Pause the routine in Claude to stop all Claude usage.</p>
           <p><strong>Sunday analysis</strong> is one Claude run each Sunday at 8:15 AM. It writes the power ranking blurbs, NFL grades and the coaching outlook. The formula rankings post without it.</p>
+          <p><strong>Jag Swag prices</strong> are checked once a day at 6 AM by the same GitHub job, with no Claude usage. Set “swag” to false in routine-config.json (below) to stop checking stores.</p>
           <p>
             Each Claude section has its own switch in{' '}
             <a href="https://github.com/dean67benton-byte/jaguars-dashboard/edit/main/docs/routine-config.json" target="_blank" rel="noopener">routine-config.json</a>{' '}

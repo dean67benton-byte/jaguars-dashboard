@@ -4,10 +4,11 @@ export interface Settings {
   liveScores: boolean; // poll ESPN every 30s during a live game
   autoRefresh: boolean; // reload data files every 10 min while the app is open
   showBasketball: boolean;
+  showSwag: boolean; // Jag Swag shopping page in More
 }
 
 const KEY = 'jags.settings.v1';
-const DEFAULTS: Settings = { liveScores: true, autoRefresh: true, showBasketball: true };
+const DEFAULTS: Settings = { liveScores: true, autoRefresh: true, showBasketball: true, showSwag: true };
 
 function load(): Settings {
   try {

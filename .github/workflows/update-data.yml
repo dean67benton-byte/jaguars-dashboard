@@ -40,11 +40,12 @@ jobs:
         id: rank
         run: node scripts/rankings.mjs ${{ github.event_name != 'schedule' && '--force' || '' }}
 
-      - name: Jaguars in the NFL and transfer portal (daily)
+      - name: Jaguars in the NFL, transfer portal and Jag Swag prices (daily)
         id: daily
         run: |
           node scripts/nfl.mjs ${{ github.event_name != 'schedule' && '--force' || '' }}
           node scripts/portal.mjs ${{ github.event_name != 'schedule' && '--force' || '' }}
+          node scripts/swag.mjs ${{ github.event_name != 'schedule' && '--force' || '' }} || echo 'swag check failed; keeping last prices'
 
       - name: Save data snapshot
         if: steps.fetch.outputs.changed == 'true' || steps.rank.outputs.rankings == 'true' || steps.daily.outputs.daily == 'true'

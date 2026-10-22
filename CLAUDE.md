@@ -6,5 +6,6 @@
 - `public/data/rankings.json` is written by `scripts/rankings.mjs` (formula) and the Sunday routine (blurbs).
 - `public/data/nfl.json` is written by `scripts/nfl.mjs` from ESPN plus `scripts/nfl-alumni.json` (hand-kept facts and contracts); the Sunday routine adds `grade` only.
 - `public/data/portal.json` is written by `scripts/portal.mjs` from ESPN plus `scripts/portal-seed.json` (incoming transfers, football starters). `public/data/outlook.json` (coaching outlook) is written by the Sunday routine.
+- `public/data/swag.json` (Jag Swag deals) is written daily by `scripts/swag.mjs` from store feeds; off switch is `"swag"` in `docs/routine-config.json`.
 - Owner preferences: iPhone, dark mode, South Alabama navy and red, no betting lines in phase 1, football briefs only unless enabled.
 - Run `npm run build` before committing.

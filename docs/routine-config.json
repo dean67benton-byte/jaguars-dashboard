@@ -1,6 +1,7 @@
 {
   "football": true,
   "basketball": false,
+  "swag": true,
   "sunday": {
     "rankingBlurbs": true,
     "nflGrades": true,
