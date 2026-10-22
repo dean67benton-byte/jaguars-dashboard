@@ -21,16 +21,15 @@ jobs:
           while read -r name u; do
             curl -sL -o "$name" -m 25 -A "$UA" -w "%{http_code} $name\n" "$u" | tee -a index.txt
           done <<'LIST'
-          rh-browse.json https://ac.cnstrc.com/browse/group_id/college_south-alabama-jaguars?key=key_vEmtX5xxkx8IfLkr&num_results_per_page=100
-          rh-search.json https://ac.cnstrc.com/search/south%20alabama%20jaguars?key=key_vEmtX5xxkx8IfLkr&num_results_per_page=100
-          jt-sitemap.xml https://www.jagthreadsco.com/sitemap.xml
-          jt-api1.json https://www.jagthreadsco.com/app/store/api/v28/editor/users/-/sites/410866993550648244/products?per_page=100
-          jt-api2.json https://cdn5.editmysite.com/app/store/api/v28/editor/sites/410866993550648244/products?per_page=100
-          jt-api3.json https://www.jagthreadsco.com/app/store/api/v28/editor/sites/410866993550648244/products?per_page=100
-          js-main.js https://jagswag.com/main.89f5daa9fb4b641754dc.js
-          js-sitemap.xml https://jagswag.com/sitemap.xml
-          at-suggest.json https://athletesthread.com/search/suggest.json?q=south+alabama&resources%5Btype%5D=product&resources%5Blimit%5D=10
-          at-sitemap.xml https://athletesthread.com/sitemap.xml
+          jt-prod.html https://www.jagthreadsco.com/product/fleece-hoodie/OCWRI226PLWQ6PMCKP45GG32
+          jt-prod2.html https://www.jagthreadsco.com/product/cutter-buck-navy/W5WJTOM4K5NVC5M2WL24BGAV
+          LIST
+          H="Accept: application/x.gatewayapi.v1.3+json"
+          curl -sL -m 25 -A "$UA" -H "$H" -o js-site.json -w "%{http_code} js-site.json\n" "https://affinity-gateway.com/api/marketplace/sites?domain=jagswag.com&includes=navLinks,organizations" | tee -a index.txt
+          SID=$(grep -oE '"id":[0-9]+' js-site.json | head -1 | cut -d: -f2); echo "site $SID" | tee -a index.txt
+          curl -sL -m 25 -A "$UA" -H "$H" -o js-products.json -w "%{http_code} js-products.json\n" "https://affinity-gateway.com/api/marketplace/products?site_id=$SID&page=1&per_page=36&include=variants" | tee -a index.txt
+          curl -sL -m 25 -A "$UA" -H "$H" -o js-products2.json -w "%{http_code} js-products2.json\n" "https://affinity-gateway.com/api/marketplace/products?site_id=$SID&page=1&per_page=36&sort=newest" | tee -a index.txt
+          cat > /dev/null <<'LIST'
           LIST
           git init -q && git checkout -q -b swag-samples && git add -A
           git -c user.name=bot -c user.email=bot@example.com commit -qm samples
