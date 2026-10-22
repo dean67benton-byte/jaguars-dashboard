@@ -53,7 +53,7 @@ const iso = (s) => {
 // ---------- sorting items into what Dean shops for ----------
 
 const KIDS = /\b(youth|kids?|toddler|infant|baby|onesie|bodysuit|boys|girls'?|little|preschool)\b/i;
-const HOUSEWARES = /\b(frame|diploma|decal|flag|banner|blanket|mug|tumbler|koozie|ornament|plate|chair|cornhole|garden|gnome|sign|bottle opener|coaster|pillow|rug|lamp|clock|car |auto emblem|decor|wall|glass|cup|can cooler|pennant|puzzle|figurine|dog|cat |pet |magnet|keychain|key ?chain|key strap|frisbee|flying disc|sticker|lanyard|ball marker|golf ball|tee set|can cooler)/i;
+const HOUSEWARES = /\b(frame|diploma|decal|flag|banner|blanket|mug|tumbler|koozie|ornament|plate|chair|cornhole|garden|gnome|sign|bottle opener|coaster|pillow|rug|lamp|clock|car |auto emblem|decor|wall|glass|cup|can cooler|pennant|puzzle|figurine|dog|cat |pet |magnet|keychain|key ?chain|key strap|frisbee|flying disc|sticker|lanyard|ball marker|golf ball|tee set|flask|drinkware|shot glass|water bottle)/i;
 
 function typeOf(text) {
   const t = text.toLowerCase();
