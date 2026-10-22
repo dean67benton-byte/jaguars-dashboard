@@ -85,6 +85,23 @@ const isDeal = (it: SwagItem, now: number) => (it.off ?? 0) > 0 || dropped(it, n
 const qualifies = (it: SwagItem) => it.price <= BUDGET || (it.off ?? 0) >= BIG_OFF;
 // Markdowns and price drops first, then cheapest.
 const byDeal = (now: number) => (a: SwagItem, b: SwagItem) => Number(isDeal(b, now)) - Number(isDeal(a, now)) || a.price - b.price;
+const added = (it: SwagItem) => it.created ?? it.seen ?? '';
+
+type Sort = 'deal' | 'low' | 'high' | 'off' | 'new';
+const SORTS: { key: Sort; label: string; note: string }[] = [
+  { key: 'deal', label: 'Best deals', note: 'Sales and price drops first, then cheapest' },
+  { key: 'low', label: 'Low to high', note: 'Cheapest first' },
+  { key: 'high', label: 'High to low', note: 'Most expensive first' },
+  { key: 'off', label: '% off', note: 'Biggest markdowns first' },
+  { key: 'new', label: 'Newest', note: 'Most recently added first' },
+];
+const sorter = (sort: Sort, now: number): ((a: SwagItem, b: SwagItem) => number) => {
+  if (sort === 'low') return (a, b) => a.price - b.price;
+  if (sort === 'high') return (a, b) => b.price - a.price;
+  if (sort === 'off') return (a, b) => (b.off ?? 0) - (a.off ?? 0) || a.price - b.price;
+  if (sort === 'new') return (a, b) => added(b).localeCompare(added(a)) || a.price - b.price;
+  return byDeal(now);
+};
 
 function Card({ it, stores, now, who, bought, onBought }: { it: SwagItem; stores: SwagData['stores']; now: number; who: Who; bought: boolean; onBought: (it: SwagItem) => void }) {
   const sizeNote = it.type === 'other' || it.type === 'hat' ? '' : it.sizes ? (who === 'me' ? 'XL in stock' : who === 'her' ? `${it.sizes.filter((s) => s !== 'XL').join(', ')} in stock` : it.sizes.length ? `${it.sizes.join(', ')} in stock` : '') : 'Check sizes';
@@ -137,6 +154,7 @@ function Grid({ list, limit, ...rest }: { list: SwagItem[]; limit: number } & Om
 export function Swag({ data, error }: { data: SwagData | null; error: string | null }) {
   const [who, setWho] = useStored<Who>('jags.swag.who', 'me');
   const [type, setType] = useState<SwagType | 'all'>('all');
+  const [sort, setSort] = useStored<Sort>('jags.swag.sort', 'deal');
   const [q, setQ] = useState('');
   const [wish, setWish] = useStored<string[]>('jags.swag.wish.v1', []);
   const [bought, setBought] = useStored<Bought[]>('jags.swag.bought.v1', []);
@@ -155,10 +173,10 @@ export function Swag({ data, error }: { data: SwagData | null; error: string | n
   const grid = { stores: data.stores, now, who, onBought: toggleBought, boughtIds };
 
   const query = q.trim();
-  const results = query ? pool.filter((it) => matches(it, query)).sort(byDeal(now)) : [];
-  const wishHits = wish.length ? pool.filter((it) => wish.some((w) => matches(it, w))).sort(byDeal(now)) : [];
-  const deals = pool.filter(qualifies).sort(byDeal(now));
-  const fresh = pool.filter((it) => it.isNew).sort((a, b) => (b.created ?? b.seen ?? '').localeCompare(a.created ?? a.seen ?? ''));
+  const results = query ? pool.filter((it) => matches(it, query)).sort(sorter(sort, now)) : [];
+  const wishHits = wish.length ? pool.filter((it) => wish.some((w) => matches(it, w))).sort(sorter(sort, now)) : [];
+  const deals = pool.filter(qualifies).sort(sorter(sort, now));
+  const fresh = pool.filter((it) => it.isNew).sort(sorter('new', now));
   const onSale = pool.filter((it) => isDeal(it, now)).length;
   const okStores = Object.values(data.stores).filter((s) => s.ok).length;
   const addWish = () => query && !wish.includes(query.toLowerCase()) && (setWish([...wish, query.toLowerCase()]), setQ(''));
@@ -185,6 +203,14 @@ export function Swag({ data, error }: { data: SwagData | null; error: string | n
             <button key={t.key} class="chip" aria-pressed={type === t.key} onClick={() => setType(t.key)}>{t.label}</button>
           ))}
         </div>
+        <label class="swag-sort">
+          <span class="label">Sort</span>
+          <select value={sort} onChange={(e) => setSort((e.target as HTMLSelectElement).value as Sort)}>
+            {SORTS.map((o) => (
+              <option key={o.key} value={o.key}>{o.label}</option>
+            ))}
+          </select>
+        </label>
         <form class="swag-search" onSubmit={(e) => (e.preventDefault(), addWish())}>
           <input type="search" placeholder="Search, like “gray hoodie”" value={q} onInput={(e) => setQ((e.target as HTMLInputElement).value)} aria-label="Search Jag Swag" />
           {query && <button class="btn" type="submit">Save to wishlist</button>}
@@ -220,7 +246,7 @@ export function Swag({ data, error }: { data: SwagData | null; error: string | n
 
           <section class="section">
             <h2>Best deals</h2>
-            <p class="small muted">Sales and price drops first, then cheapest. ${BUDGET} or less, or {BIG_OFF}% off and up.</p>
+            <p class="small muted">{SORTS.find((o) => o.key === sort)?.note}. ${BUDGET} or less, or {BIG_OFF}% off and up.</p>
             {deals.length ? <Grid list={deals} limit={12} {...grid} /> : <p class="muted small">Nothing under ${BUDGET} for this filter right now.</p>}
           </section>
 
