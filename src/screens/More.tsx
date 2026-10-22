@@ -1,6 +1,7 @@
-import { Chevron, IconBrief, IconCalendar, IconGear, IconNews, IconTeam, IconTrophy } from '../icons';
+import { Chevron, IconBrief, IconCalendar, IconGear, IconNews, IconShirt, IconTeam, IconTrophy } from '../icons';
 
 export const MORE_LINKS: { href: string; title: string; text: string; Icon: typeof IconTeam }[] = [
+  { href: '#swag', title: 'Jag Swag', text: 'Deals and new arrivals from South Alabama stores', Icon: IconShirt },
   { href: '#rankings', title: 'Power rankings', text: 'Our weekly Sun Belt 1 to 14, posted Sundays', Icon: IconTrophy },
   { href: '#nfl', title: 'Jaguars in the NFL', text: 'Every alum in the league, stats, pay and weekly grades', Icon: IconTeam },
   { href: '#portal', title: 'Portal and coaching outlook', text: 'Transfers in, returning starters, and how secure the staff is', Icon: IconTeam },
@@ -12,12 +13,12 @@ export const MORE_LINKS: { href: string; title: string; text: string; Icon: type
   { href: '#settings', title: 'Settings', text: 'Live scores, auto-refresh, sports', Icon: IconGear },
 ];
 
-export function More() {
+export function More({ showSwag }: { showSwag: boolean }) {
   return (
     <>
       <h1>More</h1>
       <div class="panel list">
-        {MORE_LINKS.map(({ href, title, text, Icon }) => (
+        {MORE_LINKS.filter((l) => showSwag || l.href !== '#swag').map(({ href, title, text, Icon }) => (
           <a class="row more-row" href={href} key={href}>
             <Icon />
             <div class="grow">

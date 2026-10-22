@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 import { useRoute } from './router';
-import { useBriefIndex, useNfl, useOutlook, usePortal, useRankings, useTeam, SPORT_LABEL } from './lib/data';
+import { useBriefIndex, useNfl, useOutlook, usePortal, useRankings, useSwag, useTeam, SPORT_LABEL } from './lib/data';
 import { useSettings } from './lib/settings';
 import type { GameEvent, SportKey } from './lib/types';
 import { IconCalendar, IconGameDay, IconHome, IconMore, IconRefresh } from './icons';
@@ -16,6 +16,7 @@ import { More, MORE_LINKS } from './screens/More';
 import { Rankings } from './screens/Rankings';
 import { Nfl } from './screens/Nfl';
 import { Portal } from './screens/Portal';
+import { Swag } from './screens/Swag';
 
 const SPORT_KEY = 'jags.sport';
 const readSport = (): SportKey => {
@@ -34,7 +35,7 @@ const TABS = [
 ];
 
 // Which tab a page belongs to.
-const TAB_OF: Record<string, string> = { game: 'schedule', brief: 'gameday', briefs: 'gameday', team: 'more', news: 'more', settings: 'more', rankings: 'more', nfl: 'more', portal: 'more' };
+const TAB_OF: Record<string, string> = { game: 'schedule', brief: 'gameday', briefs: 'gameday', team: 'more', news: 'more', settings: 'more', rankings: 'more', nfl: 'more', portal: 'more', swag: 'more' };
 
 // Game Day gets a red dot from 6 hours before kickoff until the game ends.
 const isGameDay = (events: GameEvent[] = [], now = Date.now()) =>
@@ -51,6 +52,7 @@ export function App() {
   const nfl = useNfl(route[0] === 'nfl');
   const portal = usePortal(route[0] === 'portal');
   const outlook = useOutlook(route[0] === 'portal');
+  const swag = useSwag(route[0] === 'swag' && settings.showSwag);
 
   useEffect(() => {
     try {
@@ -76,9 +78,10 @@ export function App() {
   else if (page === 'briefs') body = <Briefs index={briefs.data} error={briefs.error} />;
   else if (page === 'brief') body = <BriefView id={a} />;
   else if (page === 'gameday') body = <GameDay sport={sport} team={team} briefs={briefs.data} />;
-  else if (page === 'more') body = <More />;
+  else if (page === 'more') body = <More showSwag={settings.showSwag} />;
   else if (page === 'nfl') body = <Nfl data={nfl.data} error={nfl.error} />;
   else if (page === 'portal') body = <Portal key={a} sport={sport} portal={portal} outlook={outlook} team={team.data} initial={a} />;
+  else if (page === 'swag' && settings.showSwag) body = <Swag data={swag.data} error={swag.error} />;
   else if (page === 'rankings') body = <Rankings sport={sport} data={rankings.data} error={rankings.error} />;
   else if (page === 'team') body = <Team sport={sport} team={team} initial={a} />;
   else if (page === 'news') body = <News team={team} />;
@@ -103,7 +106,7 @@ export function App() {
             <details data-current={active === 'more' ? '' : undefined}>
               <summary>More</summary>
               <div class="menu" onClick={(e) => (e.currentTarget.parentElement as HTMLDetailsElement).removeAttribute('open')}>
-                {MORE_LINKS.map((l) => (
+                {MORE_LINKS.filter((l) => settings.showSwag || l.href !== '#swag').map((l) => (
                   <a key={l.href} href={l.href}>{l.title}</a>
                 ))}
               </div>
