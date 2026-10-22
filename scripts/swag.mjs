@@ -280,7 +280,7 @@ export const STORES = {
 
 // ---------- main ----------
 
-async function main() {
+export async function main() {
   const cfg = await readJson(CONFIG, {});
   if (cfg.swag === false) return console.log('swag: off in docs/routine-config.json');
   const prev = await readJson(OUT, null);
@@ -304,7 +304,7 @@ async function main() {
     }
     for (const it of got) {
       const was = old.get(it.id);
-      it.seen = was?.seen ?? (known ? now : undefined); // first run per store is a baseline, not "new"
+      it.seen = was ? was.seen : known ? now : undefined; // first run per store is a baseline, not "new"
       it.low = Math.min(it.price, was?.low ?? it.price);
       it.lowAt = was && was.low <= it.price ? was.lowAt : now;
       if (was && it.price < was.price - 0.5) Object.assign(it, { dropFrom: was.price, dropAt: now });
