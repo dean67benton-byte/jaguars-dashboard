@@ -15,7 +15,7 @@ const WHO: { key: Who; label: string }[] = [
   { key: 'all', label: 'Everyone' },
 ];
 const TYPES: { key: SwagType | 'all'; label: string }[] = [
-  { key: 'all', label: 'All clothing' },
+  { key: 'all', label: 'All shirts' },
   { key: 'tee', label: 'Tees' },
   { key: 'hoodie', label: 'Hoodies' },
   { key: 'polo', label: 'Polos' },
@@ -142,7 +142,7 @@ export function Swag({ data, error }: { data: SwagData | null; error: string | n
   const [bought, setBought] = useStored<Bought[]>('jags.swag.bought.v1', []);
   const now = Date.now();
 
-  const pool = useMemo(() => (data?.items ?? []).filter((it) => fits(it, who) && (type === 'all' ? it.type !== 'other' : it.type === type)), [data, who, type]);
+  const pool = useMemo(() => (data?.items ?? []).filter((it) => fits(it, who) && (type === 'all' ? it.type !== 'other' && it.type !== 'hat' : it.type === type)), [data, who, type]);
   if (!data) return <div class="card empty">{error ? "Couldn't load Jag Swag yet. It fills in after the next daily price check." : 'Loading…'}</div>;
 
   const boughtIds = new Set(bought.map((b) => b.id));
