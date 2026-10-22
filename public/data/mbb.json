@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-10-22T18:31:33.239Z",
+ "updatedAt": "2026-10-22T22:19:12.495Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -31,7 +31,7 @@
   },
   {
    "id": "401926780",
-   "date": "2026-11-06T00:00Z",
+   "date": "2026-11-06T01:00Z",
    "timeTbd": false,
    "opponent": {
     "id": "55",
@@ -46,7 +46,7 @@
    "venue": "Mitchell Center",
    "city": "Mobile, AL",
    "status": "pre",
-   "statusDetail": "11/5 - 7:00 PM EST"
+   "statusDetail": "11/5 - 8:00 PM EST"
   },
   {
    "id": "401921755",
@@ -139,6 +139,7 @@
    "conference": false,
    "venue": "Moody Coliseum (Dallas)",
    "city": "Dallas, TX",
+   "tv": "ACCNX",
    "status": "pre",
    "statusDetail": "11/20 - 8:00 PM EST"
   },
