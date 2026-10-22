@@ -15,7 +15,7 @@ const WHO: { key: Who; label: string }[] = [
   { key: 'all', label: 'Everyone' },
 ];
 const TYPES: { key: SwagType | 'all'; label: string }[] = [
-  { key: 'all', label: 'All' },
+  { key: 'all', label: 'All clothing' },
   { key: 'tee', label: 'Tees' },
   { key: 'hoodie', label: 'Hoodies' },
   { key: 'polo', label: 'Polos' },
@@ -87,7 +87,7 @@ const qualifies = (it: SwagItem) => it.price <= BUDGET || (it.off ?? 0) >= BIG_O
 const byDeal = (now: number) => (a: SwagItem, b: SwagItem) => Number(isDeal(b, now)) - Number(isDeal(a, now)) || a.price - b.price;
 
 function Card({ it, stores, now, who, bought, onBought }: { it: SwagItem; stores: SwagData['stores']; now: number; who: Who; bought: boolean; onBought: (it: SwagItem) => void }) {
-  const sizeNote = it.sizes ? (who === 'me' ? 'XL in stock' : who === 'her' ? `${it.sizes.filter((s) => s !== 'XL').join(', ')} in stock` : it.sizes.length ? `${it.sizes.join(', ')} in stock` : '') : 'Check sizes';
+  const sizeNote = it.type === 'other' || it.type === 'hat' ? '' : it.sizes ? (who === 'me' ? 'XL in stock' : who === 'her' ? `${it.sizes.filter((s) => s !== 'XL').join(', ')} in stock` : it.sizes.length ? `${it.sizes.join(', ')} in stock` : '') : 'Check sizes';
   return (
     <li class="swag-card">
       <a class="swag-img" href={it.url} target="_blank" rel="noopener">
@@ -142,7 +142,7 @@ export function Swag({ data, error }: { data: SwagData | null; error: string | n
   const [bought, setBought] = useStored<Bought[]>('jags.swag.bought.v1', []);
   const now = Date.now();
 
-  const pool = useMemo(() => (data?.items ?? []).filter((it) => fits(it, who) && (type === 'all' || it.type === type)), [data, who, type]);
+  const pool = useMemo(() => (data?.items ?? []).filter((it) => fits(it, who) && (type === 'all' ? it.type !== 'other' : it.type === type)), [data, who, type]);
   if (!data) return <div class="card empty">{error ? "Couldn't load Jag Swag yet. It fills in after the next daily price check." : 'Loading…'}</div>;
 
   const boughtIds = new Set(bought.map((b) => b.id));
