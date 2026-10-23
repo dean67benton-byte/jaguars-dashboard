@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-10-22T22:19:12.495Z",
+ "updatedAt": "2026-10-23T18:19:28.950Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -240,8 +240,8 @@
   },
   {
    "id": "401911948",
-   "date": "2026-12-16T05:00Z",
-   "timeTbd": true,
+   "date": "2026-12-17T01:00Z",
+   "timeTbd": false,
    "opponent": {
     "id": "2032",
     "name": "Arkansas State Red Wolves",
@@ -255,7 +255,7 @@
    "venue": "First National Bank Arena",
    "city": "Jonesboro, AR",
    "status": "pre",
-   "statusDetail": "TBD"
+   "statusDetail": "12/16 - 8:00 PM EST"
   },
   {
    "id": "401911956",

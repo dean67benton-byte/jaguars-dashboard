@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-22T22:19:12.495Z",
+ "updatedAt": "2026-10-23T18:19:28.950Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -9,7 +9,7 @@
   "abbr": "USA",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
   "record": "4-3",
-  "standingSummary": "4th in Sun Belt"
+  "standingSummary": "5th in Sun Belt"
  },
  "events": [
   {
@@ -2177,20 +2177,20 @@
     {
      "teamId": "256",
      "team": "James Madison",
-     "conf": "4-0",
-     "overall": "7-0"
+     "conf": "4-1",
+     "overall": "7-1"
+    },
+    {
+     "teamId": "2026",
+     "team": "App State",
+     "conf": "2-1",
+     "overall": "5-2"
     },
     {
      "teamId": "290",
      "team": "GA Southern",
      "conf": "2-1",
      "overall": "3-4"
-    },
-    {
-     "teamId": "2026",
-     "team": "App State",
-     "conf": "1-1",
-     "overall": "4-2"
     },
     {
      "teamId": "2247",
