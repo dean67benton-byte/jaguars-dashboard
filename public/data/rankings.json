@@ -4,7 +4,7 @@
    {
     "id": "2026-10-25",
     "postedAt": "2026-10-25T11:23:48.179Z",
-    "source": "formula",
+    "source": "claude",
     "rows": [
      {
       "rank": 1,
@@ -21,7 +21,8 @@
        "at": "at",
        "date": "2026-10-22T23:00Z"
       },
-      "score": 0.766
+      "score": 0.766,
+      "blurb": "First loss came 34-31 in overtime at App State after a missed 47-yard kick in OT. Camden Coleman forced overtime with a TD run at 0:03, and the Dukes still lead the conference at 4-1."
      },
      {
       "rank": 2,
@@ -38,7 +39,8 @@
        "at": "vs",
        "date": "2026-10-24T21:00Z"
       },
-      "score": 0.713
+      "score": 0.713,
+      "blurb": "Second straight shutout, 26-0 over Old Dominion, holding the Monarchs to minus-12 rushing yards. Blake Baker went 28-of-34 for 303 yards; the Bulldogs are 3-0 in league play and visit South Alabama Saturday."
      },
      {
       "rank": 3,
@@ -55,7 +57,8 @@
        "at": "vs",
        "date": "2026-10-22T23:00Z"
       },
-      "score": 0.619
+      "score": 0.619,
+      "blurb": "Handed James Madison its first loss, 34-31 in OT, on James London's walk-off 40-yarder, his fourth field goal. A Colton Phares interception set up the go-ahead score late in regulation."
      },
      {
       "rank": 4,
@@ -72,7 +75,8 @@
        "at": "at",
        "date": "2026-10-24T21:00Z"
       },
-      "score": 0.586
+      "score": 0.586,
+      "blurb": "Lost 35-31 at Southern Miss, giving up 286 rushing yards and the winning TD with 58 seconds left. Lunch Winfield threw for 299 yards; the Cajuns fall to 2-2 in the Sun Belt."
      },
      {
       "rank": 5,
@@ -89,7 +93,8 @@
        "at": "at",
        "date": "2026-10-20T23:30Z"
       },
-      "score": 0.572
+      "score": 0.572,
+      "blurb": "Lost 20-13 at Marshall on a Judah Price TD with 1:49 left after PJ Martin had tied it. The offense managed 326 yards against one of the nation's worst defenses. Louisiana Tech visits Saturday."
      },
      {
       "rank": 6,
@@ -106,27 +111,11 @@
        "at": "at",
        "date": "2026-10-15T23:30Z"
       },
-      "score": 0.517
+      "score": 0.517,
+      "blurb": "Off this week after a 23-15 win at Old Dominion on Oct. 15. The Eagles are 2-1 in conference play despite a 3-4 overall record."
      },
      {
       "rank": 7,
-      "formulaRank": 7,
-      "teamId": "2247",
-      "team": "Georgia State",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
-      "record": "4-3",
-      "conf": "1-2",
-      "last": {
-       "result": "L",
-       "score": "32-38",
-       "opp": "Arkansas St",
-       "at": "at",
-       "date": "2026-10-24T23:00Z"
-      },
-      "score": 0.514
-     },
-     {
-      "rank": 8,
       "formulaRank": 8,
       "teamId": "2032",
       "team": "Arkansas State",
@@ -140,7 +129,28 @@
        "at": "vs",
        "date": "2026-10-24T23:00Z"
       },
-      "score": 0.504
+      "score": 0.504,
+      "blurb": "Beat Georgia State 38-32 at homecoming as Trey Owens threw for 309 yards and two TDs and ran for two more. Jaylen Bonelli had a career-high 150 receiving yards.",
+      "adjust": "Moved up one spot over Georgia State after beating the Panthers head-to-head on Saturday."
+     },
+     {
+      "rank": 8,
+      "formulaRank": 7,
+      "teamId": "2247",
+      "team": "Georgia State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+      "record": "4-3",
+      "conf": "1-2",
+      "last": {
+       "result": "L",
+       "score": "32-38",
+       "opp": "Arkansas St",
+       "at": "at",
+       "date": "2026-10-24T23:00Z"
+      },
+      "score": 0.514,
+      "blurb": "Fell 38-32 at Arkansas State after trailing 38-21 in the fourth. A late rally stalled on a Makai Shahid interception, dropping the Panthers to 1-2 in the Sun Belt.",
+      "adjust": "Moved down one spot after losing head-to-head to Arkansas State on Saturday."
      },
      {
       "rank": 9,
@@ -157,7 +167,8 @@
        "at": "vs",
        "date": "2026-10-20T23:30Z"
       },
-      "score": 0.457
+      "score": 0.457,
+      "blurb": "Earned its first Sun Belt win, 20-13 over South Alabama, holding the Jaguars to 326 yards. Zion Turner threw for 181 yards and ran for a score."
      },
      {
       "rank": 10,
@@ -174,7 +185,8 @@
        "at": "vs",
        "date": "2026-10-24T20:00Z"
       },
-      "score": 0.417
+      "score": 0.417,
+      "blurb": "Lost 21-14 at home to previously winless UL Monroe, allowing 18 points in the final three minutes. The offense managed 47 passing yards; next is a Thursday trip to James Madison."
      },
      {
       "rank": 11,
@@ -191,7 +203,8 @@
        "at": "vs",
        "date": "2026-10-17T00:00Z"
       },
-      "score": 0.39
+      "score": 0.39,
+      "blurb": "Had the week off after a 35-32 home loss to App State on Oct. 16. The Chanticleers sit 2-5 overall and 1-2 in the Sun Belt."
      },
      {
       "rank": 12,
@@ -208,7 +221,8 @@
        "at": "vs",
        "date": "2026-10-24T21:00Z"
       },
-      "score": 0.347
+      "score": 0.347,
+      "blurb": "Ran for 286 yards to beat Louisiana 35-31 at homecoming. Steven Robinson scored three times and Jamarice Wilder's 16-yard TD with 58 seconds left won it."
      },
      {
       "rank": 13,
@@ -225,7 +239,8 @@
        "at": "at",
        "date": "2026-10-24T21:00Z"
       },
-      "score": 0.313
+      "score": 0.313,
+      "blurb": "Shut out 26-0 at Louisiana Tech with minus-12 rushing yards and six sacks allowed by a third-string quarterback. The Monarchs are 1-4 in conference play."
      },
      {
       "rank": 14,
@@ -242,9 +257,11 @@
        "at": "at",
        "date": "2026-10-24T20:00Z"
       },
-      "score": 0.276
+      "score": 0.276,
+      "blurb": "First win of the season, 21-14 at Troy, with 18 points in the last 2:34. Aidan Armenta threw the go-ahead TD with 15 seconds left and a fumble return sealed it."
      }
-    ]
+    ],
+    "updatedAt": "2026-10-25T13:17:09.294Z"
    },
    {
     "id": "2026-10-21",
@@ -494,5 +511,5 @@
    }
   ]
  },
- "updatedAt": "2026-10-25T11:23:48.179Z"
+ "updatedAt": "2026-10-25T13:17:09.294Z"
 }
