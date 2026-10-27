@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-10-26T12:59:51.837Z",
+ "updatedAt": "2026-10-27T10:31:35.136Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1067,25 +1067,11 @@
  ],
  "news": [
   {
-   "title": "Where are South Alabama men, women picked in SBC preseason basketball poll?",
-   "url": "https://www.al.com/sports/2026/10/where-are-south-alabama-men-women-picked-in-sun-belt-preseason-basketball-poll.html",
-   "date": "2026-10-19T19:30:02.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/NOO5JPD3NBDRPHAYRQG3ITR4UQ.jpg?auth=ab61cad38faa3cca3d98fefb467b97c483733bfdcae19e9baac15cbcead92fc6&smart=true&height=1200"
-  },
-  {
    "title": "Law, Langsy Earn Preseason All-Sun Belt Honors; Jags Picked Fourth",
    "url": "https://usajaguars.com/news/2026/10/19/mens-basketball-law-langsy-earn-preseason-all-sun-belt-honors-jags-picked-fourth.aspx",
    "date": "2026-10-19T18:01:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/19/DSC00783.jpg"
-  },
-  {
-   "title": "South Alabama basketball stays comfortable with change",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-basketball-preview-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-12T16:00:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/9bb3510d5215526563de7835ba26065a76b67d2b-2048x1365.jpg?rect=0,146,2048,1075&w=1200&h=630&fit=crop"
   },
   {
    "title": "South Alabama to Face Loyola Marymount in Coastal Classic",

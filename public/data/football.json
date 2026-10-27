@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-26T12:59:51.837Z",
+ "updatedAt": "2026-10-27T10:31:35.136Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -202,8 +202,8 @@
   },
   {
    "id": "401869968",
-   "date": "2026-11-07T05:00Z",
-   "timeTbd": true,
+   "date": "2026-11-07T22:00Z",
+   "timeTbd": false,
    "opponent": {
     "id": "309",
     "name": "Louisiana Ragin' Cajuns",
@@ -216,8 +216,9 @@
    "conference": true,
    "venue": "Our Lady of Lourdes Stadium",
    "city": "Lafayette, LA",
+   "tv": "ESPN+",
    "status": "pre",
-   "statusDetail": "TBD"
+   "statusDetail": "11/7 - 5:00 PM EST"
   },
   {
    "id": "401871100",
@@ -2268,6 +2269,27 @@
  ],
  "news": [
   {
+   "title": "Kickoff at Louisiana Set for 4 PM on November 7",
+   "url": "https://usajaguars.com/news/2026/10/26/football-kickoff-at-louisiana-set-for-4-pm-on-november-7.aspx",
+   "date": "2026-10-26T20:02:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/26/FB_Ohio_1072.jpg"
+  },
+  {
+   "title": "South Alabama not making QB change heading into key matchup with Louisiana Tech",
+   "url": "https://www.al.com/sports/2026/10/south-alabama-not-making-qb-change-heading-into-key-matchup-with-louisiana-tech.html",
+   "date": "2026-10-26T19:10:44.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/DGZ7UW75LBGEPDT5OSKYG57TQU.jpg?auth=7d54e20ad9beb5b6a69bdcdc3acc643333275d89e23f2486ed3c8ffd180d799a&smart=true&height=1200"
+  },
+  {
+   "title": "Bowl projections: South Alabama still unanimous on all eight bowl boards after Marshall loss",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/bowl-projection-southalabama-week9-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-26T14:45:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/f13dbd21897c253598c9d666355721636bd64062-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
+  },
+  {
    "title": "Sun Belt matchup features Louisiana Tech taking on South Alabama",
    "url": "http://www.espn.com/ncf/preview?gameId=401871097",
    "date": "2026-10-25T19:42:50Z",
@@ -2336,13 +2358,6 @@
    "source": "Diehard Sports Network",
    "date": "2026-10-19T23:51:24.000Z",
    "image": "https://cdn.sanity.io/images/iahnmtcr/production/570b49490f23ccc126007beb97abe52910fd1d14-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
-  },
-  {
-   "title": "Scouting report: What you need to know for South Alabama’s game at Marshall",
-   "url": "https://www.al.com/sports/2026/10/scouting-report-what-you-need-to-know-for-south-alabamas-game-at-marshall.html",
-   "date": "2026-10-19T21:10:45.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/526URATWTRFCXICXU3ABW3TTPQ.jpg?auth=5895e2ba70df5ffaf6de569c5019eb49f498c540b0cabaf65d58a06b5664837b&smart=true&height=1200"
   },
   {
    "title": "Five with a foe: The Thundering Herd",
@@ -2455,13 +2470,6 @@
    "date": "2026-10-04T04:11:29Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871089.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "South Alabama Hosts ULM for Sun Belt Opener",
-   "url": "https://usajaguars.com/news/2026/9/29/football-south-alabama-hosts-ulm-for-sun-belt-opener.aspx",
-   "date": "2026-09-29T19:17:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/9/29/Game_Week_5_-_Web.png"
   }
  ],
  "nextOpponent": {
@@ -2740,7 +2748,7 @@
      {
       "name": "receivingYardsAfterCatch",
       "label": "Receiving Yards After Catch",
-      "value": "753"
+      "value": "938"
      },
      {
       "name": "receivingFirstDowns",
@@ -2935,7 +2943,7 @@
      {
       "name": "passesDefended",
       "label": "Passes Defended",
-      "value": "26"
+      "value": "27"
      },
      {
       "name": "avgInterceptionYards",

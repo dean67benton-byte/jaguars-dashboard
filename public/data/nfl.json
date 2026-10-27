@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T13:21:01.329Z",
+ "updatedAt": "2026-10-27T10:31:42.457Z",
  "players": [
   {
    "id": "3125280",
@@ -16,24 +16,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 6,
+   "games": 7,
    "lastGame": {
-    "date": "2026-10-20T00:15:00.000+00:00",
-    "opp": "WSH",
-    "at": "vs",
-    "result": "W",
-    "score": "23-17",
-    "week": 6
+    "date": "2026-10-25T17:00:00.000+00:00",
+    "opp": "ATL",
+    "at": "@",
+    "result": "L",
+    "score": "29-20",
+    "week": 7
    },
    "stats": {
     "season": [
      {
       "label": "PUNTS",
-      "value": "20"
+      "value": "21"
      },
      {
       "label": "AVG",
-      "value": "47.3"
+      "value": "46.9"
      },
      {
       "label": "LNG",
@@ -41,7 +41,7 @@
      },
      {
       "label": "YDS",
-      "value": "947"
+      "value": "984"
      },
      {
       "label": "TB",
@@ -51,11 +51,11 @@
     "career": [
      {
       "label": "PUNTS",
-      "value": "250"
+      "value": "251"
      },
      {
       "label": "AVG",
-      "value": "46.5"
+      "value": "46.4"
      },
      {
       "label": "LNG",
@@ -63,7 +63,7 @@
      },
      {
       "label": "YDS",
-      "value": "11,620"
+      "value": "11,657"
      }
     ]
    },
@@ -181,14 +181,14 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 3,
+   "games": 4,
    "lastGame": {
-    "date": "2026-10-18T20:25:00.000+00:00",
-    "opp": "BUF",
+    "date": "2026-10-25T20:25:00.000+00:00",
+    "opp": "LAR",
     "at": "vs",
     "result": "L",
-    "score": "33-30",
-    "week": 6
+    "score": "35-21",
+    "week": 7
    },
    "stats": {
     "season": [
