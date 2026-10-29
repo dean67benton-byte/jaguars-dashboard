@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-10-31-louisiana-tech",
+    "sport": "football",
+    "date": "2026-10-31T19:00:00Z",
+    "opponent": "Louisiana Tech",
+    "status": "preview",
+    "pick": "USA 24, LT 27"
+  },
+  {
     "id": "2026-10-20-marshall",
     "sport": "football",
     "date": "2026-10-20T23:30:00Z",

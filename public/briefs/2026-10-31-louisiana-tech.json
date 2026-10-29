@@ -1,0 +1,181 @@
+{
+  "id": "2026-10-31-louisiana-tech",
+  "sport": "football",
+  "eventId": "401871097",
+  "date": "2026-10-31T19:00:00Z",
+  "opponent": "Louisiana Tech",
+  "home": true,
+  "venue": "Hancock Whitney Stadium, Mobile, Ala.",
+  "tv": "ESPN+",
+  "status": "preview",
+  "preview": {
+    "generatedAt": "2026-10-29T08:55:00-05:00",
+    "headline": "USA's run game meets the Sun Belt's hottest defense.",
+    "summary": "Louisiana Tech arrives 3-0 in the Sun Belt with two straight shutouts; South Alabama is home after an 11-day break and a 13-point night at Marshall.",
+    "records": {
+      "usa": "4-3 (2-1 Sun Belt)",
+      "opp": "5-2 (3-0 Sun Belt)"
+    },
+    "matchup": [
+      {
+        "metric": "Points scored / game",
+        "usa": "35.1",
+        "opp": "32.3",
+        "edge": "USA",
+        "why": "Close on paper, but Tech's average includes 80 against FCS Northwestern State; it has scored 24 to 32 in each of its last four."
+      },
+      {
+        "metric": "Points allowed / game",
+        "usa": "32.4",
+        "opp": "21.0",
+        "edge": "OPP",
+        "why": "Tech has shut out ULM (24-0) and Old Dominion (26-0) in its last two games."
+      },
+      {
+        "metric": "Yards allowed / play",
+        "usa": "6.9",
+        "opp": "5.0",
+        "edge": "OPP",
+        "why": "The biggest gap on the page. USA allows 414.6 yards a game; Tech allows 323.4."
+      },
+      {
+        "metric": "Run game vs. run defense",
+        "usa": "214.3 rush yds/game, 4.7 a carry",
+        "opp": "125.4 rush yds allowed/game",
+        "edge": "USA",
+        "why": "USA's best weapon. Old Dominion ran for minus-12 yards against Tech last week, so this is a real test."
+      },
+      {
+        "metric": "Pass game vs. pass defense",
+        "usa": "252.9 pass yds allowed/game",
+        "opp": "248.7 pass yds/game, 8.1 a throw",
+        "edge": "OPP",
+        "why": "Blake Baker went 28-of-34 for 303 yards last week; USA's pass defense has been its weak spot."
+      },
+      {
+        "metric": "Turnover margin",
+        "usa": "+5 (9 takeaways, 4 giveaways)",
+        "opp": "-1 (7 takeaways, 8 giveaways)",
+        "edge": "USA",
+        "why": "USA's clearest statistical edge, and the one that went missing at Marshall (lost it 1-0)."
+      },
+      {
+        "metric": "Third-down conversions",
+        "usa": "40.4% (42 of 104)",
+        "opp": "45.4% (44 of 97)",
+        "edge": "OPP",
+        "why": "USA went 4-of-18 on third down at Marshall; Tech's defense has 19 sacks to make third-and-long worse."
+      }
+    ],
+    "keys": {
+      "usa": [
+        "Run the ball and stay on schedule. USA averages 214.3 rushing yards; Keenan Phillips ran for 284 yards and four TDs at Arkansas State.",
+        "Protect Hollins on third down. Tech has 19 sacks, 6.5 by Alonzo Jackson Jr., and USA converted 4 of 18 third downs at Marshall.",
+        "Win the turnover battle. USA is +5 on the year; Tech has 8 giveaways."
+      ],
+      "opp": [
+        "Let Baker throw. He averages 8.1 yards a pass and USA allows 252.9 passing yards a game.",
+        "Make USA one-dimensional. Tech's front held Old Dominion to minus-12 rushing yards; stopping Phillips early forces Hollins into long third downs."
+      ]
+    },
+    "players": [
+      {
+        "name": "Keenan Phillips",
+        "team": "USA",
+        "pos": "RB",
+        "note": "96 carries, 514 yards, 5 TD. Held to 70 yards on 16 carries at Marshall; 4+ yards a carry here means USA's line is winning."
+      },
+      {
+        "name": "Jared Hollins",
+        "team": "USA",
+        "pos": "QB",
+        "note": "68-of-125, 1,003 yards, 7 TD, 3 INT. Was 12-of-33 for 148 yards at Marshall; watch his completion rate against Tech's pass rush."
+      },
+      {
+        "name": "Blake Baker",
+        "team": "OPP",
+        "pos": "QB",
+        "note": "96-of-133 (72%), 1,160 yards, 10 TD, 1 INT. Threw for 303 and ran for a TD against Old Dominion."
+      },
+      {
+        "name": "Alonzo Jackson Jr.",
+        "team": "OPP",
+        "pos": "DL/LB",
+        "note": "Tech's leader in sacks (6.5) and tackles (48). The player most likely to stall USA drives on passing downs."
+      }
+    ],
+    "watch": [
+      {
+        "title": "USA's first two drives",
+        "text": "The offense scored 13 at Marshall and has had 11 days to fix it. Early points at home would test a Tech defense that has not allowed one in eight quarters."
+      },
+      {
+        "title": "Jalen Mickens and Eli Finley vs. USA's secondary",
+        "text": "Mickens leads Tech with 40 catches for 586 yards; Finley had 10 catches for 128 yards last week. Long completions here are the clearest danger sign."
+      },
+      {
+        "title": "A close finish",
+        "text": "Tech beat Army 31-29 and Louisiana 32-31. USA lost its last game on a touchdown drive with 1:49 left. Late-game execution may decide it."
+      }
+    ],
+    "injuries": [
+      "No injury report found for either team as of Oct 29.",
+      "QB Bishop Davenport started Week 1; Jared Hollins has started since the Ohio game on Sept 19. Davenport's status: not found."
+    ],
+    "weather": "ESPN/AccuWeather forecast for kickoff (checked Oct 29): 77°F, 49% chance of rain, gusts to 13 mph.",
+    "lastGame": {
+      "usa": "Lost 20-13 at Marshall on Oct 20 (4-of-18 on third down, one interception).",
+      "opp": "Beat Old Dominion 26-0 on Oct 24, its second straight shutout and fourth straight win."
+    },
+    "prediction": {
+      "usa": 24,
+      "opp": 27,
+      "confidence": "Low",
+      "reasoning": "Tech's defense allows nearly two yards a play less than USA's, and its passing game lines up against USA's weakest unit. USA has home field, extra rest, the better run game and the better turnover margin, which keeps this a one-score game.",
+      "risks": "Tech's shutouts came against ULM and an Old Dominion team starting its third-string QB. If Phillips runs like he did at Arkansas State and USA wins the turnover battle again, the Jaguars can win comfortably at home."
+    },
+    "context": "Louisiana Tech leads the series 2-1; USA won the last meeting 38-14 in Mobile in 2022. First meeting as Sun Belt opponents (Tech joined the league this season from Conference USA). Tech leads the West at 3-0; USA is 2-1, so the winner has the inside track. Military Appreciation Day at Hancock Whitney Stadium. Kickoff 2 p.m. Central.",
+    "sources": [
+      {
+        "title": "ESPN game page and stats: Louisiana Tech at South Alabama, Oct 31, 2026 (incl. AccuWeather forecast)",
+        "url": "https://www.espn.com/college-football/game/_/gameId/401871097"
+      },
+      {
+        "title": "ESPN Louisiana Tech 2026 schedule and results",
+        "url": "https://www.espn.com/college-football/team/schedule/_/id/2348"
+      },
+      {
+        "title": "ESPN South Alabama team statistics",
+        "url": "https://www.espn.com/college-football/team/stats/_/id/6"
+      },
+      {
+        "title": "ESPN Louisiana Tech team statistics",
+        "url": "https://www.espn.com/college-football/team/stats/_/id/2348"
+      },
+      {
+        "title": "WKRG: Kickoff time set for South Alabama vs. Louisiana Tech Halloween football game",
+        "url": "https://www.wkrg.com/sports/kickoff-time-set-for-south-alabama-vs-louisiana-tech-halloween-football-game/amp/"
+      },
+      {
+        "title": "AP: Baker throws, runs for TDs; Louisiana Tech posts 2nd straight shutout, 26-0 over Old Dominion",
+        "url": "https://www.yourvalley.net/stories/baker-throws-runs-for-tds-louisiana-tech-posts-2nd-straight-shutout-26-0-over-old-dominion,734060"
+      },
+      {
+        "title": "CFBTrack: Louisiana Tech at South Alabama matchup stats",
+        "url": "https://cfbtrack.com/games/matchup/2026/401871097"
+      },
+      {
+        "title": "Diehard Sports Network: South Alabama coverage",
+        "url": "https://www.diehardsportsnetwork.com/south-alabama"
+      },
+      {
+        "title": "FOX10: Jared Hollins wins first career start as Jags beat Ohio 41-36",
+        "url": "https://www.fox10tv.com/2026/09/20/jared-hollins-wins-first-career-start-jags-run-their-way-41-36-win-over-ohio/"
+      },
+      {
+        "title": "ESPN box score: South Alabama at Marshall, Oct 20, 2026",
+        "url": "https://www.espn.com/college-football/game/_/gameId/401871092"
+      }
+    ]
+  }
+}
