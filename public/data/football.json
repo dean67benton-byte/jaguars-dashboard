@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-28T08:27:29.966Z",
+ "updatedAt": "2026-10-29T00:54:12.669Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2269,6 +2269,20 @@
  ],
  "news": [
   {
+   "title": "South Alabama defense looking for big performance vs. Louisiana Tech",
+   "url": "https://www.al.com/sports/2026/10/south-alabama-defense-looking-for-big-performance-in-matchup-with-louisiana-tech.html",
+   "date": "2026-10-28T21:34:10.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/H5P2A3MCDNEEHK2AKL2QSHOR2Q.jpg?auth=1aa201e29372e5dcddf4e89f82b6416d1d77c67950a307a48997c58ff30a77e0&smart=true&height=1200"
+  },
+  {
+   "title": "Jags Return Home to Host Louisiana Tech in Key Sun Belt West Contest",
+   "url": "https://usajaguars.com/news/2026/10/28/football-jags-return-home-to-host-louisiana-tech-in-key-sun-belt-west-contest.aspx",
+   "date": "2026-10-28T21:14:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/28/Game_Week_G8_-_Web.png"
+  },
+  {
    "title": "Kickoff at Louisiana Set for 4 PM on November 7",
    "url": "https://usajaguars.com/news/2026/10/26/football-kickoff-at-louisiana-set-for-4-pm-on-november-7.aspx",
    "date": "2026-10-26T20:02:00.000Z",
@@ -2295,13 +2309,6 @@
    "date": "2026-10-25T19:42:50Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871097.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "South Alabama coach updates health status of star forward Peyton Law",
-   "url": "https://www.al.com/sports/2026/10/south-alabama-coach-richie-riley-updates-health-status-of-star-forward-peyton-law.html",
-   "date": "2026-10-21T20:44:19.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/X7OBJXZEVZGEBIV7UH6IPDDE7Q.jpeg?auth=bee37703a2844e7aae403475fdd45b717442a34a7a1e0f14f226263b1ac14301&smart=true&height=1200"
   },
   {
    "title": "The postgame report: Marshall 20, South Alabama 13",
@@ -2449,13 +2456,6 @@
    "date": "2026-10-04T19:45:33Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869933.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Jags Power Past ULM in 52-35 Homecoming Victory",
-   "url": "https://usajaguars.com/news/2026/10/3/football-jags-power-past-ulm-in-52-35-homecoming-victory.aspx",
-   "date": "2026-10-04T05:46:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/3/mason-936.jpg"
   },
   {
    "title": "Hollins throws 3 TD passes, South Alabama beats Louisiana-Monroe 52-35",
