@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-10-29T00:54:12.669Z",
+ "updatedAt": "2026-10-29T13:56:35.831Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1068,6 +1068,13 @@
   }
  ],
  "news": [
+  {
+   "title": "South Alabama Hosts Mississippi Christian for Thursday Exhibition",
+   "url": "https://usajaguars.com/news/2026/10/28/mens-basketball-south-alabama-hosts-mississippi-christian-for-thursday-exhibition.aspx",
+   "date": "2026-10-29T04:10:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/28/DSC00001__2_.jpg"
+  },
   {
    "title": "Law, Langsy Earn Preseason All-Sun Belt Honors; Jags Picked Fourth",
    "url": "https://usajaguars.com/news/2026/10/19/mens-basketball-law-langsy-earn-preseason-all-sun-belt-honors-jags-picked-fourth.aspx",
