@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-10-29T20:16:22.909Z",
+ "updatedAt": "2026-10-30T00:57:54.555Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -26,6 +26,7 @@
    "conference": false,
    "venue": "Mitchell Center",
    "city": "Mobile, AL",
+   "tv": "ESPN+",
    "status": "pre",
    "statusDetail": "11/2 - 8:00 PM EST"
   },
@@ -45,6 +46,7 @@
    "conference": false,
    "venue": "Mitchell Center",
    "city": "Mobile, AL",
+   "tv": "ESPN+",
    "status": "pre",
    "statusDetail": "11/5 - 8:00 PM EST"
   },
@@ -109,7 +111,7 @@
   },
   {
    "id": "401930568",
-   "date": "2026-11-18T00:00Z",
+   "date": "2026-11-18T01:00Z",
    "timeTbd": false,
    "opponent": {
     "id": "2590",
@@ -122,8 +124,9 @@
    "conference": false,
    "venue": "Mitchell Center",
    "city": "Mobile, AL",
+   "tv": "ESPN+",
    "status": "pre",
-   "statusDetail": "11/17 - 7:00 PM EST"
+   "statusDetail": "11/17 - 8:00 PM EST"
   },
   {
    "id": "401929459",
@@ -161,6 +164,7 @@
    "conference": false,
    "venue": "Mitchell Center",
    "city": "Mobile, AL",
+   "tv": "ESPN+",
    "status": "pre",
    "statusDetail": "11/22 - 3:00 PM EST"
   },
@@ -180,6 +184,7 @@
    "conference": false,
    "venue": "Mitchell Center",
    "city": "Mobile, AL",
+   "tv": "ESPN+",
    "status": "pre",
    "statusDetail": "11/24 - 8:00 PM EST"
   },

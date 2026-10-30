@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-29T20:16:22.909Z",
+ "updatedAt": "2026-10-30T00:57:54.555Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2269,6 +2269,13 @@
  ],
  "news": [
   {
+   "title": "The Really Big Preview: Louisiana Tech at South Alabama",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/really-big-preview-southalabama-louisianatech-week9",
+   "source": "Diehard Sports Network",
+   "date": "2026-10-29T18:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/e9990d38d867a10069aba4fab1335592ba39bcdc-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
+  },
+  {
    "title": "Jags Jungle panel picks: Louisiana Tech at South Alabama",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jags-jungle-picks-louisianatech-week9-2026",
    "source": "Diehard Sports Network",
@@ -2379,13 +2386,6 @@
    "date": "2026-10-19T20:00:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/19/ANW_116.jpg"
-  },
-  {
-   "title": "Bowl projections: South Alabama is a unanimous pick, but nobody agrees on the destination",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/bowl-projection-southalabama-week8-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-19T18:30:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/c51c368d12027d121e6bd88c8a626c35973f082c-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
   },
   {
    "title": "Sun Belt matchup features South Alabama playing Marshall",
