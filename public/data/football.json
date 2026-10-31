@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-10-31T05:38:02.724Z",
+ "updatedAt": "2026-10-31T12:24:15.608Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2268,6 +2268,13 @@
   }
  ],
  "news": [
+  {
+   "title": "Scouting report: What you need to know for South Alabama’s game vs. Louisiana Tech",
+   "url": "https://www.al.com/sports/2026/10/scouting-report-what-you-need-to-know-for-south-alabamas-game-vs-louisiana-tech.html",
+   "date": "2026-10-31T10:00:00.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/ZKA7Y2ENJBFKZINPRHIHJUKIWY.jpg?auth=d34abb89c60065969e45b4cf2b27b692f448cc816294ba72d546481ce268fd5c&smart=true&height=1200"
+  },
   {
    "title": "The Really Big Preview: Louisiana Tech at South Alabama",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/really-big-preview-southalabama-louisianatech-week9",
