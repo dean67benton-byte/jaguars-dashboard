@@ -8,25 +8,25 @@
     "rows": [
      {
       "rank": 1,
-      "formulaRank": 1,
+      "formulaRank": 2,
       "teamId": "256",
       "team": "James Madison",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
-      "record": "7-1",
-      "conf": "4-1",
+      "record": "7-2",
+      "conf": "4-2",
       "last": {
        "result": "L",
-       "score": "31-34",
-       "opp": "App State",
-       "at": "at",
-       "date": "2026-10-22T23:00Z"
+       "score": "21-24",
+       "opp": "Troy",
+       "at": "vs",
+       "date": "2026-10-29T23:30Z"
       },
-      "score": 0.766,
+      "score": 0.694,
       "blurb": "First loss came 34-31 in overtime at App State after a missed 47-yard kick in OT. Camden Coleman forced overtime with a TD run at 0:03, and the Dukes still lead the conference at 4-1."
      },
      {
       "rank": 2,
-      "formulaRank": 2,
+      "formulaRank": 1,
       "teamId": "2348",
       "team": "Louisiana Tech",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
@@ -57,7 +57,7 @@
        "at": "vs",
        "date": "2026-10-22T23:00Z"
       },
-      "score": 0.619,
+      "score": 0.616,
       "blurb": "Handed James Madison its first loss, 34-31 in OT, on James London's walk-off 40-yarder, his fourth field goal. A Colton Phares interception set up the go-ahead score late in regulation."
      },
      {
@@ -75,7 +75,7 @@
        "at": "at",
        "date": "2026-10-24T21:00Z"
       },
-      "score": 0.586,
+      "score": 0.587,
       "blurb": "Lost 35-31 at Southern Miss, giving up 286 rushing yards and the winning TD with 58 seconds left. Lunch Winfield threw for 299 yards; the Cajuns fall to 2-2 in the Sun Belt."
      },
      {
@@ -111,7 +111,7 @@
        "at": "at",
        "date": "2026-10-15T23:30Z"
       },
-      "score": 0.517,
+      "score": 0.515,
       "blurb": "Off this week after a 23-15 win at Old Dominion on Oct. 15. The Eagles are 2-1 in conference play despite a 3-4 overall record."
      },
      {
@@ -148,13 +148,13 @@
        "at": "at",
        "date": "2026-10-24T23:00Z"
       },
-      "score": 0.514,
+      "score": 0.512,
       "blurb": "Fell 38-32 at Arkansas State after trailing 38-21 in the fourth. A late rally stalled on a Makai Shahid interception, dropping the Panthers to 1-2 in the Sun Belt.",
       "adjust": "Moved down one spot after losing head-to-head to Arkansas State on Saturday."
      },
      {
       "rank": 9,
-      "formulaRank": 9,
+      "formulaRank": 10,
       "teamId": "276",
       "team": "Marshall",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
@@ -167,25 +167,25 @@
        "at": "vs",
        "date": "2026-10-20T23:30Z"
       },
-      "score": 0.457,
+      "score": 0.455,
       "blurb": "Earned its first Sun Belt win, 20-13 over South Alabama, holding the Jaguars to 326 yards. Zion Turner threw for 181 yards and ran for a score."
      },
      {
       "rank": 10,
-      "formulaRank": 10,
+      "formulaRank": 9,
       "teamId": "2653",
       "team": "Troy",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-      "record": "3-4",
-      "conf": "1-2",
+      "record": "4-4",
+      "conf": "2-2",
       "last": {
-       "result": "L",
-       "score": "14-21",
-       "opp": "UL Monroe",
-       "at": "vs",
-       "date": "2026-10-24T20:00Z"
+       "result": "W",
+       "score": "24-21",
+       "opp": "James Madison",
+       "at": "at",
+       "date": "2026-10-29T23:30Z"
       },
-      "score": 0.417,
+      "score": 0.473,
       "blurb": "Lost 21-14 at home to previously winless UL Monroe, allowing 18 points in the final three minutes. The offense managed 47 passing yards; next is a Thursday trip to James Madison."
      },
      {
@@ -221,7 +221,7 @@
        "at": "vs",
        "date": "2026-10-24T21:00Z"
       },
-      "score": 0.347,
+      "score": 0.349,
       "blurb": "Ran for 286 yards to beat Louisiana 35-31 at homecoming. Steven Robinson scored three times and Jamarice Wilder's 16-yard TD with 58 seconds left won it."
      },
      {
@@ -239,7 +239,7 @@
        "at": "at",
        "date": "2026-10-24T21:00Z"
       },
-      "score": 0.313,
+      "score": 0.311,
       "blurb": "Shut out 26-0 at Louisiana Tech with minus-12 rushing yards and six sacks allowed by a third-string quarterback. The Monarchs are 1-4 in conference play."
      },
      {
@@ -257,11 +257,11 @@
        "at": "at",
        "date": "2026-10-24T20:00Z"
       },
-      "score": 0.276,
+      "score": 0.277,
       "blurb": "First win of the season, 21-14 at Troy, with 18 points in the last 2:34. Aidan Armenta threw the go-ahead TD with 15 seconds left and a fumble return sealed it."
      }
     ],
-    "updatedAt": "2026-10-29T13:56:41.219Z"
+    "updatedAt": "2026-10-31T13:32:10.795Z"
    },
    {
     "id": "2026-10-21",
@@ -511,5 +511,5 @@
    }
   ]
  },
- "updatedAt": "2026-10-29T13:56:41.219Z"
+ "updatedAt": "2026-10-31T13:32:10.795Z"
 }
