@@ -175,7 +175,19 @@
       {
         "title": "ESPN box score: South Alabama at Marshall, Oct 20, 2026",
         "url": "https://www.espn.com/college-football/game/_/gameId/401871092"
+      },
+      {
+        "title": "FOX10: Football, Fair Fun & Frights: Gulf Coast Halloween Weekend Forecast (Oct 29)",
+        "url": "https://www.fox10tv.com/2026/10/29/football-fair-fun-frights-gulf-coast-halloween-weekend-forecast/"
       }
+    ]
+  },
+  "reminder": {
+    "generatedAt": "2026-10-31T08:35:00-05:00",
+    "notes": [
+      "Injuries: still no injury report found for either team (ESPN game page, checked 8:30 a.m. game day). Starting QB status unchanged from the preview: Hollins has started since Sept 19; Davenport not found.",
+      "Weather has warmed since the preview. ESPN/AccuWeather now shows 82°F at kickoff, 46% chance of rain and gusts to 17 mph (was 77°F, 49%, 13 mph). FOX10 forecasts about 80°F in the first half, upper 70s by the fourth quarter, mostly sun and clouds with only a small risk of a brief shower; rain chances rise after dark.",
+      "Kickoff is still 2 p.m. Central on ESPN+ at Hancock Whitney Stadium. No new South Alabama or Louisiana Tech news found since the preview, so the pick stays USA 24, LT 27 (Low confidence)."
     ]
   }
 }
