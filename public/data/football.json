@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-01T01:07:52.032Z",
+ "updatedAt": "2026-11-01T03:32:06.719Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2180,6 +2180,12 @@
    "name": "Sun Belt - East",
    "rows": [
     {
+     "teamId": "290",
+     "team": "GA Southern",
+     "conf": "3-1",
+     "overall": "4-4"
+    },
+    {
      "teamId": "256",
      "team": "James Madison",
      "conf": "4-2",
@@ -2188,14 +2194,8 @@
     {
      "teamId": "2026",
      "team": "App State",
-     "conf": "2-1",
-     "overall": "5-2"
-    },
-    {
-     "teamId": "290",
-     "team": "GA Southern",
-     "conf": "2-1",
-     "overall": "3-4"
+     "conf": "2-2",
+     "overall": "5-3"
     },
     {
      "teamId": "276",
@@ -2272,6 +2272,13 @@
   }
  ],
  "news": [
+  {
+   "title": "South Alabama loses to Louisiana Tech; gets shut out in 2nd half",
+   "url": "https://www.al.com/sports/2026/11/south-alabama-shut-out-in-2nd-half-of-home-loss-to-louisiana-tech.html",
+   "date": "2026-11-01T01:15:06.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/YNBVOIJGTZGUXB2YNIUIY2LUF4.jpg?auth=22e077368c728f7ce87db5b57a1e282aed81a01e27080e68ca0a01b970cc2e4f&smart=true&height=1200"
+  },
   {
    "title": "South Alabama Falls to Louisiana Tech, 35-20",
    "url": "https://usajaguars.com/news/2026/10/31/football-south-alabama-falls-to-louisiana-tech-35-20.aspx",
