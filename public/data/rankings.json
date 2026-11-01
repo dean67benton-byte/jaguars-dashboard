@@ -2,6 +2,271 @@
  "football": {
   "weeks": [
    {
+    "id": "2026-11-01",
+    "postedAt": "2026-11-01T14:17:23.130Z",
+    "source": "claude",
+    "rows": [
+     {
+      "rank": 1,
+      "formulaRank": 1,
+      "teamId": "2348",
+      "team": "Louisiana Tech",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+      "record": "6-2",
+      "conf": "4-0",
+      "last": {
+       "result": "W",
+       "score": "35-20",
+       "opp": "South Alabama",
+       "at": "at",
+       "date": "2026-10-31T19:00Z"
+      },
+      "score": 0.739,
+      "blurb": "Won 35-20 at South Alabama as Blake Baker threw three TD passes on 10-of-16 passing and the defense shut out the Jaguars after halftime. At 4-0, the Bulldogs hold a two-game lead in the West."
+     },
+     {
+      "rank": 2,
+      "formulaRank": 2,
+      "teamId": "256",
+      "team": "James Madison",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+      "record": "7-2",
+      "conf": "4-2",
+      "last": {
+       "result": "L",
+       "score": "21-24",
+       "opp": "Troy",
+       "at": "vs",
+       "date": "2026-10-29T23:30Z"
+      },
+      "score": 0.693,
+      "blurb": "Blew a 21-7 halftime lead and lost 24-21 in overtime to Troy, turning it over five times. Justin Powe had three of the interceptions; the Dukes have now lost two straight conference games."
+     },
+     {
+      "rank": 3,
+      "formulaRank": 4,
+      "teamId": "290",
+      "team": "Georgia Southern",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+      "record": "4-4",
+      "conf": "3-1",
+      "last": {
+       "result": "W",
+       "score": "19-3",
+       "opp": "App State",
+       "at": "vs",
+       "date": "2026-10-31T22:30Z"
+      },
+      "score": 0.573,
+      "blurb": "Beat App State 19-3 to take over first in the East. Max Johnson completed 36 of 47 passes, Tripp Bryant kicked four field goals and App State ran for six yards.",
+      "adjust": "Moved up one spot: 3-1 in league play and leads the East after holding App State to 222 yards, while Louisiana was idle after its loss."
+     },
+     {
+      "rank": 4,
+      "formulaRank": 3,
+      "teamId": "309",
+      "team": "Louisiana",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+      "record": "5-3",
+      "conf": "2-2",
+      "last": {
+       "result": "L",
+       "score": "31-35",
+       "opp": "Southern Miss",
+       "at": "at",
+       "date": "2026-10-24T21:00Z"
+      },
+      "score": 0.59,
+      "blurb": "Off this week after a 35-31 loss at Southern Miss. The Cajuns, 2-2 in the Sun Belt, host South Alabama on Saturday.",
+      "adjust": "Moved down one spot after an idle week that followed a loss at Southern Miss, with Georgia Southern winning big."
+     },
+     {
+      "rank": 5,
+      "formulaRank": 5,
+      "teamId": "2026",
+      "team": "App State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+      "record": "5-3",
+      "conf": "2-2",
+      "last": {
+       "result": "L",
+       "score": "3-19",
+       "opp": "GA Southern",
+       "at": "at",
+       "date": "2026-10-31T22:30Z"
+      },
+      "score": 0.539,
+      "blurb": "Lost 19-3 at Georgia Southern with six rushing yards and three turnovers. Center Jayden Thomas was carted off before halftime, and left tackle Devon Manuel is already out for the season."
+     },
+     {
+      "rank": 6,
+      "formulaRank": 6,
+      "teamId": "276",
+      "team": "Marshall",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+      "record": "5-3",
+      "conf": "2-2",
+      "last": {
+       "result": "W",
+       "score": "36-23",
+       "opp": "Old Dominion",
+       "at": "at",
+       "date": "2026-10-31T17:00Z"
+      },
+      "score": 0.535,
+      "blurb": "Won 36-23 at Old Dominion, turning four takeaways into 20 points. TJ Lester ran for two touchdowns and Jorge Diaz Nicholas kicked a school-record five field goals."
+     },
+     {
+      "rank": 7,
+      "formulaRank": 9,
+      "teamId": "2653",
+      "team": "Troy",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+      "record": "4-4",
+      "conf": "2-2",
+      "last": {
+       "result": "W",
+       "score": "24-21",
+       "opp": "James Madison",
+       "at": "at",
+       "date": "2026-10-29T23:30Z"
+      },
+      "score": 0.475,
+      "blurb": "Rallied from 14 down to win 24-21 in overtime at James Madison on Hayden Wolfe's 27-yard kick. Justin Powe's three interceptions, one returned for a TD, tied a school record.",
+      "adjust": "Moved up two spots: a road overtime win over a 7-2 James Madison team counts for more than the formula gives it."
+     },
+     {
+      "rank": 8,
+      "formulaRank": 7,
+      "teamId": "2032",
+      "team": "Arkansas State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+      "record": "4-4",
+      "conf": "2-2",
+      "last": {
+       "result": "W",
+       "score": "38-32",
+       "opp": "Georgia St",
+       "at": "vs",
+       "date": "2026-10-24T23:00Z"
+      },
+      "score": 0.503,
+      "blurb": "Off this week after a 38-32 home win over Georgia State. The Red Wolves are 2-2 in the Sun Belt and host UL Monroe on Saturday.",
+      "adjust": "Moved down one spot after an idle week as Troy moved up with its road win at James Madison."
+     },
+     {
+      "rank": 9,
+      "formulaRank": 8,
+      "teamId": "6",
+      "team": "South Alabama",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "record": "4-4",
+      "conf": "2-2",
+      "last": {
+       "result": "L",
+       "score": "20-35",
+       "opp": "Louisiana Tech",
+       "at": "vs",
+       "date": "2026-10-31T19:00Z"
+      },
+      "score": 0.493,
+      "blurb": "Lost 35-20 at home to Louisiana Tech and was shut out after halftime despite outgaining the Bulldogs 397-315. Anthony Eager caught two TDs; the Jaguars visit Louisiana next.",
+      "adjust": "Moved down one spot as Troy moved up after its road win at James Madison."
+     },
+     {
+      "rank": 10,
+      "formulaRank": 10,
+      "teamId": "324",
+      "team": "Coastal Carolina",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+      "record": "3-5",
+      "conf": "2-2",
+      "last": {
+       "result": "W",
+       "score": "31-20",
+       "opp": "Georgia St",
+       "at": "at",
+       "date": "2026-10-31T18:00Z"
+      },
+      "score": 0.471,
+      "blurb": "Won 31-20 at Georgia State as Deuce Bailey threw for 297 yards and three TDs. Clayton Coppock Jr. caught two of them, and the Chanticleers scored all 31 of their points in the middle two quarters."
+     },
+     {
+      "rank": 11,
+      "formulaRank": 11,
+      "teamId": "2572",
+      "team": "Southern Miss",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "record": "3-5",
+      "conf": "2-2",
+      "last": {
+       "result": "W",
+       "score": "35-21",
+       "opp": "UL Monroe",
+       "at": "at",
+       "date": "2026-10-31T19:30Z"
+      },
+      "score": 0.437,
+      "blurb": "Won 35-21 at UL Monroe behind 249 rushing yards, with Steven Robinson (151) and Jamarice Wilder (104) both over 100. It is the Golden Eagles' second straight win after a five-game skid."
+     },
+     {
+      "rank": 12,
+      "formulaRank": 12,
+      "teamId": "2247",
+      "team": "Georgia State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+      "record": "4-4",
+      "conf": "1-3",
+      "last": {
+       "result": "L",
+       "score": "20-31",
+       "opp": "Coastal",
+       "at": "vs",
+       "date": "2026-10-31T18:00Z"
+      },
+      "score": 0.436,
+      "blurb": "Lost 31-20 at home to Coastal Carolina after falling behind 31-6. Ayden Pereira threw two touchdowns, but the Panthers are 1-3 in Sun Belt play."
+     },
+     {
+      "rank": 13,
+      "formulaRank": 13,
+      "teamId": "295",
+      "team": "Old Dominion",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+      "record": "2-7",
+      "conf": "1-5",
+      "last": {
+       "result": "L",
+       "score": "23-36",
+       "opp": "Marshall",
+       "at": "vs",
+       "date": "2026-10-31T17:00Z"
+      },
+      "score": 0.282,
+      "blurb": "Lost 36-23 at home to Marshall after four turnovers, including three Jaxon Potter interceptions. Potter threw for 329 yards and Josh Rodriguez caught nine passes for 143."
+     },
+     {
+      "rank": 14,
+      "formulaRank": 14,
+      "teamId": "2433",
+      "team": "UL Monroe",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+      "record": "1-7",
+      "conf": "1-3",
+      "last": {
+       "result": "L",
+       "score": "21-35",
+       "opp": "Southern Miss",
+       "at": "vs",
+       "date": "2026-10-31T19:30Z"
+      },
+      "score": 0.252,
+      "blurb": "Lost 35-21 at home to Southern Miss, allowing 249 rushing yards. Aidan Armenta threw two TD passes, including an 83-yarder to Marcellus Jackson, a week after the Warhawks' first win."
+     }
+    ],
+    "updatedAt": "2026-11-01T14:18:34.986Z"
+   },
+   {
     "id": "2026-10-25",
     "postedAt": "2026-10-25T11:23:48.179Z",
     "source": "claude",
@@ -511,5 +776,5 @@
    }
   ]
  },
- "updatedAt": "2026-11-01T03:32:12.528Z"
+ "updatedAt": "2026-11-01T14:18:34.986Z"
 }

@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-10-21T19:00:00Z",
- "source": "seed",
+ "updatedAt": "2026-11-01T14:19:37.372Z",
+ "source": "claude",
  "football": {
-  "asOf": "After week 8 (4-3, 2-1 Sun Belt)",
+  "asOf": "After week 9 (4-4, 2-2 Sun Belt)",
   "staff": [
    {
     "name": "Major Applewhite",
@@ -10,10 +10,10 @@
     "unit": "hc",
     "since": "Head coach since January 2024 (offensive coordinator 2022-23)",
     "record": "2024: 7-6 with a Salute to Veterans Bowl win. 2025: 4-8.",
-    "stayPct": 80,
+    "stayPct": 72,
     "hotSeat": "medium",
     "poach": "low",
-    "note": "Year three after a 4-8 season, the point where Sun Belt schools have made changes (Bowden at ULM after three years, Clark at App State after a 5-6 year). At 4-3 with five left, two more wins means a bowl and should settle it. He calls plays himself, so the offense is his too. A P4 coordinator job is the only realistic way out, and that is unlikely after 2025."
+    "note": "Two straight losses, 20-13 at Marshall and 35-20 to Louisiana Tech, leave the Jaguars 4-4 after 52- and 56-point wins. The offense he calls scored 33 points in those two games. A bowl needs two of the last four: at Louisiana, Troy, at Southern Miss, App State. Year three after a 4-8 season is when Sun Belt schools have moved on (Bowden at ULM, Beck at Coastal)."
    },
    {
     "name": "Todd Orlando",
@@ -21,20 +21,20 @@
     "unit": "dc",
     "since": "Hired January 2026 from South Florida",
     "record": "FBS coordinator since 2005 (Texas, USC, Houston, USF).",
-    "stayPct": 75,
+    "stayPct": 70,
     "hotSeat": "medium",
     "poach": "low",
-    "note": "First year, and the defense is giving up over 30 points a game, so wins have come in shootouts (52-35 over ULM, 56-49 at Arkansas State). That makes a move up unlikely this winter. His future is tied to Applewhite's: a head coaching change usually turns over the staff."
+    "note": "The defense allows 32.8 points a game. It held Marshall to 20, then Louisiana Tech scored 35 while completing 11 of 17 passes for 194 yards and four TDs. That makes a move up unlikely this winter, and his future is tied to Applewhite's: a head coaching change usually turns over the staff."
    },
    {
     "name": "Jason Washington",
     "role": "Co-defensive coordinator and cornerbacks",
     "unit": "dc",
     "since": "Since 2025 (from Texas State)",
-    "stayPct": 85,
+    "stayPct": 82,
     "hotSeat": "low",
     "poach": "low",
-    "note": "Kept through the 2026 staff overhaul and given the co-coordinator title, which signals the head coach wants him in place."
+    "note": "Kept through the 2026 staff overhaul and given the co-coordinator title, a sign the head coach wants him. His cornerbacks share the blame for a pass defense Louisiana Tech hit for four TDs on 17 attempts. Unlikely to leave on his own."
    }
   ]
  },
