@@ -4,8 +4,10 @@
     "sport": "football",
     "date": "2026-10-31T19:00:00Z",
     "opponent": "Louisiana Tech",
-    "status": "preview",
-    "pick": "USA 24, LT 27"
+    "status": "final",
+    "pick": "USA 24, LT 27",
+    "letter": "D+",
+    "accuracyPct": 71
   },
   {
     "id": "2026-10-20-marshall",

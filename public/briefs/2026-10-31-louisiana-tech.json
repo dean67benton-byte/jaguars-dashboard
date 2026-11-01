@@ -7,7 +7,7 @@
   "home": true,
   "venue": "Hancock Whitney Stadium, Mobile, Ala.",
   "tv": "ESPN+",
-  "status": "preview",
+  "status": "final",
   "preview": {
     "generatedAt": "2026-10-29T08:55:00-05:00",
     "headline": "USA's run game meets the Sun Belt's hottest defense.",
@@ -188,6 +188,132 @@
       "Injuries: still no injury report found for either team (ESPN game page, checked 8:30 a.m. game day). Starting QB status unchanged from the preview: Hollins has started since Sept 19; Davenport not found.",
       "Weather has warmed since the preview. ESPN/AccuWeather now shows 82°F at kickoff, 46% chance of rain and gusts to 17 mph (was 77°F, 49%, 13 mph). FOX10 forecasts about 80°F in the first half, upper 70s by the fourth quarter, mostly sun and clouds with only a small risk of a brief shower; rain chances rise after dark.",
       "Kickoff is still 2 p.m. Central on ESPN+ at Hancock Whitney Stadium. No new South Alabama or Louisiana Tech news found since the preview, so the pick stays USA 24, LT 27 (Low confidence)."
+    ]
+  },
+  "grade": {
+    "generatedAt": "2026-10-31T22:35:00-05:00",
+    "final": {
+      "usa": 20,
+      "opp": 35
+    },
+    "winnerCorrect": true,
+    "marginOff": 12,
+    "totalOff": 4,
+    "summary": "The brief picked Louisiana Tech 27-24 and Tech won 35-20, so the winner and total were close but the margin was off by 12. It was right that Baker and Tech’s passing game would beat USA’s secondary and that USA’s run game would work, but it missed how costly USA’s two turnovers, 12 penalties and second-half shutout would be.",
+    "keys": [
+      {
+        "key": "USA: Run the ball and stay on schedule.",
+        "hit": true,
+        "note": "44 carries for 205 yards (4.7 a carry), well above the 125.4 Tech had allowed a game; PJ Martin ran for 82 and Phillips for 62 and a TD. The run game did not carry into points after halftime."
+      },
+      {
+        "key": "USA: Protect Hollins on third down.",
+        "hit": true,
+        "note": "6 of 14 on third down (43%), up from 4 of 18 at Marshall; Tech was credited with 1.5 sacks (Taeden Rogers 1, Alonzo Jackson Jr. 0.5)."
+      },
+      {
+        "key": "USA: Win the turnover battle.",
+        "hit": false,
+        "note": "Lost it 2-0. Phillips fumbled at the USA 6 late in the third quarter, setting up Tech’s last TD, and Hollins was intercepted at the Tech 5 with 1:40 left."
+      },
+      {
+        "key": "Louisiana Tech: Let Baker throw.",
+        "hit": true,
+        "note": "Baker went 10 of 16 for 167 yards and 3 TDs; Tech averaged 11.4 yards a pass and scored TDs on four straight first-half drives."
+      },
+      {
+        "key": "Louisiana Tech: Make USA one-dimensional.",
+        "hit": false,
+        "note": "USA ran for 205 yards and outgained Tech 397 to 315; Tech won with turnovers, red-zone stops and fourth-down stops instead."
+      }
+    ],
+    "players": [
+      {
+        "name": "Keenan Phillips",
+        "note": "11 carries, 62 yards (5.6 a carry), 11-yard TD run; 2 kick returns for 68 yards. Lost a fumble at the USA 6 that led to a Tech TD. PJ Martin led USA with 82 yards on 12 carries."
+      },
+      {
+        "name": "Jared Hollins",
+        "note": "14 of 31 (45%), 192 yards, 2 TD to Anthony Eager (7 catches, 102 yards), 1 INT at the Tech 5 on the last drive; also 14 carries for 38 yards."
+      },
+      {
+        "name": "Blake Baker",
+        "note": "10 of 16, 167 yards, 3 TD, 0 INT; 16 carries for 35 yards. Backup Trey Kukuk added a 27-yard TD pass to Jalen Mickens."
+      },
+      {
+        "name": "Alonzo Jackson Jr.",
+        "note": "Led Tech with 9 tackles, 0.5 sack and recovered Phillips’ fumble at the USA 6."
+      }
+    ],
+    "missed": "It expected a one-score game decided late; Tech led by 15 after three quarters and nobody scored in the fourth. It counted on USA’s +5 turnover margin and did not flag penalties: USA had 12 for 100 yards, went 1 of 4 on fourth down, missed an extra point and was shut out after halftime despite 397 total yards. Marcus Calwise Jr. (3 catches, 68 yards, 2 TD) and Rayshun Hurt (67-yard catch) were the big-play receivers, not Finley.",
+    "sources": [
+      {
+        "title": "ESPN box score and play-by-play: Louisiana Tech at South Alabama, Oct 31, 2026",
+        "url": "https://www.espn.com/college-football/game/_/gameId/401871097"
+      },
+      {
+        "title": "ESPN/AP recap: Baker throws 3 TD passes to lead Louisiana Tech over South Alabama 35-20",
+        "url": "https://www.espn.com/college-football/recap/_/gameId/401871097"
+      }
+    ],
+    "performance": {
+      "letter": "D+",
+      "summary": "A 15-point home loss to the West Division leader. USA outgained Tech 397 to 315 with 24 first downs and 205 rushing yards, and the defense allowed only one TD after halftime, on a 10-yard field after a fumble. But Tech scored TDs on four straight first-half drives (11.4 yards a pass), and USA beat itself with 2 turnovers, 12 penalties for 100 yards, 1-of-4 on fourth down, a missed PAT and zero second-half points."
+    },
+    "accuracy": [
+      {
+        "part": "Winner",
+        "points": 25,
+        "max": 25,
+        "note": "Picked Louisiana Tech; Tech won 35-20."
+      },
+      {
+        "part": "Margin",
+        "points": 6,
+        "max": 15,
+        "note": "Picked Tech by 3; Tech won by 15, off by 12."
+      },
+      {
+        "part": "Total points",
+        "points": 9,
+        "max": 10,
+        "note": "Picked 51 points; the game had 55, off by 4."
+      },
+      {
+        "part": "Keys to the game",
+        "points": 21,
+        "max": 35,
+        "note": "3 of 5 keys held up; USA lost the turnover battle and was not made one-dimensional."
+      },
+      {
+        "part": "Players and storylines",
+        "points": 10,
+        "max": 15,
+        "note": "Baker, Jackson Jr. and the danger of long Tech completions were right, and USA did score on its first two drives; the close finish did not happen and Calwise, not Finley, did the damage."
+      }
+    ],
+    "accuracyPct": 71,
+    "fixes": [
+      {
+        "title": "Penalties",
+        "text": "12 penalties for 100 yards, against 4 for 29 by Tech. That is too many flags to win on the road at Louisiana on Nov 7."
+      },
+      {
+        "title": "Ball security near the goal lines",
+        "text": "Phillips’ fumble at the USA 6 handed Tech a 10-yard TD drive, and Hollins’ interception at the Tech 5 ended the last real chance. Two turnovers in the red zones cost up to 14 points."
+      },
+      {
+        "title": "Turn yards into second-half points",
+        "text": "397 yards but 0 points after halftime; three drives ended on downs (1 of 4 on fourth down) and three in punts. Pick better fourth-down calls or take points when they are there."
+      },
+      {
+        "title": "Deep pass defense",
+        "text": "Tech completed 11 of 17 for 194 yards (11.4 a pass) with TDs of 22, 27 and 35 yards and a 67-yard catch, scoring on four straight first-half drives. Safeties have to keep the ball in front."
+      },
+      {
+        "title": "Hollins’ accuracy",
+        "text": "14 of 31 (45%) after 12 of 33 at Marshall. Two straight games under 50% puts the offense behind schedule; more quick throws off the run game."
+      }
     ]
   }
 }
