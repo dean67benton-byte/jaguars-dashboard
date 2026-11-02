@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-02T05:58:28.116Z",
+ "updatedAt": "2026-11-02T15:46:43.818Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -995,7 +995,7 @@
      "teamId": "2026",
      "team": "App State",
      "conf": "0-0",
-     "overall": "0-0"
+     "overall": "1-0"
     },
     {
      "teamId": "2032",
@@ -1080,18 +1080,25 @@
  ],
  "news": [
   {
+   "title": "What to know about South Alabama men’s basketball in 2026-27",
+   "url": "https://www.al.com/sports/2026/11/what-to-know-about-south-alabama-mens-basketball-in-2026-27.html",
+   "date": "2026-11-02T11:00:00.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/HY55P2CTUFAYNEGMKZJFBNORPI.jpg?auth=c9ee3daaa203a4332fa2b4bf7750d4548318634f20e8309670696c411ab14fbe&smart=true&height=1200"
+  },
+  {
+   "title": "South Alabama hosts Ohio for season opener",
+   "url": "http://www.espn.com/ncb/preview?gameId=401911003",
+   "date": "2026-11-02T09:48:21Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401911003.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "South Alabama Opens Season Against Ohio Monday at the Mitchell Center",
    "url": "https://usajaguars.com/news/2026/11/1/mens-basketball-south-alabama-opens-season-against-ohio-monday-at-the-mitchell-center.aspx",
    "date": "2026-11-01T14:08:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/1/DSC09108__2_.jpg"
-  },
-  {
-   "title": "South Alabama opens season at home against Ohio",
-   "url": "http://www.espn.com/ncb/preview?gameId=401911003",
-   "date": "2026-11-01T08:48:36Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401911003.png?templateId=espn.applewatch.awayhome.1"
   },
   {
    "title": "South Alabama Hosts Mississippi Christian for Thursday Exhibition",
