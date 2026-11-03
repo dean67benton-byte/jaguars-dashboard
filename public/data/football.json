@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-01T14:21:24.796Z",
+ "updatedAt": "2026-11-03T06:44:44.573Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -226,8 +226,8 @@
   },
   {
    "id": "401871100",
-   "date": "2026-11-14T05:00Z",
-   "timeTbd": true,
+   "date": "2026-11-15T00:00Z",
+   "timeTbd": false,
    "opponent": {
     "id": "2653",
     "name": "Troy Trojans",
@@ -240,8 +240,9 @@
    "conference": true,
    "venue": "Hancock Whitney Stadium",
    "city": "Mobile, AL",
+   "tv": "ESPN+",
    "status": "pre",
-   "statusDetail": "TBD"
+   "statusDetail": "11/14 - 7:00 PM EST"
   },
   {
    "id": "401871101",
@@ -2273,6 +2274,48 @@
  ],
  "news": [
   {
+   "title": "Kickoff time set for South Alabama-Troy ‘Battle for the Belt’ on Nov. 14",
+   "url": "https://www.al.com/sports/2026/11/kickoff-time-set-for-south-alabama-troy-battle-for-the-belt-on-nov-14.html",
+   "date": "2026-11-02T20:19:08.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/7X5Y5MMRV5BRXFRAAM5GN2DDOI.jpg?auth=56decea61947456917edaeff8c2135ce5442280a98bdf898f6fcedbd7b3afccd&smart=true&height=1200"
+  },
+  {
+   "title": "Kickoff Time Set for In-State Battle Versus Troy",
+   "url": "https://usajaguars.com/news/2026/11/2/football-kickoff-time-set-for-in-state-battle-versus-troy.aspx",
+   "date": "2026-11-02T20:02:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/2/ANW_006.jpg"
+  },
+  {
+   "title": "Bowl projections: South Alabama drops off four boards as two-game skid raises the stakes",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/bowl-projection-southalabama-week10-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-02T18:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/15bd893b3b056c3ee482190ba6b0306948cf14bc-1710x1000.png?rect=0,51,1710,898&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "Louisiana hosts South Alabama in Sun Belt action",
+   "url": "http://www.espn.com/ncf/preview?gameId=401869968",
+   "date": "2026-11-01T20:45:15Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869968.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "The postgame report: Louisiana Tech 35, South Alabama 20",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-louisianatech-postgame-week9-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-01T17:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/3b8fb55d164e9d8e1c42c5014a6c124372aeb674-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "Rapid Reaction: What we learned from the Louisiana Tech game",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-louisianatech-rapid-reaction-week9",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-01T14:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/cbac6a3602ff9bd32c74d235e86b3dc088c03913-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
+  },
+  {
    "title": "South Alabama loses to Louisiana Tech; gets shut out in 2nd half",
    "url": "https://www.al.com/sports/2026/11/south-alabama-shut-out-in-2nd-half-of-home-loss-to-louisiana-tech.html",
    "date": "2026-11-01T01:15:06.000Z",
@@ -2343,13 +2386,6 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/26/FB_Ohio_1072.jpg"
   },
   {
-   "title": "South Alabama not making QB change heading into key matchup with Louisiana Tech",
-   "url": "https://www.al.com/sports/2026/10/south-alabama-not-making-qb-change-heading-into-key-matchup-with-louisiana-tech.html",
-   "date": "2026-10-26T19:10:44.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/DGZ7UW75LBGEPDT5OSKYG57TQU.jpg?auth=7d54e20ad9beb5b6a69bdcdc3acc643333275d89e23f2486ed3c8ffd180d799a&smart=true&height=1200"
-  },
-  {
    "title": "Bowl projections: South Alabama still unanimous on all eight bowl boards after Marshall loss",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/bowl-projection-southalabama-week9-2026",
    "source": "Diehard Sports Network",
@@ -2399,27 +2435,6 @@
    "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1021/29350625-ca91-4fc6-a46e-25d8db1aed11/29350625-ca91-4fc6-a46e-25d8db1aed11.jpg"
   },
   {
-   "title": "10 things you didn’t know about South Alabama and Marshall",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/10-things-southalabama-marshall-week8-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-20T04:08:22.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/0edb238b2256bcb0cab7141ab64b95402b7a9f52-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
-  },
-  {
-   "title": "The Really Big Preview: South Alabama at Marshall",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/really-big-preview-southalabama-marshall-week8-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-19T23:51:24.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/570b49490f23ccc126007beb97abe52910fd1d14-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
-  },
-  {
-   "title": "Five with a foe: The Thundering Herd",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/five-with-a-foe-southalabama-marshall-week8-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-19T21:00:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/9a6bc5d94b08d643ab0b4928a338daaf550e68ce-2180x1164.png?rect=0,10,2180,1145&w=1200&h=630&fit=crop"
-  },
-  {
    "title": "Kickoff Time Set for Halloween Game Versus Louisiana Tech",
    "url": "https://usajaguars.com/news/2026/10/19/football-kickoff-time-set-for-halloween-game-versus-louisiana-tech.aspx",
    "date": "2026-10-19T20:00:00.000Z",
@@ -2462,25 +2477,11 @@
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869933.png?templateId=espn.applewatch.awayhome.1"
   },
   {
-   "title": "South Alabama Jaguars vs. Arkansas State Red Wolves: Full Highlights",
-   "url": "https://www.espn.com/video/clip/_/id/50137660/full-highlights",
-   "date": "2026-10-09T03:49:32Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/417f3ac6-b05c-4dcf-8ae9-8155f4fee4b6/417f3ac6-b05c-4dcf-8ae9-8155f4fee4b6.jpg"
-  },
-  {
    "title": "South Alabama Travels to Arkansas State for Thursday Night Clash",
    "url": "https://usajaguars.com/news/2026/10/6/football-south-alabama-travels-to-arkansas-state-for-thursday-night-clash.aspx",
    "date": "2026-10-06T13:36:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/6/ANW_110.jpg"
-  },
-  {
-   "title": "Hollins Named to Week 5 Davey O'Brien Great 8 List",
-   "url": "https://usajaguars.com/news/2026/10/5/football-hollins-named-to-week-5-davey-o-brien-great-8-list.aspx",
-   "date": "2026-10-05T16:57:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/5/ANW_096.jpg"
   }
  ],
  "nextOpponent": {
