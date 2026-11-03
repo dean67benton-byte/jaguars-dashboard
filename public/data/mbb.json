@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-03T06:44:44.573Z",
+ "updatedAt": "2026-11-03T20:58:05.192Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1084,6 +1084,13 @@
  ],
  "news": [
   {
+   "title": "Kolton Mitchell, Jackson Paveletzke help Ohio secure 86-77 victory over South Alabama in opener",
+   "url": "http://www.espn.com/ncb/recap?gameId=401911003",
+   "date": "2026-11-03T05:32:48Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401911003.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "Jags Fall in Season Opener to Ohio",
    "url": "https://usajaguars.com/news/2026/11/2/mens-basketball-jags-fall-in-season-opener-to-ohio.aspx",
    "date": "2026-11-03T04:04:00.000Z",
@@ -1208,13 +1215,6 @@
    "date": "2026-02-26T03:25:03Z",
    "source": "ESPN",
    "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0226/a1bdfdb9-7101-4eb7-a997-cdfa15908273/a1bdfdb9-7101-4eb7-a997-cdfa15908273.jpg"
-  },
-  {
-   "title": "The 2026 men's college basketball coaching carousel guide",
-   "url": "https://www.espn.com/mens-college-basketball/story/_/id/48016298/mens-college-basketball-2026-coaching-carousel-hot-seat-guide-candidates",
-   "date": "2026-02-25T13:55:03Z",
-   "source": "ESPN",
-   "image": "https://a.espncdn.com/photo/2026/0224/r1619243_608x342_16-9.jpg"
   }
  ],
  "nextOpponent": {
