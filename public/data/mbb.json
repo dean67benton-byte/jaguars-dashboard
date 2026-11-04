@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-03T20:58:05.192Z",
+ "updatedAt": "2026-11-04T22:38:37.538Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1084,6 +1084,20 @@
  ],
  "news": [
   {
+   "title": "Jags Continue Homestand Against In-State Foe Jax State",
+   "url": "https://usajaguars.com/news/2026/11/4/mens-basketball-jags-continue-homestand-against-in-state-foe-jax-state.aspx",
+   "date": "2026-11-04T21:04:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/4/MLVD2207.jpg"
+  },
+  {
+   "title": "South Alabama takes on Jacksonville State after Langsy's 25-point performance",
+   "url": "http://www.espn.com/ncb/preview?gameId=401926780",
+   "date": "2026-11-04T09:43:14Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401926780.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "Kolton Mitchell, Jackson Paveletzke help Ohio secure 86-77 victory over South Alabama in opener",
    "url": "http://www.espn.com/ncb/recap?gameId=401911003",
    "date": "2026-11-03T05:32:48Z",
@@ -1168,13 +1182,6 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/8/6/DSC09632-2.jpg"
   },
   {
-   "title": "Men's Basketball Draws Ohio in 2026 MAC-SBC Challenge",
-   "url": "https://usajaguars.com/news/2026/7/2/mens-basketball-jaguars-draw-ohio-in-2026-mac-sbc-challenge.aspx",
-   "date": "2026-07-02T18:02:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/7/2/DSC00001__1_.jpg"
-  },
-  {
    "title": "South Alabama Jaguars vs. Auburn Tigers: Game Highlights",
    "url": "https://www.espn.com/video/clip?id=48239774",
    "date": "2026-03-19T14:20:49Z",
@@ -1208,13 +1215,6 @@
    "date": "2026-02-26T05:05:41Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808693.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "UL Monroe Warhawks vs. South Alabama Jaguars: Game Highlights",
-   "url": "https://www.espn.com/video/clip?id=48038985",
-   "date": "2026-02-26T03:25:03Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0226/a1bdfdb9-7101-4eb7-a997-cdfa15908273/a1bdfdb9-7101-4eb7-a997-cdfa15908273.jpg"
   }
  ],
  "nextOpponent": {
