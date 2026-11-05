@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T14:21:34.831Z",
+ "updatedAt": "2026-11-05T14:34:23.082Z",
  "players": [
   {
    "id": "3125280",
@@ -96,28 +96,28 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 6,
+   "games": 7,
    "lastGame": {
-    "date": "2026-10-20T00:15:00.000+00:00",
-    "opp": "SF",
-    "at": "@",
-    "result": "L",
-    "score": "23-17",
-    "week": 6
+    "date": "2026-11-02T01:20:00.000+00:00",
+    "opp": "PHI",
+    "at": "vs",
+    "result": "W",
+    "score": "27-10",
+    "week": 8
    },
    "stats": {
     "season": [
      {
       "label": "TOT",
-      "value": "40"
+      "value": "47"
      },
      {
       "label": "SOLO",
-      "value": "23"
+      "value": "26"
      },
      {
       "label": "AST",
-      "value": "17"
+      "value": "21"
      },
      {
       "label": "PD",
@@ -127,15 +127,15 @@
     "career": [
      {
       "label": "TOT",
-      "value": "259"
+      "value": "266"
      },
      {
       "label": "SOLO",
-      "value": "158"
+      "value": "161"
      },
      {
       "label": "AST",
-      "value": "101"
+      "value": "105"
      },
      {
       "label": "SACK",
@@ -181,20 +181,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 4,
+   "games": 5,
    "lastGame": {
-    "date": "2026-10-25T20:25:00.000+00:00",
-    "opp": "LAR",
-    "at": "vs",
-    "result": "L",
-    "score": "35-21",
-    "week": 7
+    "date": "2026-11-01T18:00:00.000+00:00",
+    "opp": "NYJ",
+    "at": "@",
+    "result": "W",
+    "score": "38-33",
+    "week": 8
    },
    "stats": {
     "season": [
      {
       "label": "TOT",
-      "value": "2"
+      "value": "3"
+     },
+     {
+      "label": "SOLO",
+      "value": "1"
      },
      {
       "label": "AST",
@@ -204,11 +208,11 @@
     "career": [
      {
       "label": "TOT",
-      "value": "40"
+      "value": "41"
      },
      {
       "label": "SOLO",
-      "value": "22"
+      "value": "23"
      },
      {
       "label": "AST",
@@ -249,32 +253,32 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 3,
+   "games": 4,
    "lastGame": {
-    "date": "2026-10-11T17:00:00.000+00:00",
-    "opp": "CIN",
+    "date": "2026-11-01T21:25:00.000+00:00",
+    "opp": "NE",
     "at": "vs",
     "result": "L",
-    "score": "31-24",
-    "week": 5
+    "score": "24-19",
+    "week": 8
    },
    "stats": {
     "season": [
      {
       "label": "REC",
-      "value": "1"
+      "value": "2"
      },
      {
       "label": "TGTS",
-      "value": "3"
+      "value": "4"
      },
      {
       "label": "YDS",
-      "value": "22"
+      "value": "30"
      },
      {
       "label": "AVG",
-      "value": "22.0"
+      "value": "15.0"
      },
      {
       "label": "LNG",
@@ -284,15 +288,15 @@
     "career": [
      {
       "label": "REC",
-      "value": "92"
+      "value": "93"
      },
      {
       "label": "TGTS",
-      "value": "155"
+      "value": "156"
      },
      {
       "label": "YDS",
-      "value": "1,115"
+      "value": "1,123"
      },
      {
       "label": "AVG",

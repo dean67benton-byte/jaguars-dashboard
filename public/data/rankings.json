@@ -264,7 +264,7 @@
       "blurb": "Lost 35-21 at home to Southern Miss, allowing 249 rushing yards. Aidan Armenta threw two TD passes, including an 83-yarder to Marcellus Jackson, a week after the Warhawks' first win."
      }
     ],
-    "updatedAt": "2026-11-01T14:21:33.074Z"
+    "updatedAt": "2026-11-05T14:34:21.825Z"
    },
    {
     "id": "2026-10-25",
@@ -776,5 +776,254 @@
    }
   ]
  },
- "updatedAt": "2026-11-01T14:21:33.074Z"
+ "updatedAt": "2026-11-05T14:34:21.825Z",
+ "mbb": {
+  "weeks": [
+   {
+    "id": "2026-11-05",
+    "postedAt": "2026-11-05T14:34:21.825Z",
+    "source": "formula",
+    "rows": [
+     {
+      "rank": 1,
+      "formulaRank": 1,
+      "teamId": "276",
+      "team": "Marshall",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+      "record": "1-0",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "92-65",
+       "opp": "Buffalo",
+       "at": "vs",
+       "date": "2026-11-03T00:00Z"
+      },
+      "score": 0.925
+     },
+     {
+      "rank": 2,
+      "formulaRank": 2,
+      "teamId": "2572",
+      "team": "Southern Miss",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "record": "1-0",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "82-35",
+       "opp": "Tougaloo",
+       "at": "vs",
+       "date": "2026-11-03T01:00Z"
+      },
+      "score": 0.925
+     },
+     {
+      "rank": 3,
+      "formulaRank": 3,
+      "teamId": "2026",
+      "team": "App State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+      "record": "2-0",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "108-43",
+       "opp": "Christendom",
+       "at": "vs",
+       "date": "2026-11-05T00:30Z"
+      },
+      "score": 0.892
+     },
+     {
+      "rank": 4,
+      "formulaRank": 4,
+      "teamId": "295",
+      "team": "Old Dominion",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+      "record": "2-0",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "91-47",
+       "opp": "Regent",
+       "at": "vs",
+       "date": "2026-11-05T00:00Z"
+      },
+      "score": 0.886
+     },
+     {
+      "rank": 5,
+      "formulaRank": 5,
+      "teamId": "290",
+      "team": "Georgia Southern",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+      "record": "1-0",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "67-55",
+       "opp": "Ball State",
+       "at": "vs",
+       "date": "2026-11-03T00:00Z"
+      },
+      "score": 0.847
+     },
+     {
+      "rank": 6,
+      "formulaRank": 6,
+      "teamId": "2348",
+      "team": "Louisiana Tech",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+      "record": "1-0",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "85-75",
+       "opp": "Kent State",
+       "at": "vs",
+       "date": "2026-11-03T00:30Z"
+      },
+      "score": 0.835
+     },
+     {
+      "rank": 7,
+      "formulaRank": 7,
+      "teamId": "2032",
+      "team": "Arkansas State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+      "record": "1-0",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "71-70",
+       "opp": "Toledo",
+       "at": "vs",
+       "date": "2026-11-03T01:00Z"
+      },
+      "score": 0.781
+     },
+     {
+      "rank": 8,
+      "formulaRank": 8,
+      "teamId": "2433",
+      "team": "UL Monroe",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+      "record": "1-1",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "99-55",
+       "opp": "Champ Chrstn",
+       "at": "vs",
+       "date": "2026-11-05T00:30Z"
+      },
+      "score": 0.56
+     },
+     {
+      "rank": 9,
+      "formulaRank": 9,
+      "teamId": "324",
+      "team": "Coastal Carolina",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+      "record": "0-1",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "70-71",
+       "opp": "E Michigan",
+       "at": "vs",
+       "date": "2026-11-03T00:00Z"
+      },
+      "score": 0.219
+     },
+     {
+      "rank": 10,
+      "formulaRank": 10,
+      "teamId": "2247",
+      "team": "Georgia State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+      "record": "0-1",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "73-76",
+       "opp": "Bowling Green",
+       "at": "vs",
+       "date": "2026-11-02T23:00Z"
+      },
+      "score": 0.207
+     },
+     {
+      "rank": 11,
+      "formulaRank": 11,
+      "teamId": "256",
+      "team": "James Madison",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+      "record": "0-1",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "77-86",
+       "opp": "Miami OH",
+       "at": "vs",
+       "date": "2026-11-03T00:00Z"
+      },
+      "score": 0.171
+     },
+     {
+      "rank": 12,
+      "formulaRank": 12,
+      "teamId": "6",
+      "team": "South Alabama",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "record": "0-1",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "77-86",
+       "opp": "Ohio",
+       "at": "vs",
+       "date": "2026-11-03T01:00Z"
+      },
+      "score": 0.171
+     },
+     {
+      "rank": 13,
+      "formulaRank": 13,
+      "teamId": "2653",
+      "team": "Troy",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+      "record": "0-1",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "60-71",
+       "opp": "UMass",
+       "at": "vs",
+       "date": "2026-11-03T00:00Z"
+      },
+      "score": 0.159
+     },
+     {
+      "rank": 14,
+      "formulaRank": 14,
+      "teamId": "309",
+      "team": "Louisiana",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+      "record": "0-1",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "61-75",
+       "opp": "Akron",
+       "at": "vs",
+       "date": "2026-11-03T01:00Z"
+      },
+      "score": 0.141
+     }
+    ]
+   }
+  ]
+ }
 }
