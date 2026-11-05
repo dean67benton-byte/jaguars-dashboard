@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-05T03:28:36.845Z",
+ "updatedAt": "2026-11-05T12:18:10.310Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1084,18 +1084,18 @@
  ],
  "news": [
   {
+   "title": "Langsy leads South Alabama against Jacksonville State after 25-point showing",
+   "url": "http://www.espn.com/ncb/preview?gameId=401926780",
+   "date": "2026-11-05T09:45:39Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401926780.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "Jags Continue Homestand Against In-State Foe Jax State",
    "url": "https://usajaguars.com/news/2026/11/4/mens-basketball-jags-continue-homestand-against-in-state-foe-jax-state.aspx",
    "date": "2026-11-04T21:04:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/4/MLVD2207.jpg"
-  },
-  {
-   "title": "South Alabama takes on Jacksonville State after Langsy's 25-point performance",
-   "url": "http://www.espn.com/ncb/preview?gameId=401926780",
-   "date": "2026-11-04T09:43:14Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401926780.png?templateId=espn.applewatch.awayhome.1"
   },
   {
    "title": "Kolton Mitchell, Jackson Paveletzke help Ohio secure 86-77 victory over South Alabama in opener",
