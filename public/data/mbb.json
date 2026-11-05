@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-04T22:38:37.538Z",
+ "updatedAt": "2026-11-05T03:28:36.845Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -999,7 +999,13 @@
      "teamId": "2026",
      "team": "App State",
      "conf": "0-0",
-     "overall": "1-0"
+     "overall": "2-0"
+    },
+    {
+     "teamId": "295",
+     "team": "Old Dominion",
+     "conf": "0-0",
+     "overall": "2-0"
     },
     {
      "teamId": "2032",
@@ -1026,16 +1032,16 @@
      "overall": "1-0"
     },
     {
-     "teamId": "295",
-     "team": "Old Dominion",
-     "conf": "0-0",
-     "overall": "1-0"
-    },
-    {
      "teamId": "2572",
      "team": "Southern Miss",
      "conf": "0-0",
      "overall": "1-0"
+    },
+    {
+     "teamId": "2433",
+     "team": "UL Monroe",
+     "conf": "0-0",
+     "overall": "1-1"
     },
     {
      "teamId": "324",
@@ -1070,12 +1076,6 @@
     {
      "teamId": "2653",
      "team": "Troy",
-     "conf": "0-0",
-     "overall": "0-1"
-    },
-    {
-     "teamId": "2433",
-     "team": "UL Monroe",
      "conf": "0-0",
      "overall": "0-1"
     }
