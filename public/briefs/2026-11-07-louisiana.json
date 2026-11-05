@@ -1,0 +1,185 @@
+{
+  "id": "2026-11-07-louisiana",
+  "sport": "football",
+  "eventId": "401869968",
+  "date": "2026-11-07T22:00:00Z",
+  "opponent": "Louisiana",
+  "home": false,
+  "venue": "Our Lady of Lourdes Stadium, Lafayette, La.",
+  "tv": "ESPN+",
+  "status": "preview",
+  "preview": {
+    "generatedAt": "2026-11-05T08:45:00-06:00",
+    "headline": "USA's run game against a rested Louisiana defense, with the West on the line.",
+    "summary": "Both teams are 2-2 in the Sun Belt, two games behind unbeaten Louisiana Tech. South Alabama has lost three of four and was shut out in the second half last week; Louisiana is coming off a bye after a 35-31 loss at Southern Miss.",
+    "records": {
+      "usa": "4-4 (2-2 Sun Belt)",
+      "opp": "5-3 (2-2 Sun Belt)"
+    },
+    "matchup": [
+      {
+        "metric": "Points scored / game",
+        "usa": "33.3 (38th in FBS)",
+        "opp": "30.1 (56th)",
+        "edge": "USA",
+        "why": "USA scores more, but managed 13 at Marshall and 20 against Louisiana Tech in its last two games."
+      },
+      {
+        "metric": "Points allowed / game",
+        "usa": "32.8 (128th)",
+        "opp": "21.3 (45th)",
+        "edge": "OPP",
+        "why": "The biggest gap on the page. Louisiana's red-zone offense scores on 96.7% of trips (4th); USA's red-zone defense allows scores on 85.7%."
+      },
+      {
+        "metric": "Yards allowed / play",
+        "usa": "6.6 (3,217 on 491 plays)",
+        "opp": "5.0 (2,538 on 512 plays)",
+        "edge": "OPP",
+        "why": "USA allows 402.1 yards a game (113th); Louisiana allows 317.3 (31st)."
+      },
+      {
+        "metric": "USA run game vs. Louisiana run defense",
+        "usa": "213.1 rush yds/game (14th), 4.7 a carry",
+        "opp": "127.0 rush yds allowed/game (46th), 4.2 a carry",
+        "edge": "USA",
+        "why": "USA's best weapon. Southern Miss ran 43 times for 286 yards (6.7 a carry) against Louisiana on Oct. 24."
+      },
+      {
+        "metric": "Louisiana run game vs. USA run defense",
+        "usa": "156.6 rush yds allowed/game (90th), 5.1 a carry",
+        "opp": "189.9 rush yds/game (34th), 24 rushing TD",
+        "edge": "OPP",
+        "why": "QB Lunch Winfield has 9 rushing TDs. Louisiana's offense runs first; its passing game ranks 107th."
+      },
+      {
+        "metric": "Turnover margin",
+        "usa": "+4 (10 takeaways, 6 giveaways)",
+        "opp": "+6 (17 takeaways, 11 giveaways)",
+        "edge": "OPP",
+        "why": "Close. USA lost the turnover battle 2-0 against Louisiana Tech, including a fumble at its own 6."
+      },
+      {
+        "metric": "Penalties",
+        "usa": "59.8 yds/game (85th), 55 for 479",
+        "opp": "43.4 yds/game (20th), 42 for 347",
+        "edge": "OPP",
+        "why": "USA was flagged 12 times for 100 yards against Louisiana Tech. That is hard to overcome on the road."
+      }
+    ],
+    "keys": {
+      "usa": [
+        "Run the ball the way Southern Miss did. Louisiana allowed 286 rushing yards in its last game; USA averages 213.1 and ran for 205 against Louisiana Tech.",
+        "Cut the penalties. 12 flags for 100 yards last week against a Louisiana team that averages 43.4 penalty yards, 20th in FBS.",
+        "Finish drives after halftime. USA had 397 yards but 0 second-half points against Tech and went 1 of 4 on fourth down."
+      ],
+      "opp": [
+        "Win in the red zone. Louisiana scores on 96.7% of red-zone trips and USA's defense allows scores on 85.7%.",
+        "Control the clock with the run. Louisiana holds the ball 33:33 a game (6th in FBS) and is fresh off a bye; long drives keep USA's offense on the sideline."
+      ]
+    },
+    "players": [
+      {
+        "name": "Keenan Phillips",
+        "team": "USA",
+        "pos": "RB",
+        "note": "107 carries, 576 yards, 6 TD. Had 11 carries for 62 yards and a lost fumble against Tech while PJ Martin ran 12 times for 82; watch how the carries split."
+      },
+      {
+        "name": "Jared Hollins",
+        "team": "USA",
+        "pos": "QB",
+        "note": "82-of-156 (52.6%), 1,195 yards, 9 TD, 4 INT. Under 50% in each of the last two games (12-of-33, then 14-of-31); Louisiana allows 5.9 yards a pass."
+      },
+      {
+        "name": "Lunch Winfield",
+        "team": "OPP",
+        "pos": "QB",
+        "note": "130-of-195, 1,452 yards, 6 TD, 5 INT, plus 470 rushing yards and 9 rushing TD. Threw for 299 at Southern Miss but was 22-of-41 and ran 13 times for 7 yards."
+      },
+      {
+        "name": "Jake St. Andre",
+        "team": "OPP",
+        "pos": "LB",
+        "note": "Louisiana's leading tackler with 60. Had 11 tackles, a sack and a forced fumble at Southern Miss; the player USA's line has to reach on run plays."
+      }
+    ],
+    "watch": [
+      {
+        "title": "Anthony Eager vs. Louisiana's secondary",
+        "text": "Eager caught 7 passes for 102 yards and both USA touchdown passes against Tech. Louisiana's pass defense allows 190.3 yards a game (38th)."
+      },
+      {
+        "title": "Rest vs. rhythm",
+        "text": "Louisiana had the Oct. 31 bye; USA plays for the third straight week after Marshall (Oct. 20) and Louisiana Tech (Oct. 31). Watch the fourth quarter."
+      },
+      {
+        "title": "The West race",
+        "text": "Louisiana Tech is 4-0 in the league with five teams at 2-2, including both of these. The loser drops two games back with three left."
+      }
+    ],
+    "injuries": [
+      "No injury report found for either team as of Nov. 5 (checked ESPN, FOX10, BVM Sports, 103.3 The GOAT).",
+      "Keenan Phillips' lighter workload against Tech (11 carries) was not explained in any source found."
+    ],
+    "weather": "ESPN/AccuWeather forecast for kickoff (checked Nov. 5): 72°F, 0% chance of rain, gusts to 15 mph. Artificial turf.",
+    "lastGame": {
+      "usa": "Lost 35-20 to Louisiana Tech at home on Oct. 31 (shut out in the second half, 12 penalties for 100 yards, 2 turnovers).",
+      "opp": "Lost 35-31 at Southern Miss on Oct. 24 (allowed 286 rushing yards), then had a bye on Oct. 31."
+    },
+    "prediction": {
+      "usa": 24,
+      "opp": 30,
+      "confidence": "Low",
+      "reasoning": "Louisiana's defense allows 1.6 yards a play less than USA's, it is at home, rested, and nearly automatic in the red zone. USA's run game is good enough to exploit the same holes Southern Miss found, which keeps it within one score.",
+      "risks": "If USA runs for 250-plus and stays out of the penalty column, the Jaguars can win, as they did on their last two trips to Lafayette. Winfield's passing has been inconsistent (5 INT, 22-of-41 last game), so USA turnovers could flip the margin."
+    },
+    "context": "Louisiana leads the all-time series 10-4 and won 31-22 in Mobile last season (Nov. 1, 2025). USA won its last two games in Lafayette, including 20-17 on a last-second field goal in 2022. Louisiana's three losses: at USC (49-30), at Louisiana Tech (32-31) and at Southern Miss (35-31); it is 4-0 at home. Kickoff 4 p.m. Central on ESPN+ and the Jags Radio Network.",
+    "sources": [
+      {
+        "title": "ESPN game page and stats: South Alabama at Louisiana, Nov 7, 2026 (incl. AccuWeather forecast and team leaders)",
+        "url": "https://www.espn.com/college-football/game/_/gameId/401869968"
+      },
+      {
+        "title": "ESPN/Data Skrive preview: Louisiana hosts South Alabama in Sun Belt action",
+        "url": "https://www.espn.com/college-football/preview/_/gameId/401869968"
+      },
+      {
+        "title": "ESPN box score: Louisiana Tech at South Alabama, Oct 31, 2026",
+        "url": "https://www.espn.com/college-football/boxscore/_/gameId/401871097"
+      },
+      {
+        "title": "ESPN box score: Louisiana at Southern Miss, Oct 24, 2026",
+        "url": "https://www.espn.com/college-football/boxscore/_/gameId/401869967"
+      },
+      {
+        "title": "ESPN South Alabama team statistics",
+        "url": "https://www.espn.com/college-football/team/stats/_/id/6"
+      },
+      {
+        "title": "ESPN Louisiana team statistics and schedule",
+        "url": "https://www.espn.com/college-football/team/schedule/_/id/309"
+      },
+      {
+        "title": "ESPN recap: Louisiana at South Alabama, Nov 1, 2025",
+        "url": "https://www.espn.com/college-football/recap/_/gameId/401761642"
+      },
+      {
+        "title": "FOX10: South Alabama falls to Louisiana Tech 35-20",
+        "url": "https://www.fox10tv.com/2026/11/01/south-alabama-falls-louisiana-tech-35-20/"
+      },
+      {
+        "title": "BVM Sports: South Alabama vs. Louisiana, 4 p.m. Saturday kickoff in Lafayette",
+        "url": "https://bvmsports.com/2026/11/04/south-alabama-vs-louisiana-4-p-m-saturday-kickoff-in-lafayette/"
+      },
+      {
+        "title": "103.3 The GOAT: Cajuns vs. South Alabama is set for 4 p.m.",
+        "url": "https://1033thegoat.com/cajuns-south-alabama-kickoff-15-tickets/"
+      },
+      {
+        "title": "usajaguars.com: Jaguars set to challenge SBC leader Louisiana in Lafayette (2024)",
+        "url": "https://usajaguars.com/news/2024/11/11/football-jaguars-set-to-challenge-sbc-leader-louisiana-in-lafayette.aspx"
+      }
+    ]
+  }
+}

@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-11-07-louisiana",
+    "sport": "football",
+    "date": "2026-11-07T22:00:00Z",
+    "opponent": "Louisiana",
+    "status": "preview",
+    "pick": "USA 24, UL 30"
+  },
+  {
     "id": "2026-10-31-louisiana-tech",
     "sport": "football",
     "date": "2026-10-31T19:00:00Z",
