@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-05T20:38:54.932Z",
+ "updatedAt": "2026-11-06T23:06:24.381Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2189,8 +2189,8 @@
     {
      "teamId": "256",
      "team": "James Madison",
-     "conf": "4-2",
-     "overall": "7-2"
+     "conf": "5-2",
+     "overall": "8-2"
     },
     {
      "teamId": "2026",
@@ -2260,8 +2260,8 @@
     {
      "teamId": "2572",
      "team": "Southern Miss",
-     "conf": "2-2",
-     "overall": "3-5"
+     "conf": "2-3",
+     "overall": "3-6"
     },
     {
      "teamId": "2433",
@@ -2273,6 +2273,27 @@
   }
  ],
  "news": [
+  {
+   "title": "The Really Big Preview: South Alabama at Louisiana",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-really-big-preview-louisiana-week10-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-06T17:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/7e31f77e4de0e452e22ed99007178412132e8a83-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "Jags Jungle Panel Picks: South Alabama at Louisiana",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jags-jungle-picks-louisiana-week10-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-06T16:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/6efdfdb426d8dd7cb703fdc98600cf4b8f63db3b-1671x941.png?rect=0,33,1671,877&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "South Alabama rallies for double-overtime victory over Jax State",
+   "url": "https://www.al.com/sports/2026/11/south-alabama-rallies-for-double-overtime-victory-over-jax-state.html",
+   "date": "2026-11-06T04:58:52.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/LZFHPTGY5RC3ZJP5QFLDXMEFJA.jpg?auth=6a023bc9dfb03d6bc1a23b038adadfa0648c5ce349b2e5c7bc42d10585c3a33a&smart=true&height=1200"
+  },
   {
    "title": "Jags and Cajuns Lined Up for 4 p.m. Saturday Kick in Lafayette",
    "url": "https://usajaguars.com/news/2026/11/4/football-jags-travel-to-louisiana-for-4-pm-kick.aspx",
@@ -2400,25 +2421,11 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/26/FB_Ohio_1072.jpg"
   },
   {
-   "title": "Bowl projections: South Alabama still unanimous on all eight bowl boards after Marshall loss",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/bowl-projection-southalabama-week9-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-26T14:45:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/f13dbd21897c253598c9d666355721636bd64062-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
-  },
-  {
    "title": "Sun Belt matchup features Louisiana Tech taking on South Alabama",
    "url": "http://www.espn.com/ncf/preview?gameId=401871097",
    "date": "2026-10-25T19:42:50Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871097.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "The postgame report: Marshall 20, South Alabama 13",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-marshall-postgame-week8-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-21T16:00:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/3fc995149e89d5ccbfd34ac65038b664b996326a-2376x1306.jpg?rect=0,30,2376,1247&w=1200&h=630&fit=crop"
   },
   {
    "title": "Herd Score Late as Jags Fall in Huntington.",
@@ -2475,13 +2482,6 @@
    "date": "2026-10-09T05:26:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/8/SD_ARKST_10826_1339.jpg"
-  },
-  {
-   "title": "South Alabama beats Arkansas State 56-49 in the highest scoring FBS game this season",
-   "url": "http://www.espn.com/ncf/recap?gameId=401869933",
-   "date": "2026-10-09T03:51:27Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869933.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {
