@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-06T01:31:18.194Z",
+ "updatedAt": "2026-11-07T02:47:06.138Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -8,7 +8,7 @@
   "short": "South Alabama",
   "abbr": "USA",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-  "record": "0-1",
+  "record": "1-1",
   "standingSummary": "1st in Sun Belt"
  },
  "events": [
@@ -45,7 +45,8 @@
     "name": "Jacksonville State Gamecocks",
     "short": "Jax State",
     "abbr": "JXST",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png"
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+    "record": "1-1"
    },
    "home": true,
    "neutral": false,
@@ -53,8 +54,11 @@
    "venue": "Mitchell Center",
    "city": "Mobile, AL",
    "tv": "ESPN+",
-   "status": "pre",
-   "statusDetail": "11/5 - 8:00 PM EST"
+   "status": "post",
+   "statusDetail": "Final/2OT",
+   "usScore": 83,
+   "oppScore": 80,
+   "result": "W"
   },
   {
    "id": "401921755",
@@ -1002,28 +1006,16 @@
      "overall": "2-0"
     },
     {
-     "teamId": "295",
-     "team": "Old Dominion",
+     "teamId": "2348",
+     "team": "Louisiana Tech",
      "conf": "0-0",
      "overall": "2-0"
     },
     {
-     "teamId": "2032",
-     "team": "Arkansas St",
+     "teamId": "295",
+     "team": "Old Dominion",
      "conf": "0-0",
-     "overall": "1-0"
-    },
-    {
-     "teamId": "290",
-     "team": "GA Southern",
-     "conf": "0-0",
-     "overall": "1-0"
-    },
-    {
-     "teamId": "2348",
-     "team": "Louisiana Tech",
-     "conf": "0-0",
-     "overall": "1-0"
+     "overall": "2-0"
     },
     {
      "teamId": "276",
@@ -1038,28 +1030,28 @@
      "overall": "1-0"
     },
     {
-     "teamId": "2433",
-     "team": "UL Monroe",
+     "teamId": "2032",
+     "team": "Arkansas St",
      "conf": "0-0",
      "overall": "1-1"
     },
     {
-     "teamId": "324",
-     "team": "Coastal",
+     "teamId": "290",
+     "team": "GA Southern",
      "conf": "0-0",
-     "overall": "0-1"
+     "overall": "1-1"
     },
     {
-     "teamId": "2247",
-     "team": "Georgia St",
+     "teamId": "6",
+     "team": "South Alabama",
      "conf": "0-0",
-     "overall": "0-1"
+     "overall": "1-1"
     },
     {
-     "teamId": "256",
-     "team": "James Madison",
+     "teamId": "2433",
+     "team": "UL Monroe",
      "conf": "0-0",
-     "overall": "0-1"
+     "overall": "1-1"
     },
     {
      "teamId": "309",
@@ -1068,21 +1060,47 @@
      "overall": "0-1"
     },
     {
-     "teamId": "6",
-     "team": "South Alabama",
+     "teamId": "324",
+     "team": "Coastal",
      "conf": "0-0",
-     "overall": "0-1"
+     "overall": "0-2"
+    },
+    {
+     "teamId": "2247",
+     "team": "Georgia St",
+     "conf": "0-0",
+     "overall": "0-2"
+    },
+    {
+     "teamId": "256",
+     "team": "James Madison",
+     "conf": "0-0",
+     "overall": "0-2"
     },
     {
      "teamId": "2653",
      "team": "Troy",
      "conf": "0-0",
-     "overall": "0-1"
+     "overall": "0-2"
     }
    ]
   }
  ],
  "news": [
+  {
+   "title": "Jags Erase 16-Point Deficit, Top Jax State in Double Overtime Thriller",
+   "url": "https://usajaguars.com/news/2026/11/5/mens-basketball-jags-erase-16-point-deficit-top-jax-state-in-double-overtime-thriller.aspx",
+   "date": "2026-11-06T04:03:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/5/DSC05723.jpg"
+  },
+  {
+   "title": "Jacksonville State Gamecocks vs. South Alabama Jaguars: Game Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/50396198/game-highlights",
+   "date": "2026-11-06T03:49:11Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/46c07a26-19ba-4b75-8a26-063b1a6720cd/46c07a26-19ba-4b75-8a26-063b1a6720cd.jpg"
+  },
   {
    "title": "Langsy leads South Alabama against Jacksonville State after 25-point showing",
    "url": "http://www.espn.com/ncb/preview?gameId=401926780",
@@ -1175,13 +1193,6 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/6/2/Richie.png"
   },
   {
-   "title": "Men's Basketball Reveals 2026-27 Sun Belt Conference Schedule",
-   "url": "https://usajaguars.com/news/2026/8/6/mens-basketball-reveals-2026-27-sun-belt-conference-schedule.aspx",
-   "date": "2026-08-06T19:00:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/8/6/DSC09632-2.jpg"
-  },
-  {
    "title": "South Alabama Jaguars vs. Auburn Tigers: Game Highlights",
    "url": "https://www.espn.com/video/clip?id=48239774",
    "date": "2026-03-19T14:20:49Z",
@@ -1208,23 +1219,16 @@
    "date": "2026-02-28T03:46:18Z",
    "source": "ESPN",
    "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0228/c07435ed-2df4-476f-aa95-29f7b5a1f04b/c07435ed-2df4-476f-aa95-29f7b5a1f04b.jpg"
-  },
-  {
-   "title": "Olsen's 29 help South Alabama defeat UL Monroe 89-54",
-   "url": "http://www.espn.com/ncb/recap?gameId=401808693",
-   "date": "2026-02-26T05:05:41Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401808693.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {
   "team": {
-   "id": "55",
-   "name": "Jacksonville State Gamecocks",
-   "short": "Jax State",
-   "abbr": "JXST",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
-   "record": "1-0"
+   "id": "2116",
+   "name": "UCF Knights",
+   "short": "UCF",
+   "abbr": "UCF",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+   "record": "2-0"
   },
   "stats": [
    {
@@ -1233,12 +1237,12 @@
      {
       "name": "avgRebounds",
       "label": "Rebounds Per Game",
-      "value": "47.0"
+      "value": "27.0"
      },
      {
       "name": "assistTurnoverRatio",
       "label": "Assist To Turnover Ratio",
-      "value": "3.0"
+      "value": "1.8"
      },
      {
       "name": "avgFouls",
@@ -1258,22 +1262,22 @@
      {
       "name": "minutes",
       "label": "Minutes",
-      "value": "200"
+      "value": "225"
      },
      {
       "name": "avgMinutes",
       "label": "Minutes Per Game",
-      "value": "200.0"
+      "value": "225.0"
      },
      {
       "name": "totalRebounds",
       "label": "Rebounds",
-      "value": "47"
+      "value": "27"
      },
      {
       "name": "rebounds",
       "label": "Rebounds",
-      "value": "47"
+      "value": "27"
      }
     ]
    },
@@ -1283,52 +1287,52 @@
      {
       "name": "freeThrowPct",
       "label": "Free Throw Percentage",
-      "value": "72.0"
+      "value": "65.8"
      },
      {
       "name": "avgFieldGoalsMade",
       "label": "Average Field Goals Made",
-      "value": "44.0"
+      "value": "31.0"
      },
      {
       "name": "avgFieldGoalsAttempted",
       "label": "Average Field Goals Attempted",
-      "value": "79.0"
+      "value": "58.0"
      },
      {
       "name": "avgThreePointFieldGoalsMade",
       "label": "Average 3-Point Field Goals Made",
-      "value": "17.0"
+      "value": "9.0"
      },
      {
       "name": "avgThreePointFieldGoalsAttempted",
       "label": "Average 3-Point Field Goals Attempted",
-      "value": "38.0"
+      "value": "18.0"
      },
      {
       "name": "avgFreeThrowsMade",
       "label": "Average Free Throws Made",
-      "value": "18.0"
+      "value": "25.0"
      },
      {
       "name": "avgFreeThrowsAttempted",
       "label": "Average Free Throws Attempted",
-      "value": "25.0"
+      "value": "38.0"
      },
      {
       "name": "avgPoints",
       "label": "Points Per Game",
-      "value": "123.0"
+      "value": "96.0"
      },
      {
       "name": "avgOffensiveRebounds",
       "label": "Offensive Rebounds Per Game",
-      "value": "16.0"
+      "value": "6.0"
      },
      {
       "name": "avgAssists",
       "label": "Assists Per Game",
-      "value": "27.0"
+      "value": "16.0"
      },
      {
       "name": "avgTurnovers",
@@ -1338,47 +1342,47 @@
      {
       "name": "twoPointFieldGoalPct",
       "label": "2-Point Field Goal Percentage",
-      "value": "65.9"
+      "value": "55.0"
      },
      {
       "name": "scoringEfficiency",
       "label": "Scoring Efficiency",
-      "value": "1.557"
+      "value": "1.655"
      },
      {
       "name": "shootingEfficiency",
       "label": "Shooting Efficiency",
-      "value": "0.66"
+      "value": "0.61"
      },
      {
       "name": "fieldGoalPct",
       "label": "Field Goal Percentage",
-      "value": "55.7"
+      "value": "53.4"
      },
      {
       "name": "twoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made",
-      "value": "27.0"
+      "value": "22.0"
      },
      {
       "name": "twoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted",
-      "value": "41.0"
+      "value": "40.0"
      },
      {
       "name": "points",
       "label": "Points",
-      "value": "123"
+      "value": "96"
      },
      {
       "name": "offensiveRebounds",
       "label": "Offensive Rebounds",
-      "value": "16"
+      "value": "6"
      },
      {
       "name": "assists",
       "label": "Assists",
-      "value": "27"
+      "value": "16"
      },
      {
       "name": "turnovers",
@@ -1388,47 +1392,47 @@
      {
       "name": "fieldGoalsMade",
       "label": "Field Goals Made",
-      "value": "44"
+      "value": "31"
      },
      {
       "name": "fieldGoalsAttempted",
       "label": "Field Goals Attempted",
-      "value": "79"
+      "value": "58"
      },
      {
       "name": "freeThrowsMade",
       "label": "Free Throws Made",
-      "value": "18"
+      "value": "25"
      },
      {
       "name": "freeThrowsAttempted",
       "label": "Free Throws Attempted",
-      "value": "25"
+      "value": "38"
      },
      {
       "name": "threePointFieldGoalsMade",
       "label": "3-Point Field Goals Made",
-      "value": "17"
+      "value": "9"
      },
      {
       "name": "threePointFieldGoalsAttempted",
       "label": "3-Point Field Goals Attempted",
-      "value": "38"
+      "value": "18"
      },
      {
       "name": "threePointFieldGoalPct",
       "label": "3-Point Field Goal Percentage",
-      "value": "44.7"
+      "value": "50.0"
      },
      {
       "name": "avgTwoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made per Game",
-      "value": "27.0"
+      "value": "22.0"
      },
      {
       "name": "avgTwoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted per Game",
-      "value": "41.0"
+      "value": "40.0"
      }
     ]
    },
@@ -1438,32 +1442,32 @@
      {
       "name": "avgDefensiveRebounds",
       "label": "Defensive Rebounds Per Game",
-      "value": "31.0"
+      "value": "21.0"
      },
      {
       "name": "avgBlocks",
       "label": "Blocks Per Game",
-      "value": "6.0"
+      "value": "5.0"
      },
      {
       "name": "avgSteals",
       "label": "Steals Per Game",
-      "value": "15.0"
+      "value": "5.0"
      },
      {
       "name": "defensiveRebounds",
       "label": "Defensive Rebounds",
-      "value": "31"
+      "value": "21"
      },
      {
       "name": "steals",
       "label": "Steals",
-      "value": "15"
+      "value": "5"
      },
      {
       "name": "blocks",
       "label": "Blocks",
-      "value": "6"
+      "value": "5"
      }
     ]
    }
