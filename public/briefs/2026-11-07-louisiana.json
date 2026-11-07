@@ -179,7 +179,19 @@
       {
         "title": "usajaguars.com: Jaguars set to challenge SBC leader Louisiana in Lafayette (2024)",
         "url": "https://usajaguars.com/news/2024/11/11/football-jaguars-set-to-challenge-sbc-leader-louisiana-in-lafayette.aspx"
+      },
+      {
+        "title": "ESPN game summary API: South Alabama at Louisiana (game-day weather and status check, Nov. 7)",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869968"
       }
+    ]
+  },
+  "reminder": {
+    "generatedAt": "2026-11-07T08:35:00-06:00",
+    "notes": [
+      "Injuries: still no injury report found for either team (ESPN game page and a web search, checked 8:30 a.m. game day). Keenan Phillips' lighter workload against Louisiana Tech remains unexplained.",
+      "Weather is nearly unchanged from the preview. ESPN/AccuWeather now shows 73°F at kickoff, 0% chance of rain and gusts to 16 mph (was 72°F, 0%, 15 mph). Artificial turf at Our Lady of Lourdes Stadium.",
+      "Kickoff is still 4 p.m. Central on ESPN+. No new South Alabama or Louisiana news found since the preview, so the pick stays USA 24, UL 30."
     ]
   }
 }
