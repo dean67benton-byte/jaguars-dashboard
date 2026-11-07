@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-07T10:03:29.978Z",
+ "updatedAt": "2026-11-07T14:31:19.643Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2274,6 +2274,13 @@
  ],
  "news": [
   {
+   "title": "Scouting report: What you need to know for South Alabama’s game at Louisiana",
+   "url": "https://www.al.com/sports/2026/11/scouting-report-what-you-need-to-know-for-south-alabamas-game-at-louisiana.html",
+   "date": "2026-11-07T11:00:00.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/YBDOB4J4WVEFZL5QHF52SBFVKE.jpg?auth=d29f4f35d7c3e87a2aee7a9cfba30e06680eb5682767f6e4c5555efb764c0f7e&smart=true&height=1200"
+  },
+  {
    "title": "The Really Big Preview: South Alabama at Louisiana",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-really-big-preview-louisiana-week10-2026",
    "source": "Diehard Sports Network",
@@ -2475,13 +2482,6 @@
    "date": "2026-10-09T05:26:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/8/SD_ARKST_10826_1339.jpg"
-  },
-  {
-   "title": "South Alabama beats Arkansas State 56-49 in the highest scoring FBS game this season",
-   "url": "http://www.espn.com/ncf/recap?gameId=401869933",
-   "date": "2026-10-09T03:51:27Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869933.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {
