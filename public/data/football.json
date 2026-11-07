@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-07T02:47:06.138Z",
+ "updatedAt": "2026-11-07T10:03:29.978Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2386,13 +2386,6 @@
    "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/d7b18807-b36c-4585-a617-c225a0a5c9ba/d7b18807-b36c-4585-a617-c225a0a5c9ba.jpg"
   },
   {
-   "title": "Scouting report: What you need to know for South Alabama’s game vs. Louisiana Tech",
-   "url": "https://www.al.com/sports/2026/10/scouting-report-what-you-need-to-know-for-south-alabamas-game-vs-louisiana-tech.html",
-   "date": "2026-10-31T10:00:00.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/ZKA7Y2ENJBFKZINPRHIHJUKIWY.jpg?auth=d34abb89c60065969e45b4cf2b27b692f448cc816294ba72d546481ce268fd5c&smart=true&height=1200"
-  },
-  {
    "title": "The Really Big Preview: Louisiana Tech at South Alabama",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/really-big-preview-southalabama-louisianatech-week9",
    "source": "Diehard Sports Network",
@@ -2482,6 +2475,13 @@
    "date": "2026-10-09T05:26:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/8/SD_ARKST_10826_1339.jpg"
+  },
+  {
+   "title": "South Alabama beats Arkansas State 56-49 in the highest scoring FBS game this season",
+   "url": "http://www.espn.com/ncf/recap?gameId=401869933",
+   "date": "2026-10-09T03:51:27Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869933.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {

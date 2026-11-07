@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T14:34:23.131Z",
+ "updatedAt": "2026-11-07T10:03:35.864Z",
  "football": {
   "season": "2026",
   "lastSeason": "2025",
@@ -1285,13 +1285,13 @@
     "cls": "SR",
     "from": "College of Staten Island",
     "level": "D3",
-    "games": 1,
-    "starts": 1,
+    "games": 2,
+    "starts": 2,
     "stats": {
      "season": [
       {
        "label": "PTS",
-       "value": "7.0"
+       "value": "12.0"
       },
       {
        "label": "REB",
@@ -1299,15 +1299,15 @@
       },
       {
        "label": "AST",
-       "value": "2.0"
+       "value": "2.5"
       },
       {
        "label": "MIN",
-       "value": "28.0"
+       "value": "35.0"
       },
       {
        "label": "GP",
-       "value": "1"
+       "value": "2"
       }
      ],
      "last": []
@@ -1333,13 +1333,13 @@
     "cls": "SO",
     "from": "Southern Arkansas",
     "level": "D2",
-    "games": 1,
+    "games": 2,
     "starts": 0,
     "stats": {
      "season": [
       {
        "label": "PTS",
-       "value": "5.0"
+       "value": "4.5"
       },
       {
        "label": "REB",
@@ -1347,15 +1347,15 @@
       },
       {
        "label": "AST",
-       "value": "1.0"
+       "value": "0.5"
       },
       {
        "label": "MIN",
-       "value": "16.0"
+       "value": "11.5"
       },
       {
        "label": "GP",
-       "value": "1"
+       "value": "2"
       }
      ],
      "last": [
@@ -1385,8 +1385,8 @@
     "cls": "JR",
     "from": "Northwestern College (Iowa)",
     "level": "NAIA",
-    "games": 1,
-    "starts": 1,
+    "games": 2,
+    "starts": 2,
     "stats": {
      "season": [
       {
@@ -1395,7 +1395,7 @@
       },
       {
        "label": "REB",
-       "value": "1.0"
+       "value": "2.5"
       },
       {
        "label": "AST",
@@ -1403,11 +1403,11 @@
       },
       {
        "label": "MIN",
-       "value": "36.0"
+       "value": "39.5"
       },
       {
        "label": "GP",
-       "value": "1"
+       "value": "2"
       }
      ],
      "last": []
@@ -1420,8 +1420,8 @@
     "cls": "SO",
     "from": "Hannibal-LaGrange",
     "level": "NAIA",
-    "games": 1,
-    "starts": 1,
+    "games": 2,
+    "starts": 2,
     "stats": {
      "season": [
       {
@@ -1430,19 +1430,19 @@
       },
       {
        "label": "REB",
-       "value": "5.0"
+       "value": "3.0"
       },
       {
        "label": "AST",
-       "value": "1.0"
+       "value": "0.5"
       },
       {
        "label": "MIN",
-       "value": "25.0"
+       "value": "22.0"
       },
       {
        "label": "GP",
-       "value": "1"
+       "value": "2"
       }
      ],
      "last": [
@@ -1485,21 +1485,25 @@
     "cls": "JR",
     "from": "Ratiopharm Ulm (Germany)",
     "level": "Intl",
-    "games": 1,
+    "games": 2,
     "starts": 0,
     "stats": {
      "season": [
       {
        "label": "REB",
-       "value": "1.0"
+       "value": "2.5"
+      },
+      {
+       "label": "AST",
+       "value": "0.5"
       },
       {
        "label": "MIN",
-       "value": "5.0"
+       "value": "18.5"
       },
       {
        "label": "GP",
-       "value": "1"
+       "value": "2"
       }
      ],
      "last": []
@@ -1525,29 +1529,29 @@
     "cls": "FR",
     "from": "Starwings Basel (Switzerland)",
     "level": "Intl",
-    "games": 1,
-    "starts": 1,
+    "games": 2,
+    "starts": 2,
     "stats": {
      "season": [
       {
        "label": "PTS",
-       "value": "19.0"
+       "value": "12.5"
       },
       {
        "label": "REB",
-       "value": "1.0"
+       "value": "3.0"
       },
       {
        "label": "AST",
-       "value": "5.0"
+       "value": "6.0"
       },
       {
        "label": "MIN",
-       "value": "35.0"
+       "value": "33.5"
       },
       {
        "label": "GP",
-       "value": "1"
+       "value": "2"
       }
      ],
      "last": []
@@ -1574,7 +1578,7 @@
     "pos": "F",
     "cls": "SR",
     "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313205.png",
-    "games": 1,
+    "games": 2,
     "starts": 0,
     "stats": {
      "season": [
@@ -1584,19 +1588,19 @@
       },
       {
        "label": "REB",
-       "value": "3.0"
+       "value": "1.5"
       },
       {
        "label": "AST",
-       "value": "1.0"
+       "value": "1.5"
       },
       {
        "label": "MIN",
-       "value": "14.0"
+       "value": "15.5"
       },
       {
        "label": "GP",
-       "value": "1"
+       "value": "2"
       }
      ],
      "last": [

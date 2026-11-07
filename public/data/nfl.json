@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T14:34:23.082Z",
+ "updatedAt": "2026-11-07T10:03:35.830Z",
  "players": [
   {
    "id": "3125280",
@@ -368,6 +368,41 @@
    "espn": "https://www.espn.com/nfl/player/_/id/4892576"
   },
   {
+   "id": "4685984",
+   "name": "Jamie Sheriff",
+   "pos": "LB",
+   "age": 26,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685984.png",
+   "group": "practice",
+   "status": "Practice Squad",
+   "team": {
+    "abbr": "SEA",
+    "name": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png"
+   },
+   "games": 0,
+   "stats": {
+    "season": [],
+    "career": [
+     {
+      "label": "TOT",
+      "value": "1"
+     },
+     {
+      "label": "SOLO",
+      "value": "1"
+     }
+    ]
+   },
+   "facts": [
+    "On the Rams' practice squad to start the 2026 season."
+   ],
+   "sources": [
+    "https://sunbeltsports.org/news/2026/9/8/football-sun-belt-maintains-strong-nfl-active-roster-presence-ahead-of-2026-season-kickoff.aspx"
+   ],
+   "espn": "https://www.espn.com/nfl/player/_/id/4685984"
+  },
+  {
    "id": "4430992",
    "name": "Kentrel Bullock",
    "pos": "RB",
@@ -463,37 +498,6 @@
     "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"
    ],
    "espn": "https://www.espn.com/nfl/player/_/id/3918639"
-  },
-  {
-   "id": "4685984",
-   "name": "Jamie Sheriff",
-   "pos": "LB",
-   "age": 26,
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685984.png",
-   "group": "free",
-   "status": "Free Agent",
-   "lastTeam": "Los Angeles Rams",
-   "games": 0,
-   "stats": {
-    "season": [],
-    "career": [
-     {
-      "label": "TOT",
-      "value": "1"
-     },
-     {
-      "label": "SOLO",
-      "value": "1"
-     }
-    ]
-   },
-   "facts": [
-    "On the Rams' practice squad to start the 2026 season."
-   ],
-   "sources": [
-    "https://sunbeltsports.org/news/2026/9/8/football-sun-belt-maintains-strong-nfl-active-roster-presence-ahead-of-2026-season-kickoff.aspx"
-   ],
-   "espn": "https://www.espn.com/nfl/player/_/id/4685984"
   },
   {
    "id": "4572655",
