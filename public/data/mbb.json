@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-07T16:25:17.860Z",
+ "updatedAt": "2026-11-07T20:51:53.095Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1054,14 +1054,14 @@
      "overall": "1-1"
     },
     {
-     "teamId": "324",
-     "team": "Coastal",
-     "conf": "0-0",
-     "overall": "0-2"
-    },
-    {
      "teamId": "2247",
      "team": "Georgia St",
+     "conf": "0-0",
+     "overall": "1-2"
+    },
+    {
+     "teamId": "324",
+     "team": "Coastal",
      "conf": "0-0",
      "overall": "0-2"
     },
