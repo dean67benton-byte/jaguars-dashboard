@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-07T20:51:53.095Z",
+ "updatedAt": "2026-11-08T00:33:18.682Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1000,6 +1000,12 @@
    "name": "Sun Belt Conference",
    "rows": [
     {
+     "teamId": "295",
+     "team": "Old Dominion",
+     "conf": "0-0",
+     "overall": "3-0"
+    },
+    {
      "teamId": "2026",
      "team": "App State",
      "conf": "0-0",
@@ -1012,18 +1018,6 @@
      "overall": "2-0"
     },
     {
-     "teamId": "295",
-     "team": "Old Dominion",
-     "conf": "0-0",
-     "overall": "2-0"
-    },
-    {
-     "teamId": "276",
-     "team": "Marshall",
-     "conf": "0-0",
-     "overall": "1-0"
-    },
-    {
      "teamId": "2032",
      "team": "Arkansas St",
      "conf": "0-0",
@@ -1032,6 +1026,12 @@
     {
      "teamId": "290",
      "team": "GA Southern",
+     "conf": "0-0",
+     "overall": "1-1"
+    },
+    {
+     "teamId": "276",
+     "team": "Marshall",
      "conf": "0-0",
      "overall": "1-1"
     },
