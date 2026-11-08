@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T04:31:42.034Z",
+ "updatedAt": "2026-11-08T14:23:03.994Z",
  "football": {
   "season": "2026",
   "lastSeason": "2025",
@@ -92,7 +92,7 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5077268.png",
     "from": "Utah",
     "level": "P4",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
@@ -109,11 +109,11 @@
       },
       {
        "label": "INT",
-       "value": "1"
+       "value": "2"
       },
       {
        "label": "YDS",
-       "value": "12"
+       "value": "84"
       }
      ],
      "last": []
@@ -127,7 +127,7 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5154342.png",
     "from": "South Carolina",
     "level": "P4",
-    "games": 5,
+    "games": 6,
     "stats": {
      "season": [],
      "last": []
@@ -155,20 +155,20 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220224.png",
     "from": "ULM",
     "level": "G5",
-    "games": 7,
+    "games": 8,
     "stats": {
      "season": [
       {
        "label": "TOT",
-       "value": "21"
+       "value": "29"
       },
       {
        "label": "SOLO",
-       "value": "7"
+       "value": "13"
       },
       {
        "label": "AST",
-       "value": "14"
+       "value": "16"
       }
      ],
      "last": [
@@ -230,9 +230,30 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5258469.png",
     "from": "Colorado State",
     "level": "G5",
-    "games": 0,
+    "games": 5,
     "stats": {
-     "season": [],
+     "season": [
+      {
+       "label": "FG%",
+       "value": "100.0"
+      },
+      {
+       "label": "FG",
+       "value": "2-2"
+      },
+      {
+       "label": "1-19\t",
+       "value": "0-0"
+      },
+      {
+       "label": "20-29\t",
+       "value": "0-0"
+      },
+      {
+       "label": "30-39",
+       "value": "0-0"
+      }
+     ],
      "last": []
     }
    },
@@ -286,7 +307,7 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5151609.png",
     "from": "Nicholls",
     "level": "FCS",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
@@ -357,20 +378,20 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5301748.png",
     "from": "Eastern Kentucky",
     "level": "FCS",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "TOT",
-       "value": "7"
+       "value": "9"
       },
       {
        "label": "SOLO",
-       "value": "1"
+       "value": "2"
       },
       {
        "label": "AST",
-       "value": "6"
+       "value": "7"
       }
      ],
      "last": []
@@ -384,7 +405,7 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5084222.png",
     "from": "McNeese",
     "level": "FCS",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
@@ -424,16 +445,16 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5087083.png",
     "from": "Holy Cross",
     "level": "FCS",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "TOT",
-       "value": "8"
+       "value": "9"
       },
       {
        "label": "SOLO",
-       "value": "2"
+       "value": "3"
       },
       {
        "label": "AST",
@@ -441,7 +462,7 @@
       },
       {
        "label": "SACK",
-       "value": "1"
+       "value": "2"
       },
       {
        "label": "FR",
@@ -518,7 +539,7 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5227211.png",
     "from": "Garden City CC",
     "level": "JUCO",
-    "games": 7,
+    "games": 8,
     "stats": {
      "season": [
       {
@@ -541,16 +562,16 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395316.png",
     "from": "Mississippi Gulf Coast CC",
     "level": "JUCO",
-    "games": 3,
+    "games": 4,
     "stats": {
      "season": [
       {
        "label": "TOT",
-       "value": "1"
+       "value": "2"
       },
       {
        "label": "AST",
-       "value": "1"
+       "value": "2"
       }
      ],
      "last": []
@@ -564,16 +585,16 @@
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5395309.png",
     "from": "Holmes CC",
     "level": "JUCO",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "TOT",
-       "value": "15"
+       "value": "19"
       },
       {
        "label": "SOLO",
-       "value": "10"
+       "value": "14"
       },
       {
        "label": "AST",
@@ -599,28 +620,28 @@
     "pos": "QB",
     "cls": "SR",
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4869553.png",
-    "games": 2,
+    "games": 3,
     "stats": {
      "season": [
       {
        "label": "CMP",
-       "value": "40"
+       "value": "56"
       },
       {
        "label": "ATT",
-       "value": "59"
+       "value": "81"
       },
       {
        "label": "CMP%",
-       "value": "67.8"
+       "value": "69.1"
       },
       {
        "label": "YDS",
-       "value": "450"
+       "value": "660"
       },
       {
        "label": "AVG",
-       "value": "7.6"
+       "value": "8.1"
       }
      ],
      "last": [
@@ -653,20 +674,20 @@
     "pos": "WR",
     "cls": "SR",
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5075529.png",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "REC",
-       "value": "20"
+       "value": "23"
       },
       {
        "label": "YDS",
-       "value": "450"
+       "value": "488"
       },
       {
        "label": "AVG",
-       "value": "22.5"
+       "value": "21.2"
       },
       {
        "label": "TD",
@@ -707,20 +728,20 @@
     "pos": "TE",
     "cls": "SR",
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5220195.png",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "REC",
-       "value": "13"
+       "value": "15"
       },
       {
        "label": "YDS",
-       "value": "120"
+       "value": "144"
       },
       {
        "label": "AVG",
-       "value": "9.2"
+       "value": "9.6"
       },
       {
        "label": "TD",
@@ -773,16 +794,16 @@
     "pos": "WR",
     "cls": "SR",
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5156183.png",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "REC",
-       "value": "27"
+       "value": "33"
       },
       {
        "label": "YDS",
-       "value": "451"
+       "value": "552"
       },
       {
        "label": "AVG",
@@ -851,20 +872,20 @@
     "pos": "RB",
     "cls": "JR",
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5295070.png",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "CAR",
-       "value": "107"
+       "value": "116"
       },
       {
        "label": "YDS",
-       "value": "576"
+       "value": "595"
       },
       {
        "label": "AVG",
-       "value": "5.4"
+       "value": "5.1"
       },
       {
        "label": "TD",
@@ -951,12 +972,12 @@
     "pos": "DL",
     "cls": "JR",
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5146853.png",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "TOT",
-       "value": "13"
+       "value": "14"
       },
       {
        "label": "SOLO",
@@ -964,7 +985,7 @@
       },
       {
        "label": "AST",
-       "value": "12"
+       "value": "13"
       }
      ],
      "last": []
@@ -976,20 +997,20 @@
     "pos": "CB",
     "cls": "JR",
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5192954.png",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "TOT",
-       "value": "18"
+       "value": "22"
       },
       {
        "label": "SOLO",
-       "value": "7"
+       "value": "10"
       },
       {
        "label": "AST",
-       "value": "11"
+       "value": "12"
       },
       {
        "label": "SACK",
@@ -1055,7 +1076,7 @@
     "pos": "S",
     "cls": "SR",
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5084551.png",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
@@ -1192,16 +1213,16 @@
     "pos": "P",
     "cls": "SR",
     "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5160230.png",
-    "games": 8,
+    "games": 9,
     "stats": {
      "season": [
       {
        "label": "PUNTS",
-       "value": "25"
+       "value": "29"
       },
       {
        "label": "AVG",
-       "value": "38.0"
+       "value": "37.7"
       },
       {
        "label": "LNG",
@@ -1209,7 +1230,7 @@
       },
       {
        "label": "YDS",
-       "value": "951"
+       "value": "1,093"
       },
       {
        "label": "TB%",
