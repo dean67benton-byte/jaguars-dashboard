@@ -12,16 +12,16 @@
       "teamId": "2348",
       "team": "Louisiana Tech",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
-      "record": "6-2",
-      "conf": "4-0",
+      "record": "7-2",
+      "conf": "5-0",
       "last": {
        "result": "W",
-       "score": "35-20",
-       "opp": "South Alabama",
+       "score": "41-17",
+       "opp": "Troy",
        "at": "at",
-       "date": "2026-10-31T19:00Z"
+       "date": "2026-11-07T21:00Z"
       },
-      "score": 0.739,
+      "score": 0.759,
       "blurb": "Won 35-20 at South Alabama as Blake Baker threw three TD passes on 10-of-16 passing and the defense shut out the Jaguars after halftime. At 4-0, the Bulldogs hold a two-game lead in the West."
      },
      {
@@ -44,151 +44,151 @@
      },
      {
       "rank": 3,
-      "formulaRank": 4,
+      "formulaRank": 3,
       "teamId": "290",
       "team": "Georgia Southern",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
-      "record": "4-4",
-      "conf": "3-1",
+      "record": "5-4",
+      "conf": "4-1",
       "last": {
        "result": "W",
-       "score": "19-3",
-       "opp": "App State",
+       "score": "49-13",
+       "opp": "Marshall",
        "at": "vs",
-       "date": "2026-10-31T22:30Z"
+       "date": "2026-11-07T20:30Z"
       },
-      "score": 0.573,
+      "score": 0.631,
       "blurb": "Beat App State 19-3 to take over first in the East. Max Johnson completed 36 of 47 passes, Tripp Bryant kicked four field goals and App State ran for six yards.",
       "adjust": "Moved up one spot: 3-1 in league play and leads the East after holding App State to 222 yards, while Louisiana was idle after its loss."
      },
      {
       "rank": 4,
-      "formulaRank": 3,
+      "formulaRank": 4,
       "teamId": "309",
       "team": "Louisiana",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
-      "record": "5-3",
-      "conf": "2-2",
+      "record": "6-3",
+      "conf": "3-2",
       "last": {
-       "result": "L",
-       "score": "31-35",
-       "opp": "Southern Miss",
-       "at": "at",
-       "date": "2026-10-24T21:00Z"
+       "result": "W",
+       "score": "28-26",
+       "opp": "South Alabama",
+       "at": "vs",
+       "date": "2026-11-07T22:00Z"
       },
-      "score": 0.589,
+      "score": 0.62,
       "blurb": "Off this week after a 35-31 loss at Southern Miss. The Cajuns, 2-2 in the Sun Belt, host South Alabama on Saturday.",
       "adjust": "Moved down one spot after an idle week that followed a loss at Southern Miss, with Georgia Southern winning big."
      },
      {
       "rank": 5,
-      "formulaRank": 5,
+      "formulaRank": 6,
       "teamId": "2026",
       "team": "App State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
-      "record": "5-3",
-      "conf": "2-2",
+      "record": "5-4",
+      "conf": "2-3",
       "last": {
        "result": "L",
-       "score": "3-19",
-       "opp": "GA Southern",
-       "at": "at",
-       "date": "2026-10-31T22:30Z"
+       "score": "23-39",
+       "opp": "Georgia St",
+       "at": "vs",
+       "date": "2026-11-07T19:30Z"
       },
-      "score": 0.54,
+      "score": 0.48,
       "blurb": "Lost 19-3 at Georgia Southern with six rushing yards and three turnovers. Center Jayden Thomas was carted off before halftime, and left tackle Devon Manuel is already out for the season."
      },
      {
       "rank": 6,
-      "formulaRank": 6,
+      "formulaRank": 7,
       "teamId": "276",
       "team": "Marshall",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
-      "record": "5-3",
-      "conf": "2-2",
+      "record": "5-4",
+      "conf": "2-3",
       "last": {
-       "result": "W",
-       "score": "36-23",
-       "opp": "Old Dominion",
+       "result": "L",
+       "score": "13-49",
+       "opp": "GA Southern",
        "at": "at",
-       "date": "2026-10-31T17:00Z"
+       "date": "2026-11-07T20:30Z"
       },
-      "score": 0.535,
+      "score": 0.469,
       "blurb": "Won 36-23 at Old Dominion, turning four takeaways into 20 points. TJ Lester ran for two touchdowns and Jorge Diaz Nicholas kicked a school-record five field goals."
      },
      {
       "rank": 7,
-      "formulaRank": 9,
+      "formulaRank": 10,
       "teamId": "2653",
       "team": "Troy",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-      "record": "4-4",
-      "conf": "2-2",
+      "record": "4-5",
+      "conf": "2-3",
       "last": {
-       "result": "W",
-       "score": "24-21",
-       "opp": "James Madison",
-       "at": "at",
-       "date": "2026-10-29T23:30Z"
+       "result": "L",
+       "score": "17-41",
+       "opp": "Louisiana Tech",
+       "at": "vs",
+       "date": "2026-11-07T21:00Z"
       },
-      "score": 0.474,
+      "score": 0.435,
       "blurb": "Rallied from 14 down to win 24-21 in overtime at James Madison on Hayden Wolfe's 27-yard kick. Justin Powe's three interceptions, one returned for a TD, tied a school record.",
       "adjust": "Moved up two spots: a road overtime win over a 7-2 James Madison team counts for more than the formula gives it."
      },
      {
       "rank": 8,
-      "formulaRank": 7,
+      "formulaRank": 8,
       "teamId": "2032",
       "team": "Arkansas State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
-      "record": "4-4",
-      "conf": "2-2",
+      "record": "4-5",
+      "conf": "2-3",
       "last": {
-       "result": "W",
-       "score": "38-32",
-       "opp": "Georgia St",
+       "result": "L",
+       "score": "17-19",
+       "opp": "UL Monroe",
        "at": "vs",
-       "date": "2026-10-24T23:00Z"
+       "date": "2026-11-07T20:00Z"
       },
-      "score": 0.502,
+      "score": 0.461,
       "blurb": "Off this week after a 38-32 home win over Georgia State. The Red Wolves are 2-2 in the Sun Belt and host UL Monroe on Saturday.",
       "adjust": "Moved down one spot after an idle week as Troy moved up with its road win at James Madison."
      },
      {
       "rank": 9,
-      "formulaRank": 8,
+      "formulaRank": 9,
       "teamId": "6",
       "team": "South Alabama",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-      "record": "4-4",
-      "conf": "2-2",
+      "record": "4-5",
+      "conf": "2-3",
       "last": {
        "result": "L",
-       "score": "20-35",
-       "opp": "Louisiana Tech",
-       "at": "vs",
-       "date": "2026-10-31T19:00Z"
+       "score": "26-28",
+       "opp": "Louisiana",
+       "at": "at",
+       "date": "2026-11-07T22:00Z"
       },
-      "score": 0.493,
+      "score": 0.45,
       "blurb": "Lost 35-20 at home to Louisiana Tech and was shut out after halftime despite outgaining the Bulldogs 397-315. Anthony Eager caught two TDs; the Jaguars visit Louisiana next.",
       "adjust": "Moved down one spot as Troy moved up after its road win at James Madison."
      },
      {
       "rank": 10,
-      "formulaRank": 10,
+      "formulaRank": 11,
       "teamId": "324",
       "team": "Coastal Carolina",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
-      "record": "3-5",
-      "conf": "2-2",
+      "record": "3-6",
+      "conf": "2-3",
       "last": {
-       "result": "W",
-       "score": "31-20",
-       "opp": "Georgia St",
-       "at": "at",
-       "date": "2026-10-31T18:00Z"
+       "result": "L",
+       "score": "8-21",
+       "opp": "Old Dominion",
+       "at": "vs",
+       "date": "2026-11-07T18:00Z"
       },
-      "score": 0.471,
+      "score": 0.415,
       "blurb": "Won 31-20 at Georgia State as Deuce Bailey threw for 297 yards and three TDs. Clayton Coppock Jr. caught two of them, and the Chanticleers scored all 31 of their points in the middle two quarters."
      },
      {
@@ -211,20 +211,20 @@
      },
      {
       "rank": 12,
-      "formulaRank": 11,
+      "formulaRank": 5,
       "teamId": "2247",
       "team": "Georgia State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
-      "record": "4-4",
-      "conf": "1-3",
+      "record": "5-4",
+      "conf": "2-3",
       "last": {
-       "result": "L",
-       "score": "20-31",
-       "opp": "Coastal",
-       "at": "vs",
-       "date": "2026-10-31T18:00Z"
+       "result": "W",
+       "score": "39-23",
+       "opp": "App State",
+       "at": "at",
+       "date": "2026-11-07T19:30Z"
       },
-      "score": 0.437,
+      "score": 0.517,
       "blurb": "Lost 31-20 at home to Coastal Carolina after falling behind 31-6. Ayden Pereira threw two touchdowns, but the Panthers are 1-3 in Sun Belt play."
      },
      {
@@ -233,16 +233,16 @@
       "teamId": "295",
       "team": "Old Dominion",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
-      "record": "2-7",
-      "conf": "1-5",
+      "record": "3-7",
+      "conf": "2-5",
       "last": {
-       "result": "L",
-       "score": "23-36",
-       "opp": "Marshall",
-       "at": "vs",
-       "date": "2026-10-31T17:00Z"
+       "result": "W",
+       "score": "21-8",
+       "opp": "Coastal",
+       "at": "at",
+       "date": "2026-11-07T18:00Z"
       },
-      "score": 0.282,
+      "score": 0.35,
       "blurb": "Lost 36-23 at home to Marshall after four turnovers, including three Jaxon Potter interceptions. Potter threw for 329 yards and Josh Rodriguez caught nine passes for 143."
      },
      {
@@ -251,20 +251,20 @@
       "teamId": "2433",
       "team": "UL Monroe",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-      "record": "1-7",
-      "conf": "1-3",
+      "record": "2-7",
+      "conf": "2-3",
       "last": {
-       "result": "L",
-       "score": "21-35",
-       "opp": "Southern Miss",
-       "at": "vs",
-       "date": "2026-10-31T19:30Z"
+       "result": "W",
+       "score": "19-17",
+       "opp": "Arkansas St",
+       "at": "at",
+       "date": "2026-11-07T20:00Z"
       },
-      "score": 0.251,
+      "score": 0.335,
       "blurb": "Lost 35-21 at home to Southern Miss, allowing 249 rushing yards. Aidan Armenta threw two TD passes, including an 83-yarder to Marcellus Jackson, a week after the Warhawks' first win."
      }
     ],
-    "updatedAt": "2026-11-07T14:31:25.324Z"
+    "updatedAt": "2026-11-08T04:31:39.769Z"
    },
    {
     "id": "2026-10-25",
@@ -776,7 +776,7 @@
    }
   ]
  },
- "updatedAt": "2026-11-07T14:31:25.324Z",
+ "updatedAt": "2026-11-08T04:31:39.769Z",
  "mbb": {
   "weeks": [
    {
@@ -787,23 +787,6 @@
      {
       "rank": 1,
       "formulaRank": 1,
-      "teamId": "276",
-      "team": "Marshall",
-      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
-      "record": "1-0",
-      "conf": "0-0",
-      "last": {
-       "result": "W",
-       "score": "92-65",
-       "opp": "Buffalo",
-       "at": "vs",
-       "date": "2026-11-03T00:00Z"
-      },
-      "score": 0.925
-     },
-     {
-      "rank": 2,
-      "formulaRank": 2,
       "teamId": "2026",
       "team": "App State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
@@ -819,25 +802,25 @@
       "score": 0.892
      },
      {
-      "rank": 3,
-      "formulaRank": 3,
+      "rank": 2,
+      "formulaRank": 2,
       "teamId": "295",
       "team": "Old Dominion",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
-      "record": "2-0",
+      "record": "3-0",
       "conf": "0-0",
       "last": {
        "result": "W",
-       "score": "91-47",
-       "opp": "Regent",
-       "at": "vs",
-       "date": "2026-11-05T00:00Z"
+       "score": "82-62",
+       "opp": "Bucknell",
+       "at": "at",
+       "date": "2026-11-07T22:00Z"
       },
-      "score": 0.886
+      "score": 0.889
      },
      {
-      "rank": 4,
-      "formulaRank": 4,
+      "rank": 3,
+      "formulaRank": 3,
       "teamId": "2348",
       "team": "Louisiana Tech",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
@@ -851,6 +834,23 @@
        "date": "2026-11-06T00:30Z"
       },
       "score": 0.88
+     },
+     {
+      "rank": 4,
+      "formulaRank": 4,
+      "teamId": "276",
+      "team": "Marshall",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+      "record": "1-1",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "76-81",
+       "opp": "Toledo",
+       "at": "vs",
+       "date": "2026-11-07T19:00Z"
+      },
+      "score": 0.56
      },
      {
       "rank": 5,
@@ -943,16 +943,16 @@
       "teamId": "2247",
       "team": "Georgia State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
-      "record": "0-2",
+      "record": "1-2",
       "conf": "0-0",
       "last": {
-       "result": "L",
-       "score": "67-77",
-       "opp": "Charlotte",
-       "at": "at",
-       "date": "2026-11-06T00:00Z"
+       "result": "W",
+       "score": "111-61",
+       "opp": "Andrew",
+       "at": "vs",
+       "date": "2026-11-07T18:00Z"
       },
-      "score": 0.186
+      "score": 0.432
      },
      {
       "rank": 11,
@@ -1023,7 +1023,7 @@
       "score": 0.123
      }
     ],
-    "updatedAt": "2026-11-07T14:31:25.324Z"
+    "updatedAt": "2026-11-08T04:31:39.769Z"
    }
   ]
  }
