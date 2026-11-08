@@ -4,8 +4,10 @@
     "sport": "football",
     "date": "2026-11-07T22:00:00Z",
     "opponent": "Louisiana",
-    "status": "preview",
-    "pick": "USA 24, UL 30"
+    "status": "final",
+    "pick": "USA 24, UL 30",
+    "letter": "C-",
+    "accuracyPct": 70
   },
   {
     "id": "2026-10-31-louisiana-tech",

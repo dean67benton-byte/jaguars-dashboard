@@ -7,7 +7,7 @@
   "home": false,
   "venue": "Our Lady of Lourdes Stadium, Lafayette, La.",
   "tv": "ESPN+",
-  "status": "preview",
+  "status": "final",
   "preview": {
     "generatedAt": "2026-11-05T08:45:00-06:00",
     "headline": "USA's run game against a rested Louisiana defense, with the West on the line.",
@@ -192,6 +192,136 @@
       "Injuries: still no injury report found for either team (ESPN game page and a web search, checked 8:30 a.m. game day). Keenan Phillips' lighter workload against Louisiana Tech remains unexplained.",
       "Weather is nearly unchanged from the preview. ESPN/AccuWeather now shows 73°F at kickoff, 0% chance of rain and gusts to 16 mph (was 72°F, 0%, 15 mph). Artificial turf at Our Lady of Lourdes Stadium.",
       "Kickoff is still 4 p.m. Central on ESPN+. No new South Alabama or Louisiana news found since the preview, so the pick stays USA 24, UL 30."
+    ]
+  },
+  "grade": {
+    "generatedAt": "2026-11-07T22:40:00-06:00",
+    "final": {
+      "usa": 26,
+      "opp": 28
+    },
+    "winnerCorrect": true,
+    "marginOff": 4,
+    "totalOff": 0,
+    "summary": "The brief picked Louisiana 30-24 and Louisiana won 28-26, so the winner was right, the margin was off by 4 and the total (54) was exact. It was right that Louisiana's run game would control the game, but USA's own run game did not break out, and the brief never saw Bishop Davenport starting at quarterback in place of Jared Hollins.",
+    "keys": [
+      {
+        "key": "USA: Run the ball the way Southern Miss did.",
+        "hit": false,
+        "note": "35 carries for 159 yards (4.5 a carry), well short of USA's 213.1 average and Southern Miss' 286. Keenan Phillips had 9 carries for 19 yards; Davenport's 45-yard TD run was the only big gain."
+      },
+      {
+        "key": "USA: Cut the penalties.",
+        "hit": true,
+        "note": "9 for 65 yards, down from 12 for 100 against Tech and close to Louisiana's 10 for 60. Penalties did not decide this one."
+      },
+      {
+        "key": "USA: Finish drives after halftime.",
+        "hit": false,
+        "note": "9 second-half points (45-yard TD run, 50-yard FG) but a failed two-point try at 23-28 and Davenport's interception at the Louisiana 35 with under two minutes left ended the last drive."
+      },
+      {
+        "key": "Louisiana: Win in the red zone.",
+        "hit": false,
+        "note": "Louisiana scored on its one red-zone trip (Winfield 14-yard run), but its other TDs came from outside it: a 100-yard kickoff return, a 65-yard run and a 27-yard pass. Big plays, not the red zone, decided it."
+      },
+      {
+        "key": "Louisiana: Control the clock with the run.",
+        "hit": true,
+        "note": "44 carries for 312 yards (7.1 a carry), 31:37 time of possession and 8 of 13 on third down; an 11-play, 6:20 drive in the fourth quarter ran clock before a missed FG."
+      }
+    ],
+    "players": [
+      {
+        "name": "Keenan Phillips",
+        "note": "9 carries, 19 yards (2.1 a carry), 1 catch for 7; fumbled twice, lost neither. Carries split four ways with Davenport (11-57), Trae'von Dunbar (7-47) and PJ Martin (7-37)."
+      },
+      {
+        "name": "Jared Hollins",
+        "note": "Did not record a stat. Bishop Davenport played quarterback: 16 of 22, 210 yards, 0 TD, 1 INT, plus 11 carries for 57 yards and 2 TD. No source found explaining the change."
+      },
+      {
+        "name": "Lunch Winfield",
+        "note": "10 of 14, 147 yards, 1 TD (27 yards to Shelton Sampson Jr.), 1 INT returned 72 yards for a USA TD by Jaylen Moson; 19 carries, 97 yards, 1 TD."
+      },
+      {
+        "name": "Jake St. Andre",
+        "note": "Led Louisiana with 9 tackles, 1 sack and 1 tackle for loss."
+      }
+    ],
+    "missed": "It did not flag JJ Garner, who returned the opening kickoff 100 yards for a TD and ran 10 times for 136 yards, including a 65-yard TD. It assumed Hollins would start; Davenport played the whole game. Brendan Jenkins (6 catches, 101 yards) was USA's top receiver, not Anthony Eager (3 for 38), and USA's defensive TD and two Dylan Freebury field goals (44 and 50) kept a game close that Louisiana outgained 459 to 369.",
+    "sources": [
+      {
+        "title": "ESPN box score, scoring plays and drive chart: South Alabama at Louisiana, Nov 7, 2026",
+        "url": "https://www.espn.com/college-football/game/_/gameId/401869968"
+      },
+      {
+        "title": "ESPN/AP recap: JJ Garner leads Louisiana-Lafayette to bowl-eligibility again with 28-26 win over South Alabama",
+        "url": "https://www.espn.com/college-football/recap/_/gameId/401869968"
+      },
+      {
+        "title": "ESPN game summary API: South Alabama at Louisiana (final team and player stats)",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401869968"
+      }
+    ],
+    "performance": {
+      "letter": "C-",
+      "summary": "A two-point road loss to a 6-3 Louisiana team that is unbeaten at home. USA averaged 6.5 yards a play (369 on 57), got a 72-yard pick-six and two long field goals, and Davenport was efficient (16 of 22, 210 yards). But the defense allowed 312 rushing yards at 7.1 a carry and 8 of 13 on third down, kick coverage gave up a 100-yard TD on the first play, the offense was 4 of 12 on third down, and the final drive ended in an interception."
+    },
+    "accuracy": [
+      {
+        "part": "Winner",
+        "points": 25,
+        "max": 25,
+        "note": "Picked Louisiana; Louisiana won 28-26."
+      },
+      {
+        "part": "Margin",
+        "points": 12,
+        "max": 15,
+        "note": "Picked Louisiana by 6; Louisiana won by 2, off by 4."
+      },
+      {
+        "part": "Total points",
+        "points": 10,
+        "max": 10,
+        "note": "Picked 54 points; the game had 54, off by 0."
+      },
+      {
+        "part": "Keys to the game",
+        "points": 14,
+        "max": 35,
+        "note": "2 of 5 keys held up: USA cut its penalties and Louisiana controlled the game on the ground."
+      },
+      {
+        "part": "Players and storylines",
+        "points": 9,
+        "max": 15,
+        "note": "Winfield, St. Andre and the Phillips carry split mattered, and the loser did fall two games back in the West; Hollins did not play and Garner, the game's best player, was not mentioned."
+      }
+    ],
+    "accuracyPct": 70,
+    "fixes": [
+      {
+        "title": "Run defense",
+        "text": "312 rushing yards at 7.1 a carry, including Garner's 65-yard TD and Winfield's 97 yards. Troy comes to Mobile on Nov 14; USA cannot let another opponent run at will."
+      },
+      {
+        "title": "Kickoff coverage",
+        "text": "Garner took the opening kickoff 100 yards for a TD. That was 7 points in a 2-point loss before USA's defense took the field."
+      },
+      {
+        "title": "Third downs on both sides",
+        "text": "USA converted 4 of 12; Louisiana converted 8 of 13. Louisiana held the ball 31:37 largely by staying on schedule."
+      },
+      {
+        "title": "Late-game execution",
+        "text": "A failed two-point run at 23-28 and an interception at the Louisiana 35 with under two minutes left, down 2, ended USA's last two chances."
+      },
+      {
+        "title": "Get the backs going",
+        "text": "Phillips, Martin and Dunbar combined for 23 carries and 103 yards; the run game was 54 yards a game below its average. Find a lead back against Troy."
+      }
     ]
   }
 }
