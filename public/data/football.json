@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-08T14:22:56.719Z",
+ "updatedAt": "2026-11-09T06:21:57.624Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2278,7 +2278,14 @@
  ],
  "news": [
   {
-   "title": "Rapid Reaction: What we learned from the Louisiana game",
+   "title": "South Alabama and Troy meet in Sun Belt action",
+   "url": "http://www.espn.com/ncf/preview?gameId=401871100",
+   "date": "2026-11-08T20:44:11Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871100.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Rapid Reaction: What we learned from the Louisiana-Lafayette game",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-louisiana-rapid-reaction-week10-2026",
    "source": "Diehard Sports Network",
    "date": "2026-11-08T05:00:00.000Z",
@@ -2465,13 +2472,6 @@
    "date": "2026-10-21T03:15:08Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871092.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "South Alabama Jaguars vs. Marshall Thundering Herd: Full Highlights",
-   "url": "https://www.espn.com/video/clip/_/id/50234410/full-highlights",
-   "date": "2026-10-21T03:11:09Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1021/29350625-ca91-4fc6-a46e-25d8db1aed11/29350625-ca91-4fc6-a46e-25d8db1aed11.jpg"
   },
   {
    "title": "Kickoff Time Set for Halloween Game Versus Louisiana Tech",

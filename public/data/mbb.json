@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-08T14:22:56.719Z",
+ "updatedAt": "2026-11-09T06:21:57.624Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1088,6 +1088,13 @@
  ],
  "news": [
   {
+   "title": "South Alabama Opens Road Slate at UCF Tuesday",
+   "url": "https://usajaguars.com/news/2026/11/8/mens-basketball-south-alabama-opens-road-slate-at-ucf-tuesday.aspx",
+   "date": "2026-11-08T23:21:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/8/ANW_097__1_.jpg"
+  },
+  {
    "title": "Jags Erase 16-Point Deficit, Top Jax State in Double Overtime Thriller",
    "url": "https://usajaguars.com/news/2026/11/5/mens-basketball-jags-erase-16-point-deficit-top-jax-state-in-double-overtime-thriller.aspx",
    "date": "2026-11-06T04:03:00.000Z",
@@ -1184,13 +1191,6 @@
    "date": "2026-08-14T19:42:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2025/3/2/DSC08572__2_.jpg"
-  },
-  {
-   "title": "Men's Basketball Signs Russian Forward Alexey Sereda",
-   "url": "https://usajaguars.com/news/2026/8/12/mens-basketball-south-alabama-signs-russian-forward-alexey-sereda.aspx",
-   "date": "2026-08-12T17:25:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/6/2/Richie.png"
   },
   {
    "title": "South Alabama Jaguars vs. Auburn Tigers: Game Highlights",
