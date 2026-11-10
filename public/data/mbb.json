@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-09T06:21:57.624Z",
+ "updatedAt": "2026-11-10T01:29:58.053Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1030,12 +1030,6 @@
      "overall": "1-1"
     },
     {
-     "teamId": "276",
-     "team": "Marshall",
-     "conf": "0-0",
-     "overall": "1-1"
-    },
-    {
      "teamId": "6",
      "team": "South Alabama",
      "conf": "0-0",
@@ -1056,6 +1050,12 @@
     {
      "teamId": "2247",
      "team": "Georgia St",
+     "conf": "0-0",
+     "overall": "1-2"
+    },
+    {
+     "teamId": "276",
+     "team": "Marshall",
      "conf": "0-0",
      "overall": "1-2"
     },
@@ -1087,6 +1087,13 @@
   }
  ],
  "news": [
+  {
+   "title": "Johnson leads UCF against South Alabama after 28-point showing",
+   "url": "http://www.espn.com/ncb/preview?gameId=401921755",
+   "date": "2026-11-09T09:46:00Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401921755.png?templateId=espn.applewatch.awayhome.1"
+  },
   {
    "title": "South Alabama Opens Road Slate at UCF Tuesday",
    "url": "https://usajaguars.com/news/2026/11/8/mens-basketball-south-alabama-opens-road-slate-at-ucf-tuesday.aspx",
@@ -1142,13 +1149,6 @@
    "date": "2026-11-03T03:51:19.000Z",
    "source": "AL.com",
    "image": "https://www.al.com/resizer/v2/WI45JQZDKBG5FLUMFZHEXTZVWA.jpg?auth=35e50d9879009f7bc9e43d736b8f827f5c1893e24dcef472a252438f0e12d842&smart=true&height=1200"
-  },
-  {
-   "title": "What to know about South Alabama men’s basketball in 2026-27",
-   "url": "https://www.al.com/sports/2026/11/what-to-know-about-south-alabama-mens-basketball-in-2026-27.html",
-   "date": "2026-11-02T11:00:00.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/HY55P2CTUFAYNEGMKZJFBNORPI.jpg?auth=c9ee3daaa203a4332fa2b4bf7750d4548318634f20e8309670696c411ab14fbe&smart=true&height=1200"
   },
   {
    "title": "South Alabama hosts Ohio for season opener",
@@ -1212,13 +1212,6 @@
    "date": "2026-03-17T08:45:07Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401858193.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Southern Miss Golden Eagles vs. South Alabama Jaguars: Game Highlights",
-   "url": "https://www.espn.com/video/clip?id=48058736",
-   "date": "2026-02-28T03:46:18Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0228/c07435ed-2df4-476f-aa95-29f7b5a1f04b/c07435ed-2df4-476f-aa95-29f7b5a1f04b.jpg"
   }
  ],
  "nextOpponent": {
