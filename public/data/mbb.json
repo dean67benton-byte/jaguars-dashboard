@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-10T01:29:58.053Z",
+ "updatedAt": "2026-11-10T09:45:57.478Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1009,13 +1009,13 @@
      "teamId": "2026",
      "team": "App State",
      "conf": "0-0",
-     "overall": "2-0"
+     "overall": "2-1"
     },
     {
      "teamId": "2348",
      "team": "Louisiana Tech",
      "conf": "0-0",
-     "overall": "2-0"
+     "overall": "2-1"
     },
     {
      "teamId": "2032",
@@ -1042,14 +1042,20 @@
      "overall": "1-1"
     },
     {
-     "teamId": "2433",
-     "team": "UL Monroe",
+     "teamId": "324",
+     "team": "Coastal",
      "conf": "0-0",
-     "overall": "1-1"
+     "overall": "1-2"
     },
     {
      "teamId": "2247",
      "team": "Georgia St",
+     "conf": "0-0",
+     "overall": "1-2"
+    },
+    {
+     "teamId": "309",
+     "team": "Louisiana",
      "conf": "0-0",
      "overall": "1-2"
     },
@@ -1060,20 +1066,14 @@
      "overall": "1-2"
     },
     {
-     "teamId": "324",
-     "team": "Coastal",
+     "teamId": "2433",
+     "team": "UL Monroe",
      "conf": "0-0",
-     "overall": "0-2"
+     "overall": "1-2"
     },
     {
      "teamId": "256",
      "team": "James Madison",
-     "conf": "0-0",
-     "overall": "0-2"
-    },
-    {
-     "teamId": "309",
-     "team": "Louisiana",
      "conf": "0-0",
      "overall": "0-2"
     },
@@ -1142,13 +1142,6 @@
    "date": "2026-11-03T04:04:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/2/MLVD2235.jpg"
-  },
-  {
-   "title": "South Alabama basketball falls in season-opener to Ohio",
-   "url": "https://www.al.com/sports/2026/11/south-alabama-basketball-falls-in-season-opener-to-ohio-86-77.html",
-   "date": "2026-11-03T03:51:19.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/WI45JQZDKBG5FLUMFZHEXTZVWA.jpg?auth=35e50d9879009f7bc9e43d736b8f827f5c1893e24dcef472a252438f0e12d842&smart=true&height=1200"
   },
   {
    "title": "South Alabama hosts Ohio for season opener",
