@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-11T06:12:24.354Z",
+ "updatedAt": "2026-11-11T14:24:21.712Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1092,11 +1092,32 @@
  ],
  "news": [
   {
+   "title": "South Alabama basketball can’t hold onto first-half lead in loss at Central Florida",
+   "url": "https://www.al.com/sports/2026/11/south-alabama-basketball-cant-hold-onto-first-half-lead-in-loss-at-central-florida.html",
+   "date": "2026-11-11T12:47:01.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/UJ36FMZ75BBQXB2DT2ALRL3PIY.JPG?auth=8444e51b170b465fb1da0007194be0edc891b7ac5c7c7301e5948851833fc00a&smart=true&height=1200"
+  },
+  {
    "title": "Goldstein Scores 20, Williams Posts Double-Double as Jags Fall at UCF",
    "url": "https://usajaguars.com/news/2026/11/10/mens-basketball-goldstein-scores-20-williams-posts-double-double-as-jags-fall-at-ucf.aspx",
    "date": "2026-11-11T03:32:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/10/DSC09164.jpg"
+  },
+  {
+   "title": "Carmelo Pacheco, Dior Johnson help UCF hold off South Alabama 76-69",
+   "url": "http://www.espn.com/ncb/recap?gameId=401921755",
+   "date": "2026-11-11T02:43:37Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401921755.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "South Alabama Jaguars vs. UCF Knights: Game Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/50448570/game-highlights",
+   "date": "2026-11-11T02:20:08Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1111/d259006b-444a-4a2b-ba75-0fa8111fad56/d259006b-444a-4a2b-ba75-0fa8111fad56.jpg"
   },
   {
    "title": "UCF hosts South Alabama following Williams' 27-point game",
@@ -1195,20 +1216,6 @@
    "date": "2026-03-19T14:20:49Z",
    "source": "ESPN",
    "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0318/af8c6723-4d20-4a64-b5a4-912f1f7775ee/af8c6723-4d20-4a64-b5a4-912f1f7775ee.jpg"
-  },
-  {
-   "title": "Overton, Hall each have 21 in Auburn's 78-67 victory against South Alabama in NIT",
-   "url": "http://www.espn.com/ncb/recap?gameId=401858193",
-   "date": "2026-03-18T05:46:11Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401858193.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Auburn, South Alabama square off in NIT",
-   "url": "http://www.espn.com/ncb/preview?gameId=401858193",
-   "date": "2026-03-17T08:45:07Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401858193.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {
