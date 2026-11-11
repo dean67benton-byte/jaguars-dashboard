@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-09T06:21:57.624Z",
+ "updatedAt": "2026-11-11T06:12:24.354Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -250,8 +250,8 @@
   },
   {
    "id": "401871101",
-   "date": "2026-11-21T05:00Z",
-   "timeTbd": true,
+   "date": "2026-11-21T21:00Z",
+   "timeTbd": false,
    "opponent": {
     "id": "2572",
     "name": "Southern Miss Golden Eagles",
@@ -264,8 +264,9 @@
    "conference": true,
    "venue": "M. M. Roberts Stadium",
    "city": "Hattiesburg, MS",
+   "tv": "ESPN+",
    "status": "pre",
-   "statusDetail": "TBD"
+   "statusDetail": "11/21 - 4:00 PM EST"
   },
   {
    "id": "401869930",
@@ -2278,6 +2279,41 @@
  ],
  "news": [
   {
+   "title": "What Major Applewhite said before South Alabama’s game against Troy",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-applewhite-presser-troy-week11-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-10T06:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/a4cb45ffc7359116173be96bbc0b989a92c4d3c6-2932x1630.jpg?rect=0,46,2932,1539&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "CFP 24-team format: What you need to know about the new playoff",
+   "url": "https://www.espn.com/college-football/story/_/id/50433738/cfp-playoff-24-team-format-faq",
+   "date": "2026-11-09T23:35:54Z",
+   "source": "ESPN",
+   "image": "https://a.espncdn.com/photo/2026/1016/r1731817_1296x729_16-9.jpg"
+  },
+  {
+   "title": "Troy looking for answers heading into ‘Battle for the Belt’ vs. South Alabama",
+   "url": "https://www.al.com/sports/2026/11/troy-looking-for-answers-heading-into-battle-for-the-belt-vs-south-alabama.html",
+   "date": "2026-11-09T22:55:15.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/LFBS6Q2MGZCELGNAOQZJVVTHAM.jpg?auth=7bc080f3139ef60daff57b90e061244525b0d27698c608e09a0e04731bfcb428&smart=true&height=1200"
+  },
+  {
+   "title": "South Alabama embracing ‘Battle for the Belt’ rivalry vs. Troy",
+   "url": "https://www.al.com/sports/2026/11/south-alabama-embracing-battle-for-the-belt-rivalry-vs-troy.html",
+   "date": "2026-11-09T22:30:57.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/XKQWTEXUX5CEJIHKCR3YTKNM4Q.jpg?auth=c8cca40f1a2c6f692ee97021dda4d206dcf9ad8eb33f30cd60716656a9c6b2c3&smart=true&height=1200"
+  },
+  {
+   "title": "Final Road Trip Slated for 3 p.m. Kick at Southern Miss",
+   "url": "https://usajaguars.com/news/2026/11/9/football-final-road-trip-slated-for-3-pm-kick-at-southern-miss.aspx",
+   "date": "2026-11-09T19:56:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/9/IMG_5595.jpg"
+  },
+  {
    "title": "South Alabama and Troy meet in Sun Belt action",
    "url": "http://www.espn.com/ncf/preview?gameId=401871100",
    "date": "2026-11-08T20:44:11Z",
@@ -2369,13 +2405,6 @@
    "image": "https://cdn.sanity.io/images/iahnmtcr/production/97ab85456d9ec6485b50bc7ab878460ffd9ddbf5-1894x1040.png?rect=0,23,1894,994&w=1200&h=630&fit=crop"
   },
   {
-   "title": "Kickoff time set for South Alabama-Troy ‘Battle for the Belt’ on Nov. 14",
-   "url": "https://www.al.com/sports/2026/11/kickoff-time-set-for-south-alabama-troy-battle-for-the-belt-on-nov-14.html",
-   "date": "2026-11-02T20:19:08.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/7X5Y5MMRV5BRXFRAAM5GN2DDOI.jpg?auth=56decea61947456917edaeff8c2135ce5442280a98bdf898f6fcedbd7b3afccd&smart=true&height=1200"
-  },
-  {
    "title": "Kickoff Time Set for In-State Battle Versus Troy",
    "url": "https://usajaguars.com/news/2026/11/2/football-kickoff-time-set-for-in-state-battle-versus-troy.aspx",
    "date": "2026-11-02T20:02:00.000Z",
@@ -2432,13 +2461,6 @@
    "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/d7b18807-b36c-4585-a617-c225a0a5c9ba/d7b18807-b36c-4585-a617-c225a0a5c9ba.jpg"
   },
   {
-   "title": "The Really Big Preview: Louisiana Tech at South Alabama",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/really-big-preview-southalabama-louisianatech-week9",
-   "source": "Diehard Sports Network",
-   "date": "2026-10-29T18:00:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/e9990d38d867a10069aba4fab1335592ba39bcdc-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
-  },
-  {
    "title": "Jags Return Home to Host Louisiana Tech in Key Sun Belt West Contest",
    "url": "https://usajaguars.com/news/2026/10/28/football-jags-return-home-to-host-louisiana-tech-in-key-sun-belt-west-contest.aspx",
    "date": "2026-10-28T21:14:00.000Z",
@@ -2465,27 +2487,6 @@
    "date": "2026-10-21T05:00:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/20/102026_SD_Marshall_0177.jpg"
-  },
-  {
-   "title": "Judah Price's late TD helps Marshall edge South Alabama 20-13",
-   "url": "http://www.espn.com/ncf/recap?gameId=401871092",
-   "date": "2026-10-21T03:15:08Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871092.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Kickoff Time Set for Halloween Game Versus Louisiana Tech",
-   "url": "https://usajaguars.com/news/2026/10/19/football-kickoff-time-set-for-halloween-game-versus-louisiana-tech.aspx",
-   "date": "2026-10-19T20:00:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/19/ANW_116.jpg"
-  },
-  {
-   "title": "Jags Head to Marshall for Tuesday Night Game",
-   "url": "https://usajaguars.com/news/2026/10/17/football-jags-head-to-marshall-for-tuesday-night-game.aspx",
-   "date": "2026-10-17T20:57:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/17/Game_Week_7_-_Web.png"
   }
  ],
  "nextOpponent": {

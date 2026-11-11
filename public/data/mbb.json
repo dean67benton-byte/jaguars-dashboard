@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-10T23:17:57.328Z",
+ "updatedAt": "2026-11-11T06:12:24.354Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -8,7 +8,7 @@
   "short": "South Alabama",
   "abbr": "USA",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-  "record": "1-1",
+  "record": "1-2",
   "standingSummary": "1st in Sun Belt"
  },
  "events": [
@@ -69,7 +69,8 @@
     "name": "UCF Knights",
     "short": "UCF",
     "abbr": "UCF",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png"
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+    "record": "3-0"
    },
    "home": false,
    "neutral": false,
@@ -77,8 +78,11 @@
    "venue": "Addition Financial Arena",
    "city": "Orlando, FL",
    "tv": "ESPN+",
-   "status": "pre",
-   "statusDetail": "11/10 - 7:00 PM EST"
+   "status": "post",
+   "statusDetail": "Final",
+   "usScore": 69,
+   "oppScore": 76,
+   "result": "L"
   },
   {
    "id": "401917524",
@@ -1018,28 +1022,16 @@
      "overall": "2-1"
     },
     {
-     "teamId": "2032",
-     "team": "Arkansas St",
-     "conf": "0-0",
-     "overall": "1-1"
-    },
-    {
-     "teamId": "290",
-     "team": "GA Southern",
-     "conf": "0-0",
-     "overall": "1-1"
-    },
-    {
-     "teamId": "6",
-     "team": "South Alabama",
-     "conf": "0-0",
-     "overall": "1-1"
-    },
-    {
      "teamId": "2572",
      "team": "Southern Miss",
      "conf": "0-0",
      "overall": "1-1"
+    },
+    {
+     "teamId": "2032",
+     "team": "Arkansas St",
+     "conf": "0-0",
+     "overall": "1-2"
     },
     {
      "teamId": "324",
@@ -1048,8 +1040,8 @@
      "overall": "1-2"
     },
     {
-     "teamId": "2247",
-     "team": "Georgia St",
+     "teamId": "290",
+     "team": "GA Southern",
      "conf": "0-0",
      "overall": "1-2"
     },
@@ -1066,20 +1058,32 @@
      "overall": "1-2"
     },
     {
-     "teamId": "2433",
-     "team": "UL Monroe",
+     "teamId": "6",
+     "team": "South Alabama",
      "conf": "0-0",
      "overall": "1-2"
     },
     {
-     "teamId": "256",
-     "team": "James Madison",
-     "conf": "0-0",
-     "overall": "0-2"
-    },
-    {
      "teamId": "2653",
      "team": "Troy",
+     "conf": "0-0",
+     "overall": "1-2"
+    },
+    {
+     "teamId": "2247",
+     "team": "Georgia St",
+     "conf": "0-0",
+     "overall": "1-3"
+    },
+    {
+     "teamId": "2433",
+     "team": "UL Monroe",
+     "conf": "0-0",
+     "overall": "1-3"
+    },
+    {
+     "teamId": "256",
+     "team": "James Madison",
      "conf": "0-0",
      "overall": "0-2"
     }
@@ -1087,6 +1091,13 @@
   }
  ],
  "news": [
+  {
+   "title": "Goldstein Scores 20, Williams Posts Double-Double as Jags Fall at UCF",
+   "url": "https://usajaguars.com/news/2026/11/10/mens-basketball-goldstein-scores-20-williams-posts-double-double-as-jags-fall-at-ucf.aspx",
+   "date": "2026-11-11T03:32:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/10/DSC09164.jpg"
+  },
   {
    "title": "UCF hosts South Alabama following Williams' 27-point game",
    "url": "http://www.espn.com/ncb/preview?gameId=401921755",
@@ -1179,13 +1190,6 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/1/2/DSC05198.jpg"
   },
   {
-   "title": "South Alabama Men’s Basketball to Host LSF Tip-Off Gala Oct. 15",
-   "url": "https://usajaguars.com/news/2026/8/14/mens-basketball-south-alabama-mens-basketball-to-host-lsf-tip-off-gala-oct-15.aspx",
-   "date": "2026-08-14T19:42:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2025/3/2/DSC08572__2_.jpg"
-  },
-  {
    "title": "South Alabama Jaguars vs. Auburn Tigers: Game Highlights",
    "url": "https://www.espn.com/video/clip?id=48239774",
    "date": "2026-03-19T14:20:49Z",
@@ -1209,12 +1213,12 @@
  ],
  "nextOpponent": {
   "team": {
-   "id": "2116",
-   "name": "UCF Knights",
-   "short": "UCF",
-   "abbr": "UCF",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-   "record": "2-0"
+   "id": "2351",
+   "name": "Loyola Marymount Lions",
+   "short": "LMU",
+   "abbr": "LMU",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+   "record": "1-2"
   },
   "stats": [
    {
@@ -1223,12 +1227,12 @@
      {
       "name": "avgRebounds",
       "label": "Rebounds Per Game",
-      "value": "33.0"
+      "value": "42.0"
      },
      {
       "name": "assistTurnoverRatio",
       "label": "Assist To Turnover Ratio",
-      "value": "2.7"
+      "value": "1.7"
      },
      {
       "name": "avgFouls",
@@ -1248,22 +1252,22 @@
      {
       "name": "minutes",
       "label": "Minutes",
-      "value": "425"
+      "value": "400"
      },
      {
       "name": "avgMinutes",
       "label": "Minutes Per Game",
-      "value": "212.5"
+      "value": "200.0"
      },
      {
       "name": "totalRebounds",
       "label": "Rebounds",
-      "value": "66"
+      "value": "84"
      },
      {
       "name": "rebounds",
       "label": "Rebounds",
-      "value": "66"
+      "value": "84"
      }
     ]
    },
@@ -1273,152 +1277,152 @@
      {
       "name": "freeThrowPct",
       "label": "Free Throw Percentage",
-      "value": "72.6"
+      "value": "71.1"
      },
      {
       "name": "avgFieldGoalsMade",
       "label": "Average Field Goals Made",
-      "value": "31.0"
+      "value": "36.5"
      },
      {
       "name": "avgFieldGoalsAttempted",
       "label": "Average Field Goals Attempted",
-      "value": "63.0"
+      "value": "72.5"
      },
      {
       "name": "avgThreePointFieldGoalsMade",
       "label": "Average 3-Point Field Goals Made",
-      "value": "7.0"
+      "value": "12.0"
      },
      {
       "name": "avgThreePointFieldGoalsAttempted",
       "label": "Average 3-Point Field Goals Attempted",
-      "value": "20.5"
+      "value": "31.5"
      },
      {
       "name": "avgFreeThrowsMade",
       "label": "Average Free Throws Made",
-      "value": "22.5"
+      "value": "13.5"
      },
      {
       "name": "avgFreeThrowsAttempted",
       "label": "Average Free Throws Attempted",
-      "value": "31.0"
+      "value": "19.0"
      },
      {
       "name": "avgPoints",
       "label": "Points Per Game",
-      "value": "91.5"
+      "value": "98.5"
      },
      {
       "name": "avgOffensiveRebounds",
       "label": "Offensive Rebounds Per Game",
-      "value": "9.5"
+      "value": "12.0"
      },
      {
       "name": "avgAssists",
       "label": "Assists Per Game",
-      "value": "15.0"
+      "value": "17.0"
      },
      {
       "name": "avgTurnovers",
       "label": "Turnovers Per Game",
-      "value": "5.5"
+      "value": "10.0"
      },
      {
       "name": "twoPointFieldGoalPct",
       "label": "2-Point Field Goal Percentage",
-      "value": "56.5"
+      "value": "59.8"
      },
      {
       "name": "scoringEfficiency",
       "label": "Scoring Efficiency",
-      "value": "1.452"
+      "value": "1.359"
      },
      {
       "name": "shootingEfficiency",
       "label": "Shooting Efficiency",
-      "value": "0.55"
+      "value": "0.59"
      },
      {
       "name": "fieldGoalPct",
       "label": "Field Goal Percentage",
-      "value": "49.2"
+      "value": "50.3"
      },
      {
       "name": "twoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made",
-      "value": "48.0"
+      "value": "49.0"
      },
      {
       "name": "twoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted",
-      "value": "85.0"
+      "value": "82.0"
      },
      {
       "name": "points",
       "label": "Points",
-      "value": "183"
+      "value": "197"
      },
      {
       "name": "offensiveRebounds",
       "label": "Offensive Rebounds",
-      "value": "19"
+      "value": "24"
      },
      {
       "name": "assists",
       "label": "Assists",
-      "value": "30"
+      "value": "34"
      },
      {
       "name": "turnovers",
       "label": "Turnovers",
-      "value": "11"
+      "value": "20"
      },
      {
       "name": "fieldGoalsMade",
       "label": "Field Goals Made",
-      "value": "62"
+      "value": "73"
      },
      {
       "name": "fieldGoalsAttempted",
       "label": "Field Goals Attempted",
-      "value": "126"
+      "value": "145"
      },
      {
       "name": "freeThrowsMade",
       "label": "Free Throws Made",
-      "value": "45"
+      "value": "27"
      },
      {
       "name": "freeThrowsAttempted",
       "label": "Free Throws Attempted",
-      "value": "62"
+      "value": "38"
      },
      {
       "name": "threePointFieldGoalsMade",
       "label": "3-Point Field Goals Made",
-      "value": "14"
+      "value": "24"
      },
      {
       "name": "threePointFieldGoalsAttempted",
       "label": "3-Point Field Goals Attempted",
-      "value": "41"
+      "value": "63"
      },
      {
       "name": "threePointFieldGoalPct",
       "label": "3-Point Field Goal Percentage",
-      "value": "34.1"
+      "value": "38.1"
      },
      {
       "name": "avgTwoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made per Game",
-      "value": "24.0"
+      "value": "24.5"
      },
      {
       "name": "avgTwoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted per Game",
-      "value": "42.5"
+      "value": "41.0"
      }
     ]
    },
@@ -1428,32 +1432,32 @@
      {
       "name": "avgDefensiveRebounds",
       "label": "Defensive Rebounds Per Game",
-      "value": "23.5"
+      "value": "30.0"
      },
      {
       "name": "avgBlocks",
       "label": "Blocks Per Game",
-      "value": "4.5"
+      "value": "5.5"
      },
      {
       "name": "avgSteals",
       "label": "Steals Per Game",
-      "value": "5.5"
+      "value": "9.0"
      },
      {
       "name": "defensiveRebounds",
       "label": "Defensive Rebounds",
-      "value": "47"
+      "value": "60"
      },
      {
       "name": "steals",
       "label": "Steals",
-      "value": "11"
+      "value": "18"
      },
      {
       "name": "blocks",
       "label": "Blocks",
-      "value": "9"
+      "value": "11"
      }
     ]
    }
