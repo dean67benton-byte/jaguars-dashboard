@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-12T14:36:07.059Z",
+ "updatedAt": "2026-11-12T18:53:57.944Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2279,6 +2279,13 @@
  ],
  "news": [
   {
+   "title": "Battle for the Belt Returns to Mobile Saturday Night",
+   "url": "https://usajaguars.com/news/2026/11/12/football-battle-for-the-belt-returns-to-mobile-saturday-night.aspx",
+   "date": "2026-11-12T15:10:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/12/Game_Week_G10-_Web.png"
+  },
+  {
    "title": "South Alabama is blocking out noise for rivalry game against Troy",
    "url": "https://www.al.com/sports/2026/11/south-alabama-is-blocking-out-noise-for-rivalry-game-against-troy.html",
    "date": "2026-11-11T22:02:52.000Z",
@@ -2480,13 +2487,6 @@
    "date": "2026-10-25T19:42:50Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871097.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Herd Score Late as Jags Fall in Huntington.",
-   "url": "https://usajaguars.com/news/2026/10/20/football-herd-score-late-as-jags-fall-in-huntington.aspx",
-   "date": "2026-10-21T05:00:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/20/102026_SD_Marshall_0177.jpg"
   }
  ],
  "nextOpponent": {
