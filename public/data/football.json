@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-12T02:57:05.910Z",
+ "updatedAt": "2026-11-12T14:36:07.059Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1555,7 +1555,7 @@
     {
      "name": "receivingYardsAfterCatch",
      "label": "Receiving Yards After Catch",
-     "value": "726"
+     "value": "821"
     },
     {
      "name": "receivingFirstDowns",
@@ -2765,7 +2765,7 @@
      {
       "name": "receivingYardsAfterCatch",
       "label": "Receiving Yards After Catch",
-      "value": "741"
+      "value": "816"
      },
      {
       "name": "receivingFirstDowns",
@@ -2960,7 +2960,7 @@
      {
       "name": "passesDefended",
       "label": "Passes Defended",
-      "value": "29"
+      "value": "30"
      },
      {
       "name": "avgInterceptionYards",

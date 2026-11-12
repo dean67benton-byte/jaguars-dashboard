@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T14:23:03.948Z",
+ "updatedAt": "2026-11-12T14:36:13.148Z",
  "players": [
   {
    "id": "3125280",
@@ -16,14 +16,14 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 7,
+   "games": 8,
    "lastGame": {
-    "date": "2026-10-25T17:00:00.000+00:00",
-    "opp": "ATL",
-    "at": "@",
-    "result": "L",
-    "score": "29-20",
-    "week": 7
+    "date": "2026-11-08T21:25:00.000+00:00",
+    "opp": "LV",
+    "at": "vs",
+    "result": "W",
+    "score": "38-17",
+    "week": 9
    },
    "stats": {
     "season": [
@@ -96,28 +96,28 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 7,
+   "games": 8,
    "lastGame": {
-    "date": "2026-11-02T01:20:00.000+00:00",
-    "opp": "PHI",
+    "date": "2026-11-08T18:00:00.000+00:00",
+    "opp": "LAR",
     "at": "vs",
-    "result": "W",
-    "score": "27-10",
-    "week": 8
+    "result": "L",
+    "score": "20-13",
+    "week": 9
    },
    "stats": {
     "season": [
      {
       "label": "TOT",
-      "value": "47"
+      "value": "53"
      },
      {
       "label": "SOLO",
-      "value": "26"
+      "value": "28"
      },
      {
       "label": "AST",
-      "value": "21"
+      "value": "25"
      },
      {
       "label": "PD",
@@ -127,15 +127,15 @@
     "career": [
      {
       "label": "TOT",
-      "value": "266"
+      "value": "272"
      },
      {
       "label": "SOLO",
-      "value": "161"
+      "value": "163"
      },
      {
       "label": "AST",
-      "value": "105"
+      "value": "109"
      },
      {
       "label": "SACK",
@@ -181,14 +181,14 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 5,
+   "games": 6,
    "lastGame": {
-    "date": "2026-11-01T18:00:00.000+00:00",
-    "opp": "NYJ",
+    "date": "2026-11-08T21:25:00.000+00:00",
+    "opp": "SF",
     "at": "@",
-    "result": "W",
-    "score": "38-33",
-    "week": 8
+    "result": "L",
+    "score": "38-17",
+    "week": 9
    },
    "stats": {
     "season": [
