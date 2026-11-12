@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-11T14:24:21.712Z",
+ "updatedAt": "2026-11-12T02:57:05.910Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -125,7 +125,7 @@
   },
   {
    "id": "401930568",
-   "date": "2026-11-18T01:00Z",
+   "date": "2026-11-18T00:00Z",
    "timeTbd": false,
    "opponent": {
     "id": "2590",
@@ -140,7 +140,7 @@
    "city": "Mobile, AL",
    "tv": "ESPN+",
    "status": "pre",
-   "statusDetail": "11/17 - 8:00 PM EST"
+   "statusDetail": "11/17 - 7:00 PM EST"
   },
   {
    "id": "401929459",
@@ -1007,7 +1007,7 @@
      "teamId": "295",
      "team": "Old Dominion",
      "conf": "0-0",
-     "overall": "3-0"
+     "overall": "4-0"
     },
     {
      "teamId": "2026",
@@ -1046,6 +1046,12 @@
      "overall": "1-2"
     },
     {
+     "teamId": "256",
+     "team": "James Madison",
+     "conf": "0-0",
+     "overall": "1-2"
+    },
+    {
      "teamId": "309",
      "team": "Louisiana",
      "conf": "0-0",
@@ -1080,17 +1086,18 @@
      "team": "UL Monroe",
      "conf": "0-0",
      "overall": "1-3"
-    },
-    {
-     "teamId": "256",
-     "team": "James Madison",
-     "conf": "0-0",
-     "overall": "0-2"
     }
    ]
   }
  ],
  "news": [
+  {
+   "title": "Jaguars Meet Loyola Marymount in Pensacola’s Coastal Classic Thursday",
+   "url": "https://usajaguars.com/news/2026/11/11/mens-basketball-jaguars-meet-loyola-marymount-in-pensacolas-coastal-classic-thursday.aspx",
+   "date": "2026-11-12T00:59:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/11/ANW_093.jpg"
+  },
   {
    "title": "South Alabama basketball can’t hold onto first-half lead in loss at Central Florida",
    "url": "https://www.al.com/sports/2026/11/south-alabama-basketball-cant-hold-onto-first-half-lead-in-loss-at-central-florida.html",
@@ -1099,9 +1106,16 @@
    "image": "https://www.al.com/resizer/v2/UJ36FMZ75BBQXB2DT2ALRL3PIY.JPG?auth=8444e51b170b465fb1da0007194be0edc891b7ac5c7c7301e5948851833fc00a&smart=true&height=1200"
   },
   {
+   "title": "South Alabama Jaguars and the Loyola Marymount Lions meet",
+   "url": "http://www.espn.com/ncb/preview?gameId=401917524",
+   "date": "2026-11-11T09:43:41Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401917524.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "Goldstein Scores 20, Williams Posts Double-Double as Jags Fall at UCF",
    "url": "https://usajaguars.com/news/2026/11/10/mens-basketball-goldstein-scores-20-williams-posts-double-double-as-jags-fall-at-ucf.aspx",
-   "date": "2026-11-11T03:32:00.000Z",
+   "date": "2026-11-11T04:14:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/10/DSC09164.jpg"
   },
@@ -1202,20 +1216,6 @@
    "date": "2026-10-19T18:01:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/19/DSC00783.jpg"
-  },
-  {
-   "title": "South Alabama to Face Loyola Marymount in Coastal Classic",
-   "url": "https://usajaguars.com/news/2026/8/25/mens-basketball-south-alabama-to-face-loyola-marymount-in-coastal-classic.aspx",
-   "date": "2026-08-25T16:05:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/1/2/DSC05198.jpg"
-  },
-  {
-   "title": "South Alabama Jaguars vs. Auburn Tigers: Game Highlights",
-   "url": "https://www.espn.com/video/clip?id=48239774",
-   "date": "2026-03-19T14:20:49Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0318/af8c6723-4d20-4a64-b5a4-912f1f7775ee/af8c6723-4d20-4a64-b5a4-912f1f7775ee.jpg"
   }
  ],
  "nextOpponent": {

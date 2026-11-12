@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-11T14:24:21.712Z",
+ "updatedAt": "2026-11-12T02:57:05.910Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2279,6 +2279,13 @@
  ],
  "news": [
   {
+   "title": "South Alabama is blocking out noise for rivalry game against Troy",
+   "url": "https://www.al.com/sports/2026/11/south-alabama-is-blocking-out-noise-for-rivalry-game-against-troy.html",
+   "date": "2026-11-11T22:02:52.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/AOFQPMPQRFCCVJ7BS4QRYY42HI.jpg?auth=aec24387604d1b47148ed69ada24fdd3f34e5ea095642a01ee80b7e91a04f510&smart=true&height=1200"
+  },
+  {
    "title": "What Major Applewhite said before South Alabama’s game against Troy",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-applewhite-presser-troy-week11-2026",
    "source": "Diehard Sports Network",
@@ -2389,13 +2396,6 @@
    "date": "2026-11-04T21:45:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/4/ANW_046.jpg"
-  },
-  {
-   "title": "South Alabama LBs looking for full 4-quarter performance vs. Louisiana",
-   "url": "https://www.al.com/sports/2026/11/south-alabama-linebackers-looking-for-full-4-quarter-performance-vs-louisiana.html",
-   "date": "2026-11-04T20:04:22.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/PXMQWE4X65H5VJRZRT3PQBM6VA.jpg?auth=0fb5d44b03e07a8bc1e81ed3f202f032b42f63ee3ce467c188cd577c2d8c6009&smart=true&height=1200"
   },
   {
    "title": "What Major Applewhite said before South Alabama’s game at Louisiana",
