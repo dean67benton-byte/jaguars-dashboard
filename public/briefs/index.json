@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-11-14-troy",
+    "sport": "football",
+    "date": "2026-11-15T00:00:00Z",
+    "opponent": "Troy",
+    "status": "preview",
+    "pick": "USA 27, TROY 20"
+  },
+  {
     "id": "2026-11-07-louisiana",
     "sport": "football",
     "date": "2026-11-07T22:00:00Z",
