@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-12T18:53:57.944Z",
+ "updatedAt": "2026-11-13T00:19:33.950Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2279,6 +2279,13 @@
  ],
  "news": [
   {
+   "title": "‘Battle for the Belt’: Recapping the 14 previous South Alabama-Troy rivalry games",
+   "url": "https://www.al.com/sports/2026/11/battle-for-the-belt-recapping-the-14-previous-south-alabama-troy-rivalry-games.html",
+   "date": "2026-11-12T19:00:00.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/GY74CW6BP5B2NDBJCK3UNQDJ74.jpg?auth=a70a9a1b93cc4393857f2e727f73ccf39a096632e785d791e30ecd0f073f8071&smart=true&height=1200"
+  },
+  {
    "title": "Battle for the Belt Returns to Mobile Saturday Night",
    "url": "https://usajaguars.com/news/2026/11/12/football-battle-for-the-belt-returns-to-mobile-saturday-night.aspx",
    "date": "2026-11-12T15:10:00.000Z",
@@ -2480,13 +2487,6 @@
    "date": "2026-10-26T20:02:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/26/FB_Ohio_1072.jpg"
-  },
-  {
-   "title": "Sun Belt matchup features Louisiana Tech taking on South Alabama",
-   "url": "http://www.espn.com/ncf/preview?gameId=401871097",
-   "date": "2026-10-25T19:42:50Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871097.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {
