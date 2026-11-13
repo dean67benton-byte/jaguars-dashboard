@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-13T07:54:47.084Z",
+ "updatedAt": "2026-11-13T16:18:42.117Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1106,6 +1106,13 @@
  ],
  "news": [
   {
+   "title": "South Alabama visits North Texas following Langsy's 27-point game",
+   "url": "http://www.espn.com/ncb/preview?gameId=401925827",
+   "date": "2026-11-13T09:48:00Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401925827.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "Langsy, Goldstein Lead Jaguars Past LMU at Coastal Classic",
    "url": "https://usajaguars.com/news/2026/11/12/mens-basketball-langsy-goldstein-lead-jaguars-past-lmu-at-coastal-classic.aspx",
    "date": "2026-11-13T04:50:00.000Z",
@@ -1209,13 +1216,6 @@
    "date": "2026-11-04T21:04:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/4/MLVD2207.jpg"
-  },
-  {
-   "title": "Kolton Mitchell, Jackson Paveletzke help Ohio secure 86-77 victory over South Alabama in opener",
-   "url": "http://www.espn.com/ncb/recap?gameId=401911003",
-   "date": "2026-11-03T05:32:48Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401911003.png?templateId=espn.applewatch.awayhome.1"
   },
   {
    "title": "Jags Fall in Season Opener to Ohio",
