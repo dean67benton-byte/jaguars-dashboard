@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-13T00:19:33.950Z",
+ "updatedAt": "2026-11-13T07:54:47.084Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -8,7 +8,7 @@
   "short": "South Alabama",
   "abbr": "USA",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-  "record": "1-2",
+  "record": "2-2",
   "standingSummary": "1st in Sun Belt"
  },
  "events": [
@@ -93,15 +93,19 @@
     "name": "Loyola Marymount Lions",
     "short": "LMU",
     "abbr": "LMU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png"
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+    "record": "1-3"
    },
    "home": true,
    "neutral": true,
    "conference": false,
    "venue": "Pensacola Bay Center",
    "city": "Pensacola, FL",
-   "status": "pre",
-   "statusDetail": "11/12 - 8:00 PM EST"
+   "status": "post",
+   "statusDetail": "Final",
+   "usScore": 79,
+   "oppScore": 72,
+   "result": "W"
   },
   {
    "id": "401925827",
@@ -1038,14 +1042,20 @@
      "overall": "2-1"
     },
     {
-     "teamId": "2032",
-     "team": "Arkansas St",
-     "conf": "0-0",
-     "overall": "1-2"
-    },
-    {
      "teamId": "324",
      "team": "Coastal",
+     "conf": "0-0",
+     "overall": "2-2"
+    },
+    {
+     "teamId": "6",
+     "team": "South Alabama",
+     "conf": "0-0",
+     "overall": "2-2"
+    },
+    {
+     "teamId": "2032",
+     "team": "Arkansas St",
      "conf": "0-0",
      "overall": "1-2"
     },
@@ -1074,12 +1084,6 @@
      "overall": "1-2"
     },
     {
-     "teamId": "6",
-     "team": "South Alabama",
-     "conf": "0-0",
-     "overall": "1-2"
-    },
-    {
      "teamId": "2653",
      "team": "Troy",
      "conf": "0-0",
@@ -1101,6 +1105,27 @@
   }
  ],
  "news": [
+  {
+   "title": "Langsy, Goldstein Lead Jaguars Past LMU at Coastal Classic",
+   "url": "https://usajaguars.com/news/2026/11/12/mens-basketball-langsy-goldstein-lead-jaguars-past-lmu-at-coastal-classic.aspx",
+   "date": "2026-11-13T04:50:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/12/ANW-37__1_.jpg"
+  },
+  {
+   "title": "Langsy’s 27 lead South Alabama past Loyola Marymount 79-72 at the Coastal Classic",
+   "url": "http://www.espn.com/ncb/recap?gameId=401917524",
+   "date": "2026-11-13T03:47:34Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401917524.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "South Alabama basketball holds off Loyola Marymount, improves to 2-2",
+   "url": "https://www.al.com/sports/2026/11/south-alabama-basketball-holds-off-loyola-marymount-improves-to-2-2.html",
+   "date": "2026-11-13T03:45:55.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/X7ABKTLD4ZHW3AUEKX43FNALNY.jpg?auth=82b7cd09c5b0f09e65f497bdd226aab4b9238898259b4bb38539afa71b8e13fb&smart=true&height=1200"
+  },
   {
    "title": "South Alabama squares off against Loyola Marymount in Pensacola, Florida",
    "url": "http://www.espn.com/ncb/preview?gameId=401917524",
@@ -1200,13 +1225,6 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/2/MLVD2235.jpg"
   },
   {
-   "title": "South Alabama hosts Ohio for season opener",
-   "url": "http://www.espn.com/ncb/preview?gameId=401911003",
-   "date": "2026-11-02T09:48:21Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401911003.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
    "title": "South Alabama Opens Season Against Ohio Monday at the Mitchell Center",
    "url": "https://usajaguars.com/news/2026/11/1/mens-basketball-south-alabama-opens-season-against-ohio-monday-at-the-mitchell-center.aspx",
    "date": "2026-11-01T14:08:00.000Z",
@@ -1230,12 +1248,12 @@
  ],
  "nextOpponent": {
   "team": {
-   "id": "2351",
-   "name": "Loyola Marymount Lions",
-   "short": "LMU",
-   "abbr": "LMU",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
-   "record": "1-2"
+   "id": "249",
+   "name": "North Texas Mean Green",
+   "short": "North Texas",
+   "abbr": "UNT",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+   "record": "2-1"
   },
   "stats": [
    {
@@ -1244,17 +1262,17 @@
      {
       "name": "avgRebounds",
       "label": "Rebounds Per Game",
-      "value": "42.7"
+      "value": "43.7"
      },
      {
       "name": "assistTurnoverRatio",
       "label": "Assist To Turnover Ratio",
-      "value": "1.8"
+      "value": "1.1"
      },
      {
       "name": "avgFouls",
       "label": "Fouls Per Game",
-      "value": "17.3"
+      "value": "17.7"
      },
      {
       "name": "gamesPlayed",
@@ -1269,22 +1287,22 @@
      {
       "name": "minutes",
       "label": "Minutes",
-      "value": "625"
+      "value": "600"
      },
      {
       "name": "avgMinutes",
       "label": "Minutes Per Game",
-      "value": "208.3"
+      "value": "200.0"
      },
      {
       "name": "totalRebounds",
       "label": "Rebounds",
-      "value": "128"
+      "value": "131"
      },
      {
       "name": "rebounds",
       "label": "Rebounds",
-      "value": "128"
+      "value": "131"
      }
     ]
    },
@@ -1294,152 +1312,152 @@
      {
       "name": "freeThrowPct",
       "label": "Free Throw Percentage",
-      "value": "66.7"
+      "value": "69.9"
      },
      {
       "name": "avgFieldGoalsMade",
       "label": "Average Field Goals Made",
-      "value": "33.3"
+      "value": "32.0"
      },
      {
       "name": "avgFieldGoalsAttempted",
       "label": "Average Field Goals Attempted",
-      "value": "73.0"
+      "value": "63.0"
      },
      {
       "name": "avgThreePointFieldGoalsMade",
       "label": "Average 3-Point Field Goals Made",
-      "value": "10.7"
+      "value": "6.7"
      },
      {
       "name": "avgThreePointFieldGoalsAttempted",
       "label": "Average 3-Point Field Goals Attempted",
-      "value": "34.3"
+      "value": "22.0"
      },
      {
       "name": "avgFreeThrowsMade",
       "label": "Average Free Throws Made",
-      "value": "11.3"
+      "value": "19.3"
      },
      {
       "name": "avgFreeThrowsAttempted",
       "label": "Average Free Throws Attempted",
-      "value": "17.0"
+      "value": "27.7"
      },
      {
       "name": "avgPoints",
       "label": "Points Per Game",
-      "value": "88.7"
+      "value": "90.0"
      },
      {
       "name": "avgOffensiveRebounds",
       "label": "Offensive Rebounds Per Game",
-      "value": "13.7"
+      "value": "15.0"
      },
      {
       "name": "avgAssists",
       "label": "Assists Per Game",
-      "value": "16.0"
+      "value": "13.7"
      },
      {
       "name": "avgTurnovers",
       "label": "Turnovers Per Game",
-      "value": "9.0"
+      "value": "12.7"
      },
      {
       "name": "twoPointFieldGoalPct",
       "label": "2-Point Field Goal Percentage",
-      "value": "58.6"
+      "value": "61.8"
      },
      {
       "name": "scoringEfficiency",
       "label": "Scoring Efficiency",
-      "value": "1.215"
+      "value": "1.429"
      },
      {
       "name": "shootingEfficiency",
       "label": "Shooting Efficiency",
-      "value": "0.53"
+      "value": "0.56"
      },
      {
       "name": "fieldGoalPct",
       "label": "Field Goal Percentage",
-      "value": "45.7"
+      "value": "50.8"
      },
      {
       "name": "twoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made",
-      "value": "68.0"
+      "value": "76.0"
      },
      {
       "name": "twoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted",
-      "value": "116.0"
+      "value": "123.0"
      },
      {
       "name": "points",
       "label": "Points",
-      "value": "266"
+      "value": "270"
      },
      {
       "name": "offensiveRebounds",
       "label": "Offensive Rebounds",
-      "value": "41"
+      "value": "45"
      },
      {
       "name": "assists",
       "label": "Assists",
-      "value": "48"
+      "value": "41"
      },
      {
       "name": "turnovers",
       "label": "Turnovers",
-      "value": "27"
+      "value": "38"
      },
      {
       "name": "fieldGoalsMade",
       "label": "Field Goals Made",
-      "value": "100"
+      "value": "96"
      },
      {
       "name": "fieldGoalsAttempted",
       "label": "Field Goals Attempted",
-      "value": "219"
+      "value": "189"
      },
      {
       "name": "freeThrowsMade",
       "label": "Free Throws Made",
-      "value": "34"
+      "value": "58"
      },
      {
       "name": "freeThrowsAttempted",
       "label": "Free Throws Attempted",
-      "value": "51"
+      "value": "83"
      },
      {
       "name": "threePointFieldGoalsMade",
       "label": "3-Point Field Goals Made",
-      "value": "32"
+      "value": "20"
      },
      {
       "name": "threePointFieldGoalsAttempted",
       "label": "3-Point Field Goals Attempted",
-      "value": "103"
+      "value": "66"
      },
      {
       "name": "threePointFieldGoalPct",
       "label": "3-Point Field Goal Percentage",
-      "value": "31.1"
+      "value": "30.3"
      },
      {
       "name": "avgTwoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made per Game",
-      "value": "22.7"
+      "value": "25.3"
      },
      {
       "name": "avgTwoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted per Game",
-      "value": "38.7"
+      "value": "41.0"
      }
     ]
    },
@@ -1449,32 +1467,32 @@
      {
       "name": "avgDefensiveRebounds",
       "label": "Defensive Rebounds Per Game",
-      "value": "29.0"
+      "value": "28.7"
      },
      {
       "name": "avgBlocks",
       "label": "Blocks Per Game",
-      "value": "5.0"
+      "value": "2.7"
      },
      {
       "name": "avgSteals",
       "label": "Steals Per Game",
-      "value": "8.3"
+      "value": "11.3"
      },
      {
       "name": "defensiveRebounds",
       "label": "Defensive Rebounds",
-      "value": "87"
+      "value": "86"
      },
      {
       "name": "steals",
       "label": "Steals",
-      "value": "25"
+      "value": "34"
      },
      {
       "name": "blocks",
       "label": "Blocks",
-      "value": "15"
+      "value": "8"
      }
     ]
    }
