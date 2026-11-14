@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T14:36:13.197Z",
+ "updatedAt": "2026-11-14T06:32:22.894Z",
  "football": {
   "season": "2026",
   "lastSeason": "2025",
@@ -1307,29 +1307,29 @@
     "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5461611.png",
     "from": "College of Staten Island",
     "level": "D3",
-    "games": 3,
-    "starts": 3,
+    "games": 4,
+    "starts": 4,
     "stats": {
      "season": [
       {
        "label": "PTS",
-       "value": "14.7"
+       "value": "16.8"
       },
       {
        "label": "REB",
-       "value": "2.3"
+       "value": "1.8"
       },
       {
        "label": "AST",
-       "value": "2.0"
+       "value": "1.8"
       },
       {
        "label": "MIN",
-       "value": "35.0"
+       "value": "35.3"
       },
       {
        "label": "GP",
-       "value": "3"
+       "value": "4"
       }
      ],
      "last": []
@@ -1357,29 +1357,29 @@
     "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5316281.png",
     "from": "Southern Arkansas",
     "level": "D2",
-    "games": 3,
+    "games": 4,
     "starts": 0,
     "stats": {
      "season": [
       {
        "label": "PTS",
-       "value": "6.0"
+       "value": "5.0"
       },
       {
        "label": "REB",
-       "value": "1.7"
+       "value": "2.3"
       },
       {
        "label": "AST",
-       "value": "0.7"
+       "value": "0.8"
       },
       {
        "label": "MIN",
-       "value": "11.3"
+       "value": "14.0"
       },
       {
        "label": "GP",
-       "value": "3"
+       "value": "4"
       }
      ],
      "last": [
@@ -1410,21 +1410,21 @@
     "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5461606.png",
     "from": "Northwestern College (Iowa)",
     "level": "NAIA",
-    "games": 3,
-    "starts": 3,
+    "games": 4,
+    "starts": 4,
     "stats": {
      "season": [
       {
        "label": "PTS",
-       "value": "19.0"
+       "value": "21.0"
       },
       {
        "label": "REB",
-       "value": "2.0"
+       "value": "1.8"
       },
       {
        "label": "AST",
-       "value": "2.7"
+       "value": "3.8"
       },
       {
        "label": "MIN",
@@ -1432,7 +1432,7 @@
       },
       {
        "label": "GP",
-       "value": "3"
+       "value": "4"
       }
      ],
      "last": []
@@ -1513,13 +1513,13 @@
     "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5461607.png",
     "from": "Ratiopharm Ulm (Germany)",
     "level": "Intl",
-    "games": 3,
+    "games": 4,
     "starts": 0,
     "stats": {
      "season": [
       {
        "label": "PTS",
-       "value": "1.0"
+       "value": "2.5"
       },
       {
        "label": "REB",
@@ -1527,15 +1527,15 @@
       },
       {
        "label": "AST",
-       "value": "0.3"
+       "value": "0.8"
       },
       {
        "label": "MIN",
-       "value": "19.0"
+       "value": "21.8"
       },
       {
        "label": "GP",
-       "value": "3"
+       "value": "4"
       }
      ],
      "last": []
@@ -1563,29 +1563,29 @@
     "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5461609.png",
     "from": "Starwings Basel (Switzerland)",
     "level": "Intl",
-    "games": 3,
-    "starts": 3,
+    "games": 4,
+    "starts": 4,
     "stats": {
      "season": [
       {
        "label": "PTS",
-       "value": "9.0"
+       "value": "6.8"
       },
       {
        "label": "REB",
-       "value": "2.7"
+       "value": "2.8"
       },
       {
        "label": "AST",
-       "value": "4.3"
+       "value": "3.5"
       },
       {
        "label": "MIN",
-       "value": "27.0"
+       "value": "26.3"
       },
       {
        "label": "GP",
-       "value": "3"
+       "value": "4"
       }
      ],
      "last": []
@@ -1613,13 +1613,13 @@
     "pos": "F",
     "cls": "SR",
     "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313205.png",
-    "games": 3,
-    "starts": 0,
+    "games": 4,
+    "starts": 1,
     "stats": {
      "season": [
       {
        "label": "PTS",
-       "value": "2.7"
+       "value": "2.5"
       },
       {
        "label": "REB",
@@ -1627,15 +1627,15 @@
       },
       {
        "label": "AST",
-       "value": "1.7"
+       "value": "1.8"
       },
       {
        "label": "MIN",
-       "value": "17.7"
+       "value": "17.8"
       },
       {
        "label": "GP",
-       "value": "3"
+       "value": "4"
       }
      ],
      "last": [

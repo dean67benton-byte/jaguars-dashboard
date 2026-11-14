@@ -1,6 +1,95 @@
 {
- "updatedAt": "2026-11-12T14:36:13.148Z",
+ "updatedAt": "2026-11-14T06:32:22.848Z",
  "players": [
+  {
+   "id": "3125248",
+   "name": "Jeremy Reaves",
+   "pos": "S",
+   "jersey": "39",
+   "age": 30,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3125248.png",
+   "group": "active",
+   "status": "Active",
+   "team": {
+    "abbr": "WSH",
+    "name": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
+   },
+   "statsSeason": "2026 Regular Season",
+   "games": 9,
+   "lastGame": {
+    "date": "2026-11-13T01:15:00.000+00:00",
+    "opp": "NYG",
+    "at": "@",
+    "result": "W",
+    "score": "24-21",
+    "week": 10
+   },
+   "stats": {
+    "season": [
+     {
+      "label": "TOT",
+      "value": "62"
+     },
+     {
+      "label": "SOLO",
+      "value": "35"
+     },
+     {
+      "label": "AST",
+      "value": "27"
+     },
+     {
+      "label": "FR",
+      "value": "1"
+     },
+     {
+      "label": "PD",
+      "value": "4"
+     }
+    ],
+    "career": [
+     {
+      "label": "TOT",
+      "value": "281"
+     },
+     {
+      "label": "SOLO",
+      "value": "170"
+     },
+     {
+      "label": "AST",
+      "value": "111"
+     },
+     {
+      "label": "SACK",
+      "value": "2"
+     }
+    ]
+   },
+   "facts": [
+    "Undrafted; made his NFL debut with Philadelphia in 2018.",
+    "Pro Bowl and first-team All-Pro in 2022.",
+    "Signed a one-year extension with Washington in March 2026."
+   ],
+   "contract": {
+    "summary": "1-year extension (2026)",
+    "capHit": "$3.65M 2026 cap hit (est.)",
+    "career": "$14.27M career earnings incl. 2026",
+    "source": "https://www.spotrac.com/nfl/player/_/id/25572/jeremy-reaves"
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft",
+    "https://www.hogshaven.com/daily-slop/406710/daily-slop-19-mar-26-defense-special-teams-fan-favorite-jeremy-reaves-has-signed-a-1-year-extension-with-the-commanders"
+   ],
+   "grade": {
+    "letter": "B",
+    "note": "Week 8 vs PHI: 7 tackles (3 solo), no passes defended or takeaways in a 27-10 win. Snap counts not checked in a free source.",
+    "week": 8,
+    "gradedAt": "2026-11-08T14:20:31.783Z"
+   },
+   "espn": "https://www.espn.com/nfl/player/_/id/3125248"
+  },
   {
    "id": "3125280",
    "name": "Corliss Waitman",
@@ -80,91 +169,6 @@
     "gradedAt": "2026-11-01T14:19:06.674Z"
    },
    "espn": "https://www.espn.com/nfl/player/_/id/3125280"
-  },
-  {
-   "id": "3125248",
-   "name": "Jeremy Reaves",
-   "pos": "S",
-   "jersey": "39",
-   "age": 30,
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3125248.png",
-   "group": "active",
-   "status": "Active",
-   "team": {
-    "abbr": "WSH",
-    "name": "Washington Commanders",
-    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
-   },
-   "statsSeason": "2026 Regular Season",
-   "games": 8,
-   "lastGame": {
-    "date": "2026-11-08T18:00:00.000+00:00",
-    "opp": "LAR",
-    "at": "vs",
-    "result": "L",
-    "score": "20-13",
-    "week": 9
-   },
-   "stats": {
-    "season": [
-     {
-      "label": "TOT",
-      "value": "53"
-     },
-     {
-      "label": "SOLO",
-      "value": "28"
-     },
-     {
-      "label": "AST",
-      "value": "25"
-     },
-     {
-      "label": "PD",
-      "value": "3"
-     }
-    ],
-    "career": [
-     {
-      "label": "TOT",
-      "value": "272"
-     },
-     {
-      "label": "SOLO",
-      "value": "163"
-     },
-     {
-      "label": "AST",
-      "value": "109"
-     },
-     {
-      "label": "SACK",
-      "value": "2"
-     }
-    ]
-   },
-   "facts": [
-    "Undrafted; made his NFL debut with Philadelphia in 2018.",
-    "Pro Bowl and first-team All-Pro in 2022.",
-    "Signed a one-year extension with Washington in March 2026."
-   ],
-   "contract": {
-    "summary": "1-year extension (2026)",
-    "capHit": "$3.65M 2026 cap hit (est.)",
-    "career": "$14.27M career earnings incl. 2026",
-    "source": "https://www.spotrac.com/nfl/player/_/id/25572/jeremy-reaves"
-   },
-   "sources": [
-    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft",
-    "https://www.hogshaven.com/daily-slop/406710/daily-slop-19-mar-26-defense-special-teams-fan-favorite-jeremy-reaves-has-signed-a-1-year-extension-with-the-commanders"
-   ],
-   "grade": {
-    "letter": "B",
-    "note": "Week 8 vs PHI: 7 tackles (3 solo), no passes defended or takeaways in a 27-10 win. Snap counts not checked in a free source.",
-    "week": 8,
-    "gradedAt": "2026-11-08T14:20:31.783Z"
-   },
-   "espn": "https://www.espn.com/nfl/player/_/id/3125248"
   },
   {
    "id": "4685978",
