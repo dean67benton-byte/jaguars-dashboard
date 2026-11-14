@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-14T17:04:29.644Z",
+ "updatedAt": "2026-11-14T21:27:48.521Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2195,7 +2195,13 @@
      "teamId": "256",
      "team": "James Madison",
      "conf": "5-2",
-     "overall": "8-2"
+     "overall": "8-3"
+    },
+    {
+     "teamId": "324",
+     "team": "Coastal",
+     "conf": "3-3",
+     "overall": "4-6"
     },
     {
      "teamId": "2247",
@@ -2214,12 +2220,6 @@
      "team": "App State",
      "conf": "2-3",
      "overall": "5-4"
-    },
-    {
-     "teamId": "324",
-     "team": "Coastal",
-     "conf": "2-3",
-     "overall": "3-6"
     },
     {
      "teamId": "295",
@@ -2245,8 +2245,8 @@
      "overall": "7-3"
     },
     {
-     "teamId": "2032",
-     "team": "Arkansas St",
+     "teamId": "2653",
+     "team": "Troy",
      "conf": "2-3",
      "overall": "4-5"
     },
@@ -2257,16 +2257,16 @@
      "overall": "4-5"
     },
     {
-     "teamId": "2653",
-     "team": "Troy",
-     "conf": "2-3",
-     "overall": "4-5"
-    },
-    {
      "teamId": "2572",
      "team": "Southern Miss",
      "conf": "2-3",
      "overall": "3-6"
+    },
+    {
+     "teamId": "2032",
+     "team": "Arkansas St",
+     "conf": "2-4",
+     "overall": "4-6"
     },
     {
      "teamId": "2433",
