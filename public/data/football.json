@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-14T10:26:51.889Z",
+ "updatedAt": "2026-11-14T17:04:29.644Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2279,6 +2279,20 @@
  ],
  "news": [
   {
+   "title": "Jags Jungle panel picks: Troy at South Alabama",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jags-jungle-picks-troy-week11-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-14T15:30:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/2fdf44637d3b6e41a5437a131e7d9b8cd42ec382-1670x941.png?rect=0,33,1670,877&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "Scouting report: What you need to know for Saturday’s South Alabama-Troy game",
+   "url": "https://www.al.com/sports/2026/11/scouting-report-what-you-need-to-know-for-saturdays-south-alabama-troy-game.html",
+   "date": "2026-11-14T11:00:00.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/VOUI7PKUZJAB3EDPZTA6P4KCBY.jpg?auth=7a43d764379a800afeea13a060bcacaba6eb923e98ad1d6c6806075cb2aeecc5&smart=true&height=1200"
+  },
+  {
    "title": "‘Battle for the Belt’: Recapping the 14 previous South Alabama-Troy rivalry games",
    "url": "https://www.al.com/sports/2026/11/battle-for-the-belt-recapping-the-14-previous-south-alabama-troy-rivalry-games.html",
    "date": "2026-11-12T19:00:00.000Z",
@@ -2377,13 +2391,6 @@
    "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/8225d3a9-273c-45da-87af-12b91c8d9bd9/8225d3a9-273c-45da-87af-12b91c8d9bd9.jpg"
   },
   {
-   "title": "Scouting report: What you need to know for South Alabama’s game at Louisiana",
-   "url": "https://www.al.com/sports/2026/11/scouting-report-what-you-need-to-know-for-south-alabamas-game-at-louisiana.html",
-   "date": "2026-11-07T11:00:00.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/YBDOB4J4WVEFZL5QHF52SBFVKE.jpg?auth=d29f4f35d7c3e87a2aee7a9cfba30e06680eb5682767f6e4c5555efb764c0f7e&smart=true&height=1200"
-  },
-  {
    "title": "The Really Big Preview: South Alabama at Louisiana",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-really-big-preview-louisiana-week10-2026",
    "source": "Diehard Sports Network",
@@ -2438,13 +2445,6 @@
    "source": "Diehard Sports Network",
    "date": "2026-11-01T17:00:00.000Z",
    "image": "https://cdn.sanity.io/images/iahnmtcr/production/3b8fb55d164e9d8e1c42c5014a6c124372aeb674-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
-  },
-  {
-   "title": "Rapid Reaction: What we learned from the Louisiana Tech game",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-louisianatech-rapid-reaction-week9",
-   "source": "Diehard Sports Network",
-   "date": "2026-11-01T14:00:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/cbac6a3602ff9bd32c74d235e86b3dc088c03913-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
   },
   {
    "title": "South Alabama Falls to Louisiana Tech, 35-20",
