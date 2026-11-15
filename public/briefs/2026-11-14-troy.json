@@ -7,7 +7,7 @@
   "home": true,
   "venue": "Hancock Whitney Stadium, Mobile, Ala.",
   "tv": "ESPN+",
-  "status": "preview",
+  "status": "final",
   "preview": {
     "generatedAt": "2026-11-12T08:30:00-06:00",
     "headline": "Battle for the Belt in Mobile: USA's run game against a Troy team that keeps giving the ball away.",
@@ -138,17 +138,50 @@
     },
     "context": "Battle for the Belt, 15th meeting. Troy leads the series 10-4 and has won three of the last four: 10-6 (2022), 28-10 (2023), USA 25-9 in Mobile (2024), and Troy 31-24 in overtime in Troy (Oct. 4, 2025). Troy is 3-2 at home and 1-3 on the road this year: a win at JMU and losses at Missouri, Utah State and Louisiana. Kickoff 6 p.m. Central on ESPN+ and the Jags Radio Network.",
     "sources": [
-      { "title": "ESPN game page: Troy at South Alabama, Nov 14, 2026 (incl. AccuWeather forecast and team leaders)", "url": "https://www.espn.com/college-football/game/_/gameId/401871100" },
-      { "title": "ESPN/Data Skrive preview: South Alabama and Troy meet in Sun Belt action", "url": "https://www.espn.com/college-football/preview/_/gameId/401871100" },
-      { "title": "ESPN box score and AP recap: Louisiana Tech 41, Troy 17, Nov 7, 2026", "url": "https://www.espn.com/college-football/boxscore/_/gameId/401871098" },
-      { "title": "ESPN box score: South Alabama at Louisiana, Nov 7, 2026", "url": "https://www.espn.com/college-football/boxscore/_/gameId/401869968" },
-      { "title": "ESPN box score: UL Monroe at Troy, Oct 24, 2026", "url": "https://www.espn.com/college-football/boxscore/_/gameId/401871094" },
-      { "title": "WDBJ7/AP: Hayden Wolfe's field goal in OT lifts Troy to 24-21 victory over James Madison", "url": "https://www.wdbj7.com/2026/10/30/hayden-wolfes-field-goal-ot-lifts-troy-24-21-victory-over-james-madison/?outputType=amp" },
-      { "title": "ESPN South Alabama and Troy schedules and team statistics", "url": "https://www.espn.com/college-football/team/stats/_/id/6" },
-      { "title": "Winsipedia: South Alabama vs. Troy series history", "url": "https://www.winsipedia.com/games/south-alabama/vs/troy/2026/127674" },
-      { "title": "usajaguars.com: Jags late comeback not enough in overtime loss to Troy (Oct 4, 2025)", "url": "https://usajaguars.com/news/2025/10/4/football-jags-late-comeback-not-enough-in-overtime-loss-to-troy.aspx" },
-      { "title": "Fox Sports: South Alabama beats Troy 25-9 in the Battle for the Belt (2024)", "url": "https://www.foxsports.com/articles/cfb/south-alabama-beats-troy-259-in-the-battle-for-the-belt" },
-      { "title": "BVM Sports: Troy faces South Alabama in Battle for the Belt on Saturday (Nov 12, 2026)", "url": "https://bvmsports.com/2026/11/12/troy-faces-south-alabama-in-battle-for-the-belt-on-saturday/" }
+      {
+        "title": "ESPN game page: Troy at South Alabama, Nov 14, 2026 (incl. AccuWeather forecast and team leaders)",
+        "url": "https://www.espn.com/college-football/game/_/gameId/401871100"
+      },
+      {
+        "title": "ESPN/Data Skrive preview: South Alabama and Troy meet in Sun Belt action",
+        "url": "https://www.espn.com/college-football/preview/_/gameId/401871100"
+      },
+      {
+        "title": "ESPN box score and AP recap: Louisiana Tech 41, Troy 17, Nov 7, 2026",
+        "url": "https://www.espn.com/college-football/boxscore/_/gameId/401871098"
+      },
+      {
+        "title": "ESPN box score: South Alabama at Louisiana, Nov 7, 2026",
+        "url": "https://www.espn.com/college-football/boxscore/_/gameId/401869968"
+      },
+      {
+        "title": "ESPN box score: UL Monroe at Troy, Oct 24, 2026",
+        "url": "https://www.espn.com/college-football/boxscore/_/gameId/401871094"
+      },
+      {
+        "title": "WDBJ7/AP: Hayden Wolfe's field goal in OT lifts Troy to 24-21 victory over James Madison",
+        "url": "https://www.wdbj7.com/2026/10/30/hayden-wolfes-field-goal-ot-lifts-troy-24-21-victory-over-james-madison/?outputType=amp"
+      },
+      {
+        "title": "ESPN South Alabama and Troy schedules and team statistics",
+        "url": "https://www.espn.com/college-football/team/stats/_/id/6"
+      },
+      {
+        "title": "Winsipedia: South Alabama vs. Troy series history",
+        "url": "https://www.winsipedia.com/games/south-alabama/vs/troy/2026/127674"
+      },
+      {
+        "title": "usajaguars.com: Jags late comeback not enough in overtime loss to Troy (Oct 4, 2025)",
+        "url": "https://usajaguars.com/news/2025/10/4/football-jags-late-comeback-not-enough-in-overtime-loss-to-troy.aspx"
+      },
+      {
+        "title": "Fox Sports: South Alabama beats Troy 25-9 in the Battle for the Belt (2024)",
+        "url": "https://www.foxsports.com/articles/cfb/south-alabama-beats-troy-259-in-the-battle-for-the-belt"
+      },
+      {
+        "title": "BVM Sports: Troy faces South Alabama in Battle for the Belt on Saturday (Nov 12, 2026)",
+        "url": "https://bvmsports.com/2026/11/12/troy-faces-south-alabama-in-battle-for-the-belt-on-saturday/"
+      }
     ]
   },
   "reminder": {
@@ -157,6 +190,141 @@
       "Injuries: still no injury report found for either team (ESPN game page lists none, checked 12:40 a.m. game day). A BVM Sports preview says Bishop Davenport returned last week after missing six games with an injury; neither school has named a starting quarterback.",
       "Weather is unchanged from the preview. ESPN/AccuWeather shows 51°F at kickoff, 0% chance of rain and gusts to 12 mph. Natural grass at Hancock Whitney Stadium.",
       "Kickoff is still 6 p.m. Central on ESPN+ and the Jaguars Radio Network. Both teams remain 4-5 (2-3 Sun Belt) per ESPN, and no other news changed since the preview, so the pick stays USA 27, Troy 20."
+    ]
+  },
+  "grade": {
+    "generatedAt": "2026-11-14T22:35:00-06:00",
+    "final": {
+      "usa": 27,
+      "opp": 14
+    },
+    "winnerCorrect": true,
+    "marginOff": 6,
+    "totalOff": 6,
+    "summary": "The brief picked USA 27-20 and USA won 27-14, so the winner and USA's point total were exact; the margin and total were each off by 6. It was right that USA's run game would beat Troy's and that USA would contain Troy's ground game, but Troy did not turn it over, USA settled for field goals in the red zone, and it never flagged Trae'von Dunbar.",
+    "keys": [
+      {
+        "key": "USA: Stop the run.",
+        "hit": true,
+        "note": "Troy ran 33 times for 123 yards (3.7 a carry); Gavin Griffin had 15 carries for 38. Crowder's 45-yard TD run was the one big gain."
+      },
+      {
+        "key": "USA: Win on the ground against a solid front.",
+        "hit": true,
+        "note": "39 carries for 246 yards (6.3 a carry), well above the 103 the backs had at Louisiana. Dunbar ran 14 times for 153 and 2 TD."
+      },
+      {
+        "key": "USA: Cash in Troy's mistakes.",
+        "hit": false,
+        "note": "Troy had 0 turnovers. Troy's mistakes were 9 penalties for 95 yards and three failed fourth downs, not giveaways."
+      },
+      {
+        "key": "USA: Finish in the red zone.",
+        "hit": false,
+        "note": "Two red-zone trips (Troy 11 and Troy 6), two Freebury field goals, no TDs. All three USA TDs came on runs of 28 yards or more."
+      },
+      {
+        "key": "Troy: Protect the ball.",
+        "hit": true,
+        "note": "0 turnovers and 0 fumbles lost, after 5 giveaways against Louisiana Tech."
+      },
+      {
+        "key": "Troy: Stay ahead of the chains.",
+        "hit": false,
+        "note": "5 of 17 on third down and 3 of 6 on fourth; three drives ended on downs, two in USA territory."
+      }
+    ],
+    "players": [
+      {
+        "name": "Bishop Davenport",
+        "note": "Started: 9 of 21 for 122 yards, 0 TD, 0 INT, plus 6 carries for 39 and a 28-yard TD run."
+      },
+      {
+        "name": "Brendan Jenkins",
+        "note": "2 catches for 16 yards. Trae Stevenson's 46-yard catch was USA's biggest pass play."
+      },
+      {
+        "name": "Donnie Smith",
+        "note": "No sack; Troy recorded no sacks and USA allowed none."
+      },
+      {
+        "name": "Gavin Griffin",
+        "note": "15 carries, 38 yards (2.5 a carry), no TD. Goose Crowder (11 for 58, 1 TD) was Troy's leading rusher."
+      }
+    ],
+    "missed": "It did not name Trae'von Dunbar, who decided the game with TD runs of 46 and 44 yards in the first quarter and 153 yards on 14 carries. It also did not expect Goose Crowder back at quarterback; he started and threw 41 passes (24 for 231, 1 TD) and ran for a 45-yard TD. USA's defense had three sacks (Jordan Williams, Dallas Young, Emmanuel Waller) and three fourth-down stops, which the brief's defensive outlook did not foresee.",
+    "sources": [
+      {
+        "title": "ESPN box score, scoring plays and drive chart: Troy at South Alabama, Nov 14, 2026",
+        "url": "https://www.espn.com/college-football/game/_/gameId/401871100"
+      },
+      {
+        "title": "ESPN/AP recap: Trae'von Dunbar has 153 yards rushing and 2 TDs, South Alabama beats Troy 27-14",
+        "url": "https://www.espn.com/college-football/recap/_/gameId/401871100"
+      },
+      {
+        "title": "ESPN game summary API: Troy at South Alabama (final team and player stats)",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871100"
+      }
+    ],
+    "performance": {
+      "letter": "B",
+      "summary": "A 13-point home win over a 4-5 Troy team that snapped a three-game losing streak and kept the Belt in Mobile. USA ran for 246 yards at 6.3 a carry, committed no turnovers, held Troy to 3.7 a carry and 14 points with three sacks and three fourth-down stops. It is not higher because the passing game was 9 of 21 for 122, USA was 5 of 14 on third down, kicked two red-zone field goals, and went scoreless in the fourth quarter (three straight punts after going up 27-7)."
+    },
+    "accuracy": [
+      {
+        "part": "Winner",
+        "points": 25,
+        "max": 25,
+        "note": "Picked USA; USA won 27-14."
+      },
+      {
+        "part": "Margin",
+        "points": 11,
+        "max": 15,
+        "note": "Picked USA by 7; USA won by 13, off by 6."
+      },
+      {
+        "part": "Total points",
+        "points": 8,
+        "max": 10,
+        "note": "Picked 47 points; the game had 41, off by 6."
+      },
+      {
+        "part": "Keys to the game",
+        "points": 18,
+        "max": 35,
+        "note": "3 of 6 keys held up: USA stopped the run and won on the ground, and Troy protected the ball."
+      },
+      {
+        "part": "Players and storylines",
+        "points": 8,
+        "max": 15,
+        "note": "Griffin being contained and the Belt staying home mattered, and the risk of a healthy Crowder came true; Jenkins and Smith were non-factors and Dunbar was not mentioned."
+      }
+    ],
+    "accuracyPct": 70,
+    "fixes": [
+      {
+        "title": "Throw it well enough to matter",
+        "text": "9 of 21 for 122 yards, and Jenkins had 2 catches for 16. Southern Miss on Nov 21 will load the box if the run is the only threat."
+      },
+      {
+        "title": "Touchdowns in the red zone",
+        "text": "Two trips inside the Troy 11, two field goals. Every USA TD came from 28 yards or farther out."
+      },
+      {
+        "title": "Close the game",
+        "text": "No fourth-quarter points; after the 27-7 TD, USA's last three drives were punts (15 plays, 40 yards) while Troy reached USA territory twice more."
+      },
+      {
+        "title": "Third downs",
+        "text": "5 of 14 on offense. The defense's 5 of 17 held Troy back; the offense needs the same to keep drives alive on the road."
+      },
+      {
+        "title": "Penalties",
+        "text": "7 for 65 yards. Troy's 9 for 95 hid it this week; that margin will not repeat every game."
+      }
     ]
   }
 }
