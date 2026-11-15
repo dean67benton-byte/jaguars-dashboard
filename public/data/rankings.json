@@ -2,6 +2,266 @@
  "football": {
   "weeks": [
    {
+    "id": "2026-11-15",
+    "postedAt": "2026-11-15T14:16:12.449Z",
+    "source": "claude",
+    "rows": [
+     {
+      "rank": 1,
+      "formulaRank": 1,
+      "teamId": "2348",
+      "team": "Louisiana Tech",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+      "record": "8-2",
+      "conf": "6-0",
+      "last": {
+       "result": "W",
+       "score": "63-31",
+       "opp": "Southern Miss",
+       "at": "vs",
+       "date": "2026-11-14T22:00Z"
+      },
+      "score": 0.773,
+      "blurb": "Routed Southern Miss 63-31 as Blake Baker threw three TD passes and Jordan McRae and Jadon Mayfield returned interceptions for back-to-back scores. Still unbeaten at 6-0 in league play."
+     },
+     {
+      "rank": 2,
+      "formulaRank": 2,
+      "teamId": "290",
+      "team": "Georgia Southern",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+      "record": "6-4",
+      "conf": "5-1",
+      "last": {
+       "result": "W",
+       "score": "34-17",
+       "opp": "Georgia St",
+       "at": "at",
+       "date": "2026-11-14T20:30Z"
+      },
+      "score": 0.663,
+      "blurb": "Won 34-17 at Georgia State behind two Max Johnson TD passes and kept the Panthers out of the end zone after halftime. At 5-1, the Eagles have the fewest league losses in the East."
+     },
+     {
+      "rank": 3,
+      "formulaRank": 3,
+      "teamId": "256",
+      "team": "James Madison",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+      "record": "8-3",
+      "conf": "5-2",
+      "last": {
+       "result": "L",
+       "score": "22-46",
+       "opp": "UConn",
+       "at": "at",
+       "date": "2026-11-14T17:00Z"
+      },
+      "score": 0.661,
+      "blurb": "Lost 46-22 at UConn in a nonconference game, allowing three Kalieb Osborne TD passes and a 100-yard kickoff return. JC Evans threw for 236 yards and ran for two scores."
+     },
+     {
+      "rank": 4,
+      "formulaRank": 4,
+      "teamId": "309",
+      "team": "Louisiana",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+      "record": "7-3",
+      "conf": "4-2",
+      "last": {
+       "result": "W",
+       "score": "42-21",
+       "opp": "UL Monroe",
+       "at": "at",
+       "date": "2026-11-13T02:00Z"
+      },
+      "score": 0.641,
+      "blurb": "Won 42-21 at UL Monroe on Thursday night. Steven Blanco ran for 113 yards and a TD, and Lunch Winfield threw a TD pass on just 13 attempts."
+     },
+     {
+      "rank": 5,
+      "formulaRank": 5,
+      "teamId": "2026",
+      "team": "App State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+      "record": "6-4",
+      "conf": "3-3",
+      "last": {
+       "result": "W",
+       "score": "20-16",
+       "opp": "Marshall",
+       "at": "at",
+       "date": "2026-11-14T23:00Z"
+      },
+      "score": 0.518,
+      "blurb": "Won 20-16 at Marshall to become bowl eligible. Henry Hasselbeck ran for two touchdowns and Jaquari Lewis added 137 rushing yards on 23 carries."
+     },
+     {
+      "rank": 6,
+      "formulaRank": 6,
+      "teamId": "6",
+      "team": "South Alabama",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "record": "5-5",
+      "conf": "3-3",
+      "last": {
+       "result": "W",
+       "score": "27-14",
+       "opp": "Troy",
+       "at": "vs",
+       "date": "2026-11-15T00:00Z"
+      },
+      "score": 0.503,
+      "blurb": "Beat Troy 27-14 at home to snap a three-game losing streak. Trae'von Dunbar ran for 153 yards and two TDs on 14 carries, and one more win makes the Jaguars bowl eligible."
+     },
+     {
+      "rank": 7,
+      "formulaRank": 7,
+      "teamId": "2247",
+      "team": "Georgia State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+      "record": "5-5",
+      "conf": "2-4",
+      "last": {
+       "result": "L",
+       "score": "17-34",
+       "opp": "GA Southern",
+       "at": "vs",
+       "date": "2026-11-14T20:30Z"
+      },
+      "score": 0.471,
+      "blurb": "Lost 34-17 at home to Georgia Southern and was shut out after halftime. Ayden Pereira was held to 75 passing yards; Lanear McCrary Jr. ran for 86 and a TD."
+     },
+     {
+      "rank": 8,
+      "formulaRank": 8,
+      "teamId": "324",
+      "team": "Coastal Carolina",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+      "record": "4-6",
+      "conf": "3-3",
+      "last": {
+       "result": "W",
+       "score": "28-21",
+       "opp": "Arkansas St",
+       "at": "vs",
+       "date": "2026-11-14T18:00Z"
+      },
+      "score": 0.465,
+      "blurb": "Beat Arkansas State 28-21 a week after a six-turnover loss. Deuce Bailey completed 21 of 24 passes for 208 yards and a TD and added his first rushing score of the season."
+     },
+     {
+      "rank": 9,
+      "formulaRank": 9,
+      "teamId": "276",
+      "team": "Marshall",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+      "record": "5-5",
+      "conf": "2-4",
+      "last": {
+       "result": "L",
+       "score": "16-20",
+       "opp": "App State",
+       "at": "vs",
+       "date": "2026-11-14T23:00Z"
+      },
+      "score": 0.434,
+      "blurb": "Lost 20-16 at home to App State, its second straight loss. Jo'Shon Barbie ran for 108 yards, but Carlos Del Rio-Wilson threw for only 106."
+     },
+     {
+      "rank": 10,
+      "formulaRank": 10,
+      "teamId": "2032",
+      "team": "Arkansas State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+      "record": "4-6",
+      "conf": "2-4",
+      "last": {
+       "result": "L",
+       "score": "21-28",
+       "opp": "Coastal",
+       "at": "at",
+       "date": "2026-11-14T18:00Z"
+      },
+      "score": 0.419,
+      "blurb": "Lost 28-21 at Coastal Carolina, its second straight loss. Trey Owens threw for 217 yards with an interception and ran for the Red Wolves' only rushing TD."
+     },
+     {
+      "rank": 11,
+      "formulaRank": 11,
+      "teamId": "2653",
+      "team": "Troy",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+      "record": "4-6",
+      "conf": "2-4",
+      "last": {
+       "result": "L",
+       "score": "14-27",
+       "opp": "South Alabama",
+       "at": "at",
+       "date": "2026-11-15T00:00Z"
+      },
+      "score": 0.398,
+      "blurb": "Lost 27-14 at South Alabama, its second straight loss. Goose Crowder threw for 231 yards and a TD and ran for another, but Troy could not slow Trae'von Dunbar."
+     },
+     {
+      "rank": 12,
+      "formulaRank": 12,
+      "teamId": "295",
+      "team": "Old Dominion",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+      "record": "3-7",
+      "conf": "2-5",
+      "last": {
+       "result": "W",
+       "score": "21-8",
+       "opp": "Coastal",
+       "at": "at",
+       "date": "2026-11-07T18:00Z"
+      },
+      "score": 0.35,
+      "blurb": "Had a bye after snapping a three-game losing streak with a 21-8 win at Coastal Carolina. The Monarchs are 3-7."
+     },
+     {
+      "rank": 13,
+      "formulaRank": 13,
+      "teamId": "2572",
+      "team": "Southern Miss",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "record": "3-7",
+      "conf": "2-4",
+      "last": {
+       "result": "L",
+       "score": "31-63",
+       "opp": "Louisiana Tech",
+       "at": "at",
+       "date": "2026-11-14T22:00Z"
+      },
+      "score": 0.339,
+      "blurb": "Lost 63-31 at Louisiana Tech as John White threw four interceptions, two returned for touchdowns. Mario Sanders had eight catches for 119 yards and a score."
+     },
+     {
+      "rank": 14,
+      "formulaRank": 14,
+      "teamId": "2433",
+      "team": "UL Monroe",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+      "record": "2-8",
+      "conf": "2-4",
+      "last": {
+       "result": "L",
+       "score": "21-42",
+       "opp": "Louisiana",
+       "at": "vs",
+       "date": "2026-11-13T02:00Z"
+      },
+      "score": 0.296,
+      "blurb": "Lost 42-21 at home to Louisiana a week after its upset at Arkansas State. Bryson Roland ran for 111 yards, but Aidan Armenta threw for just 70."
+     }
+    ],
+    "updatedAt": "2026-11-15T14:17:30.340Z"
+   },
+   {
     "id": "2026-11-08",
     "postedAt": "2026-11-08T14:18:34.389Z",
     "source": "claude",
@@ -1038,9 +1298,269 @@
    }
   ]
  },
- "updatedAt": "2026-11-15T04:32:38.756Z",
+ "updatedAt": "2026-11-15T14:16:12.449Z",
  "mbb": {
   "weeks": [
+   {
+    "id": "2026-11-15",
+    "postedAt": "2026-11-15T14:16:12.449Z",
+    "source": "claude",
+    "rows": [
+     {
+      "rank": 1,
+      "formulaRank": 1,
+      "teamId": "295",
+      "team": "Old Dominion",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+      "record": "5-0",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "80-74",
+       "opp": "Longwood",
+       "at": "vs",
+       "date": "2026-11-14T21:00Z"
+      },
+      "score": 0.859,
+      "blurb": "Stayed unbeaten with a 71-60 win at Norfolk State and an 80-74 home win over Longwood. Zacch Wiggins led the Monarchs in both, with 16 and 19 points."
+     },
+     {
+      "rank": 2,
+      "formulaRank": 2,
+      "teamId": "2026",
+      "team": "App State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+      "record": "3-1",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "66-60",
+       "opp": "Charlotte",
+       "at": "at",
+       "date": "2026-11-14T00:00Z"
+      },
+      "score": 0.667,
+      "blurb": "Lost 75-53 at Auburn, then won 66-60 at Charlotte behind Ben Kopetzki's 22 points. Eren Banks scored 19 against the Tigers."
+     },
+     {
+      "rank": 3,
+      "formulaRank": 3,
+      "teamId": "324",
+      "team": "Coastal Carolina",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+      "record": "2-2",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "103-54",
+       "opp": "VA Lynchburg",
+       "at": "vs",
+       "date": "2026-11-13T00:00Z"
+      },
+      "score": 0.514,
+      "blurb": "Beat SC Upstate 65-56 and VA Lynchburg 103-54 at home. Trey Perry scored 18 against Upstate, and Jaylen Cross led with 16 in the rout."
+     },
+     {
+      "rank": 4,
+      "formulaRank": 4,
+      "teamId": "2348",
+      "team": "Louisiana Tech",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+      "record": "2-2",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "68-71",
+       "opp": "Nicholls",
+       "at": "at",
+       "date": "2026-11-15T01:00Z"
+      },
+      "score": 0.505,
+      "blurb": "Lost 90-50 at LSU and 71-68 at Nicholls. Braylon Wenger scored 24 in the Nicholls loss."
+     },
+     {
+      "rank": 5,
+      "formulaRank": 5,
+      "teamId": "2032",
+      "team": "Arkansas State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+      "record": "2-2",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "99-65",
+       "opp": "Dillard",
+       "at": "vs",
+       "date": "2026-11-15T01:00Z"
+      },
+      "score": 0.489,
+      "blurb": "Lost 82-65 at home to UT Martin, which got 30 from Davi Remagen, then beat Dillard 99-65 as Jordan Pyke scored 25."
+     },
+     {
+      "rank": 6,
+      "formulaRank": 6,
+      "teamId": "2572",
+      "team": "Southern Miss",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "record": "2-2",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "65-85",
+       "opp": "Texas St",
+       "at": "at",
+       "date": "2026-11-14T01:00Z"
+      },
+      "score": 0.457,
+      "blurb": "Beat Jackson State 84-80 in overtime behind Jalyke Gaines-Wyatt's 28 points, then lost 85-65 at Texas State."
+     },
+     {
+      "rank": 7,
+      "formulaRank": 7,
+      "teamId": "6",
+      "team": "South Alabama",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "record": "2-3",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "65-66",
+       "opp": "North Texas",
+       "at": "at",
+       "date": "2026-11-14T23:00Z"
+      },
+      "score": 0.439,
+      "blurb": "Lost 76-69 at UCF, beat LMU 79-72 behind Jalen Langsy's 27 at the Coastal Classic, then fell 66-65 at North Texas. Stephen Williams led with 15 against the Mean Green."
+     },
+     {
+      "rank": 8,
+      "formulaRank": 8,
+      "teamId": "309",
+      "team": "Louisiana",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+      "record": "1-2-1",
+      "conf": "0-0",
+      "last": {
+       "result": "T",
+       "score": "0-0",
+       "opp": "UNC Wilmington",
+       "at": "at",
+       "date": "2026-11-15T00:00Z"
+      },
+      "score": 0.434,
+      "blurb": "Beat Southern-New Orleans 56-39 behind Jamyron Keller's 16 points. Saturday's game at UNC Wilmington was postponed."
+     },
+     {
+      "rank": 9,
+      "formulaRank": 9,
+      "teamId": "256",
+      "team": "James Madison",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+      "record": "1-2",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "71-61",
+       "opp": "Delaware",
+       "at": "at",
+       "date": "2026-11-12T00:00Z"
+      },
+      "score": 0.392,
+      "blurb": "Earned its first win, 71-61 at Delaware, with Adrian Myers scoring 19."
+     },
+     {
+      "rank": 10,
+      "formulaRank": 10,
+      "teamId": "2247",
+      "team": "Georgia State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+      "record": "1-3",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "92-95",
+       "opp": "Fresno St",
+       "at": "at",
+       "date": "2026-11-11T02:00Z"
+      },
+      "score": 0.38,
+      "blurb": "Lost 95-92 in overtime at Fresno State despite 33 points from Jacob Meyer."
+     },
+     {
+      "rank": 11,
+      "formulaRank": 11,
+      "teamId": "276",
+      "team": "Marshall",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+      "record": "1-3",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "71-74",
+       "opp": "Youngstown St",
+       "at": "at",
+       "date": "2026-11-14T18:00Z"
+      },
+      "score": 0.358,
+      "blurb": "Lost 84-74 at Ohio State and 74-71 at Youngstown State. Noah Otshudi scored 27 and 28 in the two games."
+     },
+     {
+      "rank": 12,
+      "formulaRank": 12,
+      "teamId": "290",
+      "team": "Georgia Southern",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+      "record": "1-3",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "70-84",
+       "opp": "UCF",
+       "at": "at",
+       "date": "2026-11-14T01:00Z"
+      },
+      "score": 0.321,
+      "blurb": "Lost 97-91 in overtime at home to Mercer and 84-70 at UCF. Dallas Gardner scored 28 and 25 in the two losses."
+     },
+     {
+      "rank": 13,
+      "formulaRank": 13,
+      "teamId": "2653",
+      "team": "Troy",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+      "record": "1-3",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "62-81",
+       "opp": "NC State",
+       "at": "at",
+       "date": "2026-11-14T00:00Z"
+      },
+      "score": 0.29,
+      "blurb": "Beat LMU 74-69 in overtime behind Jacoi Hutchinson's 18 points, then lost 81-62 at NC State."
+     },
+     {
+      "rank": 14,
+      "formulaRank": 14,
+      "teamId": "2433",
+      "team": "UL Monroe",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+      "record": "1-5",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "52-88",
+       "opp": "Grand Canyon",
+       "at": "at",
+       "date": "2026-11-15T01:00Z"
+      },
+      "score": 0.236,
+      "blurb": "Lost four road games: at Texas A&M, TCU, Arizona State and Grand Canyon. Dayjaun Anderson scored 20 in the closest, 100-92 at TCU."
+     }
+    ],
+    "updatedAt": "2026-11-15T14:17:30.340Z"
+   },
    {
     "id": "2026-11-08",
     "postedAt": "2026-11-08T14:18:34.389Z",
