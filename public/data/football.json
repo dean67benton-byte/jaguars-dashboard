@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-14T21:27:48.521Z",
+ "updatedAt": "2026-11-15T01:53:12.385Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -9,7 +9,7 @@
   "abbr": "USA",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
   "record": "4-5",
-  "standingSummary": "10th in Sun Belt"
+  "standingSummary": "8th in Sun Belt"
  },
  "events": [
   {
@@ -245,8 +245,8 @@
    "venue": "Hancock Whitney Stadium",
    "city": "Mobile, AL",
    "tv": "ESPN+",
-   "status": "pre",
-   "statusDetail": "11/14 - 7:00 PM EST"
+   "status": "in",
+   "statusDetail": "12:08 - 3rd"
   },
   {
    "id": "401871101",
@@ -2188,8 +2188,8 @@
     {
      "teamId": "290",
      "team": "GA Southern",
-     "conf": "4-1",
-     "overall": "5-4"
+     "conf": "5-1",
+     "overall": "6-4"
     },
     {
      "teamId": "256",
@@ -2204,12 +2204,6 @@
      "overall": "4-6"
     },
     {
-     "teamId": "2247",
-     "team": "Georgia St",
-     "conf": "2-3",
-     "overall": "5-4"
-    },
-    {
      "teamId": "276",
      "team": "Marshall",
      "conf": "2-3",
@@ -2220,6 +2214,12 @@
      "team": "App State",
      "conf": "2-3",
      "overall": "5-4"
+    },
+    {
+     "teamId": "2247",
+     "team": "Georgia St",
+     "conf": "2-4",
+     "overall": "5-5"
     },
     {
      "teamId": "295",
@@ -2235,8 +2235,8 @@
     {
      "teamId": "2348",
      "team": "Louisiana Tech",
-     "conf": "5-0",
-     "overall": "7-2"
+     "conf": "6-0",
+     "overall": "8-2"
     },
     {
      "teamId": "309",
@@ -2245,28 +2245,28 @@
      "overall": "7-3"
     },
     {
-     "teamId": "2653",
-     "team": "Troy",
-     "conf": "2-3",
-     "overall": "4-5"
-    },
-    {
      "teamId": "6",
      "team": "South Alabama",
      "conf": "2-3",
      "overall": "4-5"
     },
     {
-     "teamId": "2572",
-     "team": "Southern Miss",
+     "teamId": "2653",
+     "team": "Troy",
      "conf": "2-3",
-     "overall": "3-6"
+     "overall": "4-5"
     },
     {
      "teamId": "2032",
      "team": "Arkansas St",
      "conf": "2-4",
      "overall": "4-6"
+    },
+    {
+     "teamId": "2572",
+     "team": "Southern Miss",
+     "conf": "2-4",
+     "overall": "3-7"
     },
     {
      "teamId": "2433",

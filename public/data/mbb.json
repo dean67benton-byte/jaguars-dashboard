@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-14T21:27:48.521Z",
+ "updatedAt": "2026-11-15T01:53:12.385Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -8,7 +8,7 @@
   "short": "South Alabama",
   "abbr": "USA",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-  "record": "2-2",
+  "record": "2-3",
   "standingSummary": "1st in Sun Belt"
  },
  "events": [
@@ -116,7 +116,8 @@
     "name": "North Texas Mean Green",
     "short": "North Texas",
     "abbr": "UNT",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png"
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+    "record": "3-1"
    },
    "home": false,
    "neutral": false,
@@ -124,8 +125,11 @@
    "venue": "The Super Pit",
    "city": "Denton, TX",
    "tv": "ESPN+",
-   "status": "pre",
-   "statusDetail": "11/14 - 6:00 PM EST"
+   "status": "post",
+   "statusDetail": "Final",
+   "usScore": 65,
+   "oppScore": 66,
+   "result": "L"
   },
   {
    "id": "401930568",
@@ -1021,7 +1025,7 @@
      "teamId": "295",
      "team": "Old Dominion",
      "conf": "0-0",
-     "overall": "4-0"
+     "overall": "5-0"
     },
     {
      "teamId": "2026",
@@ -1042,16 +1046,16 @@
      "overall": "2-2"
     },
     {
-     "teamId": "6",
-     "team": "South Alabama",
-     "conf": "0-0",
-     "overall": "2-2"
-    },
-    {
      "teamId": "2572",
      "team": "Southern Miss",
      "conf": "0-0",
      "overall": "2-2"
+    },
+    {
+     "teamId": "6",
+     "team": "South Alabama",
+     "conf": "0-0",
+     "overall": "2-3"
     },
     {
      "teamId": "2032",
@@ -1248,12 +1252,10 @@
  ],
  "nextOpponent": {
   "team": {
-   "id": "249",
-   "name": "North Texas Mean Green",
-   "short": "North Texas",
-   "abbr": "UNT",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
-   "record": "2-1"
+   "id": "2590",
+   "name": "Spring Hill Badgers",
+   "short": "Spring Hill",
+   "abbr": "SPRH"
   },
   "stats": [
    {
@@ -1262,22 +1264,22 @@
      {
       "name": "avgRebounds",
       "label": "Rebounds Per Game",
-      "value": "43.7"
+      "value": "32.0"
      },
      {
       "name": "assistTurnoverRatio",
       "label": "Assist To Turnover Ratio",
-      "value": "1.1"
+      "value": "0.6"
      },
      {
       "name": "avgFouls",
       "label": "Fouls Per Game",
-      "value": "17.7"
+      "value": "18.0"
      },
      {
       "name": "gamesPlayed",
       "label": "Games Played",
-      "value": "3"
+      "value": "1"
      },
      {
       "name": "gamesStarted",
@@ -1287,7 +1289,7 @@
      {
       "name": "minutes",
       "label": "Minutes",
-      "value": "600"
+      "value": "200"
      },
      {
       "name": "avgMinutes",
@@ -1297,12 +1299,12 @@
      {
       "name": "totalRebounds",
       "label": "Rebounds",
-      "value": "131"
+      "value": "32"
      },
      {
       "name": "rebounds",
       "label": "Rebounds",
-      "value": "131"
+      "value": "32"
      }
     ]
    },
@@ -1312,152 +1314,152 @@
      {
       "name": "freeThrowPct",
       "label": "Free Throw Percentage",
-      "value": "69.9"
+      "value": "33.3"
      },
      {
       "name": "avgFieldGoalsMade",
       "label": "Average Field Goals Made",
-      "value": "32.0"
+      "value": "19.0"
      },
      {
       "name": "avgFieldGoalsAttempted",
       "label": "Average Field Goals Attempted",
-      "value": "63.0"
+      "value": "62.0"
      },
      {
       "name": "avgThreePointFieldGoalsMade",
       "label": "Average 3-Point Field Goals Made",
-      "value": "6.7"
+      "value": "11.0"
      },
      {
       "name": "avgThreePointFieldGoalsAttempted",
       "label": "Average 3-Point Field Goals Attempted",
-      "value": "22.0"
+      "value": "42.0"
      },
      {
       "name": "avgFreeThrowsMade",
       "label": "Average Free Throws Made",
-      "value": "19.3"
+      "value": "1.0"
      },
      {
       "name": "avgFreeThrowsAttempted",
       "label": "Average Free Throws Attempted",
-      "value": "27.7"
+      "value": "3.0"
      },
      {
       "name": "avgPoints",
       "label": "Points Per Game",
-      "value": "90.0"
+      "value": "50.0"
      },
      {
       "name": "avgOffensiveRebounds",
       "label": "Offensive Rebounds Per Game",
-      "value": "15.0"
+      "value": "8.0"
      },
      {
       "name": "avgAssists",
       "label": "Assists Per Game",
-      "value": "13.7"
+      "value": "11.0"
      },
      {
       "name": "avgTurnovers",
       "label": "Turnovers Per Game",
-      "value": "12.7"
+      "value": "18.0"
      },
      {
       "name": "twoPointFieldGoalPct",
       "label": "2-Point Field Goal Percentage",
-      "value": "61.8"
+      "value": "40.0"
      },
      {
       "name": "scoringEfficiency",
       "label": "Scoring Efficiency",
-      "value": "1.429"
+      "value": "0.806"
      },
      {
       "name": "shootingEfficiency",
       "label": "Shooting Efficiency",
-      "value": "0.56"
+      "value": "0.40"
      },
      {
       "name": "fieldGoalPct",
       "label": "Field Goal Percentage",
-      "value": "50.8"
+      "value": "30.6"
      },
      {
       "name": "twoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made",
-      "value": "76.0"
+      "value": "8.0"
      },
      {
       "name": "twoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted",
-      "value": "123.0"
+      "value": "20.0"
      },
      {
       "name": "points",
       "label": "Points",
-      "value": "270"
+      "value": "50"
      },
      {
       "name": "offensiveRebounds",
       "label": "Offensive Rebounds",
-      "value": "45"
+      "value": "8"
      },
      {
       "name": "assists",
       "label": "Assists",
-      "value": "41"
+      "value": "11"
      },
      {
       "name": "turnovers",
       "label": "Turnovers",
-      "value": "38"
+      "value": "18"
      },
      {
       "name": "fieldGoalsMade",
       "label": "Field Goals Made",
-      "value": "96"
+      "value": "19"
      },
      {
       "name": "fieldGoalsAttempted",
       "label": "Field Goals Attempted",
-      "value": "189"
+      "value": "62"
      },
      {
       "name": "freeThrowsMade",
       "label": "Free Throws Made",
-      "value": "58"
+      "value": "1"
      },
      {
       "name": "freeThrowsAttempted",
       "label": "Free Throws Attempted",
-      "value": "83"
+      "value": "3"
      },
      {
       "name": "threePointFieldGoalsMade",
       "label": "3-Point Field Goals Made",
-      "value": "20"
+      "value": "11"
      },
      {
       "name": "threePointFieldGoalsAttempted",
       "label": "3-Point Field Goals Attempted",
-      "value": "66"
+      "value": "42"
      },
      {
       "name": "threePointFieldGoalPct",
       "label": "3-Point Field Goal Percentage",
-      "value": "30.3"
+      "value": "26.2"
      },
      {
       "name": "avgTwoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made per Game",
-      "value": "25.3"
+      "value": "8.0"
      },
      {
       "name": "avgTwoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted per Game",
-      "value": "41.0"
+      "value": "20.0"
      }
     ]
    },
@@ -1467,32 +1469,32 @@
      {
       "name": "avgDefensiveRebounds",
       "label": "Defensive Rebounds Per Game",
-      "value": "28.7"
+      "value": "24.0"
      },
      {
       "name": "avgBlocks",
       "label": "Blocks Per Game",
-      "value": "2.7"
+      "value": "3.0"
      },
      {
       "name": "avgSteals",
       "label": "Steals Per Game",
-      "value": "11.3"
+      "value": "4.0"
      },
      {
       "name": "defensiveRebounds",
       "label": "Defensive Rebounds",
-      "value": "86"
+      "value": "24"
      },
      {
       "name": "steals",
       "label": "Steals",
-      "value": "34"
+      "value": "4"
      },
      {
       "name": "blocks",
       "label": "Blocks",
-      "value": "8"
+      "value": "3"
      }
     ]
    }
