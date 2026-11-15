@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-15T04:32:35.043Z",
+ "updatedAt": "2026-11-15T14:20:47.993Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -781,7 +781,7 @@
     {
      "name": "avgRebounds",
      "label": "Rebounds Per Game",
-     "value": "30.5"
+     "value": "30.0"
     },
     {
      "name": "assistTurnoverRatio",
@@ -791,12 +791,12 @@
     {
      "name": "avgFouls",
      "label": "Fouls Per Game",
-     "value": "14.8"
+     "value": "15.2"
     },
     {
      "name": "gamesPlayed",
      "label": "Games Played",
-     "value": "4"
+     "value": "5"
     },
     {
      "name": "gamesStarted",
@@ -806,22 +806,22 @@
     {
      "name": "minutes",
      "label": "Minutes",
-     "value": "850"
+     "value": "1050"
     },
     {
      "name": "avgMinutes",
      "label": "Minutes Per Game",
-     "value": "212.5"
+     "value": "210.0"
     },
     {
      "name": "totalRebounds",
      "label": "Rebounds",
-     "value": "122"
+     "value": "150"
     },
     {
      "name": "rebounds",
      "label": "Rebounds",
-     "value": "122"
+     "value": "150"
     }
    ]
   },
@@ -831,42 +831,42 @@
     {
      "name": "freeThrowPct",
      "label": "Free Throw Percentage",
-     "value": "68.5"
+     "value": "64.1"
     },
     {
      "name": "avgFieldGoalsMade",
      "label": "Average Field Goals Made",
-     "value": "28.8"
+     "value": "28.2"
     },
     {
      "name": "avgFieldGoalsAttempted",
      "label": "Average Field Goals Attempted",
-     "value": "59.0"
+     "value": "57.4"
     },
     {
      "name": "avgThreePointFieldGoalsMade",
      "label": "Average 3-Point Field Goals Made",
-     "value": "7.0"
+     "value": "6.4"
     },
     {
      "name": "avgThreePointFieldGoalsAttempted",
      "label": "Average 3-Point Field Goals Attempted",
-     "value": "23.0"
+     "value": "21.4"
     },
     {
      "name": "avgFreeThrowsMade",
      "label": "Average Free Throws Made",
-     "value": "12.5"
+     "value": "11.8"
     },
     {
      "name": "avgFreeThrowsAttempted",
      "label": "Average Free Throws Attempted",
-     "value": "18.3"
+     "value": "18.4"
     },
     {
      "name": "avgPoints",
      "label": "Points Per Game",
-     "value": "77.0"
+     "value": "74.6"
     },
     {
      "name": "avgOffensiveRebounds",
@@ -876,22 +876,22 @@
     {
      "name": "avgAssists",
      "label": "Assists Per Game",
-     "value": "13.5"
+     "value": "13.6"
     },
     {
      "name": "avgTurnovers",
      "label": "Turnovers Per Game",
-     "value": "9.3"
+     "value": "8.8"
     },
     {
      "name": "twoPointFieldGoalPct",
      "label": "2-Point Field Goal Percentage",
-     "value": "60.4"
+     "value": "60.6"
     },
     {
      "name": "scoringEfficiency",
      "label": "Scoring Efficiency",
-     "value": "1.305"
+     "value": "1.300"
     },
     {
      "name": "shootingEfficiency",
@@ -901,72 +901,72 @@
     {
      "name": "fieldGoalPct",
      "label": "Field Goal Percentage",
-     "value": "48.7"
+     "value": "49.1"
     },
     {
      "name": "twoPointFieldGoalsMade",
      "label": "2-Point Field Goals Made",
-     "value": "87.0"
+     "value": "109.0"
     },
     {
      "name": "twoPointFieldGoalsAttempted",
      "label": "2-Point Field Goals Attempted",
-     "value": "144.0"
+     "value": "180.0"
     },
     {
      "name": "points",
      "label": "Points",
-     "value": "308"
+     "value": "373"
     },
     {
      "name": "offensiveRebounds",
      "label": "Offensive Rebounds",
-     "value": "35"
+     "value": "44"
     },
     {
      "name": "assists",
      "label": "Assists",
-     "value": "54"
+     "value": "68"
     },
     {
      "name": "turnovers",
      "label": "Turnovers",
-     "value": "37"
+     "value": "44"
     },
     {
      "name": "fieldGoalsMade",
      "label": "Field Goals Made",
-     "value": "115"
+     "value": "141"
     },
     {
      "name": "fieldGoalsAttempted",
      "label": "Field Goals Attempted",
-     "value": "236"
+     "value": "287"
     },
     {
      "name": "freeThrowsMade",
      "label": "Free Throws Made",
-     "value": "50"
+     "value": "59"
     },
     {
      "name": "freeThrowsAttempted",
      "label": "Free Throws Attempted",
-     "value": "73"
+     "value": "92"
     },
     {
      "name": "threePointFieldGoalsMade",
      "label": "3-Point Field Goals Made",
-     "value": "28"
+     "value": "32"
     },
     {
      "name": "threePointFieldGoalsAttempted",
      "label": "3-Point Field Goals Attempted",
-     "value": "92"
+     "value": "107"
     },
     {
      "name": "threePointFieldGoalPct",
      "label": "3-Point Field Goal Percentage",
-     "value": "30.4"
+     "value": "29.9"
     },
     {
      "name": "avgTwoPointFieldGoalsMade",
@@ -986,7 +986,7 @@
     {
      "name": "avgDefensiveRebounds",
      "label": "Defensive Rebounds Per Game",
-     "value": "21.8"
+     "value": "21.2"
     },
     {
      "name": "avgBlocks",
@@ -996,22 +996,22 @@
     {
      "name": "avgSteals",
      "label": "Steals Per Game",
-     "value": "7.5"
+     "value": "8.0"
     },
     {
      "name": "defensiveRebounds",
      "label": "Defensive Rebounds",
-     "value": "87"
+     "value": "106"
     },
     {
      "name": "steals",
      "label": "Steals",
-     "value": "30"
+     "value": "40"
     },
     {
      "name": "blocks",
      "label": "Blocks",
-     "value": "8"
+     "value": "10"
     }
    ]
   }
@@ -1110,6 +1110,20 @@
  ],
  "news": [
   {
+   "title": "Stevenson, Alexander lead North Texas past South Alabama 66-65",
+   "url": "http://www.espn.com/ncb/recap?gameId=401925827",
+   "date": "2026-11-15T02:41:37Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401925827.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "South Alabama Jaguars vs. North Texas Mean Green: Game Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/50485436/game-highlights",
+   "date": "2026-11-15T01:19:50Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/a6cf70f0-070a-4032-ac90-c2fc5f5703bc/a6cf70f0-070a-4032-ac90-c2fc5f5703bc.jpg"
+  },
+  {
    "title": "South Alabama visits North Texas following Langsy's 27-point outing",
    "url": "http://www.espn.com/ncb/preview?gameId=401925827",
    "date": "2026-11-14T09:47:49Z",
@@ -1206,20 +1220,6 @@
    "date": "2026-11-06T04:03:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/5/DSC05723.jpg"
-  },
-  {
-   "title": "Jacksonville State Gamecocks vs. South Alabama Jaguars: Game Highlights",
-   "url": "https://www.espn.com/video/clip/_/id/50396198/game-highlights",
-   "date": "2026-11-06T03:49:11Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/46c07a26-19ba-4b75-8a26-063b1a6720cd/46c07a26-19ba-4b75-8a26-063b1a6720cd.jpg"
-  },
-  {
-   "title": "Langsy leads South Alabama against Jacksonville State after 25-point showing",
-   "url": "http://www.espn.com/ncb/preview?gameId=401926780",
-   "date": "2026-11-05T09:45:39Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401926780.png?templateId=espn.applewatch.awayhome.1"
   },
   {
    "title": "Jags Continue Homestand Against In-State Foe Jax State",
