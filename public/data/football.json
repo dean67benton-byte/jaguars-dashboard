@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-15T01:53:12.385Z",
+ "updatedAt": "2026-11-15T04:32:35.043Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -8,8 +8,8 @@
   "short": "South Alabama",
   "abbr": "USA",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-  "record": "4-5",
-  "standingSummary": "8th in Sun Belt"
+  "record": "5-5",
+  "standingSummary": "6th in Sun Belt"
  },
  "events": [
   {
@@ -237,7 +237,8 @@
     "name": "Troy Trojans",
     "short": "Troy",
     "abbr": "TROY",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png"
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+    "record": "4-6"
    },
    "home": true,
    "neutral": false,
@@ -245,8 +246,11 @@
    "venue": "Hancock Whitney Stadium",
    "city": "Mobile, AL",
    "tv": "ESPN+",
-   "status": "in",
-   "statusDetail": "12:08 - 3rd"
+   "status": "post",
+   "statusDetail": "Final",
+   "usScore": 27,
+   "oppScore": 14,
+   "result": "W"
   },
   {
    "id": "401871101",
@@ -2198,26 +2202,26 @@
      "overall": "8-3"
     },
     {
+     "teamId": "2026",
+     "team": "App State",
+     "conf": "3-3",
+     "overall": "6-4"
+    },
+    {
      "teamId": "324",
      "team": "Coastal",
      "conf": "3-3",
      "overall": "4-6"
     },
     {
-     "teamId": "276",
-     "team": "Marshall",
-     "conf": "2-3",
-     "overall": "5-4"
-    },
-    {
-     "teamId": "2026",
-     "team": "App State",
-     "conf": "2-3",
-     "overall": "5-4"
-    },
-    {
      "teamId": "2247",
      "team": "Georgia St",
+     "conf": "2-4",
+     "overall": "5-5"
+    },
+    {
+     "teamId": "276",
+     "team": "Marshall",
      "conf": "2-4",
      "overall": "5-5"
     },
@@ -2247,18 +2251,18 @@
     {
      "teamId": "6",
      "team": "South Alabama",
-     "conf": "2-3",
-     "overall": "4-5"
-    },
-    {
-     "teamId": "2653",
-     "team": "Troy",
-     "conf": "2-3",
-     "overall": "4-5"
+     "conf": "3-3",
+     "overall": "5-5"
     },
     {
      "teamId": "2032",
      "team": "Arkansas St",
+     "conf": "2-4",
+     "overall": "4-6"
+    },
+    {
+     "teamId": "2653",
+     "team": "Troy",
      "conf": "2-4",
      "overall": "4-6"
     },
@@ -2361,13 +2365,6 @@
    "source": "Diehard Sports Network",
    "date": "2026-11-08T05:00:00.000Z",
    "image": "https://cdn.sanity.io/images/iahnmtcr/production/c1e329cba2f6907ec8c2bbd8c3905a7be8f808ef-2400x1238.jpg?rect=21,0,2358,1238&w=1200&h=630&fit=crop"
-  },
-  {
-   "title": "South Alabama loses third straight game in nailbiter at Louisiana",
-   "url": "https://www.al.com/sports/2026/11/south-alabama-loses-third-straight-game-in-nailbiter-at-louisiana.html",
-   "date": "2026-11-08T03:11:32.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/R5F2P3UXUFARLMY43XYS66GBV4.jpg?auth=44d42620eeaa145ce1b4c7ecb4bef361b22152a88fe091ed41c4cd20d0b279c1&smart=true&height=1200"
   },
   {
    "title": "South Alabama Rally Falls Short at Cajun Field",
@@ -2487,16 +2484,23 @@
    "date": "2026-10-25T19:42:50Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871097.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Herd Score Late as Jags Fall in Huntington.",
+   "url": "https://usajaguars.com/news/2026/10/20/football-herd-score-late-as-jags-fall-in-huntington.aspx",
+   "date": "2026-10-21T05:00:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/20/102026_SD_Marshall_0177.jpg"
   }
  ],
  "nextOpponent": {
   "team": {
-   "id": "2653",
-   "name": "Troy Trojans",
-   "short": "Troy",
-   "abbr": "TROY",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-   "record": "4-5"
+   "id": "2572",
+   "name": "Southern Miss Golden Eagles",
+   "short": "Southern Miss",
+   "abbr": "USM",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+   "record": "3-7"
   },
   "stats": [
    {
@@ -2505,42 +2509,42 @@
      {
       "name": "completionPct",
       "label": "Completion Percentage",
-      "value": "54.6"
+      "value": "58.9"
      },
      {
       "name": "completions",
       "label": "Completions",
-      "value": "143"
+      "value": "186"
      },
      {
       "name": "interceptionPct",
       "label": "Interception Percentage",
-      "value": "2.30"
+      "value": "2.80"
      },
      {
       "name": "interceptions",
       "label": "Interceptions",
-      "value": "6"
+      "value": "9"
      },
      {
       "name": "longPassing",
       "label": "Longest Pass",
-      "value": "76"
+      "value": "75"
      },
      {
       "name": "netPassingYards",
       "label": "Net Passing Yards",
-      "value": "1,629"
+      "value": "2,125"
      },
      {
       "name": "netPassingYardsPerGame",
       "label": "Net Passing Yards Per Game",
-      "value": "181.0"
+      "value": "236.1"
      },
      {
       "name": "passingAttempts",
       "label": "Passing Attempts",
-      "value": "262"
+      "value": "316"
      },
      {
       "name": "passingTouchdownPct",
@@ -2550,32 +2554,32 @@
      {
       "name": "passingTouchdowns",
       "label": "Passing Touchdowns",
-      "value": "10"
+      "value": "12"
      },
      {
       "name": "QBRating",
       "label": "Passer Rating",
-      "value": "114.7"
+      "value": "122.1"
      },
      {
       "name": "sacks",
       "label": "Total Sacks",
-      "value": "21"
+      "value": "19"
      },
      {
       "name": "sackYardsLost",
       "label": "Sack Yards Lost",
-      "value": "155"
+      "value": "116"
      },
      {
       "name": "yardsPerPassAttempt",
       "label": "Yards Per Pass Attempt",
-      "value": "6.2"
+      "value": "6.7"
      },
      {
       "name": "passingYards",
       "label": "Passing Yards",
-      "value": "1,629"
+      "value": "2,125"
      },
      {
       "name": "passingFumblesLost",
@@ -2590,37 +2594,37 @@
      {
       "name": "yardsPerGame",
       "label": "Yards Per Game",
-      "value": "358.6"
+      "value": "394.4"
      },
      {
       "name": "totalPointsPerGame",
       "label": "Total Points Per Game",
-      "value": "22.3"
+      "value": "26.4"
      },
      {
       "name": "totalPoints",
       "label": "Total Points",
-      "value": "201"
+      "value": "238"
      },
      {
       "name": "totalTouchdowns",
       "label": "Total Touchdowns",
-      "value": "25"
+      "value": "32"
      },
      {
       "name": "passingYardsPerGame",
       "label": "Passing Yards Per Game",
-      "value": "181.0"
+      "value": "236.1"
      },
      {
       "name": "completionAttempts",
       "label": "Comp-Att",
-      "value": "143-262"
+      "value": "186-316"
      },
      {
       "name": "sacksYardsLost",
       "label": "Sacks-Yards Lost",
-      "value": "21-155"
+      "value": "19-116"
      }
     ]
    },
@@ -2630,22 +2634,22 @@
      {
       "name": "rushingAttempts",
       "label": "Rushing Attempts",
-      "value": "363"
+      "value": "317"
      },
      {
       "name": "rushingYards",
       "label": "Rushing Yards",
-      "value": "1,598"
+      "value": "1,425"
      },
      {
       "name": "yardsPerRushAttempt",
       "label": "Yards Per Rush Attempt",
-      "value": "4.4"
+      "value": "4.5"
      },
      {
       "name": "longRushing",
       "label": "Long Rushing",
-      "value": "69"
+      "value": "44"
      },
      {
       "name": "rushingBigPlays",
@@ -2655,12 +2659,12 @@
      {
       "name": "rushingTouchdowns",
       "label": "Rushing Touchdowns",
-      "value": "13"
+      "value": "19"
      },
      {
       "name": "rushingYardsPerGame",
       "label": "Rushing Yards Per Game",
-      "value": "177.6"
+      "value": "158.3"
      },
      {
       "name": "rushingFumbles",
@@ -2675,7 +2679,7 @@
      {
       "name": "rushingFirstDowns",
       "label": "Rushing 1st downs",
-      "value": "85"
+      "value": "70"
      },
      {
       "name": "teamGamesPlayed",
@@ -2685,27 +2689,27 @@
      {
       "name": "totalYards",
       "label": "Total Yards",
-      "value": "3,227"
+      "value": "3,550"
      },
      {
       "name": "totalOffensivePlays",
       "label": "Total Offensive Plays",
-      "value": "646"
+      "value": "652"
      },
      {
       "name": "totalPointsPerGame",
       "label": "Total Points Per Game",
-      "value": "22.3"
+      "value": "26.4"
      },
      {
       "name": "totalPoints",
       "label": "Total Points",
-      "value": "201"
+      "value": "238"
      },
      {
       "name": "totalTouchdowns",
       "label": "Total Touchdowns",
-      "value": "25"
+      "value": "32"
      }
     ]
    },
@@ -2715,7 +2719,7 @@
      {
       "name": "receptions",
       "label": "Receptions",
-      "value": "143"
+      "value": "186"
      },
      {
       "name": "receivingTargets",
@@ -2725,22 +2729,22 @@
      {
       "name": "receivingYards",
       "label": "Receiving Yards",
-      "value": "1,629"
+      "value": "2,125"
      },
      {
       "name": "receivingYards",
       "label": "Receiving Yards",
-      "value": "1,629"
+      "value": "2,125"
      },
      {
       "name": "receivingTouchdowns",
       "label": "Receiving Touchdowns",
-      "value": "10"
+      "value": "12"
      },
      {
       "name": "longReception",
       "label": "Long Reception",
-      "value": "76"
+      "value": "75"
      },
      {
       "name": "receivingBigPlays",
@@ -2750,7 +2754,7 @@
      {
       "name": "receivingYardsPerGame",
       "label": "Receiving Yards Per Game",
-      "value": "181.0"
+      "value": "236.1"
      },
      {
       "name": "receivingFumbles",
@@ -2765,12 +2769,12 @@
      {
       "name": "receivingYardsAfterCatch",
       "label": "Receiving Yards After Catch",
-      "value": "816"
+      "value": "1015"
      },
      {
       "name": "receivingFirstDowns",
       "label": "Receiving First Downs",
-      "value": "66"
+      "value": "90"
      },
      {
       "name": "teamGamesPlayed",
@@ -2785,17 +2789,17 @@
      {
       "name": "totalPointsPerGame",
       "label": "Total Points Per Game",
-      "value": "22.3"
+      "value": "26.4"
      },
      {
       "name": "totalPoints",
       "label": "Total Points",
-      "value": "201"
+      "value": "238"
      },
      {
       "name": "totalTouchdowns",
       "label": "Total Touchdowns",
-      "value": "25"
+      "value": "32"
      }
     ]
    },
@@ -2805,67 +2809,67 @@
      {
       "name": "firstDowns",
       "label": "Total 1st downs",
-      "value": "171"
+      "value": "187"
      },
      {
       "name": "firstDownsRushing",
       "label": "Rushing 1st downs",
-      "value": "85"
+      "value": "70"
      },
      {
       "name": "firstDownsPassing",
       "label": "Passing 1st downs",
-      "value": "66"
+      "value": "92"
      },
      {
       "name": "firstDownsPenalty",
       "label": "1st downs by penalty",
-      "value": "20"
+      "value": "25"
      },
      {
       "name": "thirdDownConvs",
       "label": "Third Down Conversions",
-      "value": "41"
+      "value": "37"
      },
      {
       "name": "thirdDownAttempts",
       "label": "Third Down Attempts",
-      "value": "132"
+      "value": "125"
      },
      {
       "name": "thirdDownConvPct",
       "label": "3rd down %",
-      "value": "31.06"
+      "value": "29.60"
      },
      {
       "name": "fourthDownConvs",
       "label": "Fourth Down Conversions",
-      "value": "12"
+      "value": "11"
      },
      {
       "name": "fourthDownAttempts",
       "label": "First Downs Attempts",
-      "value": "26"
+      "value": "27"
      },
      {
       "name": "fourthDownConvPct",
       "label": "4th down %",
-      "value": "46.15"
+      "value": "40.74"
      },
      {
       "name": "totalPenalties",
       "label": "Total Penalties",
-      "value": "64"
+      "value": "66"
      },
      {
       "name": "totalPenaltyYards",
       "label": "Total Penalty Yards",
-      "value": "614"
+      "value": "583"
      },
      {
       "name": "possessionTimeSeconds",
       "label": "Possession Time Seconds",
-      "value": "17195"
+      "value": "14250"
      },
      {
       "name": "redzoneFieldGoalPct",
@@ -2890,17 +2894,17 @@
      {
       "name": "totalTakeaways",
       "label": "Total Takeaways",
-      "value": "16"
+      "value": "13"
      },
      {
       "name": "totalGiveaways",
       "label": "Total Giveaways",
-      "value": "15"
+      "value": "11"
      },
      {
       "name": "turnOverDifferential",
       "label": "Turnover Ratio",
-      "value": "1"
+      "value": "2"
      },
      {
       "name": "fumblesLost",
@@ -2910,17 +2914,17 @@
      {
       "name": "thirdDownEff",
       "label": "3rd down efficiency",
-      "value": "41-132"
+      "value": "37-125"
      },
      {
       "name": "fourthDownEff",
       "label": "4th down efficiency",
-      "value": "12-26"
+      "value": "11-27"
      },
      {
       "name": "totalPenaltiesYards",
       "label": "Total-Yards",
-      "value": "64-614"
+      "value": "66-583"
      }
     ]
    },
@@ -2930,47 +2934,47 @@
      {
       "name": "soloTackles",
       "label": "Solo Tackles",
-      "value": "277"
+      "value": "333"
      },
      {
       "name": "assistTackles",
       "label": "Assist Tackles",
-      "value": "336"
+      "value": "400"
      },
      {
       "name": "totalTackles",
       "label": "Total Tackles",
-      "value": "613"
+      "value": "733"
      },
      {
       "name": "sacks",
       "label": "Sacks",
-      "value": "18"
+      "value": "22"
      },
      {
       "name": "sackYards",
       "label": "Sack Yards",
-      "value": "131"
+      "value": "135"
      },
      {
       "name": "stuffs",
       "label": "Stuffs",
-      "value": "60"
+      "value": "75"
      },
      {
       "name": "passesDefended",
       "label": "Passes Defended",
-      "value": "30"
+      "value": "23"
      },
      {
       "name": "avgInterceptionYards",
       "label": "Average Interception Yards",
-      "value": "8.0"
+      "value": "5.5"
      },
      {
       "name": "longInterception",
       "label": "Long Interception",
-      "value": "37"
+      "value": "30"
      },
      {
       "name": "miscTouchdowns",
@@ -2985,7 +2989,7 @@
      {
       "name": "tacklesForLoss",
       "label": "Tackles For Loss",
-      "value": "38"
+      "value": "39"
      },
      {
       "name": "teamGamesPlayed",
@@ -3000,12 +3004,12 @@
      {
       "name": "interceptions",
       "label": "Interceptions",
-      "value": "7"
+      "value": "6"
      },
      {
       "name": "interceptionYards",
       "label": "Interception Yards",
-      "value": "56"
+      "value": "33"
      },
      {
       "name": "interceptionTouchdowns",
@@ -3015,7 +3019,7 @@
      {
       "name": "totalInterceptionsYards",
       "label": "INT: Total",
-      "value": "7-56"
+      "value": "6-33"
      }
     ]
    },
@@ -3025,22 +3029,22 @@
      {
       "name": "fumbles",
       "label": "Fumbles",
-      "value": "14"
+      "value": "8"
      },
      {
       "name": "fumblesForced",
       "label": "Forced Fumbles",
-      "value": "10"
+      "value": "6"
      },
      {
       "name": "fumblesRecovered",
       "label": "Fumbles Recovered",
-      "value": "10"
+      "value": "4"
      },
      {
       "name": "fumblesTouchdowns",
       "label": "Fumbles Touchdowns",
-      "value": "1"
+      "value": "0"
      },
      {
       "name": "gamesPlayed",
@@ -3050,7 +3054,7 @@
      {
       "name": "fumblesAndLost",
       "label": "Fumbles-Lost",
-      "value": "14-0"
+      "value": "8-0"
      }
     ]
    },
@@ -3060,22 +3064,22 @@
      {
       "name": "kickReturns",
       "label": "Kick Returns",
-      "value": "17"
+      "value": "8"
      },
      {
       "name": "kickReturnYards",
       "label": "Kick Return Yards",
-      "value": "301"
+      "value": "155"
      },
      {
       "name": "yardsPerKickReturn",
       "label": "Yards Per Kick Return",
-      "value": "17.7"
+      "value": "19.4"
      },
      {
       "name": "longKickReturn",
       "label": "Long Kick Return",
-      "value": "31"
+      "value": "35"
      },
      {
       "name": "kickReturnTouchdowns",
@@ -3085,22 +3089,22 @@
      {
       "name": "puntReturns",
       "label": "Punt Returns",
-      "value": "9"
+      "value": "11"
      },
      {
       "name": "puntReturnYards",
       "label": "Punt Return Yards",
-      "value": "35"
+      "value": "115"
      },
      {
       "name": "yardsPerPuntReturn",
       "label": "Yards Per Punt Return",
-      "value": "3.9"
+      "value": "10.5"
      },
      {
       "name": "longPuntReturn",
       "label": "Long Punt Return",
-      "value": "26"
+      "value": "41"
      },
      {
       "name": "puntReturnTouchdowns",
@@ -3130,7 +3134,7 @@
      {
       "name": "totalPuntReturnsYards",
       "label": "Punt: Total",
-      "value": "9-35"
+      "value": "11-115"
      }
     ]
    },
@@ -3140,17 +3144,17 @@
      {
       "name": "fieldGoalsMade",
       "label": "Field Goal Made",
-      "value": "9"
+      "value": "5"
      },
      {
       "name": "fieldGoalAttempts",
       "label": "Field Goal Attempts",
-      "value": "16"
+      "value": "10"
      },
      {
       "name": "fieldGoalPct",
       "label": "Field Goal Percentage",
-      "value": "56.3"
+      "value": "50.0"
      },
      {
       "name": "longFieldGoalMade",
@@ -3165,37 +3169,37 @@
      {
       "name": "fieldGoalAttempts20_29",
       "label": "Field Goal Attempts 20-29",
-      "value": "5"
+      "value": "2"
      },
      {
       "name": "fieldGoalAttempts30_39",
       "label": "Field Goal Attempts 30-39",
-      "value": "2"
+      "value": "5"
      },
      {
       "name": "fieldGoalAttempts40_49",
       "label": "Field Goal Attempts 40-49",
-      "value": "7"
+      "value": "3"
      },
      {
       "name": "fieldGoalAttempts50",
       "label": "Field Goal Attempts 50+",
-      "value": "2"
+      "value": "0"
      },
      {
       "name": "extraPointsMade",
       "label": "Extra Points Made",
-      "value": "24"
+      "value": "27"
      },
      {
       "name": "extraPointAttempts",
       "label": "Extra Point Attempts",
-      "value": "25"
+      "value": "27"
      },
      {
       "name": "extraPointPct",
       "label": "Extra Point Percentage",
-      "value": "96.0"
+      "value": "100.0"
      },
      {
       "name": "fieldGoalsMade1_19",
@@ -3205,17 +3209,17 @@
      {
       "name": "fieldGoalsMade20_29",
       "label": "Field Goals Made 20-29",
-      "value": "4"
+      "value": "1"
      },
      {
       "name": "fieldGoalsMade30_39",
       "label": "Field Goals Made 30-39",
-      "value": "2"
+      "value": "3"
      },
      {
       "name": "fieldGoalsMade40_49",
       "label": "Field Goals Made 40-49",
-      "value": "3"
+      "value": "1"
      },
      {
       "name": "fieldGoalsMade50",
@@ -3225,7 +3229,7 @@
      {
       "name": "totalKickingPoints",
       "label": "Total Kicking Points",
-      "value": "51"
+      "value": "42"
      },
      {
       "name": "teamGamesPlayed",
@@ -3235,12 +3239,12 @@
      {
       "name": "touchbackPct",
       "label": "Touchback Percentage",
-      "value": "40"
+      "value": "24"
      },
      {
       "name": "avgKickoffReturnYards",
       "label": "Average Kickoff Return Yards",
-      "value": "11.981"
+      "value": "9.278"
      },
      {
       "name": "kickoffReturnYards",
@@ -3260,7 +3264,7 @@
      {
       "name": "totalGoalsVsAttemps",
       "label": "FG: Good-Attempts",
-      "value": "9-16"
+      "value": "5-10"
      }
     ]
    },
@@ -3270,27 +3274,27 @@
      {
       "name": "punts",
       "label": "Punts",
-      "value": "46"
+      "value": "44"
      },
      {
       "name": "puntYards",
       "label": "Punt Yards",
-      "value": "2,042"
+      "value": "1,692"
      },
      {
       "name": "longPunt",
       "label": "Long Punt",
-      "value": "73"
+      "value": "57"
      },
      {
       "name": "grossAvgPuntYards",
       "label": "Gross Average Punt Yards",
-      "value": "44.4"
+      "value": "38.5"
      },
      {
       "name": "netAvgPuntYards",
       "label": "Net Average Punt Yards",
-      "value": "44.4"
+      "value": "38.5"
      },
      {
       "name": "puntsBlocked",
@@ -3300,22 +3304,22 @@
      {
       "name": "puntsInside20",
       "label": "Punts Inside 20",
-      "value": "16"
+      "value": "13"
      },
      {
       "name": "touchbacks",
       "label": "Touchbacks",
-      "value": "2"
+      "value": "0"
      },
      {
       "name": "fairCatches",
       "label": "Fair Catches",
-      "value": "17"
+      "value": "20"
      },
      {
       "name": "puntReturns",
       "label": "Punt Returns",
-      "value": "17"
+      "value": "10"
      },
      {
       "name": "puntReturnYards",
@@ -3335,7 +3339,7 @@
      {
       "name": "totalPuntsYards",
       "label": "Punt: Total Yards",
-      "value": "46-2,042"
+      "value": "44-1,692"
      }
     ]
    },
@@ -3345,12 +3349,12 @@
      {
       "name": "rushingTouchdowns",
       "label": "Rushing Touchdowns",
-      "value": "13"
+      "value": "19"
      },
      {
       "name": "receivingTouchdowns",
       "label": "Receiving Touchdowns",
-      "value": "10"
+      "value": "12"
      },
      {
       "name": "returnTouchdowns",
@@ -3360,32 +3364,32 @@
      {
       "name": "totalTouchdowns",
       "label": "Total Touchdowns",
-      "value": "24"
+      "value": "31"
      },
      {
       "name": "fieldGoals",
       "label": "Field Goals",
-      "value": "9"
+      "value": "5"
      },
      {
       "name": "kickExtraPoints",
       "label": "Kick Extra Points",
-      "value": "24"
+      "value": "27"
      },
      {
       "name": "totalTwoPointConvs",
       "label": "Total Two Point Conversions",
-      "value": "0"
+      "value": "2"
      },
      {
       "name": "totalPoints",
       "label": "Total Points",
-      "value": "201"
+      "value": "238"
      },
      {
       "name": "totalPointsPerGame",
       "label": "Total Points Per Game",
-      "value": "22.3"
+      "value": "26.4"
      }
     ]
    }

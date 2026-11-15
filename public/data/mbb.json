@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-15T01:53:12.385Z",
+ "updatedAt": "2026-11-15T04:32:35.043Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1034,14 +1034,20 @@
      "overall": "3-1"
     },
     {
-     "teamId": "2348",
-     "team": "Louisiana Tech",
+     "teamId": "2032",
+     "team": "Arkansas St",
      "conf": "0-0",
-     "overall": "2-1"
+     "overall": "2-2"
     },
     {
      "teamId": "324",
      "team": "Coastal",
+     "conf": "0-0",
+     "overall": "2-2"
+    },
+    {
+     "teamId": "2348",
+     "team": "Louisiana Tech",
      "conf": "0-0",
      "overall": "2-2"
     },
@@ -1056,12 +1062,6 @@
      "team": "South Alabama",
      "conf": "0-0",
      "overall": "2-3"
-    },
-    {
-     "teamId": "2032",
-     "team": "Arkansas St",
-     "conf": "0-0",
-     "overall": "1-2"
     },
     {
      "teamId": "256",
@@ -1103,7 +1103,7 @@
      "teamId": "2433",
      "team": "UL Monroe",
      "conf": "0-0",
-     "overall": "1-4"
+     "overall": "1-5"
     }
    ]
   }
