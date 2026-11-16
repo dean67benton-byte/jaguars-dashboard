@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-16T02:02:23.274Z",
+ "updatedAt": "2026-11-16T20:26:37.931Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2283,6 +2283,20 @@
  ],
  "news": [
   {
+   "title": "South Alabama’s Trae’von Dunbar honored by Sun Belt Conference",
+   "url": "https://www.al.com/sports/2026/11/south-alabamas-traevon-dunbar-honored-by-sun-belt-conference.html",
+   "date": "2026-11-16T19:13:38.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/4GHEC4M5ABAPHFVGPYMI3BHUZM.jpg?auth=bee2a50daa72c81e5285fabba2f80852fc573021aa0a9968a2a938948bb4b50e&smart=true&height=1200"
+  },
+  {
+   "title": "Trae'von Dunbar Crowned Sun Belt Offensive Player of the Week",
+   "url": "https://usajaguars.com/news/2026/11/16/football-trae-von-dunbar-crowned-sun-belt-offensive-player-of-the-week.aspx",
+   "date": "2026-11-16T19:11:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/16/IMG_8757.jpg"
+  },
+  {
    "title": "Rapid reaction: what we learned from the Troy game",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-rapid-reaction-troy-week11-2026",
    "source": "Diehard Sports Network",
@@ -2477,20 +2491,6 @@
    "date": "2026-11-01T20:45:15Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869968.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "South Alabama Falls to Louisiana Tech, 35-20",
-   "url": "https://usajaguars.com/news/2026/10/31/football-south-alabama-falls-to-louisiana-tech-35-20.aspx",
-   "date": "2026-11-01T00:56:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/31/in-125.jpg"
-  },
-  {
-   "title": "Baker throws 3 TD passes to lead Louisiana Tech over South Alabama 35-20",
-   "url": "http://www.espn.com/ncf/recap?gameId=401871097",
-   "date": "2026-10-31T22:37:49Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871097.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {

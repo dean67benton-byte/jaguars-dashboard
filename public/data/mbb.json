@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-16T02:02:23.274Z",
+ "updatedAt": "2026-11-16T20:26:37.931Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1040,12 +1040,6 @@
      "overall": "2-2"
     },
     {
-     "teamId": "324",
-     "team": "Coastal",
-     "conf": "0-0",
-     "overall": "2-2"
-    },
-    {
      "teamId": "256",
      "team": "James Madison",
      "conf": "0-0",
@@ -1062,6 +1056,12 @@
      "team": "Southern Miss",
      "conf": "0-0",
      "overall": "2-2"
+    },
+    {
+     "teamId": "324",
+     "team": "Coastal",
+     "conf": "0-0",
+     "overall": "2-3"
     },
     {
      "teamId": "2247",
