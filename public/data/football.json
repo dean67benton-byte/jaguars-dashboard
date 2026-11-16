@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-15T14:20:47.993Z",
+ "updatedAt": "2026-11-16T02:02:23.274Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2283,6 +2283,20 @@
  ],
  "news": [
   {
+   "title": "Rapid reaction: what we learned from the Troy game",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-rapid-reaction-troy-week11-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-15T10:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/549e2c1df913c42fc04cdd9c03b53f954c7a197c-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "Jags Oust Troy in Battle for the Belt, Win 27-14 in Chilly Conditions",
+   "url": "https://usajaguars.com/news/2026/11/14/football-jags-oust-troy-in-battle-for-the-belt-win-27-14-in-chilly-conditions.aspx",
+   "date": "2026-11-15T05:39:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/15/DSC00462.jpg"
+  },
+  {
    "title": "Troy in must-win territory after ‘Battle for the Belt’ loss to South Alabama",
    "url": "https://www.al.com/sports/2026/11/troy-in-must-win-territory-after-battle-for-the-belt-loss-to-south-alabama.html",
    "date": "2026-11-15T05:08:33.000Z",
@@ -2465,13 +2479,6 @@
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869968.png?templateId=espn.applewatch.awayhome.1"
   },
   {
-   "title": "The postgame report: Louisiana Tech 35, South Alabama 20",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-louisianatech-postgame-week9-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-11-01T17:00:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/3b8fb55d164e9d8e1c42c5014a6c124372aeb674-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
-  },
-  {
    "title": "South Alabama Falls to Louisiana Tech, 35-20",
    "url": "https://usajaguars.com/news/2026/10/31/football-south-alabama-falls-to-louisiana-tech-35-20.aspx",
    "date": "2026-11-01T00:56:00.000Z",
@@ -2484,13 +2491,6 @@
    "date": "2026-10-31T22:37:49Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871097.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "Jags Return Home to Host Louisiana Tech in Key Sun Belt West Contest",
-   "url": "https://usajaguars.com/news/2026/10/28/football-jags-return-home-to-host-louisiana-tech-in-key-sun-belt-west-contest.aspx",
-   "date": "2026-10-28T21:14:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/28/Game_Week_G8_-_Web.png"
   }
  ],
  "nextOpponent": {

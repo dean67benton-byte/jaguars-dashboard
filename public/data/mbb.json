@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-15T14:20:47.993Z",
+ "updatedAt": "2026-11-16T02:02:23.274Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1046,6 +1046,12 @@
      "overall": "2-2"
     },
     {
+     "teamId": "256",
+     "team": "James Madison",
+     "conf": "0-0",
+     "overall": "2-2"
+    },
+    {
      "teamId": "2348",
      "team": "Louisiana Tech",
      "conf": "0-0",
@@ -1058,16 +1064,16 @@
      "overall": "2-2"
     },
     {
-     "teamId": "6",
-     "team": "South Alabama",
+     "teamId": "2247",
+     "team": "Georgia St",
      "conf": "0-0",
      "overall": "2-3"
     },
     {
-     "teamId": "256",
-     "team": "James Madison",
+     "teamId": "6",
+     "team": "South Alabama",
      "conf": "0-0",
-     "overall": "1-2"
+     "overall": "2-3"
     },
     {
      "teamId": "309",
@@ -1078,12 +1084,6 @@
     {
      "teamId": "290",
      "team": "GA Southern",
-     "conf": "0-0",
-     "overall": "1-3"
-    },
-    {
-     "teamId": "2247",
-     "team": "Georgia St",
      "conf": "0-0",
      "overall": "1-3"
     },
@@ -1109,6 +1109,13 @@
   }
  ],
  "news": [
+  {
+   "title": "Jags Fall in Final Seconds at North Texas, 66–65",
+   "url": "https://usajaguars.com/news/2026/11/14/mens-basketball-jags-fall-in-final-seconds-at-north-texas-66-65.aspx",
+   "date": "2026-11-15T04:48:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/15/MR101123__2_.JPG"
+  },
   {
    "title": "Stevenson, Alexander lead North Texas past South Alabama 66-65",
    "url": "http://www.espn.com/ncb/recap?gameId=401925827",
@@ -1241,13 +1248,6 @@
    "date": "2026-11-01T14:08:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/1/DSC09108__2_.jpg"
-  },
-  {
-   "title": "South Alabama Hosts Mississippi Christian for Thursday Exhibition",
-   "url": "https://usajaguars.com/news/2026/10/28/mens-basketball-south-alabama-hosts-mississippi-christian-for-thursday-exhibition.aspx",
-   "date": "2026-10-29T04:10:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/10/28/DSC00001__2_.jpg"
   }
  ],
  "nextOpponent": {
