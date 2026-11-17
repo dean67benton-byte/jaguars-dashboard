@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-17T13:20:59.215Z",
+ "updatedAt": "2026-11-17T22:20:12.865Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -133,7 +133,7 @@
   },
   {
    "id": "401930568",
-   "date": "2026-11-18T01:00Z",
+   "date": "2026-11-18T00:00Z",
    "timeTbd": false,
    "opponent": {
     "id": "2590",
@@ -148,7 +148,7 @@
    "city": "Mobile, AL",
    "tv": "ESPN+",
    "status": "pre",
-   "statusDetail": "11/17 - 8:00 PM EST"
+   "statusDetail": "11/17 - 7:00 PM EST"
   },
   {
    "id": "401929459",

@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-16T20:26:37.931Z",
+ "updatedAt": "2026-11-17T22:20:12.865Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2283,6 +2283,27 @@
  ],
  "news": [
   {
+   "title": "Latest bowl projections for UAB, Jacksonville State, South Alabama",
+   "url": "https://www.al.com/sports/2026/11/latest-bowl-projections-for-uab-jacksonville-state-south-alabama.html",
+   "date": "2026-11-17T20:05:08.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/7JEFIPOGZFBEJGL5KAO7JL6ZTQ.jpeg?auth=1c3e944ff2618d44b2e48fd8d37731a800dbd799c56fd54bdda3453dc5ded87e&smart=true&height=1200"
+  },
+  {
+   "title": "South Alabama treating trip to Southern Miss as ‘trap game’",
+   "url": "https://www.al.com/sports/2026/11/one-win-from-bowl-eligibility-south-alabama-treating-trip-to-southern-miss-as-trap-game.html",
+   "date": "2026-11-16T21:56:27.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/ZDLBUVP5DZA2VEHXOAVC6BZAZ4.jpg?auth=9cc13c80857a3a188c8ceff4f9863dcebc11c09dd89f8ffa35915713dd89726b&smart=true&height=1200"
+  },
+  {
+   "title": "Sun Belt matchup features South Alabama squaring off against Southern Miss",
+   "url": "http://www.espn.com/ncf/preview?gameId=401871101",
+   "date": "2026-11-16T20:46:44Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871101.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "South Alabama’s Trae’von Dunbar honored by Sun Belt Conference",
    "url": "https://www.al.com/sports/2026/11/south-alabamas-traevon-dunbar-honored-by-sun-belt-conference.html",
    "date": "2026-11-16T19:13:38.000Z",
@@ -2388,20 +2409,6 @@
    "image": "https://a.espncdn.com/photo/2026/1016/r1731817_1296x729_16-9.jpg"
   },
   {
-   "title": "Troy looking for answers heading into ‘Battle for the Belt’ vs. South Alabama",
-   "url": "https://www.al.com/sports/2026/11/troy-looking-for-answers-heading-into-battle-for-the-belt-vs-south-alabama.html",
-   "date": "2026-11-09T22:55:15.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/LFBS6Q2MGZCELGNAOQZJVVTHAM.jpg?auth=7bc080f3139ef60daff57b90e061244525b0d27698c608e09a0e04731bfcb428&smart=true&height=1200"
-  },
-  {
-   "title": "South Alabama embracing ‘Battle for the Belt’ rivalry vs. Troy",
-   "url": "https://www.al.com/sports/2026/11/south-alabama-embracing-battle-for-the-belt-rivalry-vs-troy.html",
-   "date": "2026-11-09T22:30:57.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/XKQWTEXUX5CEJIHKCR3YTKNM4Q.jpg?auth=c8cca40f1a2c6f692ee97021dda4d206dcf9ad8eb33f30cd60716656a9c6b2c3&smart=true&height=1200"
-  },
-  {
    "title": "Final Road Trip Slated for 3 p.m. Kick at Southern Miss",
    "url": "https://usajaguars.com/news/2026/11/9/football-final-road-trip-slated-for-3-pm-kick-at-southern-miss.aspx",
    "date": "2026-11-09T19:56:00.000Z",
@@ -2484,13 +2491,6 @@
    "source": "Diehard Sports Network",
    "date": "2026-11-02T18:00:00.000Z",
    "image": "https://cdn.sanity.io/images/iahnmtcr/production/15bd893b3b056c3ee482190ba6b0306948cf14bc-1710x1000.png?rect=0,51,1710,898&w=1200&h=630&fit=crop"
-  },
-  {
-   "title": "Louisiana hosts South Alabama in Sun Belt action",
-   "url": "http://www.espn.com/ncf/preview?gameId=401869968",
-   "date": "2026-11-01T20:45:15Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869968.png?templateId=espn.applewatch.awayhome.1"
   }
  ],
  "nextOpponent": {
