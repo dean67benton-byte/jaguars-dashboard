@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-18T04:17:31.990Z",
+ "updatedAt": "2026-11-20T03:10:56.389Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1029,7 +1029,7 @@
      "teamId": "295",
      "team": "Old Dominion",
      "conf": "0-0",
-     "overall": "5-0"
+     "overall": "5-1"
     },
     {
      "teamId": "2026",
@@ -1041,6 +1041,18 @@
      "teamId": "2348",
      "team": "Louisiana Tech",
      "conf": "0-0",
+     "overall": "4-2"
+    },
+    {
+     "teamId": "2032",
+     "team": "Arkansas St",
+     "conf": "0-0",
+     "overall": "3-2"
+    },
+    {
+     "teamId": "256",
+     "team": "James Madison",
+     "conf": "0-0",
      "overall": "3-2"
     },
     {
@@ -1048,18 +1060,6 @@
      "team": "South Alabama",
      "conf": "0-0",
      "overall": "3-3"
-    },
-    {
-     "teamId": "2032",
-     "team": "Arkansas St",
-     "conf": "0-0",
-     "overall": "2-2"
-    },
-    {
-     "teamId": "256",
-     "team": "James Madison",
-     "conf": "0-0",
-     "overall": "2-2"
     },
     {
      "teamId": "324",
@@ -1092,16 +1092,16 @@
      "overall": "2-3"
     },
     {
-     "teamId": "309",
-     "team": "Louisiana",
-     "conf": "0-0",
-     "overall": "1-2"
-    },
-    {
      "teamId": "2433",
      "team": "UL Monroe",
      "conf": "0-0",
-     "overall": "2-5"
+     "overall": "2-6"
+    },
+    {
+     "teamId": "309",
+     "team": "Louisiana",
+     "conf": "0-0",
+     "overall": "1-3"
     },
     {
      "teamId": "290",
@@ -1114,11 +1114,46 @@
  ],
  "news": [
   {
+   "title": "Jags Head to Dallas to Face SMU",
+   "url": "https://usajaguars.com/news/2026/11/19/mens-basketball-jags-head-to-dallas-to-face-smu.aspx",
+   "date": "2026-11-19T14:17:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/19/ANW_224__1_.jpg"
+  },
+  {
+   "title": "South Alabama visits White and SMU",
+   "url": "http://www.espn.com/ncb/preview?gameId=401929459",
+   "date": "2026-11-19T09:43:36Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401929459.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Roderick Williams Jr. has 26 points as South Alabama cruises past Spring Hill 122-69",
+   "url": "http://www.espn.com/ncb/recap?gameId=401930568",
+   "date": "2026-11-18T15:15:50Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401930568.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Jags Set Riley-Era Scoring High in 122–69 Win over Spring Hill",
+   "url": "https://usajaguars.com/news/2026/11/17/mens-basketball-jags-score-most-points-of-riley-era-in-122-69-win-over-spring-hill.aspx",
+   "date": "2026-11-18T05:00:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/17/DSC03005__2_.jpg"
+  },
+  {
    "title": "South Alabama basketball scores most points in 23 years in victory over Spring Hill",
    "url": "https://www.al.com/sports/2026/11/south-alabama-basketball-scores-most-points-in-23-years-in-victory-over-spring-hill.html",
    "date": "2026-11-18T03:11:50.000Z",
    "source": "AL.com",
    "image": "https://www.al.com/resizer/v2/QRSNWWL45RB3JLLTBLCJPQFADU.jpg?auth=50d613dea6cdf06d25e72dab5ea260fd140795d5274365bfc2c5a3908eeed83e&smart=true&height=1200"
+  },
+  {
+   "title": "Spring Hill Badgers vs. South Alabama Jaguars: Game Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/50515879/game-highlights",
+   "date": "2026-11-18T01:53:47Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/3410ed56-55b1-4059-bc8d-e7402024f858/3410ed56-55b1-4059-bc8d-e7402024f858.jpg"
   },
   {
    "title": "South Alabama Returns Home to Host Spring Hill Tuesday",
@@ -1198,39 +1233,11 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/11/ANW_093.jpg"
   },
   {
-   "title": "South Alabama basketball can’t hold onto first-half lead in loss at Central Florida",
-   "url": "https://www.al.com/sports/2026/11/south-alabama-basketball-cant-hold-onto-first-half-lead-in-loss-at-central-florida.html",
-   "date": "2026-11-11T12:47:01.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/UJ36FMZ75BBQXB2DT2ALRL3PIY.JPG?auth=8444e51b170b465fb1da0007194be0edc891b7ac5c7c7301e5948851833fc00a&smart=true&height=1200"
-  },
-  {
    "title": "Goldstein Scores 20, Williams Posts Double-Double as Jags Fall at UCF",
    "url": "https://usajaguars.com/news/2026/11/10/mens-basketball-goldstein-scores-20-williams-posts-double-double-as-jags-fall-at-ucf.aspx",
    "date": "2026-11-11T04:14:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/10/DSC09164.jpg"
-  },
-  {
-   "title": "Carmelo Pacheco, Dior Johnson help UCF hold off South Alabama 76-69",
-   "url": "http://www.espn.com/ncb/recap?gameId=401921755",
-   "date": "2026-11-11T02:43:37Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401921755.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "South Alabama Jaguars vs. UCF Knights: Game Highlights",
-   "url": "https://www.espn.com/video/clip/_/id/50448570/game-highlights",
-   "date": "2026-11-11T02:20:08Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1111/d259006b-444a-4a2b-ba75-0fa8111fad56/d259006b-444a-4a2b-ba75-0fa8111fad56.jpg"
-  },
-  {
-   "title": "UCF hosts South Alabama following Williams' 27-point game",
-   "url": "http://www.espn.com/ncb/preview?gameId=401921755",
-   "date": "2026-11-10T09:47:05Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401921755.png?templateId=espn.applewatch.awayhome.1"
   },
   {
    "title": "South Alabama Opens Road Slate at UCF Tuesday",
@@ -1245,20 +1252,6 @@
    "date": "2026-11-06T04:03:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/5/DSC05723.jpg"
-  },
-  {
-   "title": "Jags Continue Homestand Against In-State Foe Jax State",
-   "url": "https://usajaguars.com/news/2026/11/4/mens-basketball-jags-continue-homestand-against-in-state-foe-jax-state.aspx",
-   "date": "2026-11-04T21:04:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/4/MLVD2207.jpg"
-  },
-  {
-   "title": "Jags Fall in Season Opener to Ohio",
-   "url": "https://usajaguars.com/news/2026/11/2/mens-basketball-jags-fall-in-season-opener-to-ohio.aspx",
-   "date": "2026-11-03T04:04:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/2/MLVD2235.jpg"
   }
  ],
  "nextOpponent": {
