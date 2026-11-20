@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-18T04:17:31.990Z",
+ "updatedAt": "2026-11-20T20:12:43.063Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2283,6 +2283,34 @@
  ],
  "news": [
   {
+   "title": "South Alabama lands JUCO edge Tyler Jenkins-Blount",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jenkins-blount-commitment",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-20T19:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/4a6240131aebbf588051d9ddff7e9eec7ab03493-1436x766.jpg?rect=0,6,1436,754&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "Jags Jungle Panel Picks: South Alabama at Southern Mississippi",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jags-jungle-picks-southernmiss",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-20T18:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/bd3880a391460fe54fbe51b4dfb7b6714b767bb7-1671x941.png?rect=0,33,1671,877&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "Football Travels to Southern Miss for Final Road Test",
+   "url": "https://usajaguars.com/news/2026/11/19/football-travels-to-southern-miss-for-final-road-test.aspx",
+   "date": "2026-11-19T19:00:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/19/Game_Week_G11-_Web.png"
+  },
+  {
+   "title": "South Alabama’s Trae’von Dunbar looking to finish season strong",
+   "url": "https://www.al.com/sports/2026/11/south-alabamas-traevon-dunbar-looking-to-finish-season-strong-after-award-winning-performance.html",
+   "date": "2026-11-18T21:26:39.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/YBDOB4J4WVEFZL5QHF52SBFVKE.jpg?auth=d29f4f35d7c3e87a2aee7a9cfba30e06680eb5682767f6e4c5555efb764c0f7e&smart=true&height=1200"
+  },
+  {
    "title": "Latest bowl projections for UAB, Jacksonville State, South Alabama",
    "url": "https://www.al.com/sports/2026/11/latest-bowl-projections-for-uab-jacksonville-state-south-alabama.html",
    "date": "2026-11-17T20:05:08.000Z",
@@ -2374,25 +2402,11 @@
    "image": "https://www.al.com/resizer/v2/VOUI7PKUZJAB3EDPZTA6P4KCBY.jpg?auth=7a43d764379a800afeea13a060bcacaba6eb923e98ad1d6c6806075cb2aeecc5&smart=true&height=1200"
   },
   {
-   "title": "‘Battle for the Belt’: Recapping the 14 previous South Alabama-Troy rivalry games",
-   "url": "https://www.al.com/sports/2026/11/battle-for-the-belt-recapping-the-14-previous-south-alabama-troy-rivalry-games.html",
-   "date": "2026-11-12T19:00:00.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/GY74CW6BP5B2NDBJCK3UNQDJ74.jpg?auth=a70a9a1b93cc4393857f2e727f73ccf39a096632e785d791e30ecd0f073f8071&smart=true&height=1200"
-  },
-  {
    "title": "Battle for the Belt Returns to Mobile Saturday Night",
    "url": "https://usajaguars.com/news/2026/11/12/football-battle-for-the-belt-returns-to-mobile-saturday-night.aspx",
    "date": "2026-11-12T15:10:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/12/Game_Week_G10-_Web.png"
-  },
-  {
-   "title": "South Alabama is blocking out noise for rivalry game against Troy",
-   "url": "https://www.al.com/sports/2026/11/south-alabama-is-blocking-out-noise-for-rivalry-game-against-troy.html",
-   "date": "2026-11-11T22:02:52.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/AOFQPMPQRFCCVJ7BS4QRYY42HI.jpg?auth=aec24387604d1b47148ed69ada24fdd3f34e5ea095642a01ee80b7e91a04f510&smart=true&height=1200"
   },
   {
    "title": "What Major Applewhite said before South Alabama’s game against Troy",
@@ -2472,25 +2486,11 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/4/ANW_046.jpg"
   },
   {
-   "title": "What Major Applewhite said before South Alabama’s game at Louisiana",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-applewhite-presser-louisiana-week10",
-   "source": "Diehard Sports Network",
-   "date": "2026-11-04T06:10:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/97ab85456d9ec6485b50bc7ab878460ffd9ddbf5-1894x1040.png?rect=0,23,1894,994&w=1200&h=630&fit=crop"
-  },
-  {
    "title": "Kickoff Time Set for In-State Battle Versus Troy",
    "url": "https://usajaguars.com/news/2026/11/2/football-kickoff-time-set-for-in-state-battle-versus-troy.aspx",
    "date": "2026-11-02T20:02:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/2/ANW_006.jpg"
-  },
-  {
-   "title": "Bowl projections: South Alabama drops off four boards as two-game skid raises the stakes",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/bowl-projection-southalabama-week10-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-11-02T18:00:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/15bd893b3b056c3ee482190ba6b0306948cf14bc-1710x1000.png?rect=0,51,1710,898&w=1200&h=630&fit=crop"
   }
  ],
  "nextOpponent": {
