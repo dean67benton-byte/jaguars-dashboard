@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-21T09:46:17.758Z",
+ "updatedAt": "2026-11-21T17:28:58.315Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2283,6 +2283,20 @@
  ],
  "news": [
   {
+   "title": "Nick Saban has praise for Alabama native, former South Alabama QB Gio Lopez",
+   "url": "https://www.al.com/sports/2026/11/nick-saban-has-high-praise-for-alabama-native-former-south-alabama-qb-gio-lopez.html",
+   "date": "2026-11-21T16:12:01.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/7RKJQSRWDRHG7BDC22PFNCV3R4.jpg?auth=894518a880d4649a52efacbfab833e343e9b5dbecfee4f7baac36860329ee323&smart=true&height=1200"
+  },
+  {
+   "title": "Scouting report: What you need to know for South Alabama’s game at Southern Miss",
+   "url": "https://www.al.com/sports/2026/11/scouting-report-what-you-need-to-know-for-south-alabamas-game-at-southern-miss.html",
+   "date": "2026-11-21T11:00:00.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/DMFC3QHTSJEF5H7T27CBBK2BT4.jpg?auth=442b2c107704efa391be8e040d8f0f6f3b2ce0f6c02b98441d0d460f5bb3524d&smart=true&height=1200"
+  },
+  {
    "title": "South Alabama lands JUCO edge Tyler Jenkins-Blount",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jenkins-blount-commitment",
    "source": "Diehard Sports Network",
@@ -2395,13 +2409,6 @@
    "image": "https://cdn.sanity.io/images/iahnmtcr/production/2fdf44637d3b6e41a5437a131e7d9b8cd42ec382-1670x941.png?rect=0,33,1670,877&w=1200&h=630&fit=crop"
   },
   {
-   "title": "Scouting report: What you need to know for Saturday’s South Alabama-Troy game",
-   "url": "https://www.al.com/sports/2026/11/scouting-report-what-you-need-to-know-for-saturdays-south-alabama-troy-game.html",
-   "date": "2026-11-14T11:00:00.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/VOUI7PKUZJAB3EDPZTA6P4KCBY.jpg?auth=7a43d764379a800afeea13a060bcacaba6eb923e98ad1d6c6806075cb2aeecc5&smart=true&height=1200"
-  },
-  {
    "title": "Battle for the Belt Returns to Mobile Saturday Night",
    "url": "https://usajaguars.com/news/2026/11/12/football-battle-for-the-belt-returns-to-mobile-saturday-night.aspx",
    "date": "2026-11-12T15:10:00.000Z",
@@ -2484,13 +2491,6 @@
    "date": "2026-11-04T21:45:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/4/ANW_046.jpg"
-  },
-  {
-   "title": "Kickoff Time Set for In-State Battle Versus Troy",
-   "url": "https://usajaguars.com/news/2026/11/2/football-kickoff-time-set-for-in-state-battle-versus-troy.aspx",
-   "date": "2026-11-02T20:02:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/2/ANW_006.jpg"
   }
  ],
  "nextOpponent": {
