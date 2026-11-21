@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-21T17:28:58.315Z",
+ "updatedAt": "2026-11-21T23:13:12.878Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -269,8 +269,8 @@
    "venue": "M. M. Roberts Stadium",
    "city": "Hattiesburg, MS",
    "tv": "ESPN+",
-   "status": "pre",
-   "statusDetail": "11/21 - 4:00 PM EST"
+   "status": "in",
+   "statusDetail": "8:25 - 3rd"
   },
   {
    "id": "401869930",
@@ -2204,8 +2204,8 @@
     {
      "teamId": "2026",
      "team": "App State",
-     "conf": "3-3",
-     "overall": "6-4"
+     "conf": "4-3",
+     "overall": "7-4"
     },
     {
      "teamId": "324",
@@ -2275,8 +2275,8 @@
     {
      "teamId": "2433",
      "team": "UL Monroe",
-     "conf": "2-4",
-     "overall": "2-8"
+     "conf": "2-5",
+     "overall": "2-9"
     }
    ]
   }

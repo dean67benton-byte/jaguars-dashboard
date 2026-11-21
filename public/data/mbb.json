@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-21T09:46:17.758Z",
+ "updatedAt": "2026-11-21T23:13:12.878Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1042,6 +1042,12 @@
      "overall": "4-1"
     },
     {
+     "teamId": "256",
+     "team": "James Madison",
+     "conf": "0-0",
+     "overall": "4-2"
+    },
+    {
      "teamId": "2348",
      "team": "Louisiana Tech",
      "conf": "0-0",
@@ -1050,12 +1056,6 @@
     {
      "teamId": "2032",
      "team": "Arkansas St",
-     "conf": "0-0",
-     "overall": "3-2"
-    },
-    {
-     "teamId": "256",
-     "team": "James Madison",
      "conf": "0-0",
      "overall": "3-2"
     },
