@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-20T20:12:43.063Z",
+ "updatedAt": "2026-11-21T01:31:53.772Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -170,8 +170,8 @@
    "venue": "Moody Coliseum (Dallas)",
    "city": "Dallas, TX",
    "tv": "ACCNX",
-   "status": "pre",
-   "statusDetail": "11/20 - 8:00 PM EST"
+   "status": "in",
+   "statusDetail": "5:08 - 1st"
   },
   {
    "id": "401922252",
