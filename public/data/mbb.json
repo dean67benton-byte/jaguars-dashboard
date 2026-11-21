@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-21T01:31:53.772Z",
+ "updatedAt": "2026-11-21T09:46:17.758Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -8,7 +8,7 @@
   "short": "South Alabama",
   "abbr": "USA",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-  "record": "3-3",
+  "record": "3-4",
   "standingSummary": "1st in Sun Belt"
  },
  "events": [
@@ -162,7 +162,8 @@
     "name": "SMU Mustangs",
     "short": "SMU",
     "abbr": "SMU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png"
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+    "record": "6-0"
    },
    "home": false,
    "neutral": false,
@@ -170,8 +171,11 @@
    "venue": "Moody Coliseum (Dallas)",
    "city": "Dallas, TX",
    "tv": "ACCNX",
-   "status": "in",
-   "statusDetail": "5:08 - 1st"
+   "status": "post",
+   "statusDetail": "Final",
+   "usScore": 55,
+   "oppScore": 101,
+   "result": "L"
   },
   {
    "id": "401922252",
@@ -1035,7 +1039,7 @@
      "teamId": "2026",
      "team": "App State",
      "conf": "0-0",
-     "overall": "3-1"
+     "overall": "4-1"
     },
     {
      "teamId": "2348",
@@ -1056,34 +1060,16 @@
      "overall": "3-2"
     },
     {
-     "teamId": "6",
-     "team": "South Alabama",
-     "conf": "0-0",
-     "overall": "3-3"
-    },
-    {
      "teamId": "2572",
      "team": "Southern Miss",
      "conf": "0-0",
      "overall": "3-3"
     },
     {
-     "teamId": "324",
-     "team": "Coastal",
+     "teamId": "6",
+     "team": "South Alabama",
      "conf": "0-0",
-     "overall": "2-3"
-    },
-    {
-     "teamId": "2247",
-     "team": "Georgia St",
-     "conf": "0-0",
-     "overall": "2-3"
-    },
-    {
-     "teamId": "276",
-     "team": "Marshall",
-     "conf": "0-0",
-     "overall": "2-3"
+     "overall": "3-4"
     },
     {
      "teamId": "2653",
@@ -1092,8 +1078,26 @@
      "overall": "2-3"
     },
     {
+     "teamId": "324",
+     "team": "Coastal",
+     "conf": "0-0",
+     "overall": "2-4"
+    },
+    {
      "teamId": "290",
      "team": "GA Southern",
+     "conf": "0-0",
+     "overall": "2-4"
+    },
+    {
+     "teamId": "2247",
+     "team": "Georgia St",
+     "conf": "0-0",
+     "overall": "2-4"
+    },
+    {
+     "teamId": "276",
+     "team": "Marshall",
      "conf": "0-0",
      "overall": "2-4"
     },
@@ -1113,6 +1117,27 @@
   }
  ],
  "news": [
+  {
+   "title": "Oziyah Sellers scores 17 points, SMU drains school-record 20 3-pointers in win over South Alabama",
+   "url": "http://www.espn.com/ncb/recap?gameId=401929459",
+   "date": "2026-11-21T04:06:32Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401929459.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "Jags Fall to Hot-Shooting SMU in Dallas",
+   "url": "https://usajaguars.com/news/2026/11/20/mens-basketball-jags-fall-to-unbeaten-smu-in-dallas.aspx",
+   "date": "2026-11-21T03:41:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/20/DSC04567.jpg"
+  },
+  {
+   "title": "South Alabama Jaguars vs. SMU Mustangs: Game Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/50546062/game-highlights",
+   "date": "2026-11-21T02:57:18Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/9b8b6e4e-53f0-44b3-afb0-066b84c2bccf/9b8b6e4e-53f0-44b3-afb0-066b84c2bccf.jpg"
+  },
   {
    "title": "Jags Head to Dallas to Face SMU",
    "url": "https://usajaguars.com/news/2026/11/19/mens-basketball-jags-head-to-dallas-to-face-smu.aspx",
@@ -1205,20 +1230,6 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/12/ANW-37__1_.jpg"
   },
   {
-   "title": "Langsy’s 27 lead South Alabama past Loyola Marymount 79-72 at the Coastal Classic",
-   "url": "http://www.espn.com/ncb/recap?gameId=401917524",
-   "date": "2026-11-13T03:47:34Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401917524.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "South Alabama squares off against Loyola Marymount in Pensacola, Florida",
-   "url": "http://www.espn.com/ncb/preview?gameId=401917524",
-   "date": "2026-11-12T09:45:02Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401917524.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
    "title": "Jags Meet Loyola Marymount in Pensacola’s Coastal Classic Thursday",
    "url": "https://usajaguars.com/news/2026/11/11/mens-basketball-jaguars-meet-loyola-marymount-in-pensacolas-coastal-classic-thursday.aspx",
    "date": "2026-11-12T00:59:00.000Z",
@@ -1238,23 +1249,16 @@
    "date": "2026-11-08T23:21:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/8/ANW_097__1_.jpg"
-  },
-  {
-   "title": "Jags Erase 16-Point Deficit, Top Jax State in Double Overtime Thriller",
-   "url": "https://usajaguars.com/news/2026/11/5/mens-basketball-jags-erase-16-point-deficit-top-jax-state-in-double-overtime-thriller.aspx",
-   "date": "2026-11-06T04:03:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/5/DSC05723.jpg"
   }
  ],
  "nextOpponent": {
   "team": {
-   "id": "2567",
-   "name": "SMU Mustangs",
-   "short": "SMU",
-   "abbr": "SMU",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-   "record": "5-0"
+   "id": "2697",
+   "name": "West Florida Argonauts",
+   "short": "West Florida",
+   "abbr": "UWF",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2697.png",
+   "record": "3-3"
   },
   "stats": [
    {
@@ -1263,7 +1267,7 @@
      {
       "name": "avgRebounds",
       "label": "Rebounds Per Game",
-      "value": "40.5"
+      "value": "39.3"
      },
      {
       "name": "assistTurnoverRatio",
@@ -1273,12 +1277,12 @@
      {
       "name": "avgFouls",
       "label": "Fouls Per Game",
-      "value": "17.8"
+      "value": "20.2"
      },
      {
       "name": "gamesPlayed",
       "label": "Games Played",
-      "value": "4"
+      "value": "6"
      },
      {
       "name": "gamesStarted",
@@ -1288,22 +1292,22 @@
      {
       "name": "minutes",
       "label": "Minutes",
-      "value": "800"
+      "value": "1225"
      },
      {
       "name": "avgMinutes",
       "label": "Minutes Per Game",
-      "value": "200.0"
+      "value": "204.2"
      },
      {
       "name": "totalRebounds",
       "label": "Rebounds",
-      "value": "162"
+      "value": "236"
      },
      {
       "name": "rebounds",
       "label": "Rebounds",
-      "value": "162"
+      "value": "236"
      }
     ]
    },
@@ -1313,117 +1317,117 @@
      {
       "name": "freeThrowPct",
       "label": "Free Throw Percentage",
-      "value": "80.4"
+      "value": "76.6"
      },
      {
       "name": "avgFieldGoalsMade",
       "label": "Average Field Goals Made",
-      "value": "27.8"
+      "value": "31.0"
      },
      {
       "name": "avgFieldGoalsAttempted",
       "label": "Average Field Goals Attempted",
-      "value": "55.8"
+      "value": "66.2"
      },
      {
       "name": "avgThreePointFieldGoalsMade",
       "label": "Average 3-Point Field Goals Made",
-      "value": "8.8"
+      "value": "11.0"
      },
      {
       "name": "avgThreePointFieldGoalsAttempted",
       "label": "Average 3-Point Field Goals Attempted",
-      "value": "21.3"
+      "value": "26.8"
      },
      {
       "name": "avgFreeThrowsMade",
       "label": "Average Free Throws Made",
-      "value": "27.8"
+      "value": "18.5"
      },
      {
       "name": "avgFreeThrowsAttempted",
       "label": "Average Free Throws Attempted",
-      "value": "34.5"
+      "value": "24.2"
      },
      {
       "name": "avgPoints",
       "label": "Points Per Game",
-      "value": "92.0"
+      "value": "91.5"
      },
      {
       "name": "avgOffensiveRebounds",
       "label": "Offensive Rebounds Per Game",
-      "value": "10.5"
+      "value": "14.8"
      },
      {
       "name": "avgAssists",
       "label": "Assists Per Game",
-      "value": "21.3"
+      "value": "17.7"
      },
      {
       "name": "avgTurnovers",
       "label": "Turnovers Per Game",
-      "value": "14.8"
+      "value": "12.3"
      },
      {
       "name": "twoPointFieldGoalPct",
       "label": "2-Point Field Goal Percentage",
-      "value": "55.1"
+      "value": "50.8"
      },
      {
       "name": "scoringEfficiency",
       "label": "Scoring Efficiency",
-      "value": "1.650"
+      "value": "1.383"
      },
      {
       "name": "shootingEfficiency",
       "label": "Shooting Efficiency",
-      "value": "0.58"
+      "value": "0.55"
      },
      {
       "name": "fieldGoalPct",
       "label": "Field Goal Percentage",
-      "value": "49.8"
+      "value": "46.9"
      },
      {
       "name": "twoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made",
-      "value": "76.0"
+      "value": "120.0"
      },
      {
       "name": "twoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted",
-      "value": "138.0"
+      "value": "236.0"
      },
      {
       "name": "points",
       "label": "Points",
-      "value": "368"
+      "value": "549"
      },
      {
       "name": "offensiveRebounds",
       "label": "Offensive Rebounds",
-      "value": "42"
+      "value": "89"
      },
      {
       "name": "assists",
       "label": "Assists",
-      "value": "85"
+      "value": "106"
      },
      {
       "name": "turnovers",
       "label": "Turnovers",
-      "value": "59"
+      "value": "74"
      },
      {
       "name": "fieldGoalsMade",
       "label": "Field Goals Made",
-      "value": "111"
+      "value": "186"
      },
      {
       "name": "fieldGoalsAttempted",
       "label": "Field Goals Attempted",
-      "value": "223"
+      "value": "397"
      },
      {
       "name": "freeThrowsMade",
@@ -1433,32 +1437,32 @@
      {
       "name": "freeThrowsAttempted",
       "label": "Free Throws Attempted",
-      "value": "138"
+      "value": "145"
      },
      {
       "name": "threePointFieldGoalsMade",
       "label": "3-Point Field Goals Made",
-      "value": "35"
+      "value": "66"
      },
      {
       "name": "threePointFieldGoalsAttempted",
       "label": "3-Point Field Goals Attempted",
-      "value": "85"
+      "value": "161"
      },
      {
       "name": "threePointFieldGoalPct",
       "label": "3-Point Field Goal Percentage",
-      "value": "41.2"
+      "value": "41.0"
      },
      {
       "name": "avgTwoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made per Game",
-      "value": "19.0"
+      "value": "20.0"
      },
      {
       "name": "avgTwoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted per Game",
-      "value": "34.5"
+      "value": "39.3"
      }
     ]
    },
@@ -1468,32 +1472,32 @@
      {
       "name": "avgDefensiveRebounds",
       "label": "Defensive Rebounds Per Game",
-      "value": "30.0"
+      "value": "24.5"
      },
      {
       "name": "avgBlocks",
       "label": "Blocks Per Game",
-      "value": "6.5"
+      "value": "2.5"
      },
      {
       "name": "avgSteals",
       "label": "Steals Per Game",
-      "value": "10.0"
+      "value": "11.7"
      },
      {
       "name": "defensiveRebounds",
       "label": "Defensive Rebounds",
-      "value": "120"
+      "value": "147"
      },
      {
       "name": "steals",
       "label": "Steals",
-      "value": "40"
+      "value": "70"
      },
      {
       "name": "blocks",
       "label": "Blocks",
-      "value": "26"
+      "value": "15"
      }
     ]
    }
