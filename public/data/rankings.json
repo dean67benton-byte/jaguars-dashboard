@@ -2,6 +2,251 @@
  "football": {
   "weeks": [
    {
+    "id": "2026-11-22",
+    "postedAt": "2026-11-22T19:35:30.619Z",
+    "source": "formula",
+    "rows": [
+     {
+      "rank": 1,
+      "formulaRank": 1,
+      "teamId": "2348",
+      "team": "Louisiana Tech",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+      "record": "9-2",
+      "conf": "7-0",
+      "last": {
+       "result": "W",
+       "score": "48-3",
+       "opp": "Arkansas St",
+       "at": "vs",
+       "date": "2026-11-22T00:00Z"
+      },
+      "score": 0.791
+     },
+     {
+      "rank": 2,
+      "formulaRank": 2,
+      "teamId": "290",
+      "team": "Georgia Southern",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+      "record": "7-4",
+      "conf": "6-1",
+      "last": {
+       "result": "W",
+       "score": "45-7",
+       "opp": "Troy",
+       "at": "at",
+       "date": "2026-11-21T21:00Z"
+      },
+      "score": 0.692
+     },
+     {
+      "rank": 3,
+      "formulaRank": 3,
+      "teamId": "309",
+      "team": "Louisiana",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+      "record": "8-3",
+      "conf": "5-2",
+      "last": {
+       "result": "W",
+       "score": "38-24",
+       "opp": "Coastal",
+       "at": "vs",
+       "date": "2026-11-21T20:00Z"
+      },
+      "score": 0.67
+     },
+     {
+      "rank": 4,
+      "formulaRank": 4,
+      "teamId": "256",
+      "team": "James Madison",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+      "record": "8-3",
+      "conf": "5-2",
+      "last": {
+       "result": "L",
+       "score": "22-46",
+       "opp": "UConn",
+       "at": "at",
+       "date": "2026-11-14T17:00Z"
+      },
+      "score": 0.661
+     },
+     {
+      "rank": 5,
+      "formulaRank": 5,
+      "teamId": "2026",
+      "team": "App State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+      "record": "7-4",
+      "conf": "4-3",
+      "last": {
+       "result": "W",
+       "score": "17-16",
+       "opp": "UL Monroe",
+       "at": "vs",
+       "date": "2026-11-21T19:30Z"
+      },
+      "score": 0.55
+     },
+     {
+      "rank": 6,
+      "formulaRank": 6,
+      "teamId": "6",
+      "team": "South Alabama",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "record": "6-5",
+      "conf": "4-3",
+      "last": {
+       "result": "W",
+       "score": "40-35",
+       "opp": "Southern Miss",
+       "at": "at",
+       "date": "2026-11-21T21:00Z"
+      },
+      "score": 0.543
+     },
+     {
+      "rank": 7,
+      "formulaRank": 7,
+      "teamId": "276",
+      "team": "Marshall",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+      "record": "6-5",
+      "conf": "3-4",
+      "last": {
+       "result": "W",
+       "score": "28-27",
+       "opp": "Georgia St",
+       "at": "vs",
+       "date": "2026-11-21T21:00Z"
+      },
+      "score": 0.464
+     },
+     {
+      "rank": 8,
+      "formulaRank": 8,
+      "teamId": "2247",
+      "team": "Georgia State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+      "record": "5-6",
+      "conf": "2-5",
+      "last": {
+       "result": "L",
+       "score": "27-28",
+       "opp": "Marshall",
+       "at": "at",
+       "date": "2026-11-21T21:00Z"
+      },
+      "score": 0.451
+     },
+     {
+      "rank": 9,
+      "formulaRank": 9,
+      "teamId": "324",
+      "team": "Coastal Carolina",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+      "record": "4-7",
+      "conf": "3-4",
+      "last": {
+       "result": "L",
+       "score": "24-38",
+       "opp": "Louisiana",
+       "at": "at",
+       "date": "2026-11-21T20:00Z"
+      },
+      "score": 0.422
+     },
+     {
+      "rank": 10,
+      "formulaRank": 10,
+      "teamId": "2032",
+      "team": "Arkansas State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+      "record": "4-7",
+      "conf": "2-5",
+      "last": {
+       "result": "L",
+       "score": "3-48",
+       "opp": "Louisiana Tech",
+       "at": "at",
+       "date": "2026-11-22T00:00Z"
+      },
+      "score": 0.372
+     },
+     {
+      "rank": 11,
+      "formulaRank": 11,
+      "teamId": "2653",
+      "team": "Troy",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+      "record": "4-7",
+      "conf": "2-5",
+      "last": {
+       "result": "L",
+       "score": "7-45",
+       "opp": "GA Southern",
+       "at": "vs",
+       "date": "2026-11-21T21:00Z"
+      },
+      "score": 0.352
+     },
+     {
+      "rank": 12,
+      "formulaRank": 12,
+      "teamId": "295",
+      "team": "Old Dominion",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+      "record": "3-8",
+      "conf": "2-5",
+      "last": {
+       "result": "L",
+       "score": "21-29",
+       "opp": "UConn",
+       "at": "at",
+       "date": "2026-11-21T20:30Z"
+      },
+      "score": 0.352
+     },
+     {
+      "rank": 13,
+      "formulaRank": 13,
+      "teamId": "2572",
+      "team": "Southern Miss",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "record": "3-8",
+      "conf": "2-5",
+      "last": {
+       "result": "L",
+       "score": "35-40",
+       "opp": "South Alabama",
+       "at": "vs",
+       "date": "2026-11-21T21:00Z"
+      },
+      "score": 0.31
+     },
+     {
+      "rank": 14,
+      "formulaRank": 14,
+      "teamId": "2433",
+      "team": "UL Monroe",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+      "record": "2-9",
+      "conf": "2-5",
+      "last": {
+       "result": "L",
+       "score": "16-17",
+       "opp": "App State",
+       "at": "at",
+       "date": "2026-11-21T19:30Z"
+      },
+      "score": 0.294
+     }
+    ]
+   },
+   {
     "id": "2026-11-15",
     "postedAt": "2026-11-15T14:16:12.449Z",
     "source": "claude",
@@ -1298,9 +1543,254 @@
    }
   ]
  },
- "updatedAt": "2026-11-15T14:20:51.757Z",
+ "updatedAt": "2026-11-22T19:35:30.619Z",
  "mbb": {
   "weeks": [
+   {
+    "id": "2026-11-22",
+    "postedAt": "2026-11-22T19:35:30.619Z",
+    "source": "formula",
+    "rows": [
+     {
+      "rank": 1,
+      "formulaRank": 1,
+      "teamId": "295",
+      "team": "Old Dominion",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+      "record": "5-1",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "65-85",
+       "opp": "Virginia",
+       "at": "at",
+       "date": "2026-11-18T02:00Z"
+      },
+      "score": 0.717
+     },
+     {
+      "rank": 2,
+      "formulaRank": 2,
+      "teamId": "2026",
+      "team": "App State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+      "record": "4-1",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "81-75",
+       "opp": "North Texas",
+       "at": "vs",
+       "date": "2026-11-20T23:30Z"
+      },
+      "score": 0.682
+     },
+     {
+      "rank": 3,
+      "formulaRank": 3,
+      "teamId": "256",
+      "team": "James Madison",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+      "record": "4-2",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "136-45",
+       "opp": "VA Lynchburg",
+       "at": "vs",
+       "date": "2026-11-21T19:00Z"
+      },
+      "score": 0.656
+     },
+     {
+      "rank": 4,
+      "formulaRank": 4,
+      "teamId": "2348",
+      "team": "Louisiana Tech",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+      "record": "4-2",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "74-67",
+       "opp": "Tulane",
+       "at": "vs",
+       "date": "2026-11-20T00:30Z"
+      },
+      "score": 0.61
+     },
+     {
+      "rank": 5,
+      "formulaRank": 5,
+      "teamId": "2032",
+      "team": "Arkansas State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+      "record": "3-2",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "100-69",
+       "opp": "AR-Pine Bluff",
+       "at": "vs",
+       "date": "2026-11-19T01:00Z"
+      },
+      "score": 0.592
+     },
+     {
+      "rank": 6,
+      "formulaRank": 6,
+      "teamId": "2572",
+      "team": "Southern Miss",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "record": "4-3",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "80-69",
+       "opp": "Nicholls",
+       "at": "vs",
+       "date": "2026-11-21T22:00Z"
+      },
+      "score": 0.534
+     },
+     {
+      "rank": 7,
+      "formulaRank": 7,
+      "teamId": "6",
+      "team": "South Alabama",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "record": "3-4",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "55-101",
+       "opp": "SMU",
+       "at": "at",
+       "date": "2026-11-21T01:00Z"
+      },
+      "score": 0.456
+     },
+     {
+      "rank": 8,
+      "formulaRank": 8,
+      "teamId": "2247",
+      "team": "Georgia State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+      "record": "2-4",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "77-82",
+       "opp": "Jax State",
+       "at": "at",
+       "date": "2026-11-21T00:00Z"
+      },
+      "score": 0.439
+     },
+     {
+      "rank": 9,
+      "formulaRank": 9,
+      "teamId": "276",
+      "team": "Marshall",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+      "record": "2-4",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "72-88",
+       "opp": "North Carolina",
+       "at": "at",
+       "date": "2026-11-21T02:00Z"
+      },
+      "score": 0.406
+     },
+     {
+      "rank": 10,
+      "formulaRank": 10,
+      "teamId": "290",
+      "team": "Georgia Southern",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+      "record": "2-4",
+      "conf": "0-0",
+      "last": {
+       "result": "W",
+       "score": "86-79",
+       "opp": "Hou Christian",
+       "at": "at",
+       "date": "2026-11-20T01:00Z"
+      },
+      "score": 0.386
+     },
+     {
+      "rank": 11,
+      "formulaRank": 11,
+      "teamId": "324",
+      "team": "Coastal Carolina",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+      "record": "2-4",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "51-78",
+       "opp": "Tennessee",
+       "at": "at",
+       "date": "2026-11-21T00:00Z"
+      },
+      "score": 0.386
+     },
+     {
+      "rank": 12,
+      "formulaRank": 12,
+      "teamId": "2653",
+      "team": "Troy",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+      "record": "2-4",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "72-77",
+       "opp": "Valparaiso",
+       "at": "vs",
+       "date": "2026-11-22T01:00Z"
+      },
+      "score": 0.37
+     },
+     {
+      "rank": 13,
+      "formulaRank": 13,
+      "teamId": "309",
+      "team": "Louisiana",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+      "record": "1-3-1",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "56-77",
+       "opp": "San Francisco",
+       "at": "at",
+       "date": "2026-11-19T03:00Z"
+      },
+      "score": 0.367
+     },
+     {
+      "rank": 14,
+      "formulaRank": 14,
+      "teamId": "2433",
+      "team": "UL Monroe",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+      "record": "2-6",
+      "conf": "0-0",
+      "last": {
+       "result": "L",
+       "score": "67-79",
+       "opp": "LSU",
+       "at": "at",
+       "date": "2026-11-19T01:00Z"
+      },
+      "score": 0.33
+     }
+    ]
+   },
    {
     "id": "2026-11-15",
     "postedAt": "2026-11-15T14:16:12.449Z",
