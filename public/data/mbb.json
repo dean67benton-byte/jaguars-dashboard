@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-22T03:12:08.791Z",
+ "updatedAt": "2026-11-22T11:25:25.730Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1118,6 +1118,13 @@
  ],
  "news": [
   {
+   "title": "Jags Return to Mitchell Center to Host West Florida Sunday",
+   "url": "https://usajaguars.com/news/2026/11/21/mens-basketball-jags-return-to-mitchell-center-to-host-west-florida-sunday.aspx",
+   "date": "2026-11-22T05:55:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/22/IMG_8681.jpg"
+  },
+  {
    "title": "Oziyah Sellers scores 17 points, SMU drains school-record 20 3-pointers in win over South Alabama",
    "url": "http://www.espn.com/ncb/recap?gameId=401929459",
    "date": "2026-11-21T04:06:32Z",
@@ -1242,13 +1249,6 @@
    "date": "2026-11-11T04:14:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/10/DSC09164.jpg"
-  },
-  {
-   "title": "South Alabama Opens Road Slate at UCF Tuesday",
-   "url": "https://usajaguars.com/news/2026/11/8/mens-basketball-south-alabama-opens-road-slate-at-ucf-tuesday.aspx",
-   "date": "2026-11-08T23:21:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/8/ANW_097__1_.jpg"
   }
  ],
  "nextOpponent": {
