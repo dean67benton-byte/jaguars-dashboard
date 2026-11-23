@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-23T00:49:52.013Z",
+ "updatedAt": "2026-11-23T08:59:33.455Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2287,6 +2287,13 @@
  ],
  "news": [
   {
+   "title": "Former South Alabama football coach re-hired at Central Arkansas",
+   "url": "https://www.al.com/sports/2026/11/former-south-alabama-football-coach-re-hired-at-central-arkansas.html",
+   "date": "2026-11-23T01:02:20.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/KF5A3IPBGZFYJLSRSOW3BOF6WI.jpg?auth=2aa77490008c016d3b4f6fe26ae12ea2468f2ba57cd72c1b002097f00ee52905&smart=true&height=1200"
+  },
+  {
    "title": "Rapid reaction: bowl eligibility edition",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-rapid-reaction-southernmiss-week12-2026",
    "source": "Diehard Sports Network",
@@ -2488,13 +2495,6 @@
    "date": "2026-11-08T02:01:35Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869968.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "The Really Big Preview: South Alabama at Louisiana",
-   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-really-big-preview-louisiana-week10-2026",
-   "source": "Diehard Sports Network",
-   "date": "2026-11-06T17:00:00.000Z",
-   "image": "https://cdn.sanity.io/images/iahnmtcr/production/7e31f77e4de0e452e22ed99007178412132e8a83-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
   }
  ],
  "nextOpponent": {
