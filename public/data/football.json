@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-22T03:12:08.791Z",
+ "updatedAt": "2026-11-23T00:49:52.013Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2287,6 +2287,13 @@
  ],
  "news": [
   {
+   "title": "Rapid reaction: bowl eligibility edition",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-rapid-reaction-southernmiss-week12-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-22T16:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/0084b1f4144f6afdbd65aebdf9530f2f57e6d2fa-2000x1333.webp?rect=0,142,2000,1050&w=1200&h=630&fit=crop"
+  },
+  {
    "title": "South Alabama bowl eligible after 4th-quarter comeback vs. Southern Miss",
    "url": "https://www.al.com/sports/2026/11/south-alabama-bowl-eligible-after-4th-quarter-comeback-vs-southern-miss.html",
    "date": "2026-11-22T02:19:27.000Z",
@@ -2406,20 +2413,6 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/15/DSC00462.jpg"
   },
   {
-   "title": "Troy in must-win territory after ‘Battle for the Belt’ loss to South Alabama",
-   "url": "https://www.al.com/sports/2026/11/troy-in-must-win-territory-after-battle-for-the-belt-loss-to-south-alabama.html",
-   "date": "2026-11-15T05:08:33.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/G2MIQLGC4BCY3G7U7755IIY3FE.jpg?auth=cd5456e9c31b7c272c565540b513c9d20bd96c5ca58d5c3085c7763aa35fd070&smart=true&height=1200"
-  },
-  {
-   "title": "South Alabama claims ‘Battle for the Belt’ vs. Troy for 2nd time in 3 years",
-   "url": "https://www.al.com/sports/2026/11/south-alabama-claims-battle-for-the-belt-vs-troy-for-2nd-time-in-3-years.html",
-   "date": "2026-11-15T04:56:41.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/O4D7C5DL6FA25BRITBRJWZ35NM.jpg?auth=d2814c45281ad32cdc43b214ab58e0bd3e245cb881ee6a957d64cdbb8a44ed39&smart=true&height=1200"
-  },
-  {
    "title": "Troy Trojans vs. South Alabama Jaguars: Full Highlights",
    "url": "https://www.espn.com/video/clip/_/id/50486689/full-highlights",
    "date": "2026-11-15T03:26:22Z",
@@ -2495,6 +2488,13 @@
    "date": "2026-11-08T02:01:35Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401869968.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "The Really Big Preview: South Alabama at Louisiana",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-really-big-preview-louisiana-week10-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-06T17:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/7e31f77e4de0e452e22ed99007178412132e8a83-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=crop"
   }
  ],
  "nextOpponent": {
