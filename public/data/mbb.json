@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-23T08:59:33.455Z",
+ "updatedAt": "2026-11-24T05:59:40.077Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1043,7 +1043,13 @@
      "teamId": "2026",
      "team": "App State",
      "conf": "0-0",
-     "overall": "4-1"
+     "overall": "4-2"
+    },
+    {
+     "teamId": "2032",
+     "team": "Arkansas St",
+     "conf": "0-0",
+     "overall": "4-2"
     },
     {
      "teamId": "256",
@@ -1064,16 +1070,22 @@
      "overall": "5-3"
     },
     {
-     "teamId": "2032",
-     "team": "Arkansas St",
-     "conf": "0-0",
-     "overall": "3-2"
-    },
-    {
      "teamId": "6",
      "team": "South Alabama",
      "conf": "0-0",
      "overall": "4-4"
+    },
+    {
+     "teamId": "290",
+     "team": "GA Southern",
+     "conf": "0-0",
+     "overall": "3-4"
+    },
+    {
+     "teamId": "2247",
+     "team": "Georgia St",
+     "conf": "0-0",
+     "overall": "3-4"
     },
     {
      "teamId": "2653",
@@ -1084,18 +1096,6 @@
     {
      "teamId": "324",
      "team": "Coastal",
-     "conf": "0-0",
-     "overall": "2-4"
-    },
-    {
-     "teamId": "290",
-     "team": "GA Southern",
-     "conf": "0-0",
-     "overall": "2-4"
-    },
-    {
-     "teamId": "2247",
-     "team": "Georgia St",
      "conf": "0-0",
      "overall": "2-4"
     },
@@ -1121,6 +1121,13 @@
   }
  ],
  "news": [
+  {
+   "title": "Men’s Basketball Hosts Florida A&M, Eyes Fourth Straight Home Win",
+   "url": "https://usajaguars.com/news/2026/11/23/mens-basketball-mens-basketball-hosts-florida-am-eyes-fourth-straight-home-win.aspx",
+   "date": "2026-11-24T02:30:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/23/DSC05692__1_.jpg"
+  },
   {
    "title": "Law, Langsy Score 20 Apiece as Jags Top West Florida",
    "url": "https://usajaguars.com/news/2026/11/22/mens-basketball-law-langsy-score-20-apiece-as-jags-top-west-florida.aspx",
@@ -1246,13 +1253,6 @@
    "date": "2026-11-13T04:50:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/12/ANW-37__1_.jpg"
-  },
-  {
-   "title": "Jags Meet Loyola Marymount in Pensacola’s Coastal Classic Thursday",
-   "url": "https://usajaguars.com/news/2026/11/11/mens-basketball-jaguars-meet-loyola-marymount-in-pensacolas-coastal-classic-thursday.aspx",
-   "date": "2026-11-12T00:59:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/11/ANW_093.jpg"
   }
  ],
  "nextOpponent": {
