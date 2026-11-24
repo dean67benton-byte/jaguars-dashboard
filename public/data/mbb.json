@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-24T05:59:40.077Z",
+ "updatedAt": "2026-11-24T17:40:07.429Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -237,6 +237,7 @@
    "conference": false,
    "venue": "Convocation Center (LA)",
    "city": "New Orleans, LA",
+   "tv": "YouTube",
    "status": "pre",
    "statusDetail": "11/27 - 2:00 PM EST"
   },
@@ -256,6 +257,7 @@
    "conference": false,
    "venue": "Convocation Center (LA)",
    "city": "New Orleans, LA",
+   "tv": "YouTube",
    "status": "pre",
    "statusDetail": "11/28 - 6:00 PM EST"
   },
