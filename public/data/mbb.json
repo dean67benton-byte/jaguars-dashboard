@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-25T02:24:25.640Z",
+ "updatedAt": "2026-11-25T12:49:34.248Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -8,7 +8,7 @@
   "short": "South Alabama",
   "abbr": "USA",
   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-  "record": "4-4",
+  "record": "5-4",
   "standingSummary": "1st in Sun Belt"
  },
  "events": [
@@ -210,7 +210,8 @@
     "name": "Florida A&M Rattlers",
     "short": "Florida A&M",
     "abbr": "FAMU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png"
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
+    "record": "0-7"
    },
    "home": true,
    "neutral": false,
@@ -218,8 +219,11 @@
    "venue": "Mitchell Center",
    "city": "Mobile, AL",
    "tv": "ESPN+",
-   "status": "in",
-   "statusDetail": "8:21 - 2nd"
+   "status": "post",
+   "statusDetail": "Final",
+   "usScore": 74,
+   "oppScore": 49,
+   "result": "W"
   },
   {
    "id": "401929181",
@@ -1057,7 +1061,7 @@
      "teamId": "2348",
      "team": "Louisiana Tech",
      "conf": "0-0",
-     "overall": "4-2"
+     "overall": "5-2"
     },
     {
      "teamId": "2572",
@@ -1075,7 +1079,7 @@
      "teamId": "6",
      "team": "South Alabama",
      "conf": "0-0",
-     "overall": "4-4"
+     "overall": "5-4"
     },
     {
      "teamId": "2247",
@@ -1096,6 +1100,12 @@
      "overall": "3-5"
     },
     {
+     "teamId": "309",
+     "team": "Louisiana",
+     "conf": "0-0",
+     "overall": "2-4"
+    },
+    {
      "teamId": "276",
      "team": "Marshall",
      "conf": "0-0",
@@ -1112,17 +1122,32 @@
      "team": "UL Monroe",
      "conf": "0-0",
      "overall": "2-7"
-    },
-    {
-     "teamId": "309",
-     "team": "Louisiana",
-     "conf": "0-0",
-     "overall": "1-4"
     }
    ]
   }
  ],
  "news": [
+  {
+   "title": "Jalen Langsy’s 25 lead South Alabama past Florida A&M 74-49",
+   "url": "http://www.espn.com/ncb/recap?gameId=401929421",
+   "date": "2026-11-25T04:58:44Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401929421.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
+   "title": "South Alabama Rolls Past Florida A&M for Fourth Straight Home Win",
+   "url": "https://usajaguars.com/news/2026/11/24/mens-basketball-south-alabama-rolls-past-florida-am-for-fourth-straight-home-win.aspx",
+   "date": "2026-11-25T04:44:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/24/DSC07163.jpg"
+  },
+  {
+   "title": "Florida A&M Rattlers vs. South Alabama Jaguars: Game Highlights",
+   "url": "https://www.espn.com/video/clip/_/id/50588996/game-highlights",
+   "date": "2026-11-25T02:57:39Z",
+   "source": "ESPN",
+   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/85b17555-2e16-42e7-ae3e-e01156d92f7f/85b17555-2e16-42e7-ae3e-e01156d92f7f.jpg"
+  },
   {
    "title": "Men’s Basketball Hosts Florida A&M, Eyes Fourth Straight Home Win",
    "url": "https://usajaguars.com/news/2026/11/23/mens-basketball-mens-basketball-hosts-florida-am-eyes-fourth-straight-home-win.aspx",
@@ -1208,20 +1233,6 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/17/DSC03005__2_.jpg"
   },
   {
-   "title": "South Alabama basketball scores most points in 23 years in victory over Spring Hill",
-   "url": "https://www.al.com/sports/2026/11/south-alabama-basketball-scores-most-points-in-23-years-in-victory-over-spring-hill.html",
-   "date": "2026-11-18T03:11:50.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/QRSNWWL45RB3JLLTBLCJPQFADU.jpg?auth=50d613dea6cdf06d25e72dab5ea260fd140795d5274365bfc2c5a3908eeed83e&smart=true&height=1200"
-  },
-  {
-   "title": "Spring Hill Badgers vs. South Alabama Jaguars: Game Highlights",
-   "url": "https://www.espn.com/video/clip/_/id/50515879/game-highlights",
-   "date": "2026-11-18T01:53:47Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/3410ed56-55b1-4059-bc8d-e7402024f858/3410ed56-55b1-4059-bc8d-e7402024f858.jpg"
-  },
-  {
    "title": "South Alabama Returns Home to Host Spring Hill Tuesday",
    "url": "https://usajaguars.com/news/2026/11/16/mens-basketball-south-alabama-returns-home-to-host-spring-hill-tuesday.aspx",
    "date": "2026-11-17T00:58:00.000Z",
@@ -1236,35 +1247,21 @@
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/15/MR101123__2_.JPG"
   },
   {
-   "title": "Stevenson, Alexander lead North Texas past South Alabama 66-65",
-   "url": "http://www.espn.com/ncb/recap?gameId=401925827",
-   "date": "2026-11-15T02:41:37Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401925827.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
    "title": "South Alabama Wraps Up Road Swing at North Texas Saturday",
    "url": "https://usajaguars.com/news/2026/11/13/mens-basketball-south-alabama-wraps-up-road-swing-at-north-texas-saturday.aspx",
    "date": "2026-11-14T03:17:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/13/ANW_21.jpg"
-  },
-  {
-   "title": "Langsy, Goldstein Lead Jaguars Past LMU at Coastal Classic",
-   "url": "https://usajaguars.com/news/2026/11/12/mens-basketball-langsy-goldstein-lead-jaguars-past-lmu-at-coastal-classic.aspx",
-   "date": "2026-11-13T04:50:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/12/ANW-37__1_.jpg"
   }
  ],
  "nextOpponent": {
   "team": {
-   "id": "50",
-   "name": "Florida A&M Rattlers",
-   "short": "Florida A&M",
-   "abbr": "FAMU",
-   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
-   "record": "0-6"
+   "id": "278",
+   "name": "Fresno State Bulldogs",
+   "short": "Fresno St",
+   "abbr": "FRES",
+   "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+   "record": "4-2"
   },
   "stats": [
    {
@@ -1273,17 +1270,17 @@
      {
       "name": "avgRebounds",
       "label": "Rebounds Per Game",
-      "value": "35.3"
+      "value": "39.3"
      },
      {
       "name": "assistTurnoverRatio",
       "label": "Assist To Turnover Ratio",
-      "value": "0.6"
+      "value": "1.2"
      },
      {
       "name": "avgFouls",
       "label": "Fouls Per Game",
-      "value": "17.3"
+      "value": "15.2"
      },
      {
       "name": "gamesPlayed",
@@ -1298,22 +1295,22 @@
      {
       "name": "minutes",
       "label": "Minutes",
-      "value": "1200"
+      "value": "1225"
      },
      {
       "name": "avgMinutes",
       "label": "Minutes Per Game",
-      "value": "200.0"
+      "value": "204.2"
      },
      {
       "name": "totalRebounds",
       "label": "Rebounds",
-      "value": "212"
+      "value": "236"
      },
      {
       "name": "rebounds",
       "label": "Rebounds",
-      "value": "212"
+      "value": "236"
      }
     ]
    },
@@ -1323,42 +1320,42 @@
      {
       "name": "freeThrowPct",
       "label": "Free Throw Percentage",
-      "value": "51.9"
+      "value": "69.5"
      },
      {
       "name": "avgFieldGoalsMade",
       "label": "Average Field Goals Made",
-      "value": "23.2"
+      "value": "28.3"
      },
      {
       "name": "avgFieldGoalsAttempted",
       "label": "Average Field Goals Attempted",
-      "value": "58.0"
+      "value": "58.5"
      },
      {
       "name": "avgThreePointFieldGoalsMade",
       "label": "Average 3-Point Field Goals Made",
-      "value": "7.5"
+      "value": "7.8"
      },
      {
       "name": "avgThreePointFieldGoalsAttempted",
       "label": "Average 3-Point Field Goals Attempted",
-      "value": "22.2"
+      "value": "20.3"
      },
      {
       "name": "avgFreeThrowsMade",
       "label": "Average Free Throws Made",
-      "value": "11.5"
+      "value": "19.3"
      },
      {
       "name": "avgFreeThrowsAttempted",
       "label": "Average Free Throws Attempted",
-      "value": "22.2"
+      "value": "27.8"
      },
      {
       "name": "avgPoints",
       "label": "Points Per Game",
-      "value": "65.3"
+      "value": "83.8"
      },
      {
       "name": "avgOffensiveRebounds",
@@ -1368,47 +1365,47 @@
      {
       "name": "avgAssists",
       "label": "Assists Per Game",
-      "value": "10.5"
+      "value": "15.0"
      },
      {
       "name": "avgTurnovers",
       "label": "Turnovers Per Game",
-      "value": "17.0"
+      "value": "13.0"
      },
      {
       "name": "twoPointFieldGoalPct",
       "label": "2-Point Field Goal Percentage",
-      "value": "43.7"
+      "value": "53.7"
      },
      {
       "name": "scoringEfficiency",
       "label": "Scoring Efficiency",
-      "value": "1.126"
+      "value": "1.433"
      },
      {
       "name": "shootingEfficiency",
       "label": "Shooting Efficiency",
-      "value": "0.46"
+      "value": "0.55"
      },
      {
       "name": "fieldGoalPct",
       "label": "Field Goal Percentage",
-      "value": "39.9"
+      "value": "48.4"
      },
      {
       "name": "twoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made",
-      "value": "94.0"
+      "value": "123.0"
      },
      {
       "name": "twoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted",
-      "value": "215.0"
+      "value": "229.0"
      },
      {
       "name": "points",
       "label": "Points",
-      "value": "392"
+      "value": "503"
      },
      {
       "name": "offensiveRebounds",
@@ -1418,57 +1415,57 @@
      {
       "name": "assists",
       "label": "Assists",
-      "value": "63"
+      "value": "90"
      },
      {
       "name": "turnovers",
       "label": "Turnovers",
-      "value": "102"
+      "value": "78"
      },
      {
       "name": "fieldGoalsMade",
       "label": "Field Goals Made",
-      "value": "139"
+      "value": "170"
      },
      {
       "name": "fieldGoalsAttempted",
       "label": "Field Goals Attempted",
-      "value": "348"
+      "value": "351"
      },
      {
       "name": "freeThrowsMade",
       "label": "Free Throws Made",
-      "value": "69"
+      "value": "116"
      },
      {
       "name": "freeThrowsAttempted",
       "label": "Free Throws Attempted",
-      "value": "133"
+      "value": "167"
      },
      {
       "name": "threePointFieldGoalsMade",
       "label": "3-Point Field Goals Made",
-      "value": "45"
+      "value": "47"
      },
      {
       "name": "threePointFieldGoalsAttempted",
       "label": "3-Point Field Goals Attempted",
-      "value": "133"
+      "value": "122"
      },
      {
       "name": "threePointFieldGoalPct",
       "label": "3-Point Field Goal Percentage",
-      "value": "33.8"
+      "value": "38.5"
      },
      {
       "name": "avgTwoPointFieldGoalsMade",
       "label": "2-Point Field Goals Made per Game",
-      "value": "15.7"
+      "value": "20.5"
      },
      {
       "name": "avgTwoPointFieldGoalsAttempted",
       "label": "2-Point Field Goals Attempted per Game",
-      "value": "35.8"
+      "value": "38.2"
      }
     ]
    },
@@ -1478,32 +1475,32 @@
      {
       "name": "avgDefensiveRebounds",
       "label": "Defensive Rebounds Per Game",
-      "value": "24.0"
+      "value": "28.0"
      },
      {
       "name": "avgBlocks",
       "label": "Blocks Per Game",
-      "value": "2.8"
+      "value": "3.3"
      },
      {
       "name": "avgSteals",
       "label": "Steals Per Game",
-      "value": "5.0"
+      "value": "4.2"
      },
      {
       "name": "defensiveRebounds",
       "label": "Defensive Rebounds",
-      "value": "144"
+      "value": "168"
      },
      {
       "name": "steals",
       "label": "Steals",
-      "value": "30"
+      "value": "25"
      },
      {
       "name": "blocks",
       "label": "Blocks",
-      "value": "17"
+      "value": "20"
      }
     ]
    }
