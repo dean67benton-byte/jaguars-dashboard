@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-23T08:59:33.455Z",
+ "updatedAt": "2026-11-25T02:24:25.640Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2287,6 +2287,27 @@
  ],
  "news": [
   {
+   "title": "Latest bowl projections for UAB, Jacksonville State, South Alabama",
+   "url": "https://www.al.com/sports/2026/11/latest-bowl-projections-for-uab-jacksonville-state-south-alabama.html-2",
+   "date": "2026-11-24T17:00:07.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/VQJ3SJKKRBGQ7CG3DKJUPKXC6Y.jpg?auth=f372a2b3a3d047a6680560f6ebce5ca360f0b0086f5953fb7a14034a4b8c27f6&smart=true&height=1200"
+  },
+  {
+   "title": "Now bowl-eligible, South Alabama has bigger goals in mind",
+   "url": "https://www.al.com/sports/2026/11/now-bowl-eligible-south-alabama-has-bigger-goals-in-mind.html",
+   "date": "2026-11-23T21:00:14.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/NDUFJZRF2BCH3KNDG5AO6BYSV4.jpg?auth=ff16d4bc9122b0ac0fe3af3ececeb37717bae2eb74486357e609b229f2c0fc0c&smart=true&height=1200"
+  },
+  {
+   "title": "Junior college offensive lineman is the latest addition to South Alabama’s 2027 class",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-brandon-white-commitment-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-23T13:30:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/32f2eec89136d0352b55df6a1083d46eb7c79531-2000x988.png?rect=59,0,1882,988&w=1200&h=630&fit=crop"
+  },
+  {
    "title": "Former South Alabama football coach re-hired at Central Arkansas",
    "url": "https://www.al.com/sports/2026/11/former-south-alabama-football-coach-re-hired-at-central-arkansas.html",
    "date": "2026-11-23T01:02:20.000Z",
@@ -2371,32 +2392,11 @@
    "image": "https://www.al.com/resizer/v2/YBDOB4J4WVEFZL5QHF52SBFVKE.jpg?auth=d29f4f35d7c3e87a2aee7a9cfba30e06680eb5682767f6e4c5555efb764c0f7e&smart=true&height=1200"
   },
   {
-   "title": "Latest bowl projections for UAB, Jacksonville State, South Alabama",
-   "url": "https://www.al.com/sports/2026/11/latest-bowl-projections-for-uab-jacksonville-state-south-alabama.html",
-   "date": "2026-11-17T20:05:08.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/7JEFIPOGZFBEJGL5KAO7JL6ZTQ.jpeg?auth=1c3e944ff2618d44b2e48fd8d37731a800dbd799c56fd54bdda3453dc5ded87e&smart=true&height=1200"
-  },
-  {
-   "title": "South Alabama treating trip to Southern Miss as ‘trap game’",
-   "url": "https://www.al.com/sports/2026/11/one-win-from-bowl-eligibility-south-alabama-treating-trip-to-southern-miss-as-trap-game.html",
-   "date": "2026-11-16T21:56:27.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/ZDLBUVP5DZA2VEHXOAVC6BZAZ4.jpg?auth=9cc13c80857a3a188c8ceff4f9863dcebc11c09dd89f8ffa35915713dd89726b&smart=true&height=1200"
-  },
-  {
    "title": "Sun Belt matchup features South Alabama squaring off against Southern Miss",
    "url": "http://www.espn.com/ncf/preview?gameId=401871101",
    "date": "2026-11-16T20:46:44Z",
    "source": "ESPN",
    "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401871101.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
-   "title": "South Alabama’s Trae’von Dunbar honored by Sun Belt Conference",
-   "url": "https://www.al.com/sports/2026/11/south-alabamas-traevon-dunbar-honored-by-sun-belt-conference.html",
-   "date": "2026-11-16T19:13:38.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/4GHEC4M5ABAPHFVGPYMI3BHUZM.jpg?auth=bee2a50daa72c81e5285fabba2f80852fc573021aa0a9968a2a938948bb4b50e&smart=true&height=1200"
   },
   {
    "title": "Trae'von Dunbar Crowned Sun Belt Offensive Player of the Week",

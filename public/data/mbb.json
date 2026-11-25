@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-24T17:40:07.429Z",
+ "updatedAt": "2026-11-25T02:24:25.640Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -218,8 +218,8 @@
    "venue": "Mitchell Center",
    "city": "Mobile, AL",
    "tv": "ESPN+",
-   "status": "pre",
-   "statusDetail": "11/24 - 8:00 PM EST"
+   "status": "in",
+   "statusDetail": "8:21 - 2nd"
   },
   {
    "id": "401929181",
@@ -1039,25 +1039,19 @@
      "teamId": "295",
      "team": "Old Dominion",
      "conf": "0-0",
-     "overall": "5-1"
-    },
-    {
-     "teamId": "2026",
-     "team": "App State",
-     "conf": "0-0",
-     "overall": "4-2"
+     "overall": "6-1"
     },
     {
      "teamId": "2032",
      "team": "Arkansas St",
      "conf": "0-0",
-     "overall": "4-2"
+     "overall": "5-2"
     },
     {
      "teamId": "256",
      "team": "James Madison",
      "conf": "0-0",
-     "overall": "4-2"
+     "overall": "5-2"
     },
     {
      "teamId": "2348",
@@ -1072,16 +1066,16 @@
      "overall": "5-3"
     },
     {
+     "teamId": "2026",
+     "team": "App State",
+     "conf": "0-0",
+     "overall": "4-3"
+    },
+    {
      "teamId": "6",
      "team": "South Alabama",
      "conf": "0-0",
      "overall": "4-4"
-    },
-    {
-     "teamId": "290",
-     "team": "GA Southern",
-     "conf": "0-0",
-     "overall": "3-4"
     },
     {
      "teamId": "2247",
@@ -1096,10 +1090,10 @@
      "overall": "3-4"
     },
     {
-     "teamId": "324",
-     "team": "Coastal",
+     "teamId": "290",
+     "team": "GA Southern",
      "conf": "0-0",
-     "overall": "2-4"
+     "overall": "3-5"
     },
     {
      "teamId": "276",
@@ -1108,10 +1102,16 @@
      "overall": "2-4"
     },
     {
+     "teamId": "324",
+     "team": "Coastal",
+     "conf": "0-0",
+     "overall": "2-5"
+    },
+    {
      "teamId": "2433",
      "team": "UL Monroe",
      "conf": "0-0",
-     "overall": "2-6"
+     "overall": "2-7"
     },
     {
      "teamId": "309",
