@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-25T12:49:34.248Z",
+ "updatedAt": "2026-11-25T22:29:33.382Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1064,16 +1064,16 @@
      "overall": "5-2"
     },
     {
-     "teamId": "2572",
-     "team": "Southern Miss",
+     "teamId": "2026",
+     "team": "App State",
      "conf": "0-0",
      "overall": "5-3"
     },
     {
-     "teamId": "2026",
-     "team": "App State",
+     "teamId": "2572",
+     "team": "Southern Miss",
      "conf": "0-0",
-     "overall": "4-3"
+     "overall": "5-3"
     },
     {
      "teamId": "6",
