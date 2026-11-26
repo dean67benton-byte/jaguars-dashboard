@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-25T22:29:33.382Z",
+ "updatedAt": "2026-11-26T04:59:57.846Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1049,7 +1049,7 @@
      "teamId": "2032",
      "team": "Arkansas St",
      "conf": "0-0",
-     "overall": "5-2"
+     "overall": "6-2"
     },
     {
      "teamId": "256",
@@ -1082,8 +1082,8 @@
      "overall": "5-4"
     },
     {
-     "teamId": "2247",
-     "team": "Georgia St",
+     "teamId": "276",
+     "team": "Marshall",
      "conf": "0-0",
      "overall": "3-4"
     },
@@ -1100,14 +1100,14 @@
      "overall": "3-5"
     },
     {
-     "teamId": "309",
-     "team": "Louisiana",
+     "teamId": "2247",
+     "team": "Georgia St",
      "conf": "0-0",
-     "overall": "2-4"
+     "overall": "3-5"
     },
     {
-     "teamId": "276",
-     "team": "Marshall",
+     "teamId": "309",
+     "team": "Louisiana",
      "conf": "0-0",
      "overall": "2-4"
     },
