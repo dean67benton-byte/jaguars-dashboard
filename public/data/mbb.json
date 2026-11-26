@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-26T04:59:57.846Z",
+ "updatedAt": "2026-11-26T23:51:08.390Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1128,6 +1128,20 @@
  ],
  "news": [
   {
+   "title": "Men’s Basketball Heads to New Orleans for Second Line Showcase",
+   "url": "https://usajaguars.com/news/2026/11/26/mens-basketball-mens-basketball-heads-to-new-orleans-for-second-line-showcase.aspx",
+   "date": "2026-11-26T14:10:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/26/FAMUA_105.jpg"
+  },
+  {
+   "title": "South Alabama Jaguars and the Fresno State Bulldogs play in New Orleans, Louisiana",
+   "url": "http://www.espn.com/ncb/preview?gameId=401929181",
+   "date": "2026-11-26T09:43:38Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401929181.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "Jalen Langsy’s 25 lead South Alabama past Florida A&M 74-49",
    "url": "http://www.espn.com/ncb/recap?gameId=401929421",
    "date": "2026-11-25T04:58:44Z",
@@ -1219,13 +1233,6 @@
    "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401929459.png?templateId=espn.applewatch.awayhome.1"
   },
   {
-   "title": "Roderick Williams Jr. has 26 points as South Alabama cruises past Spring Hill 122-69",
-   "url": "http://www.espn.com/ncb/recap?gameId=401930568",
-   "date": "2026-11-18T15:15:50Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401930568.png?templateId=espn.applewatch.awayhome.1"
-  },
-  {
    "title": "Jags Set Riley-Era Scoring High in 122–69 Win over Spring Hill",
    "url": "https://usajaguars.com/news/2026/11/17/mens-basketball-jags-score-most-points-of-riley-era-in-122-69-win-over-spring-hill.aspx",
    "date": "2026-11-18T05:00:00.000Z",
@@ -1245,13 +1252,6 @@
    "date": "2026-11-15T04:48:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/15/MR101123__2_.JPG"
-  },
-  {
-   "title": "South Alabama Wraps Up Road Swing at North Texas Saturday",
-   "url": "https://usajaguars.com/news/2026/11/13/mens-basketball-south-alabama-wraps-up-road-swing-at-north-texas-saturday.aspx",
-   "date": "2026-11-14T03:17:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/13/ANW_21.jpg"
   }
  ],
  "nextOpponent": {

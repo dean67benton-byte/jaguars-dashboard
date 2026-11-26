@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-26T04:59:57.846Z",
+ "updatedAt": "2026-11-26T23:51:08.390Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2287,6 +2287,13 @@
  ],
  "news": [
   {
+   "title": "Jags Host App State on Black Friday for the Regular Season Finale",
+   "url": "https://usajaguars.com/news/2026/11/26/football-jags-host-app-state-on-black-friday-for-the-regular-season-finale.aspx",
+   "date": "2026-11-26T17:21:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/26/Game_Week_G12-_Web.png"
+  },
+  {
    "title": "Best bets for Rivalry Week: Breaking down Michigan-OSU, Iowa-Nebraska and more",
    "url": "https://www.espn.com/espn/betting/story/_/id/50583508/college-football-betting-week-13-rivalry-week",
    "date": "2026-11-25T15:40:07Z",
@@ -2488,13 +2495,6 @@
    "date": "2026-11-08T02:19:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/7/RaginCajuns-088.jpg"
-  },
-  {
-   "title": "Jags and Cajuns Lined Up for 4 p.m. Saturday Kick in Lafayette",
-   "url": "https://usajaguars.com/news/2026/11/4/football-jags-travel-to-louisiana-for-4-pm-kick.aspx",
-   "date": "2026-11-04T21:45:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/4/ANW_046.jpg"
   }
  ],
  "nextOpponent": {
