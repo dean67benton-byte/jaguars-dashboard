@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-27T08:24:59.794Z",
+ "updatedAt": "2026-11-27T18:56:28.211Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2287,6 +2287,13 @@
  ],
  "news": [
   {
+   "title": "Scouting report: What you need to know for South Alabama’s game vs. Appalachian State",
+   "url": "https://www.al.com/sports/2026/11/scouting-report-what-you-need-to-know-for-south-alabamas-game-vs-appalachian-state.html",
+   "date": "2026-11-27T11:00:00.000Z",
+   "source": "AL.com",
+   "image": "https://www.al.com/resizer/v2/YYIC47KOXJFEDE5PH7GGV547HQ.jpg?auth=ba182222b044c48cbc66a557e4da53e52cecc3737d0b3bb450002b2acbb146ff&smart=true&height=1200"
+  },
+  {
    "title": "Jags Host App State on Black Friday for the Regular Season Finale",
    "url": "https://usajaguars.com/news/2026/11/26/football-jags-host-app-state-on-black-friday-for-the-regular-season-finale.aspx",
    "date": "2026-11-26T17:21:00.000Z",
@@ -2488,13 +2495,6 @@
    "source": "Diehard Sports Network",
    "date": "2026-11-08T05:00:00.000Z",
    "image": "https://cdn.sanity.io/images/iahnmtcr/production/c1e329cba2f6907ec8c2bbd8c3905a7be8f808ef-2400x1238.jpg?rect=21,0,2358,1238&w=1200&h=630&fit=crop"
-  },
-  {
-   "title": "South Alabama Rally Falls Short at Cajun Field",
-   "url": "https://usajaguars.com/news/2026/11/7/football-south-alabama-rally-falls-short-at-cajun-field.aspx",
-   "date": "2026-11-08T02:19:00.000Z",
-   "source": "usajaguars.com",
-   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/7/RaginCajuns-088.jpg"
   }
  ],
  "nextOpponent": {

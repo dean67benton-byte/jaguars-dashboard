@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-27T08:24:59.794Z",
+ "updatedAt": "2026-11-27T18:56:28.211Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1128,18 +1128,18 @@
  ],
  "news": [
   {
+   "title": "South Alabama faces Fresno State",
+   "url": "http://www.espn.com/ncb/preview?gameId=401929181",
+   "date": "2026-11-27T09:45:52Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401929181.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "Men’s Basketball Heads to New Orleans for Second Line Showcase",
    "url": "https://usajaguars.com/news/2026/11/26/mens-basketball-mens-basketball-heads-to-new-orleans-for-second-line-showcase.aspx",
    "date": "2026-11-26T14:10:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/26/FAMUA_105.jpg"
-  },
-  {
-   "title": "South Alabama Jaguars and the Fresno State Bulldogs play in New Orleans, Louisiana",
-   "url": "http://www.espn.com/ncb/preview?gameId=401929181",
-   "date": "2026-11-26T09:43:38Z",
-   "source": "ESPN",
-   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401929181.png?templateId=espn.applewatch.awayhome.1"
   },
   {
    "title": "Jalen Langsy’s 25 lead South Alabama past Florida A&M 74-49",
