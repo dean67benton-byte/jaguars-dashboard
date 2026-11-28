@@ -1,6 +1,6 @@
 {
  "sport": "mbb",
- "updatedAt": "2026-11-28T10:22:28.190Z",
+ "updatedAt": "2026-11-28T18:55:06.160Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -1132,6 +1132,13 @@
  ],
  "news": [
   {
+   "title": "South Dakota State faces South Alabama",
+   "url": "http://www.espn.com/ncb/preview?gameId=401929413",
+   "date": "2026-11-28T09:45:01Z",
+   "source": "ESPN",
+   "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401929413.png?templateId=espn.applewatch.awayhome.1"
+  },
+  {
    "title": "South Alabama Falls to Fresno State in Second Line Showcase Opener",
    "url": "https://usajaguars.com/news/2026/11/27/mens-basketball-south-alabama-falls-to-fresno-state-in-second-line-showcase-opener.aspx",
    "date": "2026-11-28T01:53:00.000Z",
@@ -1228,13 +1235,6 @@
    "date": "2026-11-21T03:41:00.000Z",
    "source": "usajaguars.com",
    "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/20/DSC04567.jpg"
-  },
-  {
-   "title": "South Alabama Jaguars vs. SMU Mustangs: Game Highlights",
-   "url": "https://www.espn.com/video/clip/_/id/50546062/game-highlights",
-   "date": "2026-11-21T02:57:18Z",
-   "source": "ESPN",
-   "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/9b8b6e4e-53f0-44b3-afb0-066b84c2bccf/9b8b6e4e-53f0-44b3-afb0-066b84c2bccf.jpg"
   },
   {
    "title": "Jags Head to Dallas to Face SMU",

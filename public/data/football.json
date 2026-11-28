@@ -1,6 +1,6 @@
 {
  "sport": "football",
- "updatedAt": "2026-11-28T10:22:28.190Z",
+ "updatedAt": "2026-11-28T18:55:06.160Z",
  "source": "espn",
  "team": {
   "id": "6",
@@ -2403,20 +2403,6 @@
    "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/7aa1ea29-3f5f-41c7-8340-b81f9ec14278/7aa1ea29-3f5f-41c7-8340-b81f9ec14278.jpg"
   },
   {
-   "title": "Nick Saban has praise for Alabama native, former South Alabama QB Gio Lopez",
-   "url": "https://www.al.com/sports/2026/11/nick-saban-has-high-praise-for-alabama-native-former-south-alabama-qb-gio-lopez.html",
-   "date": "2026-11-21T16:12:01.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/7RKJQSRWDRHG7BDC22PFNCV3R4.jpg?auth=894518a880d4649a52efacbfab833e343e9b5dbecfee4f7baac36860329ee323&smart=true&height=1200"
-  },
-  {
-   "title": "Scouting report: What you need to know for South Alabama’s game at Southern Miss",
-   "url": "https://www.al.com/sports/2026/11/scouting-report-what-you-need-to-know-for-south-alabamas-game-at-southern-miss.html",
-   "date": "2026-11-21T11:00:00.000Z",
-   "source": "AL.com",
-   "image": "https://www.al.com/resizer/v2/DMFC3QHTSJEF5H7T27CBBK2BT4.jpg?auth=442b2c107704efa391be8e040d8f0f6f3b2ce0f6c02b98441d0d460f5bb3524d&smart=true&height=1200"
-  },
-  {
    "title": "South Alabama lands JUCO edge Tyler Jenkins-Blount",
    "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-jenkins-blount-commitment",
    "source": "Diehard Sports Network",
@@ -2499,6 +2485,20 @@
    "source": "Diehard Sports Network",
    "date": "2026-11-10T06:00:00.000Z",
    "image": "https://cdn.sanity.io/images/iahnmtcr/production/a4cb45ffc7359116173be96bbc0b989a92c4d3c6-2932x1630.jpg?rect=0,46,2932,1539&w=1200&h=630&fit=crop"
+  },
+  {
+   "title": "Final Road Trip Slated for 3 p.m. Kick at Southern Miss",
+   "url": "https://usajaguars.com/news/2026/11/9/football-final-road-trip-slated-for-3-pm-kick-at-southern-miss.aspx",
+   "date": "2026-11-09T19:56:00.000Z",
+   "source": "usajaguars.com",
+   "image": "https://usajaguars.com/common/controls/image_handler.aspx?thumb_prefix=rp_system&image_path=/images/2026/11/9/IMG_5595.jpg"
+  },
+  {
+   "title": "Rapid Reaction: What we learned from the Louisiana-Lafayette game",
+   "url": "https://www.diehardsportsnetwork.com/south-alabama/southalabama-louisiana-rapid-reaction-week10-2026",
+   "source": "Diehard Sports Network",
+   "date": "2026-11-08T05:00:00.000Z",
+   "image": "https://cdn.sanity.io/images/iahnmtcr/production/c1e329cba2f6907ec8c2bbd8c3905a7be8f808ef-2400x1238.jpg?rect=21,0,2358,1238&w=1200&h=630&fit=crop"
   }
  ],
  "nextOpponent": {
