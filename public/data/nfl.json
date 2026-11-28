@@ -1,6 +1,86 @@
 {
- "updatedAt": "2026-11-15T14:20:53.020Z",
+ "updatedAt": "2026-11-28T10:22:33.691Z",
  "players": [
+  {
+   "id": "3125280",
+   "name": "Corliss Waitman",
+   "pos": "P",
+   "jersey": "15",
+   "age": 31,
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3125280.png",
+   "group": "active",
+   "status": "Active",
+   "team": {
+    "abbr": "SF",
+    "name": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png"
+   },
+   "statsSeason": "2026 Regular Season",
+   "games": 10,
+   "lastGame": {
+    "date": "2026-11-23T01:20:00.000+00:00",
+    "opp": "MIN",
+    "at": "vs",
+    "result": "W",
+    "score": "35-10",
+    "week": 11
+   },
+   "stats": {
+    "season": [
+     {
+      "label": "PUNTS",
+      "value": "29"
+     },
+     {
+      "label": "AVG",
+      "value": "46.8"
+     },
+     {
+      "label": "LNG",
+      "value": "61"
+     },
+     {
+      "label": "YDS",
+      "value": "1,358"
+     },
+     {
+      "label": "TB",
+      "value": "2"
+     }
+    ],
+    "career": [
+     {
+      "label": "PUNTS",
+      "value": "259"
+     },
+     {
+      "label": "AVG",
+      "value": "46.5"
+     },
+     {
+      "label": "LNG",
+      "value": "71"
+     },
+     {
+      "label": "YDS",
+      "value": "12,031"
+     }
+    ]
+   },
+   "facts": [
+    "Undrafted punter; NFL debut with Pittsburgh in 2020."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"
+   ],
+   "grade": {
+    "letter": "C",
+    "note": "Week 9 vs LV: no punts, since the 49ers never punted in a 38-17 win, so there was no punting work to grade. Snap counts not checked.",
+    "week": 9,
+    "gradedAt": "2026-11-15T14:18:16.893Z"
+   },
+   "espn": "https://www.espn.com/nfl/player/_/id/3125280"
+  },
   {
    "id": "3125248",
    "name": "Jeremy Reaves",
@@ -16,28 +96,28 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 9,
+   "games": 10,
    "lastGame": {
-    "date": "2026-11-13T01:15:00.000+00:00",
-    "opp": "NYG",
-    "at": "@",
+    "date": "2026-11-24T01:15:00.000+00:00",
+    "opp": "CIN",
+    "at": "vs",
     "result": "W",
-    "score": "24-21",
-    "week": 10
+    "score": "22-20",
+    "week": 11
    },
    "stats": {
     "season": [
      {
       "label": "TOT",
-      "value": "62"
+      "value": "69"
      },
      {
       "label": "SOLO",
-      "value": "35"
+      "value": "40"
      },
      {
       "label": "AST",
-      "value": "27"
+      "value": "29"
      },
      {
       "label": "FR",
@@ -45,21 +125,21 @@
      },
      {
       "label": "PD",
-      "value": "4"
+      "value": "5"
      }
     ],
     "career": [
      {
       "label": "TOT",
-      "value": "281"
+      "value": "288"
      },
      {
       "label": "SOLO",
-      "value": "170"
+      "value": "175"
      },
      {
       "label": "AST",
-      "value": "111"
+      "value": "113"
      },
      {
       "label": "SACK",
@@ -91,86 +171,6 @@
    "espn": "https://www.espn.com/nfl/player/_/id/3125248"
   },
   {
-   "id": "3125280",
-   "name": "Corliss Waitman",
-   "pos": "P",
-   "jersey": "15",
-   "age": 31,
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3125280.png",
-   "group": "active",
-   "status": "Active",
-   "team": {
-    "abbr": "SF",
-    "name": "San Francisco 49ers",
-    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png"
-   },
-   "statsSeason": "2026 Regular Season",
-   "games": 8,
-   "lastGame": {
-    "date": "2026-11-08T21:25:00.000+00:00",
-    "opp": "LV",
-    "at": "vs",
-    "result": "W",
-    "score": "38-17",
-    "week": 9
-   },
-   "stats": {
-    "season": [
-     {
-      "label": "PUNTS",
-      "value": "21"
-     },
-     {
-      "label": "AVG",
-      "value": "46.9"
-     },
-     {
-      "label": "LNG",
-      "value": "61"
-     },
-     {
-      "label": "YDS",
-      "value": "984"
-     },
-     {
-      "label": "TB",
-      "value": "1"
-     }
-    ],
-    "career": [
-     {
-      "label": "PUNTS",
-      "value": "251"
-     },
-     {
-      "label": "AVG",
-      "value": "46.4"
-     },
-     {
-      "label": "LNG",
-      "value": "71"
-     },
-     {
-      "label": "YDS",
-      "value": "11,657"
-     }
-    ]
-   },
-   "facts": [
-    "Undrafted punter; NFL debut with Pittsburgh in 2020."
-   ],
-   "sources": [
-    "https://en.wikipedia.org/wiki/List_of_South_Alabama_Jaguars_in_the_NFL_draft"
-   ],
-   "grade": {
-    "letter": "C",
-    "note": "Week 9 vs LV: no punts, since the 49ers never punted in a 38-17 win, so there was no punting work to grade. Snap counts not checked.",
-    "week": 9,
-    "gradedAt": "2026-11-15T14:18:16.893Z"
-   },
-   "espn": "https://www.espn.com/nfl/player/_/id/3125280"
-  },
-  {
    "id": "4685978",
    "name": "Darrell Luter Jr.",
    "pos": "CB",
@@ -185,24 +185,24 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 6,
+   "games": 8,
    "lastGame": {
-    "date": "2026-11-08T21:25:00.000+00:00",
-    "opp": "SF",
+    "date": "2026-11-22T21:25:00.000+00:00",
+    "opp": "DEN",
     "at": "@",
     "result": "L",
-    "score": "38-17",
-    "week": 9
+    "score": "38-24",
+    "week": 11
    },
    "stats": {
     "season": [
      {
       "label": "TOT",
-      "value": "3"
+      "value": "4"
      },
      {
       "label": "SOLO",
-      "value": "1"
+      "value": "2"
      },
      {
       "label": "AST",
@@ -212,11 +212,11 @@
     "career": [
      {
       "label": "TOT",
-      "value": "41"
+      "value": "42"
      },
      {
       "label": "SOLO",
-      "value": "23"
+      "value": "24"
      },
      {
       "label": "AST",
@@ -257,54 +257,54 @@
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png"
    },
    "statsSeason": "2026 Regular Season",
-   "games": 4,
+   "games": 6,
    "lastGame": {
-    "date": "2026-11-01T21:25:00.000+00:00",
-    "opp": "NE",
-    "at": "vs",
+    "date": "2026-11-22T18:00:00.000+00:00",
+    "opp": "BUF",
+    "at": "@",
     "result": "L",
-    "score": "24-19",
-    "week": 8
+    "score": "26-9",
+    "week": 11
    },
    "stats": {
     "season": [
      {
       "label": "REC",
-      "value": "2"
+      "value": "5"
      },
      {
       "label": "TGTS",
-      "value": "4"
+      "value": "7"
      },
      {
       "label": "YDS",
-      "value": "30"
+      "value": "96"
      },
      {
       "label": "AVG",
-      "value": "15.0"
+      "value": "19.2"
      },
      {
-      "label": "LNG",
-      "value": "22"
+      "label": "TD",
+      "value": "1"
      }
     ],
     "career": [
      {
       "label": "REC",
-      "value": "93"
+      "value": "96"
      },
      {
       "label": "TGTS",
-      "value": "156"
+      "value": "159"
      },
      {
       "label": "YDS",
-      "value": "1,123"
+      "value": "1,189"
      },
      {
       "label": "AVG",
-      "value": "12.1"
+      "value": "12.4"
      }
     ]
    },
